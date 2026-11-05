@@ -1,0 +1,26 @@
+// Read-only review findings for other agents' assets; no content mutated.
+module.exports={
+'c1c-ballot':{'poll:noun':'Trong bài: cuộc bỏ phiếu. Nguồn chỉ nêu khảo sát ý kiến.'},
+'c1c-rumour':{'forge:verb':'Trong bài: giả mạo. Nguồn nêu xây dựng/tạo mối quan hệ bền vững.','leak:noun':'Trong bài: tin rò rỉ. Nguồn nêu lỗ rò chất lỏng/khí.','leak:verb':'Trong bài: tiết lộ thông tin. Nguồn nêu rò chất lỏng/khí.'},
+'c1c-migration':{'settlement:noun':'Trong bài: khu định cư. Nguồn nêu thỏa thuận giải quyết tranh chấp.'},
+'c1c-education':{'faculty:noun':'Bài A: đội ngũ giảng viên; bài B có thể là khoa đại học. Nguồn chỉ nêu khoa/nhóm khoa.','niche:noun':'Trong bài: lĩnh vực/phạm vi chuyên biệt. Nguồn nhấn mạnh vai trò hoặc lối sống phù hợp.'},
+'c1c-pages':{'thread:noun':'Trong bài: mạch liên kết theo nghĩa ẩn dụ. Nguồn nêu sợi chỉ.','spine:noun':'Trong bài: gáy sách. Nguồn nêu cột sống.','log:noun':'Trong bài: sổ ghi chép. Nguồn nêu khúc gỗ.','serial:adjective':'Trong bài: theo kỳ/nhiều phần. Nguồn chỉ nêu lặp nhiều lần.','outlet:noun':'Trong bài: kênh phân phối thông tin. Nguồn nhấn mạnh cửa hàng/tổ chức bán hàng.'},
+'c1c-cinema':{'spotlight:noun':'Trong bài: sự chú ý theo nghĩa ẩn dụ. Nguồn nêu đèn rọi.','spectrum:noun':'Trong bài: dải/phạm vi đa dạng. Nguồn chỉ nêu quang phổ màu.','strand:noun':'Trong bài: mạch chủ đề. Nguồn nêu sợi mảnh.'},
+'c1c-music':{'fixture:noun':'Trong bài: thành phần quen thuộc/lâu dài. Nguồn nêu lịch thi đấu thể thao.','stir:verb':'Trong bài: khơi dậy cảm xúc. Nguồn nêu khuấy chất lỏng.','sphere:noun':'Trong bài: lĩnh vực. Nguồn nêu hình cầu.'},
+'c1c-faith':{'passing:noun':'Trong bài: sự qua đời. Nguồn nêu thời gian trôi qua.'},
+'c1c-enterprise':{'venture:verb':'Trong bài: mạo hiểm thực hiện hoạt động. Nguồn nhấn mạnh đi đến nơi nguy hiểm.','yield:verb':'Lỗi dữ liệu nguồn: định nghĩa của yield:verb đang là định nghĩa danh từ sản lượng. Trong bài động từ nghĩa tạo ra/mang lại.'},
+'c1c-market':{'premium:noun':'Trong bài: khoản giá cao hơn/phần trả thêm. Nguồn nêu phí bảo hiểm.','portfolio:noun':'Trong bài: danh mục đầu tư. Nguồn nêu cặp đựng hồ sơ.'},
+'c1c-transport':{'orientation:noun':'Trong bài: xác định hướng/vị trí. Nguồn nêu khuynh hướng niềm tin/cảm xúc.','toll:noun':'Trong bài: tổn thất theo cụm take a toll. Nguồn nêu phí đường/cầu.','terminal:adjective':'Trong bài: suy thoái/điểm yếu không thể cứu vãn theo nghĩa ẩn dụ. Nguồn chỉ nêu bệnh không chữa được dẫn đến chết.'},
+'c1c-care':{'protocol:noun':'Trong bài: quy trình chuyên môn. Nguồn nêu nghi thức ngoại giao.','trigger:noun':'Trong bài: tác nhân khởi phát. Nguồn nêu cò súng.'},
+'c1c-hazards':{'gross:adjective':'Trong bài: nghiêm trọng, rõ ràng đáng trách. Nguồn nêu tổng trước khấu trừ.','vice:noun':'Trong bài: thói xấu/tật xấu cá nhân. Nguồn nêu hoạt động phạm pháp liên quan tình dục/ma túy.','stem:verb':'Trong bài: stem from, bắt nguồn từ. Nguồn nêu chặn dòng/chặn sự lan rộng.'},
+'c1c-sport':{'lap:noun':'Trong bài: vòng đua/chạy. Nguồn nêu phần đùi khi ngồi.','top:verb':'Trong bài: đứng đầu. Nguồn nhấn mạnh vượt một mức số lượng.','swing:verb':'Trong bài: đổi hướng/đổi trạng thái theo nghĩa mở rộng. Nguồn nêu đung đưa quanh điểm treo.'},
+'c1c-inventions':{'pop:verb':'Trong bài: bật ra. Nguồn nêu phát tiếng nổ nhỏ.'},
+'c1c-relief':{'summit:noun':'Trong bài: hội nghị thượng đỉnh. Nguồn nêu đỉnh núi.','shed:verb':'Trong bài: shed light on, làm sáng tỏ. Nguồn nêu bỏ/rũ thứ không cần.','slash:verb':'Trong bài: cắt giảm mạnh. Nguồn nêu chém/rạch bằng vật sắc.','strip:verb':'Trong bài: tước/lột bỏ lớp hoặc tính hữu ích. Nguồn chỉ nêu cởi quần áo.'},
+'c1c-choices':{'resignation:noun':'Trong bài: sự cam chịu. Nguồn nêu từ chức.'},
+'b2s-evolution':{'date:verb':'Trong bài: xác định niên đại. Nguồn nêu ghi ngày lên vật/văn bản.'},
+'b2s-sea':{'reserve:verb':'Trong bài: dành riêng thời gian hoặc giữ mức khẳng định cho bằng chứng đủ mạnh. Nguồn nêu đặt trước chỗ/phòng.'},
+'b2s-electricity':{'circuit:noun':'Trong bài: mạch điện. Nguồn nêu tuyến/đường vòng.'},
+'b2s-computing':{'bug:noun':'Trong bài có đối chiếu lỗi máy tính với côn trùng thật. Nguồn chỉ định nghĩa côn trùng.','command:noun':'Trong bài: lệnh máy tính. Nguồn nêu mệnh lệnh cho người/động vật.'},
+'b2s-evidence':{'account:verb':'Trong bài: account for, giải thích. Nguồn nêu coi/đánh giá là.','demonstration:noun':'Trong bài: sự minh chứng. Nguồn nêu cuộc biểu tình.'},
+'b2s-chance':{'amount:verb':'Nguồn thiếu định nghĩa English-English. Trong bài amount to nghĩa lên tới/tổng thành.'}
+};

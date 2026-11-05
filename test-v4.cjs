@@ -8,7 +8,7 @@ function boot(){
 }
 let {nodes,run}=boot();
 const dispatch=a=>run('handleStudyAction('+JSON.stringify(a)+')'),readAction=a=>run('handleReadingAction('+JSON.stringify(a)+')');
-assert.equal(run('defaults.length'),5943);assert.equal(run('grammar.length'),120);assert.equal(run('readings.length'),152);
+assert.equal(run('defaults.length'),5943);assert.equal(run('grammar.length'),120);assert.equal(run('readings.length'),348);
 assert.equal(run('Object.keys(readingAnswers).length'),0,'old assessment results must not be reused');
 assert.equal((nodes.view.innerHTML.match(/data-row=/g)||[]).length,1,'single word in main area');
 for(const label of ['Vocabulary','Grammar','Reading'])assert(nodes.tabs.innerHTML.includes('>'+label+'</button>'));
@@ -36,14 +36,15 @@ assert.equal((nodes['secondary-items'].innerHTML.match(/data-action="read-level-
 dispatch('read-level-A2');assert.equal((nodes['secondary-items'].innerHTML.match(/data-action="read-open-/g)||[]).length,72);assert.match(nodes.view.innerHTML,/36 groups · 72 readings · 990 target words/);
 dispatch('read-level-A2');assert.equal((nodes['secondary-items'].innerHTML.match(/data-action="read-open-/g)||[]).length,0);
 dispatch('read-level-B1');assert.equal((nodes['secondary-items'].innerHTML.match(/data-action="read-open-/g)||[]).length,68);assert.match(nodes.view.innerHTML,/34 groups · 68 readings · 902 target words/);
-dispatch('read-level-B2');assert.equal((nodes['secondary-items'].innerHTML.match(/data-action="read-open-/g)||[]).length,12);
-dispatch('read-level-C1');assert.match(nodes.view.innerHTML,/No readings published at this level yet/);
+dispatch('read-level-B2');assert.equal((nodes['secondary-items'].innerHTML.match(/data-action="read-open-/g)||[]).length,112);assert.match(nodes.view.innerHTML,/56 groups · 112 readings · 1571 target words/);
+dispatch('read-level-C1');assert.equal((nodes['secondary-items'].innerHTML.match(/data-action="read-open-/g)||[]).length,96);assert.match(nodes.view.innerHTML,/48 groups · 96 readings · 1404 target words/);
 dispatch('read-level-A2');nodes.query.value='no-matching-reading-xyz';run('render()');assert.match(nodes.view.innerHTML,/No readings match/);assert.equal((nodes['secondary-items'].innerHTML.match(/data-action="read-open-/g)||[]).length,0);nodes.query.value='';run('render()');
 const lessons=JSON.parse(fs.readFileSync(__dirname+'/readings-v3.json','utf8')),groups=new Map();let readingCount=0;
 for(const l of lessons){
  assert(l.level!=='A1');assert(l.targets.length>=25&&l.targets.length<=30);assert(l.questions.length>=34);assert(l.sources.length);groups.set(l.group,[...(groups.get(l.group)||[]),l]);
  readAction('read-open-'+l.id);readAction('read-stage-0');assert.match(nodes.view.innerHTML,/Learn the words/);assert(!nodes.view.innerHTML.includes('assessment-question'));
  readAction('read-word-0');assert(nodes['reading-word-dialog'].open);readAction('read-close');
+ const senseIndex=l.targets.findIndex(t=>t.sourceSenseNote);if(senseIndex>=0){readAction('read-word-'+senseIndex);assert.match(nodes['reading-word-content'].innerHTML,/Source meaning note/);assert(nodes['reading-word-content'].innerHTML.includes(run('esc('+JSON.stringify(l.targets[senseIndex].sourceSenseNote)+')')),l.id+' source note rendered');readAction('read-close')}
  assert(nodes.view.innerHTML.includes('Learn '+l.targets.length+' words'));assert.equal(run('readingLevel'),l.level);
  readAction('read-stage-1');assert.equal((nodes.view.innerHTML.match(/class="word-link"/g)||[]).length,l.targets.length);assert(!/Đoạn [1-9]/.test(nodes.view.innerHTML));
  for(const t of l.targets){const o=t.occurrence;assert.equal(l.paragraphs[o.p][0].slice(o.start,o.end),o.text);assert.equal(run('defaults['+t.rowIndex+'].word'),t.word);assert(['A1','A2','B1','B2','C1'].indexOf(t.level)<=['A1','A2','B1','B2','C1'].indexOf(l.level));}
@@ -57,12 +58,12 @@ for(const l of lessons){
  }
  dispatch('rq-complete');assert(run('readingDone[selectedReading]'));
 }
-assert.equal(groups.size,76);const unique=new Set();for(const pair of groups.values()){assert.equal(pair.length,2);assert.deepEqual(pair[0].targets.map(t=>t.rowIndex),pair[1].targets.map(t=>t.rowIndex));if(pair[0].level==='A2')for(const t of pair[0].targets){assert(!unique.has(t.rowIndex));unique.add(t.rowIndex)}}assert.equal(unique.size,990);
-assert.deepEqual(lessons.filter(l=>!l.id.startsWith('b1-')),JSON.parse(fs.readFileSync(__dirname+'/readings-before-b1.json','utf8')),'old lessons and answer indexes unchanged');
-({nodes,run}=boot());assert.equal(run('Object.keys(grammarAnswers).length'),120);assert.equal(run('Object.values(readingDone).filter(Boolean).length'),152);
+assert.equal(groups.size,174);const unique=new Set();for(const pair of groups.values()){assert.equal(pair.length,2);assert.deepEqual(pair[0].targets.map(t=>t.rowIndex),pair[1].targets.map(t=>t.rowIndex));if(pair[0].level==='A2')for(const t of pair[0].targets){assert(!unique.has(t.rowIndex));unique.add(t.rowIndex)}}assert.equal(unique.size,990);
+assert.deepEqual(lessons.filter(l=>!/^(b2[sc]|c1[sc])-/.test(l.id)),JSON.parse(fs.readFileSync(__dirname+'/readings-before-advanced.json','utf8')),'old lessons and answer indexes unchanged');
+({nodes,run}=boot());assert.equal(run('Object.keys(grammarAnswers).length'),120);assert.equal(run('Object.values(readingDone).filter(Boolean).length'),348);
 run("mode=5;selectedReading='morse';render()");assert.equal(run('Object.keys(readingAnswers.morse).length'),34);
 dispatch('rq-reset');assert.equal(run('Object.keys(readingAnswers.morse).length'),0);assert(!run('readingDone.morse'));
 run('mode=4;selectedGrammar=1;grammarPanel="practice";render()');dispatch('gq-reset');assert.equal(run('Object.keys(grammarAnswers[1]).length'),0);
 nodes['menu-toggle'].onclick();assert(nodes.sidebar.classList.contains('is-open'));nodes['lessons-toggle'].onclick();assert(!nodes.sidebar.classList.contains('is-open'));assert(nodes.secondary.classList.contains('is-open'));run('closeMenu()');assert(!nodes.secondary.classList.contains('is-open'));
 run("mode=2;document.getElementById('query').value='';render()");run('quiz.pick=0;round.total=10;render()');assert.match(nodes.view.innerHTML,/option-explanations/,'last vocabulary quiz answer also explains all options');run('quiz=null;render()');assert.match(nodes.view.innerHTML,/Results/);
-console.log('PASS '+grammarCount+' grammar questions; '+readingCount+' reading questions; 990 A2 entries; 152 lessons; all-option explanations, wrong/correct locks, category pagination, completion guards, reset, persistence, grammar links, level accordion, two-level navigation, mobile drawers, vocabulary page sizes/jump, final quiz feedback.');
+console.log('PASS '+grammarCount+' grammar questions; '+readingCount+' reading questions; 990 A2 entries; 348 lessons; all-option explanations, wrong/correct locks, category pagination, completion guards, reset, persistence, grammar links, level accordion, two-level navigation, mobile drawers, vocabulary page sizes/jump, final quiz feedback.');

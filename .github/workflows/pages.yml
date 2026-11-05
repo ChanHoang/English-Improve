@@ -23,6 +23,7 @@ jobs:
         run: |
           node test-a2.cjs
           node test-b1.cjs
+          node test-advanced.cjs
           node test-v4.cjs
       - name: Prepare static website
         run: |

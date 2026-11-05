@@ -1,0 +1,2 @@
+const grammar=require('../grammar-lessons.json');
+module.exports=(meanings,articles)=>({meanings:meanings.split('|'),articles:articles.map(([title,titleVI,text,translation,sources,gs,facts])=>({title,titleVI,text,translation,sources,grammar:gs.map(([id,example,note])=>({id,example,note:note||grammar.find(g=>g.id===id).explanation})),checks:facts.map(([q,a,why],i)=>{const other=[...new Set(facts.slice(i+1).concat(facts.slice(0,i)).map(x=>x[1]))].filter(x=>x!==a);if(other.length<2)throw Error(title+' choices');return[q,a,...other.slice(0,2),why]})}))});

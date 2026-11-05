@@ -1,0 +1,172 @@
+{
+  "b2s-medicine": {
+    "target:verb": "Định nghĩa gốc là nhắm cuộc tấn công hoặc lời phê bình vào ai; bài dùng nghĩa chuyên môn là nhắm biện pháp điều trị hoặc điều tra vào tác nhân gây bệnh."
+  },
+  "b2s-evolution": {
+    "being:noun": "Định nghĩa gốc là sự tồn tại; a living being trong bài nghĩa là một sinh vật.",
+    "date:verb": "Định nghĩa gốc là ghi ngày tháng; date a fossil/the rocks trong bài nghĩa là xác định niên đại.",
+    "closely:adverb": "Định nghĩa gốc là gần trong không gian hoặc thời gian; examine/look closely trong bài là xem xét kỹ.",
+    "root:noun": "Định nghĩa gốc là rễ cây; bài dùng ẩn dụ nguồn gốc hoặc gốc của cây tiến hóa.",
+    "myth:noun": "Định nghĩa gốc là truyện thần thoại cổ; bài dùng nghĩa quan niệm phổ biến nhưng sai.",
+    "association:noun": "Định nghĩa gốc là hội hoặc tổ chức; bài dùng nghĩa mối liên hệ giữa hai hiện tượng."
+  },
+  "b2s-sea": {
+    "capture:verb": "Định nghĩa gốc là bắt giữ người hoặc động vật; capture behaviour on camera ở bài A dùng nghĩa ghi lại bằng hình ảnh, còn bài B có nghĩa thu bắt sinh vật.",
+    "reserve:verb": "Định nghĩa gốc là đặt trước chỗ ngồi, bàn hoặc phòng; bài dùng nghĩa dành riêng thời gian hoặc chỉ sử dụng lời khẳng định khi đủ bằng chứng.",
+    "trap:verb": "Định nghĩa gốc mô tả giữ một người ở nơi nguy hiểm không thoát được; bài dùng nghĩa bắt hoặc giữ động vật bằng thiết bị."
+  },
+  "b2s-fields": {
+    "concrete:adjective": "Định nghĩa gốc là làm bằng bê tông; bài dùng nghĩa cụ thể, có thể nhận thấy rõ.",
+    "critical:adjective": "Định nghĩa gốc là phê bình điều không tốt; bài dùng nghĩa then chốt hoặc hết sức quan trọng.",
+    "critically:adverb": "Định nghĩa gốc là theo cách chê hoặc phê bình; bài dùng nghĩa xem xét có phân tích, đánh giá bằng chứng và giới hạn.",
+    "concern:verb": "Định nghĩa gốc là liên quan hoặc ảnh hưởng; bài dùng nghĩa khiến ai quan tâm, lo ngại.",
+    "feed:noun": "Định nghĩa gốc là một bữa ăn của trẻ hoặc động vật; bài dùng nghĩa thức ăn chăn nuôi nói chung."
+  },
+  "b2s-electricity": {
+    "capacity:noun": "Định nghĩa gốc là sức chứa người hoặc vật; bài dùng nghĩa công suất hoặc khả năng sản xuất điện.",
+    "revolution:noun": "Định nghĩa gốc là cách mạng thay đổi chính quyền; bài dùng nghĩa thay đổi công nghệ sâu rộng.",
+    "mechanism:noun": "Định nghĩa gốc là bộ phận chuyển động trong máy; bài còn dùng nghĩa cơ chế vận hành hoặc quan hệ vật lý.",
+    "mechanical:adjective": "Định nghĩa gốc là vận hành bằng động cơ; mechanical work/engineering trong bài là công cơ học hoặc ngành kỹ thuật cơ khí."
+  },
+  "b2s-computing": {
+    "command:noun": "Định nghĩa gốc là mệnh lệnh cho người hoặc động vật; bài dùng nghĩa lệnh điều khiển máy tính."
+  },
+  "b2s-flight": {
+    "angle:noun": "Định nghĩa gốc là góc hình học; historical angle ở bài A là góc nhìn lịch sử, còn góc chuyển động ở bài B gần nghĩa hình học.",
+    "placement:noun": "Định nghĩa gốc là tìm việc hoặc chỗ ở cho một người; bài dùng nghĩa bố trí thiết bị hoặc bộ phận.",
+    "arrow:noun": "Định nghĩa gốc là mũi tên bắn bằng cung; bài dùng nghĩa ký hiệu mũi tên chỉ hướng."
+  },
+  "b2s-routes": {
+    "opening:noun": "Định nghĩa gốc là khoảng trống hoặc lỗ để đi qua; bài dùng nghĩa khai trương hoặc mở tuyến.",
+    "accommodate:verb": "Định nghĩa gốc là cung cấp nơi ở hoặc chỗ ngồi; bài dùng nghĩa có đủ chỗ cho tàu hoặc phương tiện.",
+    "house:verb": "Định nghĩa gốc là cho người hoặc động vật nơi ở; bài còn dùng nghĩa chứa thiết bị và bố trí nơi làm việc."
+  },
+  "b2s-space": {
+    "colony:noun": "Định nghĩa gốc là thuộc địa do một nước khác cai trị; human colony in space trong bài là khu định cư con người ngoài Trái Đất, không nhất thiết có quan hệ cai trị thuộc địa."
+  },
+  "b2s-disaster": {
+    "free:verb": "Định nghĩa gốc là cho người bị giam rời nơi giam giữ; bài dùng nghĩa giải cứu người bị mắc kẹt do thiên tai.",
+    "aid:noun": "Định nghĩa gốc là tiền, thực phẩm cứu trợ các nước; bài còn dùng nghĩa trợ giúp cho người hoặc cộng đồng bị nạn."
+  },
+  "b2s-buildings": {
+    "faith:noun": "Định nghĩa gốc là sự tin tưởng khả năng hoặc lời hứa của ai; bài dùng nghĩa đức tin hoặc tôn giáo.",
+    "contemporary:adjective": "Định nghĩa gốc là thuộc cùng một thời; bài dùng nghĩa đương đại, ở thời hiện nay.",
+    "philosophy:noun": "Định nghĩa gốc là ngành triết học; philosophy of preservation trong bài là hệ quan điểm hoặc nguyên tắc bảo tồn."
+  },
+  "b2s-evidence": {
+    "sample:verb": "Định nghĩa gốc là nếm hoặc thử trải nghiệm một ít; bài dùng nghĩa lấy mẫu vật phục vụ nghiên cứu.",
+    "account:verb": "Định nghĩa gốc là đánh giá ai hoặc vật là một điều gì; account for trong bài là cụm động từ nghĩa là giải thích nguyên nhân hoặc lý giải."
+  },
+  "b2s-sport": {
+    "chase:noun": "Định nghĩa gốc là cuộc chạy hoặc lái xe đuổi bắt; chase for a medal/record trong bài là sự theo đuổi mục tiêu thể thao."
+  },
+  "b2c-money": {
+    "recovery:noun": "Định nghĩa gốc nói về hồi phục sau bệnh hoặc chấn thương; bài dùng nghĩa phục hồi kinh tế.",
+    "stock:noun": "Định nghĩa gốc là hàng tồn để bán; trong stock price/stock market, bài dùng nghĩa cổ phiếu hoặc thị trường chứng khoán."
+  },
+  "b2c-work": {
+    "firm:adjective": "Định nghĩa gốc mô tả vật khá cứng; firm belief/conclusion trong bài là niềm tin hoặc kết luận vững chắc.",
+    "recruit:noun": "Định nghĩa gốc giới hạn ở người mới gia nhập quân đội hoặc cảnh sát; bài dùng nghĩa rộng hơn là nhân viên mới.",
+    "hire:noun": "Định nghĩa gốc là việc trả tiền thuê đồ trong thời gian ngắn; bài dùng nghĩa người mới được tuyển dụng."
+  },
+  "b2c-rights": {
+    "independence:noun": "Định nghĩa gốc là độc lập khỏi sự kiểm soát chính trị của nước khác; bài dùng nghĩa tự chủ trong đời sống và quyền cá nhân."
+  },
+  "b2c-migration": {
+    "settle:verb": "Định nghĩa gốc là giải quyết tranh cãi; bài dùng nghĩa đến sinh sống hoặc định cư.",
+    "mass:noun": "Định nghĩa gốc là khối vật chất không có hình dạng xác định; bài dùng nghĩa khối đông người hoặc quy mô di chuyển đông người.",
+    "massive:adjective": "Định nghĩa gốc nhấn mạnh kích thước, khối lượng vật lý; bài dùng nghĩa rất lớn về nhiệm vụ hoặc ý nghĩa tượng trưng."
+  },
+  "b2c-government": {
+    "governor:noun": "Định nghĩa gốc mô tả người đứng đầu vùng do một nước khác cai quản; ví dụ state governor trong bài dùng nghĩa thống đốc bang.",
+    "partnership:noun": "Định nghĩa gốc nói về quan hệ đối tác kinh doanh; bài dùng nghĩa hợp tác giữa các bên trong công việc công cộng.",
+    "representative:adjective": "Định nghĩa gốc là tiêu biểu cho một nhóm; representative government/democracy trong bài là chính quyền hoặc dân chủ đại diện qua người được chọn.",
+    "resolution:noun": "Định nghĩa gốc là quyết tâm hoặc quyết định dứt khoát; trong bối cảnh cơ quan công quyền, bài có thể dùng nghĩa nghị quyết hoặc quyết định chính thức."
+  },
+  "b2c-justice": {
+    "hearing:noun": "Định nghĩa gốc là khả năng nghe; bài dùng nghĩa phiên điều trần hoặc phiên xem xét pháp lý.",
+    "moral:noun": "Định nghĩa gốc là các nguyên tắc đạo đức; the story's moral trong bài là bài học rút ra từ câu chuyện."
+  },
+  "b2c-conflict": {
+    "withdraw:verb": "Định nghĩa gốc là rút tiền khỏi tài khoản; bài dùng nghĩa rút lực lượng hoặc lui về vị trí.",
+    "secure:adjective": "Định nghĩa gốc nhấn mạnh sự ổn định lâu dài; bài dùng nghĩa an toàn, không có nguy hiểm trực tiếp.",
+    "hell:noun": "Định nghĩa gốc là địa ngục trong tín ngưỡng; hình ảnh heaven in hell trong bài còn được dùng ẩn dụ cho hoàn cảnh chiến tranh khủng khiếp."
+  },
+  "b2c-emergency": {
+    "relief:noun": "Định nghĩa gốc là cảm giác nhẹ nhõm; relief work/provide relief trong bài còn có nghĩa công việc hoặc sự cứu trợ."
+  },
+  "b2c-learning": {
+    "master:noun": "Định nghĩa gốc là người chủ có người phục vụ; master of a subject trong bài là người tinh thông một môn.",
+    "revision:noun": "Định nghĩa gốc là sự chỉnh sửa; revision for an examination trong bài dùng nghĩa ôn tập trước kỳ thi."
+  },
+  "b2c-media": {
+    "file:verb": "Định nghĩa gốc là xếp giấy tờ vào hồ sơ; phóng viên file a story trong bài nghĩa là gửi hoặc nộp bài cho tòa soạn.",
+    "exposure:noun": "Định nghĩa gốc là tình trạng không được bảo vệ trước điều có hại; exposure to news/a message trong bài là việc tiếp xúc với thông tin, không nhất thiết có hại.",
+    "usage:noun": "Định nghĩa gốc nói riêng về cách dùng từ trong ngôn ngữ; usage of personal letters trong bài dùng nghĩa việc sử dụng thư từ nói chung."
+  },
+  "b2c-fiction": {
+    "fantasy:noun": "Định nghĩa gốc là tình huống dễ chịu do tưởng tượng; bài dùng fantasy như thể loại hoặc chất liệu văn học kỳ ảo.",
+    "unfold:verb": "Định nghĩa gốc là mở một vật đang gấp; events unfold trong bài nghĩa là sự việc dần diễn ra hoặc được hé lộ.",
+    "inner:adjective": "Định nghĩa gốc mô tả vị trí bên trong; inner experience/struggle trong bài nói ẩn dụ về trải nghiệm hoặc đấu tranh nội tâm.",
+    "ultimate:adjective": "Định nghĩa gốc là ở cuối một quá trình; ultimate question/puzzle trong bài nhấn mạnh câu hỏi cốt lõi hoặc quan trọng nhất.",
+    "puzzle:noun": "Định nghĩa gốc là trò hoặc câu đố cần suy nghĩ để giải; bài dùng nghĩa vấn đề khó hiểu cần lý giải."
+  },
+  "b2c-screen": {
+    "shooting:noun": "Định nghĩa gốc là vụ nổ súng; bài dùng nghĩa quá trình quay phim hoặc chụp ảnh.",
+    "shot:noun": "Định nghĩa gốc là phát súng; bài dùng nghĩa tấm ảnh hoặc cảnh quay.",
+    "pose:verb": "Định nghĩa gốc là gây ra một vấn đề hoặc đe dọa; pose for a photograph trong bài nghĩa là tạo dáng.",
+    "model:verb": "Định nghĩa gốc là mô phỏng một tình huống để nghiên cứu; model an outfit/costume trong bài là mặc trình diễn trang phục.",
+    "illustrate:verb": "Định nghĩa gốc là thêm tranh ảnh vào sách; bài còn dùng nghĩa minh họa hoặc chứng tỏ một ý bằng hình ảnh.",
+    "golden:adjective": "Định nghĩa gốc là làm bằng vàng; golden light/surface trong bài có thể chỉ màu vàng óng, không khẳng định vật làm từ vàng.",
+    "feel:noun": "Định nghĩa gốc là cảm giác khi chạm; bài dùng nghĩa ấn tượng hoặc bầu không khí của hình ảnh.",
+    "project:verb": "Định nghĩa gốc là dự báo một đại lượng tương lai; project pictures/a film trong bài nghĩa là chiếu hình ảnh lên màn.",
+    "vision:noun": "Định nghĩa gốc là thị lực hoặc vùng nhìn thấy; director's vision ở bài B là ý tưởng hoặc tầm nhìn nghệ thuật."
+  },
+  "b2c-collections": {
+    "worth:noun": "Định nghĩa gốc diễn đạt một lượng có giá trị tiền cụ thể; bài dùng nghĩa giá trị hoặc tầm quan trọng nói chung.",
+    "material:adjective": "Định nghĩa gốc liên quan tiền bạc và của cải đối lập với tinh thần; bài dùng nghĩa thuộc vật chất hoặc tình trạng vật lý của hiện vật.",
+    "mount:verb": "Định nghĩa gốc là tổ chức và bắt đầu hoạt động; bài dùng nghĩa gắn hoặc đặt hiện vật lên giá đỡ.",
+    "installation:noun": "Định nghĩa gốc là hành động lắp thiết bị; bài dùng installation để chỉ bố trí hoặc thiết bị trưng bày được lắp.",
+    "extension:noun": "Định nghĩa gốc là mở rộng phạm vi hoạt động hoặc đối tượng; extension to a gallery ở bài A có thể chỉ phần mở rộng của không gian trưng bày."
+  },
+  "b2c-sport": {
+    "pace:verb": "Định nghĩa gốc là đi đi lại lại vì căng thẳng; bài dùng nghĩa dẫn nhịp hoặc điều chỉnh tốc độ khi thi đấu.",
+    "stroke:noun": "Định nghĩa gốc là cú đánh bóng; swimming stroke trong bài là động tác hoặc kiểu bơi."
+  },
+  "b2c-travel": {
+    "lane:noun": "Định nghĩa gốc là đường nhỏ ở nông thôn; highway lane trong bài là làn xe trên đường lớn.",
+    "stand:noun": "Định nghĩa gốc là lập trường được thể hiện công khai; newspaper stand trong bài là quầy bán báo."
+  },
+  "b2c-evidence": {
+    "valid:adjective": "Định nghĩa gốc là hợp lệ về pháp lý hoặc chính thức; valid conclusion trong bài nghĩa là kết luận có cơ sở hợp lý.",
+    "reasonably:adverb": "Định nghĩa gốc là ở mức khá hoặc tương đối; reasonably justified/admire trong bài dùng nghĩa một cách có lý.",
+    "survey:verb": "Định nghĩa gốc là xem xét toàn cảnh; survey different groups ở bài B còn có thể chỉ khảo sát hoặc thu thập thông tin từ các nhóm."
+  },
+  "b2c-feelings": {
+    "shame:noun": "Định nghĩa gốc là điều đáng tiếc trong mẫu it's a shame; bài dùng nghĩa cảm giác xấu hổ.",
+    "pity:noun": "Định nghĩa gốc là điều đáng tiếc; bài dùng nghĩa lòng thương cảm.",
+    "tear:noun": "Định nghĩa gốc là chỗ rách; bài dùng tear nghĩa là giọt nước mắt. Hai nghĩa có cách phát âm khác nhau."
+  },
+  "b2c-health": {
+    "tissue:noun": "Định nghĩa gốc là khăn giấy; bài dùng nghĩa mô sinh học trong cơ thể.",
+    "palm:noun": "Định nghĩa gốc là cây cọ; bài dùng nghĩa lòng bàn tay.",
+    "radiation:noun": "Định nghĩa gốc chỉ tia phát ra từ chất phóng xạ; bài dùng nghĩa bức xạ rộng hơn, gồm tia X từ thiết bị, không đồng nhất với chất phóng xạ.",
+    "pure:adjective": "Định nghĩa gốc là không pha trộn; pure oxygen ở bài A khớp nghĩa này, còn pure scientific judgement ở bài B dùng nghĩa chỉ thuần túy dựa vào khoa học."
+  },
+  "b2c-nature": {
+    "raw:adjective": "Định nghĩa gốc là chưa nấu chín; raw silk trong bài A là tơ chưa xử lý, còn raw appearance ở bài B gợi vẻ thô hoặc chưa biến đổi.",
+    "sweep:verb": "Định nghĩa gốc là quét bằng chổi; gió sweep pollution/ash trong bài nghĩa là cuốn hoặc quét vật chất đi.",
+    "scratch:verb": "Định nghĩa gốc là gãi da vì ngứa; bài dùng nghĩa cào hoặc làm xước bề mặt vật.",
+    "spill:verb": "Định nghĩa gốc là chất lỏng tràn khỏi vật chứa; spill beyond a channel ở bài B dùng nghĩa mở rộng là nước tràn ra ngoài lòng dòng chảy."
+  },
+  "b2c-design": {
+    "matching:adjective": "Định nghĩa gốc là phù hợp về màu, hoa văn hoặc phong cách; ở bài B, matching folder/tray nói đến kích thước phù hợp với giấy."
+  },
+  "b2c-connection": {
+    "fold:noun": "Định nghĩa gốc mô tả phần vải hoặc vật được gấp; bài dùng nghĩa nếp gấp trên thư hoặc bản vẽ."
+  },
+  "b2c-change": {
+    "naked:adjective": "Định nghĩa gốc là không mặc quần áo; naked eye trong bài là mắt thường, không dùng dụng cụ quang học.",
+    "swear:verb": "Định nghĩa gốc là chửi thề; ở bài B, swear that an answer is true dùng nghĩa khẳng định chắc chắn hoặc thề rằng điều gì đúng."
+  }
+}

@@ -1,0 +1,4430 @@
+[
+  {
+    "slug": "c1s-water",
+    "title": "Engineering with water",
+    "order": 1,
+    "level": "C1",
+    "capacity": 30,
+    "targets": [
+      {
+        "word": "dam",
+        "pos": "noun",
+        "rowIndex": 1313,
+        "en": "a barrier that is built across a river in order to stop the water from flowing, used especially to make a reservoir (= a lake for storing water) or to produce electricity"
+      },
+      {
+        "word": "pump",
+        "pos": "noun",
+        "rowIndex": 4164,
+        "en": "a machine that is used to force liquid, gas or air into or out of something"
+      },
+      {
+        "word": "pump",
+        "pos": "verb",
+        "rowIndex": 4165,
+        "en": "to make water, air, gas, etc. flow in a particular direction by using a pump or something that works like a pump"
+      },
+      {
+        "word": "tide",
+        "pos": "noun",
+        "rowIndex": 5388,
+        "en": "a regular rise and fall in the level of the sea, caused by the pull of the moon and sun; the flow of water that happens as the sea rises and falls"
+      },
+      {
+        "word": "well",
+        "pos": "noun",
+        "rowIndex": 5792,
+        "en": "a deep hole in the ground from which people obtain water. The sides of wells are usually covered with brick or stone and there is usually a cover or a small wall at the top of the well."
+      },
+      {
+        "word": "drain",
+        "pos": "verb",
+        "rowIndex": 1628,
+        "en": "to make something empty or dry by removing the liquid from it; to become empty or dry in this way"
+      },
+      {
+        "word": "divert",
+        "pos": "verb",
+        "rowIndex": 1577,
+        "en": "to make somebody/something change direction"
+      },
+      {
+        "word": "coastal",
+        "pos": "adjective",
+        "rowIndex": 923,
+        "en": "of or near a coast"
+      },
+      {
+        "word": "pond",
+        "pos": "noun",
+        "rowIndex": 3940,
+        "en": "a small area of still water, especially one that is artificial"
+      },
+      {
+        "word": "drown",
+        "pos": "verb",
+        "rowIndex": 1650,
+        "en": "to die because you have been underwater too long and you cannot breathe; to kill somebody by holding them underwater"
+      },
+      {
+        "word": "beneath",
+        "pos": "preposition",
+        "rowIndex": 514,
+        "en": "in or to a lower position than somebody/something; under somebody/something"
+      },
+      {
+        "word": "discharge",
+        "pos": "verb",
+        "rowIndex": 1525,
+        "en": "to give somebody official permission to leave the police or the armed forces; to make somebody leave the police or the armed forces"
+      },
+      {
+        "word": "dense",
+        "pos": "adjective",
+        "rowIndex": 1410,
+        "en": "containing a lot of people, things, plants, etc. with little space between them"
+      },
+      {
+        "word": "density",
+        "pos": "noun",
+        "rowIndex": 1411,
+        "en": "the quality of being dense; the degree to which something is dense"
+      },
+      {
+        "word": "gravity",
+        "pos": "noun",
+        "rowIndex": 2378,
+        "en": "the force that attracts objects in space towards each other, and that on the earth pulls them towards the centre of the planet, so that things fall to the ground when they are dropped"
+      },
+      {
+        "word": "dimension",
+        "pos": "noun",
+        "rowIndex": 1496,
+        "en": "a measurement in space, for example how high, wide or long something is"
+      },
+      {
+        "word": "width",
+        "pos": "noun",
+        "rowIndex": 5841,
+        "en": "the measurement from one side of something to the other; how wide something is"
+      },
+      {
+        "word": "adjacent",
+        "pos": "adjective",
+        "rowIndex": 91,
+        "en": "next to something"
+      },
+      {
+        "word": "boundary",
+        "pos": "noun",
+        "rowIndex": 620,
+        "en": "a real or imagined line that marks the limits or edges of something and separates it from other things or places; a dividing line"
+      },
+      {
+        "word": "bay",
+        "pos": "noun",
+        "rowIndex": 470,
+        "en": "a part of the sea, or of a large lake, partly surrounded by a wide curve of the land"
+      },
+      {
+        "word": "debris",
+        "pos": "noun",
+        "rowIndex": 1345,
+        "en": "pieces of wood, metal, building materials, etc. that are left after something has been destroyed"
+      },
+      {
+        "word": "destructive",
+        "pos": "adjective",
+        "rowIndex": 1454,
+        "en": "causing destruction or damage"
+      },
+      {
+        "word": "disastrous",
+        "pos": "adjective",
+        "rowIndex": 1522,
+        "en": "very bad, harmful or unsuccessful"
+      },
+      {
+        "word": "aftermath",
+        "pos": "noun",
+        "rowIndex": 130,
+        "en": "the situation that exists as a result of an important (and usually unpleasant) event, especially a war, an accident, etc."
+      },
+      {
+        "word": "counter",
+        "pos": "verb",
+        "rowIndex": 1210,
+        "en": "to reply to somebody by trying to prove that what they said is not true"
+      },
+      {
+        "word": "compensate",
+        "pos": "verb",
+        "rowIndex": 996,
+        "en": "to provide something good to balance or reduce the bad effects of damage, loss, etc."
+      },
+      {
+        "word": "compensation",
+        "pos": "noun",
+        "rowIndex": 997,
+        "en": "something, especially money, that somebody gives you because they have hurt you, or damaged something that you own; the act of giving this to somebody"
+      },
+      {
+        "word": "allocation",
+        "pos": "noun",
+        "rowIndex": 187,
+        "en": "an amount of money, space, etc. that is given to somebody for a particular purpose"
+      },
+      {
+        "word": "allocate",
+        "pos": "verb",
+        "rowIndex": 186,
+        "en": "to give something officially to somebody/something for a particular purpose"
+      },
+      {
+        "word": "designate",
+        "pos": "verb",
+        "rowIndex": 1441,
+        "en": "to say officially that somebody/something has a particular character or name; to describe somebody/something in a particular way"
+      }
+    ]
+  },
+  {
+    "slug": "c1s-voyages",
+    "title": "Voyages and their cargo",
+    "order": 2,
+    "level": "C1",
+    "capacity": 30,
+    "targets": [
+      {
+        "word": "vessel",
+        "pos": "noun",
+        "rowIndex": 5683,
+        "en": "a tube that carries blood through the body of a person or an animal, or liquid through the parts of a plant"
+      },
+      {
+        "word": "cargo",
+        "pos": "noun",
+        "rowIndex": 747,
+        "en": "the goods carried in a ship, an aircraft or a motor vehicle"
+      },
+      {
+        "word": "anchor",
+        "pos": "noun",
+        "rowIndex": 226,
+        "en": "a heavy metal object that is attached to a rope or chain and dropped over the side of a ship or boat to keep it in one place"
+      },
+      {
+        "word": "bow",
+        "pos": "noun",
+        "rowIndex": 621,
+        "en": "the act of bending your head or the upper part of your body forward in order to say hello or goodbye to somebody or to show respect"
+      },
+      {
+        "word": "bow",
+        "pos": "verb",
+        "rowIndex": 622,
+        "en": "to move your head or the top half of your body forwards and downwards as a sign of respect or to say hello or goodbye"
+      },
+      {
+        "word": "embark",
+        "pos": "verb",
+        "rowIndex": 1747,
+        "en": "to get onto a ship or plane; to put somebody/something onto a ship or plane"
+      },
+      {
+        "word": "barrel",
+        "pos": "noun",
+        "rowIndex": 449,
+        "en": "a large round container, usually made of wood or metal, with flat ends and, usually, curved sides"
+      },
+      {
+        "word": "pirate",
+        "pos": "noun",
+        "rowIndex": 3879,
+        "en": "(especially in the past) a person on a ship who attacks other ships at sea in order to steal from them"
+      },
+      {
+        "word": "marine",
+        "pos": "adjective",
+        "rowIndex": 3203,
+        "en": "connected with the sea and the creatures and plants that live there"
+      },
+      {
+        "word": "pole",
+        "pos": "noun",
+        "rowIndex": 3930,
+        "en": "a long thin straight piece of wood or metal, especially one with the end placed in the ground, used as a support"
+      },
+      {
+        "word": "terrain",
+        "pos": "noun",
+        "rowIndex": 5300,
+        "en": "used to refer to an area of land when you are mentioning its natural features, for example, if it is rough, flat, etc."
+      },
+      {
+        "word": "drift",
+        "pos": "verb",
+        "rowIndex": 1639,
+        "en": "to move along smoothly and slowly in water or air"
+      },
+      {
+        "word": "plunge",
+        "pos": "verb",
+        "rowIndex": 3915,
+        "en": "to move or make somebody/something move suddenly forwards and/or downwards"
+      },
+      {
+        "word": "descend",
+        "pos": "verb",
+        "rowIndex": 1432,
+        "en": "to come or go down from a higher to a lower level"
+      },
+      {
+        "word": "descent",
+        "pos": "noun",
+        "rowIndex": 1433,
+        "en": "an action of coming or going down"
+      },
+      {
+        "word": "collision",
+        "pos": "noun",
+        "rowIndex": 944,
+        "en": "an accident in which two vehicles or people crash into each other"
+      },
+      {
+        "word": "carriage",
+        "pos": "noun",
+        "rowIndex": 749,
+        "en": "a separate section of a train for carrying passengers"
+      },
+      {
+        "word": "handling",
+        "pos": "noun",
+        "rowIndex": 2436,
+        "en": "the way that somebody deals with or treats a situation, a person, an animal, etc."
+      },
+      {
+        "word": "warehouse",
+        "pos": "noun",
+        "rowIndex": 5739,
+        "en": "a building where large quantities of goods are stored, especially before they are sent to shops to be sold"
+      },
+      {
+        "word": "bulk",
+        "pos": "noun",
+        "rowIndex": 676,
+        "en": "the main part of something; most of something"
+      },
+      {
+        "word": "deed",
+        "pos": "noun",
+        "rowIndex": 1366,
+        "en": "a thing that somebody does that is usually very good or very bad"
+      },
+      {
+        "word": "await",
+        "pos": "verb",
+        "rowIndex": 406,
+        "en": "to wait for somebody/something"
+      },
+      {
+        "word": "fate",
+        "pos": "noun",
+        "rowIndex": 2035,
+        "en": "the things, especially bad things, that will happen or have happened to somebody/something"
+      },
+      {
+        "word": "predecessor",
+        "pos": "noun",
+        "rowIndex": 3997,
+        "en": "a person who did a job before somebody else"
+      },
+      {
+        "word": "succession",
+        "pos": "noun",
+        "rowIndex": 5130,
+        "en": "a number of people or things that follow each other in time or order"
+      },
+      {
+        "word": "successor",
+        "pos": "noun",
+        "rowIndex": 5132,
+        "en": "a person or thing that comes after somebody/something else and takes their/its place"
+      },
+      {
+        "word": "costly",
+        "pos": "adjective",
+        "rowIndex": 1198,
+        "en": "costing a lot of money, especially more than you want to pay"
+      },
+      {
+        "word": "alliance",
+        "pos": "noun",
+        "rowIndex": 185,
+        "en": "an agreement between countries, political parties, etc. to work together in order to achieve something that they all want"
+      },
+      {
+        "word": "dawn",
+        "pos": "noun",
+        "rowIndex": 1332,
+        "en": "the time of day when light first appears"
+      },
+      {
+        "word": "exit",
+        "pos": "verb",
+        "rowIndex": 1930,
+        "en": "to go out; to leave a building, stage, vehicle, etc."
+      }
+    ]
+  },
+  {
+    "slug": "c1s-computing",
+    "title": "Machines that follow instructions",
+    "order": 3,
+    "level": "C1",
+    "capacity": 30,
+    "targets": [
+      {
+        "word": "hardware",
+        "pos": "noun",
+        "rowIndex": 2448,
+        "en": "the machines and electronic parts in a computer or other electronic system"
+      },
+      {
+        "word": "upgrade",
+        "pos": "noun",
+        "rowIndex": 5622,
+        "en": "the act of making a machine, computer system, etc. more powerful and efficient; the more powerful and efficient machine, computer system, etc."
+      },
+      {
+        "word": "upgrade",
+        "pos": "verb",
+        "rowIndex": 5623,
+        "en": "to make a machine, computer system, etc. more powerful and efficient; to start using a new and better version of a machine, system, etc."
+      },
+      {
+        "word": "directory",
+        "pos": "noun",
+        "rowIndex": 1508,
+        "en": "a book or electronic resource containing lists of information, usually in alphabetical order, for example people’s phone numbers or the names and addresses of businesses in a particular area"
+      },
+      {
+        "word": "browser",
+        "pos": "noun",
+        "rowIndex": 664,
+        "en": "a computer program that lets you look at or read documents on the World Wide Web"
+      },
+      {
+        "word": "desktop",
+        "pos": "noun",
+        "rowIndex": 1447,
+        "en": "a screen on a computer that shows the icons of programs and files that can be used"
+      },
+      {
+        "word": "buffer",
+        "pos": "noun",
+        "rowIndex": 672,
+        "en": "a thing or person that reduces a shock or protects somebody/something against difficulties"
+      },
+      {
+        "word": "spam",
+        "pos": "noun",
+        "rowIndex": 4925,
+        "en": "advertising material sent by email to people who have not asked for it; advertising material on the internet that is not wanted "
+      },
+      {
+        "word": "domain",
+        "pos": "noun",
+        "rowIndex": 1595,
+        "en": "an area of knowledge or activity; especially one that somebody is responsible for"
+      },
+      {
+        "word": "processor",
+        "pos": "noun",
+        "rowIndex": 4083,
+        "en": "a machine, person or company that processes things"
+      },
+      {
+        "word": "processing",
+        "pos": "noun",
+        "rowIndex": 4082,
+        "en": "the treatment of raw material, food, etc. in order to change it, preserve it, etc."
+      },
+      {
+        "word": "storage",
+        "pos": "noun",
+        "rowIndex": 5058,
+        "en": "the process of keeping something in a particular place until it is needed; the space where things can be kept"
+      },
+      {
+        "word": "interface",
+        "pos": "noun",
+        "rowIndex": 2801,
+        "en": "the way a computer program presents information to a user or receives information from a user, in particular the layout of the screen and the menus"
+      },
+      {
+        "word": "interactive",
+        "pos": "adjective",
+        "rowIndex": 2796,
+        "en": "that allows information to be passed continuously and in both directions between a computer or other device and the person who uses it"
+      },
+      {
+        "word": "configuration",
+        "pos": "noun",
+        "rowIndex": 1057,
+        "en": "an arrangement of the parts of something or a group of things; the form or shape that this arrangement produces"
+      },
+      {
+        "word": "backup",
+        "pos": "noun",
+        "rowIndex": 422,
+        "en": "extra help or support that you can get if necessary"
+      },
+      {
+        "word": "broadband",
+        "pos": "noun",
+        "rowIndex": 655,
+        "en": "a way of connecting to the internet that allows you to receive information, including pictures, etc., very quickly and that is always active (so that the user does not have to connect each time)"
+      },
+      {
+        "word": "default",
+        "pos": "noun",
+        "rowIndex": 1371,
+        "en": "what happens or appears if you do not make any other choice or change, especially in a computer program"
+      },
+      {
+        "word": "activation",
+        "pos": "noun",
+        "rowIndex": 69,
+        "en": "the act of making something such as a device or chemical process start working"
+      },
+      {
+        "word": "plug",
+        "pos": "noun",
+        "rowIndex": 3913,
+        "en": "a small plastic object with two or three metal pins that connects a piece of electrical equipment to the main supply of electricity"
+      },
+      {
+        "word": "plug",
+        "pos": "verb",
+        "rowIndex": 3914,
+        "en": "to fill a hole with a substance or piece of material that fits tightly into it"
+      },
+      {
+        "word": "compute",
+        "pos": "verb",
+        "rowIndex": 1029,
+        "en": "to calculate something"
+      },
+      {
+        "word": "operational",
+        "pos": "adjective",
+        "rowIndex": 3631,
+        "en": "connected with the way in which a business, machine, system, etc. works"
+      },
+      {
+        "word": "execute",
+        "pos": "verb",
+        "rowIndex": 1916,
+        "en": "to kill somebody, especially as a legal punishment"
+      },
+      {
+        "word": "execution",
+        "pos": "noun",
+        "rowIndex": 1917,
+        "en": "the act of killing somebody, especially as a legal punishment"
+      },
+      {
+        "word": "correction",
+        "pos": "noun",
+        "rowIndex": 1185,
+        "en": "a change that makes something more accurate than it was before"
+      },
+      {
+        "word": "array",
+        "pos": "noun",
+        "rowIndex": 314,
+        "en": "a group or collection of things or people, often one that is large or impressive"
+      },
+      {
+        "word": "devise",
+        "pos": "verb",
+        "rowIndex": 1472,
+        "en": "to invent something new or a new way of doing something"
+      },
+      {
+        "word": "autonomy",
+        "pos": "noun",
+        "rowIndex": 398,
+        "en": "the freedom for a country, a region or an organization to govern itself independently"
+      },
+      {
+        "word": "consistency",
+        "pos": "noun",
+        "rowIndex": 1094,
+        "en": "the quality of always behaving in the same way or of having the same opinions, standard, etc.; the quality of being consistent"
+      }
+    ]
+  },
+  {
+    "slug": "c1s-farming",
+    "title": "The cultivated landscape",
+    "order": 4,
+    "level": "C1",
+    "capacity": 30,
+    "targets": [
+      {
+        "word": "cattle",
+        "pos": "noun",
+        "rowIndex": 768,
+        "en": "cows and bulls that are kept as farm animals for their milk or meat"
+      },
+      {
+        "word": "breed",
+        "pos": "noun",
+        "rowIndex": 644,
+        "en": "a particular type of animal that has been developed by people in a certain way, especially a type of dog, cat or farm animal"
+      },
+      {
+        "word": "breed",
+        "pos": "verb",
+        "rowIndex": 645,
+        "en": "to have sex and produce young"
+      },
+      {
+        "word": "agricultural",
+        "pos": "adjective",
+        "rowIndex": 146,
+        "en": "connected with the science or practice of farming"
+      },
+      {
+        "word": "cultivate",
+        "pos": "verb",
+        "rowIndex": 1279,
+        "en": "to prepare and use land for growing plants or crops"
+      },
+      {
+        "word": "harvest",
+        "pos": "verb",
+        "rowIndex": 2455,
+        "en": "to cut and gather a crop; to catch a number of animals or fish to eat"
+      },
+      {
+        "word": "harvest",
+        "pos": "noun",
+        "rowIndex": 2454,
+        "en": "the time of year when the crops are gathered in on a farm, etc.; the act of cutting and gathering crops"
+      },
+      {
+        "word": "acre",
+        "pos": "noun",
+        "rowIndex": 62,
+        "en": "a unit for measuring an area of land; 4 840 square yards or about 4 050 square metres"
+      },
+      {
+        "word": "weed",
+        "pos": "noun",
+        "rowIndex": 5777,
+        "en": "a wild plant growing where it is not wanted, especially among crops or garden plants"
+      },
+      {
+        "word": "stem",
+        "pos": "noun",
+        "rowIndex": 5039,
+        "en": "the main long, thin part of a plant above the ground from which the leaves or flowers grow; a smaller part that grows from this and supports flowers or leaves"
+      },
+      {
+        "word": "shoot",
+        "pos": "noun",
+        "rowIndex": 4746,
+        "en": "the part that grows up from the ground when a plant starts to grow; a new part that grows on plants or trees"
+      },
+      {
+        "word": "fibre",
+        "pos": "noun",
+        "rowIndex": 2069,
+        "en": "the part of food that helps to keep a person healthy by keeping the bowels working and moving other food quickly through the body"
+      },
+      {
+        "word": "timber",
+        "pos": "noun",
+        "rowIndex": 5397,
+        "en": "trees that are grown to be used in building or for making things"
+      },
+      {
+        "word": "mill",
+        "pos": "noun",
+        "rowIndex": 3311,
+        "en": "a building fitted with equipment for grinding grain into flour; a machine for grinding grain"
+      },
+      {
+        "word": "machinery",
+        "pos": "noun",
+        "rowIndex": 3152,
+        "en": "machines as a group, especially large ones"
+      },
+      {
+        "word": "peasant",
+        "pos": "noun",
+        "rowIndex": 3804,
+        "en": "(especially in the past, or in poorer countries) a farmer who owns or rents a small piece of land"
+      },
+      {
+        "word": "commodity",
+        "pos": "noun",
+        "rowIndex": 980,
+        "en": "a product or a raw material that can be bought and sold"
+      },
+      {
+        "word": "exploitation",
+        "pos": "noun",
+        "rowIndex": 1957,
+        "en": "a situation in which somebody treats somebody else in an unfair way, especially in order to make money from their work"
+      },
+      {
+        "word": "appetite",
+        "pos": "noun",
+        "rowIndex": 275,
+        "en": "physical desire for food"
+      },
+      {
+        "word": "grind",
+        "pos": "verb",
+        "rowIndex": 2391,
+        "en": "to break or press something into very small pieces between two hard surfaces or using a special machine"
+      },
+      {
+        "word": "abundance",
+        "pos": "noun",
+        "rowIndex": 18,
+        "en": "a large quantity that is more than enough"
+      },
+      {
+        "word": "accumulate",
+        "pos": "verb",
+        "rowIndex": 47,
+        "en": "to gradually get more and more of something over a period of time"
+      },
+      {
+        "word": "accumulation",
+        "pos": "noun",
+        "rowIndex": 48,
+        "en": "the process of gradually increasing or getting more and more of something over a period of time"
+      },
+      {
+        "word": "conserve",
+        "pos": "verb",
+        "rowIndex": 1088,
+        "en": "to protect something and prevent it from being changed or destroyed"
+      },
+      {
+        "word": "sustain",
+        "pos": "verb",
+        "rowIndex": 5207,
+        "en": "to provide enough of what somebody/something needs in order to live or exist"
+      },
+      {
+        "word": "thrive",
+        "pos": "verb",
+        "rowIndex": 5377,
+        "en": "to become, and continue to be, successful, strong, healthy, etc."
+      },
+      {
+        "word": "strain",
+        "pos": "noun",
+        "rowIndex": 5066,
+        "en": "pressure on a system or relationship because great demands are being placed on it"
+      },
+      {
+        "word": "crude",
+        "pos": "adjective",
+        "rowIndex": 1268,
+        "en": "in its natural state, before it has been processed or refined"
+      },
+      {
+        "word": "acid",
+        "pos": "adjective",
+        "rowIndex": 57,
+        "en": "that contains acid or has the essential characteristics of an acid; that has a pH of less than seven"
+      },
+      {
+        "word": "cutting",
+        "pos": "noun",
+        "rowIndex": 1304,
+        "en": "an article or a story that you cut from a newspaper or magazine and keep"
+      }
+    ]
+  },
+  {
+    "slug": "c1s-wildlife",
+    "title": "Living together in the wild",
+    "order": 5,
+    "level": "C1",
+    "capacity": 30,
+    "targets": [
+      {
+        "word": "predator",
+        "pos": "noun",
+        "rowIndex": 3996,
+        "en": "an animal that kills and eats other animals"
+      },
+      {
+        "word": "prey",
+        "pos": "noun",
+        "rowIndex": 4043,
+        "en": "an animal, a bird, etc. that is hunted, killed and eaten by another"
+      },
+      {
+        "word": "migration",
+        "pos": "noun",
+        "rowIndex": 3302,
+        "en": "the movement every year of large numbers of birds or animals from one place to another"
+      },
+      {
+        "word": "reproduction",
+        "pos": "noun",
+        "rowIndex": 4405,
+        "en": "the act or process of producing babies, young animals or plants"
+      },
+      {
+        "word": "instinct",
+        "pos": "noun",
+        "rowIndex": 2762,
+        "en": "a natural quality that makes people and animals tend to behave in a particular way using the knowledge and abilities that they were born with rather than thought or training"
+      },
+      {
+        "word": "beast",
+        "pos": "noun",
+        "rowIndex": 478,
+        "en": "an animal, especially one that is large or dangerous, or one that is unusual"
+      },
+      {
+        "word": "horn",
+        "pos": "noun",
+        "rowIndex": 2560,
+        "en": "a hard pointed part that grows, usually in pairs, on the heads of some animals, such as sheep and cows. Horns are often curved."
+      },
+      {
+        "word": "flesh",
+        "pos": "noun",
+        "rowIndex": 2139,
+        "en": "the soft substance between the skin and bones of animal or human bodies"
+      },
+      {
+        "word": "cling",
+        "pos": "verb",
+        "rowIndex": 899,
+        "en": "to hold on tightly to somebody/something"
+      },
+      {
+        "word": "crawl",
+        "pos": "verb",
+        "rowIndex": 1234,
+        "en": "to move forward on your hands and knees or with your body close to the ground"
+      },
+      {
+        "word": "creep",
+        "pos": "verb",
+        "rowIndex": 1248,
+        "en": "to move slowly, quietly and carefully, because you do not want to be seen or heard"
+      },
+      {
+        "word": "adaptation",
+        "pos": "noun",
+        "rowIndex": 80,
+        "en": "the action or process of changing something, or of being changed, to suit a new purpose or situation"
+      },
+      {
+        "word": "ecological",
+        "pos": "adjective",
+        "rowIndex": 1692,
+        "en": "connected with the relation of plants and living creatures to each other and to their environment"
+      },
+      {
+        "word": "dominance",
+        "pos": "noun",
+        "rowIndex": 1597,
+        "en": "the fact of being more important, powerful or easy to notice than somebody/something else"
+      },
+      {
+        "word": "selective",
+        "pos": "adjective",
+        "rowIndex": 4662,
+        "en": "affecting or involving only a small number of people or things from a larger group"
+      },
+      {
+        "word": "vulnerability",
+        "pos": "noun",
+        "rowIndex": 5725,
+        "en": "the fact of being weak and easily hurt physically or emotionally"
+      },
+      {
+        "word": "vulnerable",
+        "pos": "adjective",
+        "rowIndex": 5726,
+        "en": "weak and easily hurt physically or emotionally"
+      },
+      {
+        "word": "inherent",
+        "pos": "adjective",
+        "rowIndex": 2720,
+        "en": "that is a basic or permanent part of somebody/something and that cannot be removed"
+      },
+      {
+        "word": "alike",
+        "pos": "adjective",
+        "rowIndex": 173,
+        "en": "very similar"
+      },
+      {
+        "word": "alike",
+        "pos": "adverb",
+        "rowIndex": 174,
+        "en": "in a very similar way"
+      },
+      {
+        "word": "counterpart",
+        "pos": "noun",
+        "rowIndex": 1211,
+        "en": "a person or thing that has the same position or function as somebody/something else in a different place or situation"
+      },
+      {
+        "word": "distinctive",
+        "pos": "adjective",
+        "rowIndex": 1562,
+        "en": "having a quality or characteristic that makes something different and easily noticed"
+      },
+      {
+        "word": "cluster",
+        "pos": "noun",
+        "rowIndex": 917,
+        "en": "a group of things of the same type that grow or appear close together"
+      },
+      {
+        "word": "classification",
+        "pos": "noun",
+        "rowIndex": 881,
+        "en": "the act or process of putting people or things into a group or class (= of classifying them)"
+      },
+      {
+        "word": "inclusion",
+        "pos": "noun",
+        "rowIndex": 2672,
+        "en": "the fact of including somebody/something; the fact of being included"
+      },
+      {
+        "word": "exclusion",
+        "pos": "noun",
+        "rowIndex": 1911,
+        "en": "the act of preventing somebody/something from entering a place or taking part in something"
+      },
+      {
+        "word": "companion",
+        "pos": "noun",
+        "rowIndex": 987,
+        "en": "a person or an animal that travels with you or spends a lot of time with you"
+      },
+      {
+        "word": "tolerance",
+        "pos": "noun",
+        "rowIndex": 5418,
+        "en": "the quality of being willing to accept or tolerate somebody/something, especially opinions or behaviour that you may not agree with, or people who are not like you"
+      },
+      {
+        "word": "tolerate",
+        "pos": "verb",
+        "rowIndex": 5419,
+        "en": "to allow somebody to do something that you do not agree with or like"
+      },
+      {
+        "word": "patrol",
+        "pos": "verb",
+        "rowIndex": 3793,
+        "en": "to go around an area or a building at regular times to check that it is safe and that there is no trouble"
+      }
+    ]
+  },
+  {
+    "slug": "c1s-outbreaks",
+    "title": "Tracing an outbreak",
+    "order": 6,
+    "level": "C1",
+    "capacity": 30,
+    "targets": [
+      {
+        "word": "epidemic",
+        "pos": "noun",
+        "rowIndex": 1831,
+        "en": "a large number of cases of a particular disease or medical condition happening at the same time in a particular community"
+      },
+      {
+        "word": "outbreak",
+        "pos": "noun",
+        "rowIndex": 3678,
+        "en": "the sudden start of something unpleasant, especially violence or a disease"
+      },
+      {
+        "word": "infect",
+        "pos": "verb",
+        "rowIndex": 2705,
+        "en": "to make a disease or an illness spread to a person, an animal or a plant"
+      },
+      {
+        "word": "isolation",
+        "pos": "noun",
+        "rowIndex": 2850,
+        "en": "the act of separating somebody/something; the state of being separate"
+      },
+      {
+        "word": "alert",
+        "pos": "verb",
+        "rowIndex": 168,
+        "en": "to warn somebody about a dangerous situation or one that requires immediate action"
+      },
+      {
+        "word": "alert",
+        "pos": "adjective",
+        "rowIndex": 166,
+        "en": "able to think quickly; quick to notice things"
+      },
+      {
+        "word": "alert",
+        "pos": "noun",
+        "rowIndex": 167,
+        "en": "a situation in which people are watching for danger and ready to deal with it"
+      },
+      {
+        "word": "acute",
+        "pos": "adjective",
+        "rowIndex": 77,
+        "en": "very serious or severe"
+      },
+      {
+        "word": "chronic",
+        "pos": "adjective",
+        "rowIndex": 852,
+        "en": "lasting for a long time; difficult to cure"
+      },
+      {
+        "word": "clinical",
+        "pos": "adjective",
+        "rowIndex": 901,
+        "en": "relating to the examination and treatment of patients and their illnesses"
+      },
+      {
+        "word": "diagnose",
+        "pos": "verb",
+        "rowIndex": 1474,
+        "en": "to say exactly what an illness or the cause of a problem is"
+      },
+      {
+        "word": "diagnosis",
+        "pos": "noun",
+        "rowIndex": 1475,
+        "en": "the act of discovering or identifying the exact cause of an illness or a problem"
+      },
+      {
+        "word": "syndrome",
+        "pos": "noun",
+        "rowIndex": 5228,
+        "en": "a set of physical conditions that show you have a particular disease or medical problem"
+      },
+      {
+        "word": "detection",
+        "pos": "noun",
+        "rowIndex": 1460,
+        "en": "the process of discovering or noticing something, especially something that is not easy to see, hear, etc.; the fact of being discovered or noticed "
+      },
+      {
+        "word": "inspect",
+        "pos": "verb",
+        "rowIndex": 2751,
+        "en": "to look closely at something/somebody, especially to check that everything is as it should be"
+      },
+      {
+        "word": "administer",
+        "pos": "verb",
+        "rowIndex": 94,
+        "en": "to manage and organize the affairs of a company, an organization, a country, etc."
+      },
+      {
+        "word": "dose",
+        "pos": "noun",
+        "rowIndex": 1604,
+        "en": "an amount of a medicine or a drug that is taken once, or regularly over a period of time"
+      },
+      {
+        "word": "injection",
+        "pos": "noun",
+        "rowIndex": 2728,
+        "en": "an act of injecting somebody with a drug or other substance"
+      },
+      {
+        "word": "inject",
+        "pos": "verb",
+        "rowIndex": 2727,
+        "en": "to put a drug or other substance into a person’s or an animal’s body using a syringe"
+      },
+      {
+        "word": "prescribe",
+        "pos": "verb",
+        "rowIndex": 4014,
+        "en": "to tell somebody to take a particular medicine or have a particular treatment; to write a prescription for a particular medicine, etc."
+      },
+      {
+        "word": "intake",
+        "pos": "noun",
+        "rowIndex": 2776,
+        "en": "the amount of food, drink, etc. that you take into your body"
+      },
+      {
+        "word": "donor",
+        "pos": "noun",
+        "rowIndex": 1602,
+        "en": "a person or an organization that makes a gift of money, clothes, food, etc. to a charity, etc."
+      },
+      {
+        "word": "ward",
+        "pos": "noun",
+        "rowIndex": 5738,
+        "en": "a separate room or area in a hospital for people with the same type of medical condition"
+      },
+      {
+        "word": "adverse",
+        "pos": "adjective",
+        "rowIndex": 112,
+        "en": "negative and unpleasant; not likely to produce a good result"
+      },
+      {
+        "word": "absence",
+        "pos": "noun",
+        "rowIndex": 11,
+        "en": "the fact of somebody being away from a place where they are usually expected to be; the occasion or period of time when somebody is away"
+      },
+      {
+        "word": "absent",
+        "pos": "adjective",
+        "rowIndex": 12,
+        "en": "not in a place because of illness, etc."
+      },
+      {
+        "word": "identification",
+        "pos": "noun",
+        "rowIndex": 2611,
+        "en": "the process of showing, proving or recognizing who or what somebody/something is"
+      },
+      {
+        "word": "confine",
+        "pos": "verb",
+        "rowIndex": 1058,
+        "en": "to keep somebody/something inside the limits of a particular activity, subject, area, etc."
+      },
+      {
+        "word": "cocktail",
+        "pos": "noun",
+        "rowIndex": 925,
+        "en": "a drink usually made from a mixture of one or more spirits (= strong alcoholic drinks) and fruit juice. It can also be made without alcohol."
+      },
+      {
+        "word": "dependence",
+        "pos": "noun",
+        "rowIndex": 1418,
+        "en": "the state of needing the help and support of somebody/something in order to survive or be successful"
+      }
+    ]
+  },
+  {
+    "slug": "c1s-body",
+    "title": "The body and its signals",
+    "order": 7,
+    "level": "C1",
+    "capacity": 29,
+    "targets": [
+      {
+        "word": "kidney",
+        "pos": "noun",
+        "rowIndex": 2906,
+        "en": "either of the two organs in the body that remove waste products from the blood and produce urine"
+      },
+      {
+        "word": "liver",
+        "pos": "noun",
+        "rowIndex": 3091,
+        "en": "a large organ in the body that cleans the blood and produces bile"
+      },
+      {
+        "word": "limb",
+        "pos": "noun",
+        "rowIndex": 3056,
+        "en": "an arm or a leg; a similar part of an animal, such as a wing"
+      },
+      {
+        "word": "vein",
+        "pos": "noun",
+        "rowIndex": 5670,
+        "en": "any of the tubes that carry blood from all parts of the body towards the heart"
+      },
+      {
+        "word": "gut",
+        "pos": "noun",
+        "rowIndex": 2416,
+        "en": "the tube in the body through which food passes when it leaves the stomach"
+      },
+      {
+        "word": "pulse",
+        "pos": "noun",
+        "rowIndex": 4163,
+        "en": "the regular beat of the heart as it sends blood around the body, that can be felt in different places, especially on the inside part of the wrist; the number of times the heart beats in a minute"
+      },
+      {
+        "word": "circulation",
+        "pos": "noun",
+        "rowIndex": 861,
+        "en": "the movement of blood around the body"
+      },
+      {
+        "word": "circulate",
+        "pos": "verb",
+        "rowIndex": 860,
+        "en": "when a liquid, gas or air circulates or is circulated, it moves continuously around a place or system"
+      },
+      {
+        "word": "bleed",
+        "pos": "verb",
+        "rowIndex": 570,
+        "en": "to lose blood, especially from a wound or an injury"
+      },
+      {
+        "word": "rehabilitation",
+        "pos": "noun",
+        "rowIndex": 4337,
+        "en": "the process of helping somebody to return to a normal, healthy life after they have been in prison or very ill"
+      },
+      {
+        "word": "well-being",
+        "pos": "noun",
+        "rowIndex": 5793,
+        "en": "general health and happiness"
+      },
+      {
+        "word": "workout",
+        "pos": "noun",
+        "rowIndex": 5885,
+        "en": "a period of physical exercise that you do to keep fit"
+      },
+      {
+        "word": "stimulus",
+        "pos": "noun",
+        "rowIndex": 5051,
+        "en": "something that helps somebody/something to develop better or more quickly"
+      },
+      {
+        "word": "sensation",
+        "pos": "noun",
+        "rowIndex": 4669,
+        "en": "a feeling that you get when something affects your body"
+      },
+      {
+        "word": "consciousness",
+        "pos": "noun",
+        "rowIndex": 1078,
+        "en": "the state of being able to use your senses and mental powers to understand what is happening"
+      },
+      {
+        "word": "cognitive",
+        "pos": "adjective",
+        "rowIndex": 928,
+        "en": "connected with mental processes of understanding"
+      },
+      {
+        "word": "fit",
+        "pos": "noun",
+        "rowIndex": 2120,
+        "en": "a sudden attack of an illness, such as epilepsy, in which somebody becomes unconscious and their body may make violent movements"
+      },
+      {
+        "word": "induce",
+        "pos": "verb",
+        "rowIndex": 2696,
+        "en": "to persuade or influence somebody to do something"
+      },
+      {
+        "word": "tobacco",
+        "pos": "noun",
+        "rowIndex": 5412,
+        "en": "the dried leaves of the tobacco plant that are used for making cigarettes, smoking in a pipe, etc."
+      },
+      {
+        "word": "abortion",
+        "pos": "noun",
+        "rowIndex": 5,
+        "en": "the deliberate ending of a pregnancy at an early stage"
+      },
+      {
+        "word": "conception",
+        "pos": "noun",
+        "rowIndex": 1037,
+        "en": "an understanding or a belief of what something/somebody is or what something/somebody should be"
+      },
+      {
+        "word": "adolescent",
+        "pos": "noun",
+        "rowIndex": 101,
+        "en": "a young person who is developing from a child into an adult"
+      },
+      {
+        "word": "applicable",
+        "pos": "adjective",
+        "rowIndex": 278,
+        "en": "that can be said to be true in the case of somebody/something"
+      },
+      {
+        "word": "adoption",
+        "pos": "noun",
+        "rowIndex": 103,
+        "en": "the act of adopting a child; the fact of being adopted"
+      },
+      {
+        "word": "complication",
+        "pos": "noun",
+        "rowIndex": 1017,
+        "en": "a thing that makes a situation more complicated or difficult"
+      },
+      {
+        "word": "deficiency",
+        "pos": "noun",
+        "rowIndex": 1379,
+        "en": "the state of not having, or not having enough of, something that is essential"
+      },
+      {
+        "word": "defect",
+        "pos": "noun",
+        "rowIndex": 1374,
+        "en": "a fault in something or in the way it has been made that means that it is not perfect"
+      },
+      {
+        "word": "deteriorate",
+        "pos": "verb",
+        "rowIndex": 1463,
+        "en": "to become worse"
+      },
+      {
+        "word": "weaken",
+        "pos": "verb",
+        "rowIndex": 5765,
+        "en": "to make somebody/something less strong or powerful; to become less strong or powerful"
+      }
+    ]
+  },
+  {
+    "slug": "c1s-light",
+    "title": "Light that reveals",
+    "order": 8,
+    "level": "C1",
+    "capacity": 29,
+    "targets": [
+      {
+        "word": "laser",
+        "pos": "noun",
+        "rowIndex": 2949,
+        "en": "a device that gives out light in which all the waves oscillate (= change direction and strength) together, typically producing a powerful beam of light that can be used for cutting metal, in medical operations, etc."
+      },
+      {
+        "word": "optical",
+        "pos": "adjective",
+        "rowIndex": 3644,
+        "en": "connected with the sense of sight or the relationship between light and sight"
+      },
+      {
+        "word": "ray",
+        "pos": "noun",
+        "rowIndex": 4250,
+        "en": "a narrow line of light, heat or other energy"
+      },
+      {
+        "word": "beam",
+        "pos": "noun",
+        "rowIndex": 474,
+        "en": "a line of light, electromagnetic waves or particles"
+      },
+      {
+        "word": "reflection",
+        "pos": "noun",
+        "rowIndex": 4312,
+        "en": "an image in a mirror, on a shiny surface, on water, etc."
+      },
+      {
+        "word": "crystal",
+        "pos": "noun",
+        "rowIndex": 1275,
+        "en": "a small piece of a substance with many even sides, that is formed naturally when the substance becomes solid"
+      },
+      {
+        "word": "vacuum",
+        "pos": "noun",
+        "rowIndex": 5650,
+        "en": "a space that is completely empty of all substances, including all air or other gas"
+      },
+      {
+        "word": "apparatus",
+        "pos": "noun",
+        "rowIndex": 267,
+        "en": "the tools or other pieces of equipment that are needed for a particular activity or task"
+      },
+      {
+        "word": "filter",
+        "pos": "noun",
+        "rowIndex": 2087,
+        "en": "a device containing paper, sand, chemicals, etc. that a liquid or gas is passed through in order to remove any materials that are not wanted"
+      },
+      {
+        "word": "filter",
+        "pos": "verb",
+        "rowIndex": 2088,
+        "en": "to pass liquid, light, etc. through a special device, especially to remove something that is not wanted"
+      },
+      {
+        "word": "trace",
+        "pos": "noun",
+        "rowIndex": 5459,
+        "en": "a mark, an object or a sign that shows that somebody/something existed or was present"
+      },
+      {
+        "word": "probe",
+        "pos": "verb",
+        "rowIndex": 4073,
+        "en": "to ask questions in order to find out secret or hidden information about somebody/something"
+      },
+      {
+        "word": "empirical",
+        "pos": "adjective",
+        "rowIndex": 1765,
+        "en": "based on experiments or experience rather than ideas or theories"
+      },
+      {
+        "word": "theoretical",
+        "pos": "adjective",
+        "rowIndex": 5339,
+        "en": "connected with the ideas and principles on which a particular subject is based, rather than with practice and experiment"
+      },
+      {
+        "word": "mathematical",
+        "pos": "adjective",
+        "rowIndex": 3229,
+        "en": "connected with or involving mathematics"
+      },
+      {
+        "word": "calculation",
+        "pos": "noun",
+        "rowIndex": 705,
+        "en": "the act or process of using numbers to find out an amount"
+      },
+      {
+        "word": "formula",
+        "pos": "noun",
+        "rowIndex": 2196,
+        "en": "a series of letters, numbers or symbols that represent a rule or law"
+      },
+      {
+        "word": "ratio",
+        "pos": "noun",
+        "rowIndex": 4247,
+        "en": "the relationship between two groups of people or things that is represented by two numbers showing how much larger one group is than the other"
+      },
+      {
+        "word": "variable",
+        "pos": "noun",
+        "rowIndex": 5661,
+        "en": "a situation, number or quantity that can vary or be varied"
+      },
+      {
+        "word": "benchmark",
+        "pos": "noun",
+        "rowIndex": 511,
+        "en": "something that can be measured and used as a standard that other things can be compared with"
+      },
+      {
+        "word": "reliability",
+        "pos": "noun",
+        "rowIndex": 4357,
+        "en": "the quality of being able to be trusted to do what somebody wants or needs"
+      },
+      {
+        "word": "robust",
+        "pos": "adjective",
+        "rowIndex": 4510,
+        "en": "strong and healthy"
+      },
+      {
+        "word": "simulate",
+        "pos": "verb",
+        "rowIndex": 4795,
+        "en": "to create particular conditions that exist in real life using computers, models, etc., usually for study or training purposes"
+      },
+      {
+        "word": "alignment",
+        "pos": "noun",
+        "rowIndex": 172,
+        "en": "arrangement in a straight line"
+      },
+      {
+        "word": "align",
+        "pos": "verb",
+        "rowIndex": 171,
+        "en": "to arrange something in the correct position, or to be in the correct position, in relation to something else, especially in a straight line"
+      },
+      {
+        "word": "threshold",
+        "pos": "noun",
+        "rowIndex": 5375,
+        "en": "the floor or ground at the bottom of a doorway, considered as the entrance to a building or room"
+      },
+      {
+        "word": "diminish",
+        "pos": "verb",
+        "rowIndex": 1497,
+        "en": "to become smaller, weaker, etc.; to make something become smaller, weaker, etc."
+      },
+      {
+        "word": "dip",
+        "pos": "verb",
+        "rowIndex": 1499,
+        "en": "to put something quickly into a liquid and take it out again"
+      },
+      {
+        "word": "deposit",
+        "pos": "verb",
+        "rowIndex": 1424,
+        "en": "to put money into a bank account"
+      }
+    ]
+  },
+  {
+    "slug": "c1s-making",
+    "title": "Making things that last",
+    "order": 9,
+    "level": "C1",
+    "capacity": 29,
+    "targets": [
+      {
+        "word": "copper",
+        "pos": "noun",
+        "rowIndex": 1174,
+        "en": "a chemical element. Copper is a soft red-brown metal used for making electric wires, pipes and coins."
+      },
+      {
+        "word": "aluminium",
+        "pos": "noun",
+        "rowIndex": 204,
+        "en": "a chemical element. Aluminium is a light, silver-grey metal used for making pans, etc."
+      },
+      {
+        "word": "blade",
+        "pos": "noun",
+        "rowIndex": 562,
+        "en": "the flat part of a knife, tool or machine, which has a sharp edge or edges for cutting"
+      },
+      {
+        "word": "screw",
+        "pos": "noun",
+        "rowIndex": 4623,
+        "en": "a thin pointed piece of metal like a nail with a raised spiral line (called a thread) along it and a line or cross cut into its head. Screws are turned and pressed into wood, metal, etc. with a screwdriver in order to fasten two things together."
+      },
+      {
+        "word": "rod",
+        "pos": "noun",
+        "rowIndex": 4514,
+        "en": "a long straight piece of wood, metal or glass"
+      },
+      {
+        "word": "gear",
+        "pos": "noun",
+        "rowIndex": 2298,
+        "en": "equipment in a vehicle that changes the relation between engine speed (or pedal speed on a bicycle) and the speed of the wheels moving forwards or backwards"
+      },
+      {
+        "word": "utility",
+        "pos": "noun",
+        "rowIndex": 5646,
+        "en": "a service provided for the public, for example an electricity, water or gas supply"
+      },
+      {
+        "word": "carve",
+        "pos": "verb",
+        "rowIndex": 753,
+        "en": "to make objects, patterns, etc. by cutting away material from a piece of wood or stone, or another hard material"
+      },
+      {
+        "word": "weave",
+        "pos": "verb",
+        "rowIndex": 5772,
+        "en": "to make cloth, a carpet, a basket, etc. by crossing threads or narrow pieces of material across, over and under each other by hand or on a machine called a loom"
+      },
+      {
+        "word": "bind",
+        "pos": "verb",
+        "rowIndex": 546,
+        "en": "to tie somebody/something with rope, string, etc. so that they/it cannot move or are held together strongly"
+      },
+      {
+        "word": "assemble",
+        "pos": "verb",
+        "rowIndex": 341,
+        "en": "to come together as a group; to bring people or things together as a group"
+      },
+      {
+        "word": "assembly",
+        "pos": "noun",
+        "rowIndex": 342,
+        "en": "a group of people who have been elected to meet together regularly and make decisions or laws for a particular region or country"
+      },
+      {
+        "word": "craft",
+        "pos": "verb",
+        "rowIndex": 1231,
+        "en": "to make something using special skills, especially with your hands"
+      },
+      {
+        "word": "creator",
+        "pos": "noun",
+        "rowIndex": 1242,
+        "en": "a person who has made or invented a particular thing"
+      },
+      {
+        "word": "composition",
+        "pos": "noun",
+        "rowIndex": 1022,
+        "en": "the different parts that something is made of; the way in which the different parts are organized"
+      },
+      {
+        "word": "transformation",
+        "pos": "noun",
+        "rowIndex": 5485,
+        "en": "a complete change in somebody/something"
+      },
+      {
+        "word": "conversion",
+        "pos": "noun",
+        "rowIndex": 1153,
+        "en": "the act or process of changing something from one form, use or system to another"
+      },
+      {
+        "word": "acquisition",
+        "pos": "noun",
+        "rowIndex": 61,
+        "en": "the act of getting something, especially knowledge, a skill, etc."
+      },
+      {
+        "word": "pioneer",
+        "pos": "verb",
+        "rowIndex": 3876,
+        "en": "when somebody pioneers something, they are one of the first people to do, discover or use something new"
+      },
+      {
+        "word": "capability",
+        "pos": "noun",
+        "rowIndex": 728,
+        "en": "the ability or qualities necessary to do something"
+      },
+      {
+        "word": "competence",
+        "pos": "noun",
+        "rowIndex": 999,
+        "en": "the ability to do something well"
+      },
+      {
+        "word": "competent",
+        "pos": "adjective",
+        "rowIndex": 1000,
+        "en": "having enough skill or knowledge to do something well or to the necessary standard"
+      },
+      {
+        "word": "substitute",
+        "pos": "verb",
+        "rowIndex": 5121,
+        "en": "to take the place of somebody/something else; to use somebody/something instead of somebody/something else"
+      },
+      {
+        "word": "comparable",
+        "pos": "adjective",
+        "rowIndex": 989,
+        "en": "similar to somebody/something else and able to be compared"
+      },
+      {
+        "word": "superior",
+        "pos": "adjective",
+        "rowIndex": 5161,
+        "en": "better in quality than somebody/something else; greater than somebody/something else"
+      },
+      {
+        "word": "lesser",
+        "pos": "adjective",
+        "rowIndex": 3021,
+        "en": "not as great in size, amount or importance as something/somebody else"
+      },
+      {
+        "word": "grasp",
+        "pos": "noun",
+        "rowIndex": 2372,
+        "en": "a strong hold of somebody/something or control over somebody/something"
+      },
+      {
+        "word": "grasp",
+        "pos": "verb",
+        "rowIndex": 2373,
+        "en": "to take a strong hold of somebody/something"
+      },
+      {
+        "word": "grip",
+        "pos": "noun",
+        "rowIndex": 2392,
+        "en": "an act of holding somebody/something tightly; a particular way of doing this"
+      }
+    ]
+  },
+  {
+    "slug": "c1s-heritage",
+    "title": "Objects and their afterlives",
+    "order": 10,
+    "level": "C1",
+    "capacity": 29,
+    "targets": [
+      {
+        "word": "architectural",
+        "pos": "adjective",
+        "rowIndex": 296,
+        "en": "relating to architecture and buildings"
+      },
+      {
+        "word": "heritage",
+        "pos": "noun",
+        "rowIndex": 2500,
+        "en": "the history, traditions, buildings and objects that a country or society has had for many years and that are considered an important part of its character"
+      },
+      {
+        "word": "landmark",
+        "pos": "noun",
+        "rowIndex": 2940,
+        "en": "something, such as a large building, that you can see clearly from a distance and that will help you to know where you are"
+      },
+      {
+        "word": "restoration",
+        "pos": "noun",
+        "rowIndex": 4446,
+        "en": "the work of repairing and cleaning an old building, a painting, etc. so that its condition is as good as it originally was"
+      },
+      {
+        "word": "removal",
+        "pos": "noun",
+        "rowIndex": 4378,
+        "en": "the act of taking somebody/something away from a particular place"
+      },
+      {
+        "word": "authentic",
+        "pos": "adjective",
+        "rowIndex": 391,
+        "en": "known to be real and what somebody claims it is and not a copy"
+      },
+      {
+        "word": "archive",
+        "pos": "noun",
+        "rowIndex": 298,
+        "en": "a collection of historical documents or records of a government, a family, a place or an organization; the place where these records are stored"
+      },
+      {
+        "word": "catalogue",
+        "pos": "noun",
+        "rowIndex": 763,
+        "en": "a complete list of items, for example of things that people can look at or buy"
+      },
+      {
+        "word": "canvas",
+        "pos": "noun",
+        "rowIndex": 726,
+        "en": "a strong heavy rough material used for making tents, sails, etc. and by artists for painting on"
+      },
+      {
+        "word": "aesthetic",
+        "pos": "adjective",
+        "rowIndex": 120,
+        "en": "connected with beauty and art and the understanding of beautiful things"
+      },
+      {
+        "word": "depict",
+        "pos": "verb",
+        "rowIndex": 1420,
+        "en": "to show an image of somebody/something in a picture"
+      },
+      {
+        "word": "portray",
+        "pos": "verb",
+        "rowIndex": 3953,
+        "en": "to show somebody/something in a picture; to describe somebody/something in a piece of writing"
+      },
+      {
+        "word": "representation",
+        "pos": "noun",
+        "rowIndex": 4401,
+        "en": "the act of presenting somebody/something in a particular way; something that shows or describes something"
+      },
+      {
+        "word": "legacy",
+        "pos": "noun",
+        "rowIndex": 3003,
+        "en": "money or property that is given to you by somebody when they die"
+      },
+      {
+        "word": "burial",
+        "pos": "noun",
+        "rowIndex": 681,
+        "en": "the act or ceremony of burying a dead body"
+      },
+      {
+        "word": "cemetery",
+        "pos": "noun",
+        "rowIndex": 781,
+        "en": "an area of land used for burying dead people, especially one that is not next to a church"
+      },
+      {
+        "word": "crown",
+        "pos": "noun",
+        "rowIndex": 1266,
+        "en": "an object in the shape of a circle, usually made of gold and precious stones, that a king or queen wears on his or her head on official occasions"
+      },
+      {
+        "word": "bishop",
+        "pos": "noun",
+        "rowIndex": 554,
+        "en": "a senior priest in charge of the work of the Church in a city or district"
+      },
+      {
+        "word": "backdrop",
+        "pos": "noun",
+        "rowIndex": 419,
+        "en": "everything that can be seen around an event or scene"
+      },
+      {
+        "word": "delicate",
+        "pos": "adjective",
+        "rowIndex": 1394,
+        "en": "easily damaged or broken"
+      },
+      {
+        "word": "damaging",
+        "pos": "adjective",
+        "rowIndex": 1316,
+        "en": "causing damage; having a bad effect on somebody/something"
+      },
+      {
+        "word": "neglect",
+        "pos": "noun",
+        "rowIndex": 3466,
+        "en": "the fact of not giving enough care or attention to something/somebody; the state of not receiving enough care or attention"
+      },
+      {
+        "word": "neglect",
+        "pos": "verb",
+        "rowIndex": 3467,
+        "en": "to fail to take care of somebody/something"
+      },
+      {
+        "word": "deprive",
+        "pos": "verb",
+        "rowIndex": 1428,
+        "en": ""
+      },
+      {
+        "word": "displace",
+        "pos": "verb",
+        "rowIndex": 1548,
+        "en": "to take the place of somebody/something"
+      },
+      {
+        "word": "conceal",
+        "pos": "verb",
+        "rowIndex": 1031,
+        "en": "to hide somebody/something"
+      },
+      {
+        "word": "disclose",
+        "pos": "verb",
+        "rowIndex": 1527,
+        "en": "to give somebody information about something, especially something that was previously secret"
+      },
+      {
+        "word": "disclosure",
+        "pos": "noun",
+        "rowIndex": 1528,
+        "en": "the act of making something known or public that was previously secret or private"
+      },
+      {
+        "word": "ash",
+        "pos": "noun",
+        "rowIndex": 330,
+        "en": "the grey or black powder that is left after something, especially tobacco, wood or coal, has burnt"
+      }
+    ]
+  },
+  {
+    "slug": "c1s-learning",
+    "title": "Who gets to learn",
+    "order": 11,
+    "level": "C1",
+    "capacity": 29,
+    "targets": [
+      {
+        "word": "academy",
+        "pos": "noun",
+        "rowIndex": 23,
+        "en": "a school or college for special training"
+      },
+      {
+        "word": "mentor",
+        "pos": "noun",
+        "rowIndex": 3281,
+        "en": "an experienced person who advises and helps somebody with less experience over a period of time"
+      },
+      {
+        "word": "enrol",
+        "pos": "verb",
+        "rowIndex": 1810,
+        "en": "to arrange for yourself or for somebody else to officially join a course, school, etc."
+      },
+      {
+        "word": "admission",
+        "pos": "noun",
+        "rowIndex": 99,
+        "en": "the act of accepting somebody into an institution, organization, etc.; the right to enter a place or to join an institution or organization"
+      },
+      {
+        "word": "attendance",
+        "pos": "noun",
+        "rowIndex": 375,
+        "en": "the act of being present at a place, for example at school"
+      },
+      {
+        "word": "guidance",
+        "pos": "noun",
+        "rowIndex": 2408,
+        "en": "help or advice that is given to somebody, especially by somebody older or with more experience"
+      },
+      {
+        "word": "instruct",
+        "pos": "verb",
+        "rowIndex": 2766,
+        "en": "to tell somebody to do something, especially in a formal or official way"
+      },
+      {
+        "word": "supervise",
+        "pos": "verb",
+        "rowIndex": 5163,
+        "en": "to be in charge of somebody/something and make sure that everything is done correctly, safely, etc."
+      },
+      {
+        "word": "supervision",
+        "pos": "noun",
+        "rowIndex": 5164,
+        "en": "the work or activity involved in being in charge of somebody/something and making sure that everything is done correctly, safely, etc."
+      },
+      {
+        "word": "supervisor",
+        "pos": "noun",
+        "rowIndex": 5165,
+        "en": "a person who supervises somebody/something"
+      },
+      {
+        "word": "encouragement",
+        "pos": "noun",
+        "rowIndex": 1779,
+        "en": "the act of encouraging somebody to do something; something that encourages somebody"
+      },
+      {
+        "word": "encouraging",
+        "pos": "adjective",
+        "rowIndex": 1780,
+        "en": "that gives somebody support, courage or hope"
+      },
+      {
+        "word": "supportive",
+        "pos": "adjective",
+        "rowIndex": 5173,
+        "en": "encouraging somebody or giving them help or sympathy"
+      },
+      {
+        "word": "inspiration",
+        "pos": "noun",
+        "rowIndex": 2754,
+        "en": "the process that takes place when somebody sees or hears something that causes them to have exciting new ideas or makes them want to create something, especially in art, music or literature"
+      },
+      {
+        "word": "aspiration",
+        "pos": "noun",
+        "rowIndex": 336,
+        "en": "a strong desire to have or do something"
+      },
+      {
+        "word": "aspire",
+        "pos": "verb",
+        "rowIndex": 337,
+        "en": "to have a strong desire to achieve or to become something"
+      },
+      {
+        "word": "accomplishment",
+        "pos": "noun",
+        "rowIndex": 38,
+        "en": "an impressive thing that is done or achieved after a lot of work"
+      },
+      {
+        "word": "attain",
+        "pos": "verb",
+        "rowIndex": 371,
+        "en": "to succeed in getting something, usually after a lot of effort"
+      },
+      {
+        "word": "accessible",
+        "pos": "adjective",
+        "rowIndex": 31,
+        "en": "that can be reached, entered, used, seen, etc."
+      },
+      {
+        "word": "availability",
+        "pos": "noun",
+        "rowIndex": 400,
+        "en": "the fact that something is possible to get, buy or find"
+      },
+      {
+        "word": "acceptance",
+        "pos": "noun",
+        "rowIndex": 28,
+        "en": "the act of accepting a gift, an invitation, an offer, etc."
+      },
+      {
+        "word": "empower",
+        "pos": "verb",
+        "rowIndex": 1770,
+        "en": "to give somebody the power or authority to do something"
+      },
+      {
+        "word": "dedication",
+        "pos": "noun",
+        "rowIndex": 1365,
+        "en": "the hard work and effort that somebody puts into an activity or a purpose because they think it is important"
+      },
+      {
+        "word": "dedicated",
+        "pos": "adjective",
+        "rowIndex": 1364,
+        "en": "working hard at something because it is very important to you"
+      },
+      {
+        "word": "counselling",
+        "pos": "noun",
+        "rowIndex": 1205,
+        "en": "professional advice about a problem"
+      },
+      {
+        "word": "counsellor",
+        "pos": "noun",
+        "rowIndex": 1206,
+        "en": "a person who has been trained to advise people with problems, especially personal problems"
+      },
+      {
+        "word": "elevate",
+        "pos": "verb",
+        "rowIndex": 1738,
+        "en": "to give somebody/something a higher position or rank, often more important than they deserve "
+      },
+      {
+        "word": "critique",
+        "pos": "noun",
+        "rowIndex": 1260,
+        "en": "a piece of written criticism of a set of ideas, a work of art, etc."
+      },
+      {
+        "word": "compelling",
+        "pos": "adjective",
+        "rowIndex": 995,
+        "en": "that makes you pay attention to it because it is so interesting and exciting"
+      }
+    ]
+  },
+  {
+    "slug": "c1s-justice",
+    "title": "Evidence before judgment",
+    "order": 12,
+    "level": "C1",
+    "capacity": 29,
+    "targets": [
+      {
+        "word": "attorney",
+        "pos": "noun",
+        "rowIndex": 379,
+        "en": "a lawyer, especially one who can act for somebody in court"
+      },
+      {
+        "word": "solicitor",
+        "pos": "noun",
+        "rowIndex": 4886,
+        "en": "a lawyer who prepares legal documents, for example for the sale of land or buildings, advises people on legal matters, and can speak for them in some courts of law"
+      },
+      {
+        "word": "prosecutor",
+        "pos": "noun",
+        "rowIndex": 4131,
+        "en": "a public official who charges somebody officially with a crime and prosecutes them in court"
+      },
+      {
+        "word": "prosecution",
+        "pos": "noun",
+        "rowIndex": 4130,
+        "en": "the process of trying to prove in court that somebody is guilty of a crime (= of prosecuting them); the process of being officially charged with a crime in court"
+      },
+      {
+        "word": "prosecute",
+        "pos": "verb",
+        "rowIndex": 4129,
+        "en": "to officially charge somebody with a crime in court"
+      },
+      {
+        "word": "lawsuit",
+        "pos": "noun",
+        "rowIndex": 2970,
+        "en": "a claim or complaint against somebody that a person or an organization can make in court"
+      },
+      {
+        "word": "ruling",
+        "pos": "noun",
+        "rowIndex": 4548,
+        "en": "an official decision made by somebody in a position of authority, especially a judge"
+      },
+      {
+        "word": "verdict",
+        "pos": "noun",
+        "rowIndex": 5675,
+        "en": "an official judgement made in court or at an inquest (= an official investigation into somebody's death)"
+      },
+      {
+        "word": "convict",
+        "pos": "verb",
+        "rowIndex": 1156,
+        "en": "to decide and state officially in court that somebody is guilty of a crime"
+      },
+      {
+        "word": "conviction",
+        "pos": "noun",
+        "rowIndex": 1157,
+        "en": "the act of finding somebody guilty of a crime in court; the fact of having been found guilty"
+      },
+      {
+        "word": "accused",
+        "pos": "noun",
+        "rowIndex": 54,
+        "en": "a person who is on trial for committing a crime"
+      },
+      {
+        "word": "accusation",
+        "pos": "noun",
+        "rowIndex": 52,
+        "en": "a statement saying that you think a person is guilty of doing something wrong or illegal; the fact of accusing somebody"
+      },
+      {
+        "word": "allegation",
+        "pos": "noun",
+        "rowIndex": 182,
+        "en": "a public statement that is made without giving proof, accusing somebody of doing something that is wrong or illegal"
+      },
+      {
+        "word": "allege",
+        "pos": "verb",
+        "rowIndex": 183,
+        "en": "to state something as a fact but without giving proof"
+      },
+      {
+        "word": "allegedly",
+        "pos": "adverb",
+        "rowIndex": 184,
+        "en": "expressed as though something is a fact but without giving any proof"
+      },
+      {
+        "word": "bail",
+        "pos": "noun",
+        "rowIndex": 429,
+        "en": "money that somebody agrees to pay if a person accused of a crime does not appear at their trial. When bail has been arranged, the accused person is allowed to go free until the trial."
+      },
+      {
+        "word": "detain",
+        "pos": "verb",
+        "rowIndex": 1458,
+        "en": "to keep somebody in an official place, such as a police station, a prison or a hospital, and prevent them from leaving"
+      },
+      {
+        "word": "detention",
+        "pos": "noun",
+        "rowIndex": 1462,
+        "en": "the state of being kept in a place, especially a prison, and prevented from leaving"
+      },
+      {
+        "word": "custody",
+        "pos": "noun",
+        "rowIndex": 1298,
+        "en": "the legal right or duty to take care of or keep somebody/something; the act of taking care of something/somebody"
+      },
+      {
+        "word": "imprison",
+        "pos": "verb",
+        "rowIndex": 2655,
+        "en": "to put somebody in a prison or another place from which they cannot escape"
+      },
+      {
+        "word": "imprisonment",
+        "pos": "noun",
+        "rowIndex": 2656,
+        "en": "the act of putting somebody in a prison or another place from which they cannot escape; the state of being there"
+      },
+      {
+        "word": "jurisdiction",
+        "pos": "noun",
+        "rowIndex": 2889,
+        "en": "the authority that an official organization has to make legal decisions about somebody/something"
+      },
+      {
+        "word": "confession",
+        "pos": "noun",
+        "rowIndex": 1054,
+        "en": "a statement that a person makes, admitting that they are guilty of a crime; the act of making such a statement"
+      },
+      {
+        "word": "plead",
+        "pos": "verb",
+        "rowIndex": 3902,
+        "en": "to ask somebody for something in a very strong and serious way"
+      },
+      {
+        "word": "suspicion",
+        "pos": "noun",
+        "rowIndex": 5205,
+        "en": "a feeling that somebody has done something wrong, illegal or dishonest, even though you have no proof"
+      },
+      {
+        "word": "suspicious",
+        "pos": "adjective",
+        "rowIndex": 5206,
+        "en": "feeling that somebody has done something wrong, illegal or dishonest, without having any proof"
+      },
+      {
+        "word": "cop",
+        "pos": "noun",
+        "rowIndex": 1172,
+        "en": "a police officer"
+      },
+      {
+        "word": "raid",
+        "pos": "noun",
+        "rowIndex": 4221,
+        "en": "a short surprise attack on an enemy by soldiers, ships or aircraft"
+      },
+      {
+        "word": "patrol",
+        "pos": "noun",
+        "rowIndex": 3792,
+        "en": "the act of going to different parts of a building, an area, etc. to make sure that there is no trouble or crime"
+      }
+    ]
+  },
+  {
+    "slug": "c1s-rights",
+    "title": "Rights that required action",
+    "order": 13,
+    "level": "C1",
+    "capacity": 29,
+    "targets": [
+      {
+        "word": "abolish",
+        "pos": "verb",
+        "rowIndex": 4,
+        "en": "to officially end a law, a system or an institution"
+      },
+      {
+        "word": "abuse",
+        "pos": "verb",
+        "rowIndex": 20,
+        "en": "to make bad use of something, or to use so much of something that it harms your health"
+      },
+      {
+        "word": "abuse",
+        "pos": "noun",
+        "rowIndex": 19,
+        "en": "the use of something in a way that is wrong or harmful"
+      },
+      {
+        "word": "assault",
+        "pos": "noun",
+        "rowIndex": 339,
+        "en": "the crime of attacking somebody physically"
+      },
+      {
+        "word": "assault",
+        "pos": "verb",
+        "rowIndex": 340,
+        "en": "to attack somebody violently, especially when this is a crime"
+      },
+      {
+        "word": "rape",
+        "pos": "noun",
+        "rowIndex": 4236,
+        "en": "the crime of forcing somebody to have sex when they do not want it or are not able to agree to it"
+      },
+      {
+        "word": "rape",
+        "pos": "verb",
+        "rowIndex": 4237,
+        "en": "to force somebody to have sex when they do not want it or are not able to agree to it"
+      },
+      {
+        "word": "torture",
+        "pos": "verb",
+        "rowIndex": 5438,
+        "en": "to hurt somebody physically or mentally in order to punish them or make them tell you something"
+      },
+      {
+        "word": "torture",
+        "pos": "noun",
+        "rowIndex": 5437,
+        "en": "the act of causing somebody severe pain in order to punish them or make them say or do something"
+      },
+      {
+        "word": "harassment",
+        "pos": "noun",
+        "rowIndex": 2443,
+        "en": "the act of annoying or worrying somebody by putting pressure on them or saying or doing unpleasant things to them"
+      },
+      {
+        "word": "discrimination",
+        "pos": "noun",
+        "rowIndex": 1536,
+        "en": "the practice of treating somebody or a particular group in society less fairly than others"
+      },
+      {
+        "word": "liberation",
+        "pos": "noun",
+        "rowIndex": 3032,
+        "en": "the act or process of freeing a country or a person from the control of somebody else"
+      },
+      {
+        "word": "compassion",
+        "pos": "noun",
+        "rowIndex": 993,
+        "en": "a strong feeling of sympathy for people or animals who are suffering and a desire to help them"
+      },
+      {
+        "word": "mercy",
+        "pos": "noun",
+        "rowIndex": 3284,
+        "en": "a kind or forgiving attitude towards somebody that you have the power to harm or right to punish"
+      },
+      {
+        "word": "dignity",
+        "pos": "noun",
+        "rowIndex": 1494,
+        "en": "a calm and serious manner that deserves respect"
+      },
+      {
+        "word": "consent",
+        "pos": "noun",
+        "rowIndex": 1081,
+        "en": "permission to do something, especially given by somebody in authority"
+      },
+      {
+        "word": "consent",
+        "pos": "verb",
+        "rowIndex": 1082,
+        "en": "to agree to something or give your permission for something"
+      },
+      {
+        "word": "advocate",
+        "pos": "noun",
+        "rowIndex": 118,
+        "en": "a person who supports or speaks in favour of somebody or of a public plan or action"
+      },
+      {
+        "word": "advocate",
+        "pos": "verb",
+        "rowIndex": 119,
+        "en": "to support something publicly"
+      },
+      {
+        "word": "activist",
+        "pos": "noun",
+        "rowIndex": 71,
+        "en": "a person who works to achieve political or social change, especially as a member of an organization with particular aims"
+      },
+      {
+        "word": "petition",
+        "pos": "noun",
+        "rowIndex": 3842,
+        "en": "a written document signed by a large number of people that asks somebody in a position of authority to do or change something"
+      },
+      {
+        "word": "asylum",
+        "pos": "noun",
+        "rowIndex": 362,
+        "en": "protection that a government gives to people who have left their own country, usually because they were in danger for political reasons"
+      },
+      {
+        "word": "atrocity",
+        "pos": "noun",
+        "rowIndex": 366,
+        "en": "a cruel and violent act, especially in a war"
+      },
+      {
+        "word": "accountability",
+        "pos": "noun",
+        "rowIndex": 44,
+        "en": "the fact of being responsible for your decisions or actions and expected to explain them when you are asked"
+      },
+      {
+        "word": "accountable",
+        "pos": "adjective",
+        "rowIndex": 45,
+        "en": "responsible for your decisions or actions and expected to explain them when you are asked"
+      },
+      {
+        "word": "denounce",
+        "pos": "verb",
+        "rowIndex": 1409,
+        "en": "to strongly criticize somebody/something that you think is wrong, illegal, etc."
+      },
+      {
+        "word": "condemn",
+        "pos": "verb",
+        "rowIndex": 1047,
+        "en": "to say very strongly that you think something is bad, usually for moral reasons"
+      },
+      {
+        "word": "inflict",
+        "pos": "verb",
+        "rowIndex": 2709,
+        "en": "to make somebody/something suffer something unpleasant"
+      },
+      {
+        "word": "undermine",
+        "pos": "verb",
+        "rowIndex": 5581,
+        "en": "to make something, especially somebody’s confidence or authority, gradually weaker or less effective"
+      }
+    ]
+  },
+  {
+    "slug": "c1s-war",
+    "title": "People caught in conflict",
+    "order": 14,
+    "level": "C1",
+    "capacity": 29,
+    "targets": [
+      {
+        "word": "arm",
+        "pos": "verb",
+        "rowIndex": 306,
+        "en": "to provide weapons for yourself/somebody in order to fight a battle or a war"
+      },
+      {
+        "word": "sword",
+        "pos": "noun",
+        "rowIndex": 5222,
+        "en": "a weapon with a long metal blade (= sharp cutting part) and a handle"
+      },
+      {
+        "word": "battlefield",
+        "pos": "noun",
+        "rowIndex": 469,
+        "en": "a place where a battle is being fought or has been fought"
+      },
+      {
+        "word": "combat",
+        "pos": "noun",
+        "rowIndex": 952,
+        "en": "fighting or a fight, especially during a time of war"
+      },
+      {
+        "word": "combat",
+        "pos": "verb",
+        "rowIndex": 953,
+        "en": "to stop something unpleasant or harmful from happening or from getting worse"
+      },
+      {
+        "word": "civilian",
+        "pos": "adjective",
+        "rowIndex": 869,
+        "en": "connected with people who are not members of the armed forces or the police"
+      },
+      {
+        "word": "civilian",
+        "pos": "noun",
+        "rowIndex": 870,
+        "en": "a person who is not a member of the armed forces or the police"
+      },
+      {
+        "word": "casualty",
+        "pos": "noun",
+        "rowIndex": 761,
+        "en": "a person who is killed or injured in war or in an accident"
+      },
+      {
+        "word": "massacre",
+        "pos": "noun",
+        "rowIndex": 3218,
+        "en": "the killing of a large number of people especially in a cruel way"
+      },
+      {
+        "word": "genocide",
+        "pos": "noun",
+        "rowIndex": 2309,
+        "en": "the murder of a large number of people from a particular nation or ethnic group, with the aim of destroying that nation or group"
+      },
+      {
+        "word": "assassination",
+        "pos": "noun",
+        "rowIndex": 338,
+        "en": "the murder of an important or famous person, especially for political reasons"
+      },
+      {
+        "word": "brutal",
+        "pos": "adjective",
+        "rowIndex": 667,
+        "en": "violent and cruel"
+      },
+      {
+        "word": "aggression",
+        "pos": "noun",
+        "rowIndex": 141,
+        "en": "feelings of anger and hate that may result in threatening or violent behaviour"
+      },
+      {
+        "word": "confrontation",
+        "pos": "noun",
+        "rowIndex": 1064,
+        "en": "a situation in which there is anger between people or groups who disagree because they have different opinions"
+      },
+      {
+        "word": "clash",
+        "pos": "noun",
+        "rowIndex": 876,
+        "en": "a short fight between two groups of people"
+      },
+      {
+        "word": "coup",
+        "pos": "noun",
+        "rowIndex": 1216,
+        "en": "a sudden change of government that is illegal and often violent"
+      },
+      {
+        "word": "dictator",
+        "pos": "noun",
+        "rowIndex": 1481,
+        "en": "a political leader who has complete power over a country, especially one who has gained it using military force"
+      },
+      {
+        "word": "colonial",
+        "pos": "adjective",
+        "rowIndex": 945,
+        "en": "connected with or belonging to a country that controls another country"
+      },
+      {
+        "word": "seize",
+        "pos": "verb",
+        "rowIndex": 4658,
+        "en": "to take somebody/something in your hand suddenly and using force"
+      },
+      {
+        "word": "kidnap",
+        "pos": "verb",
+        "rowIndex": 2905,
+        "en": "to take somebody away illegally and keep them as a prisoner, especially in order to get money or something else for returning them"
+      },
+      {
+        "word": "spy",
+        "pos": "noun",
+        "rowIndex": 4990,
+        "en": "a person who tries to get secret information about another country, organization or person, especially somebody who is employed by a government or the police"
+      },
+      {
+        "word": "betray",
+        "pos": "verb",
+        "rowIndex": 528,
+        "en": "to give information about somebody/something to an enemy"
+      },
+      {
+        "word": "revenge",
+        "pos": "noun",
+        "rowIndex": 4466,
+        "en": "something that you do in order to make somebody suffer because they have made you suffer"
+      },
+      {
+        "word": "hatred",
+        "pos": "noun",
+        "rowIndex": 2459,
+        "en": "a very strong feeling of dislike for somebody/something"
+      },
+      {
+        "word": "misery",
+        "pos": "noun",
+        "rowIndex": 3333,
+        "en": "great physical or mental pain"
+      },
+      {
+        "word": "devastate",
+        "pos": "verb",
+        "rowIndex": 1467,
+        "en": "to completely destroy a place or an area"
+      },
+      {
+        "word": "cease",
+        "pos": "verb",
+        "rowIndex": 775,
+        "en": "to stop happening or existing; to stop something from happening or existing"
+      },
+      {
+        "word": "halt",
+        "pos": "noun",
+        "rowIndex": 2429,
+        "en": "an act of stopping the movement or progress of somebody/something"
+      },
+      {
+        "word": "halt",
+        "pos": "verb",
+        "rowIndex": 2430,
+        "en": "to stop; to make somebody/something stop"
+      }
+    ]
+  },
+  {
+    "slug": "c1s-government",
+    "title": "Rules and representation",
+    "order": 15,
+    "level": "C1",
+    "capacity": 29,
+    "targets": [
+      {
+        "word": "ballot",
+        "pos": "noun",
+        "rowIndex": 437,
+        "en": "the system of voting in writing and usually in secret; an occasion on which a vote is held"
+      },
+      {
+        "word": "turnout",
+        "pos": "noun",
+        "rowIndex": 5548,
+        "en": "the number of people who attend a particular event"
+      },
+      {
+        "word": "presidency",
+        "pos": "noun",
+        "rowIndex": 4025,
+        "en": "the job of being president of a country or an organization; the period of time somebody holds this job"
+      },
+      {
+        "word": "constitution",
+        "pos": "noun",
+        "rowIndex": 1103,
+        "en": "the system of laws and basic principles that a state, a country or an organization is governed by"
+      },
+      {
+        "word": "constitutional",
+        "pos": "adjective",
+        "rowIndex": 1104,
+        "en": ""
+      },
+      {
+        "word": "constituency",
+        "pos": "noun",
+        "rowIndex": 1101,
+        "en": "a district that elects its own representative to parliament"
+      },
+      {
+        "word": "congressional",
+        "pos": "adjective",
+        "rowIndex": 1071,
+        "en": "related to or belonging to a congress or the Congress in the US"
+      },
+      {
+        "word": "civic",
+        "pos": "adjective",
+        "rowIndex": 867,
+        "en": "officially connected with a town or city"
+      },
+      {
+        "word": "citizenship",
+        "pos": "noun",
+        "rowIndex": 865,
+        "en": "the legal right to belong to a particular country"
+      },
+      {
+        "word": "charter",
+        "pos": "noun",
+        "rowIndex": 820,
+        "en": "a written statement describing the rights that a particular group of people should have"
+      },
+      {
+        "word": "amend",
+        "pos": "verb",
+        "rowIndex": 214,
+        "en": "to change a law, document, statement, etc. slightly in order to correct a mistake or to improve it"
+      },
+      {
+        "word": "amendment",
+        "pos": "noun",
+        "rowIndex": 215,
+        "en": "a small change or improvement that is made to a document or proposed new law; the process of changing a document or proposed new law"
+      },
+      {
+        "word": "declaration",
+        "pos": "noun",
+        "rowIndex": 1356,
+        "en": "an official or formal statement, especially about the plans of a government or an organization; the act of making such a statement"
+      },
+      {
+        "word": "commissioner",
+        "pos": "noun",
+        "rowIndex": 976,
+        "en": "a member of a commission (= an official group of people who are responsible for controlling something or finding out about something)"
+      },
+      {
+        "word": "councillor",
+        "pos": "noun",
+        "rowIndex": 1204,
+        "en": "a member of a city or county council"
+      },
+      {
+        "word": "cabinet",
+        "pos": "noun",
+        "rowIndex": 700,
+        "en": "a group of senior members of a government that is responsible for advising and deciding on government policy"
+      },
+      {
+        "word": "deputy",
+        "pos": "noun",
+        "rowIndex": 1430,
+        "en": "a person who is the next most important person below a business manager, a head of a school, a political leader, etc. and who does that person’s job when they are away"
+      },
+      {
+        "word": "aide",
+        "pos": "noun",
+        "rowIndex": 152,
+        "en": "a person who helps another person, especially a politician, in their job"
+      },
+      {
+        "word": "ambassador",
+        "pos": "noun",
+        "rowIndex": 210,
+        "en": "an official who lives in a foreign country as the senior representative there of their own country"
+      },
+      {
+        "word": "diplomat",
+        "pos": "noun",
+        "rowIndex": 1500,
+        "en": "a person whose job is to represent his or her country in a foreign country, for example, in an embassy"
+      },
+      {
+        "word": "diplomatic",
+        "pos": "adjective",
+        "rowIndex": 1501,
+        "en": "connected with managing relations between countries (= diplomacy)"
+      },
+      {
+        "word": "delegate",
+        "pos": "noun",
+        "rowIndex": 1389,
+        "en": "a person who is chosen or elected to represent the views of a group of people and vote and make decisions for them"
+      },
+      {
+        "word": "delegation",
+        "pos": "noun",
+        "rowIndex": 1390,
+        "en": "a group of people who represent the views of an organization, a country, etc."
+      },
+      {
+        "word": "coalition",
+        "pos": "noun",
+        "rowIndex": 921,
+        "en": "a government formed by two or more political parties working together"
+      },
+      {
+        "word": "ally",
+        "pos": "noun",
+        "rowIndex": 190,
+        "en": "a country that has agreed to help and support another country, especially in case of a war"
+      },
+      {
+        "word": "consensus",
+        "pos": "noun",
+        "rowIndex": 1080,
+        "en": "an opinion that all members of a group agree with"
+      },
+      {
+        "word": "communist",
+        "pos": "adjective",
+        "rowIndex": 985,
+        "en": "connected with communism"
+      },
+      {
+        "word": "conquer",
+        "pos": "verb",
+        "rowIndex": 1075,
+        "en": "to take control of a country or city and its people by force"
+      },
+      {
+        "word": "constitute",
+        "pos": "verb",
+        "rowIndex": 1102,
+        "en": "to be considered to be something"
+      }
+    ]
+  },
+  {
+    "slug": "c1s-organization",
+    "title": "Making an institution work",
+    "order": 16,
+    "level": "C1",
+    "capacity": 29,
+    "targets": [
+      {
+        "word": "bureaucracy",
+        "pos": "noun",
+        "rowIndex": 680,
+        "en": "the system of official rules and ways of doing things that a government or an organization has, especially when these seem to be too complicated"
+      },
+      {
+        "word": "administrative",
+        "pos": "adjective",
+        "rowIndex": 96,
+        "en": "connected with organizing the work of a business or an institution"
+      },
+      {
+        "word": "administrator",
+        "pos": "noun",
+        "rowIndex": 97,
+        "en": "a person whose job is to manage and organize the public or business affairs of a company or an institution, or a person who works in an office dealing with records, accounts, etc."
+      },
+      {
+        "word": "appoint",
+        "pos": "verb",
+        "rowIndex": 282,
+        "en": "to choose somebody for a job or position of responsibility"
+      },
+      {
+        "word": "nominate",
+        "pos": "verb",
+        "rowIndex": 3509,
+        "en": "to formally suggest that somebody/something should be chosen for an important role, prize, position, etc."
+      },
+      {
+        "word": "nomination",
+        "pos": "noun",
+        "rowIndex": 3510,
+        "en": "the act of suggesting or choosing somebody as a candidate in an election, or for a job or an award; the fact of being suggested for this"
+      },
+      {
+        "word": "authorize",
+        "pos": "verb",
+        "rowIndex": 394,
+        "en": "to give official permission for something, or for somebody to do something"
+      },
+      {
+        "word": "oversee",
+        "pos": "verb",
+        "rowIndex": 3709,
+        "en": "to watch somebody/something and make sure that a job or an activity is done correctly"
+      },
+      {
+        "word": "trustee",
+        "pos": "noun",
+        "rowIndex": 5536,
+        "en": "a person or an organization that has control of money or property that has been put into a trust for somebody"
+      },
+      {
+        "word": "tenure",
+        "pos": "noun",
+        "rowIndex": 5293,
+        "en": "the period of time when somebody holds an important job, especially a political one; the act of holding an important job"
+      },
+      {
+        "word": "notify",
+        "pos": "verb",
+        "rowIndex": 3537,
+        "en": "to formally or officially tell somebody about something"
+      },
+      {
+        "word": "consultation",
+        "pos": "noun",
+        "rowIndex": 1110,
+        "en": "the act of discussing something with somebody or with a group of people before making a decision about it"
+      },
+      {
+        "word": "provision",
+        "pos": "noun",
+        "rowIndex": 4148,
+        "en": "the act of supplying somebody with something that they need or want; something that is supplied"
+      },
+      {
+        "word": "compliance",
+        "pos": "noun",
+        "rowIndex": 1015,
+        "en": "the practice of obeying rules or requests made by people in authority"
+      },
+      {
+        "word": "comply",
+        "pos": "verb",
+        "rowIndex": 1018,
+        "en": "to obey a rule, an order, etc.; to meet particular standards"
+      },
+      {
+        "word": "accordance",
+        "pos": "noun",
+        "rowIndex": 39,
+        "en": "according to a rule or the way that somebody says that something should be done"
+      },
+      {
+        "word": "allowance",
+        "pos": "noun",
+        "rowIndex": 189,
+        "en": "an amount of money that is given to somebody regularly or for a particular purpose"
+      },
+      {
+        "word": "quota",
+        "pos": "noun",
+        "rowIndex": 4205,
+        "en": "a limited number or amount of people or things that is officially allowed"
+      },
+      {
+        "word": "audit",
+        "pos": "noun",
+        "rowIndex": 388,
+        "en": "an official examination of business and financial records to see that they are true and correct"
+      },
+      {
+        "word": "documentation",
+        "pos": "noun",
+        "rowIndex": 1592,
+        "en": "the documents that are required for something, or that give evidence or proof of something"
+      },
+      {
+        "word": "submission",
+        "pos": "noun",
+        "rowIndex": 5110,
+        "en": "the act of accepting that somebody has defeated you and that you must obey them"
+      },
+      {
+        "word": "coordination",
+        "pos": "noun",
+        "rowIndex": 1170,
+        "en": "the act of making parts of something, groups of people, etc. work together in an efficient and organized way"
+      },
+      {
+        "word": "coordinate",
+        "pos": "verb",
+        "rowIndex": 1169,
+        "en": "to organize the different parts of an activity and the people involved in it so that it works well"
+      },
+      {
+        "word": "coordinator",
+        "pos": "noun",
+        "rowIndex": 1171,
+        "en": "a person who organizes the different parts of an activity and the people involved in it so that it works well"
+      },
+      {
+        "word": "contractor",
+        "pos": "noun",
+        "rowIndex": 1135,
+        "en": "a person or company that has a contract to do work or provide goods or services for another company"
+      },
+      {
+        "word": "interim",
+        "pos": "adjective",
+        "rowIndex": 2804,
+        "en": "intended to last for only a short time until somebody/something more permanent is found"
+      },
+      {
+        "word": "discretion",
+        "pos": "noun",
+        "rowIndex": 1535,
+        "en": "the freedom or power to decide what should be done in a particular situation"
+      },
+      {
+        "word": "adhere",
+        "pos": "verb",
+        "rowIndex": 90,
+        "en": "to stick to something"
+      },
+      {
+        "word": "accordingly",
+        "pos": "adverb",
+        "rowIndex": 41,
+        "en": "in a way that is appropriate to what has been done or said in a particular situation"
+      }
+    ]
+  },
+  {
+    "slug": "c1s-commerce",
+    "title": "Markets and promises",
+    "order": 17,
+    "level": "C1",
+    "capacity": 29,
+    "targets": [
+      {
+        "word": "capitalism",
+        "pos": "noun",
+        "rowIndex": 733,
+        "en": "an economic system in which a country’s businesses and industry are controlled and run for profit by private owners rather than by the government"
+      },
+      {
+        "word": "capitalist",
+        "pos": "adjective",
+        "rowIndex": 734,
+        "en": "based on the principles of capitalism"
+      },
+      {
+        "word": "commerce",
+        "pos": "noun",
+        "rowIndex": 971,
+        "en": "trade, especially between countries; the buying and selling of goods and services"
+      },
+      {
+        "word": "franchise",
+        "pos": "noun",
+        "rowIndex": 2221,
+        "en": "formal permission given by a company to somebody who wants to sell its goods or services in a particular area; formal permission given by a government to somebody who wants to operate a public service as a business"
+      },
+      {
+        "word": "casino",
+        "pos": "noun",
+        "rowIndex": 756,
+        "en": "a public building or room where people play gambling games for money"
+      },
+      {
+        "word": "boom",
+        "pos": "noun",
+        "rowIndex": 601,
+        "en": "a sudden increase in trade and economic activity; a period of wealth and success"
+      },
+      {
+        "word": "bonus",
+        "pos": "noun",
+        "rowIndex": 597,
+        "en": "an extra amount of money that is added to a payment, especially to somebody’s wages or salary as a reward"
+      },
+      {
+        "word": "buck",
+        "pos": "noun",
+        "rowIndex": 669,
+        "en": "a US, Australian or New Zealand dollar; a South African rand; an Indian rupee"
+      },
+      {
+        "word": "tenant",
+        "pos": "noun",
+        "rowIndex": 5286,
+        "en": "a person who pays rent for the use of a room, building, land, etc. to the person who owns it"
+      },
+      {
+        "word": "license",
+        "pos": "verb",
+        "rowIndex": 3036,
+        "en": "to give somebody official permission to do, own, or use something"
+      },
+      {
+        "word": "copyright",
+        "pos": "noun",
+        "rowIndex": 1177,
+        "en": "if a person or an organization holds the copyright on a piece of writing, music, etc., they are the only people who have the legal right to publish, broadcast, perform it, etc., and other people must ask their permission to use it or any part of it"
+      },
+      {
+        "word": "beneficiary",
+        "pos": "noun",
+        "rowIndex": 516,
+        "en": "a person who gains as a result of something"
+      },
+      {
+        "word": "endorsement",
+        "pos": "noun",
+        "rowIndex": 1787,
+        "en": "a public statement or action showing that you support somebody/something"
+      },
+      {
+        "word": "backing",
+        "pos": "noun",
+        "rowIndex": 421,
+        "en": "help and support from somebody to do something; financial support for something"
+      },
+      {
+        "word": "concession",
+        "pos": "noun",
+        "rowIndex": 1042,
+        "en": "something that you allow or do, or allow somebody to have, in order to end an argument or to make a situation less difficult"
+      },
+      {
+        "word": "compromise",
+        "pos": "verb",
+        "rowIndex": 1027,
+        "en": "to give up some of your demands in order to reach an agreement after disagreeing with somebody"
+      },
+      {
+        "word": "compromise",
+        "pos": "noun",
+        "rowIndex": 1026,
+        "en": "an agreement made between two people or groups in which each side gives up some of the things they want so that both sides are happy at the end"
+      },
+      {
+        "word": "deem",
+        "pos": "verb",
+        "rowIndex": 1367,
+        "en": "to have a particular opinion about somebody/something"
+      },
+      {
+        "word": "entitle",
+        "pos": "verb",
+        "rowIndex": 1823,
+        "en": "to give somebody the right to have or to do something"
+      },
+      {
+        "word": "oblige",
+        "pos": "verb",
+        "rowIndex": 3566,
+        "en": "to force somebody to do something, by law, because it is a duty, etc."
+      },
+      {
+        "word": "compel",
+        "pos": "verb",
+        "rowIndex": 994,
+        "en": "to force somebody to do something; to make something necessary"
+      },
+      {
+        "word": "extract",
+        "pos": "verb",
+        "rowIndex": 1979,
+        "en": "to remove or obtain a substance from something, for example by using an industrial or a chemical process"
+      },
+      {
+        "word": "sack",
+        "pos": "verb",
+        "rowIndex": 4557,
+        "en": "to dismiss somebody from a job"
+      },
+      {
+        "word": "dismissal",
+        "pos": "noun",
+        "rowIndex": 1546,
+        "en": "the act of dismissing somebody from their job; an example of this"
+      },
+      {
+        "word": "stake",
+        "pos": "noun",
+        "rowIndex": 5005,
+        "en": "money that somebody invests in a company"
+      },
+      {
+        "word": "burden",
+        "pos": "noun",
+        "rowIndex": 679,
+        "en": "a duty, responsibility, etc. that causes worry, difficulty or hard work"
+      },
+      {
+        "word": "deficit",
+        "pos": "noun",
+        "rowIndex": 1380,
+        "en": "the amount by which money spent or owed is greater than money earned in a particular period of time"
+      },
+      {
+        "word": "corrupt",
+        "pos": "adjective",
+        "rowIndex": 1194,
+        "en": "willing to use their power to do dishonest or illegal things in return for money or to get an advantage"
+      },
+      {
+        "word": "corruption",
+        "pos": "noun",
+        "rowIndex": 1195,
+        "en": "dishonest or illegal behaviour, especially of people in authority"
+      }
+    ]
+  },
+  {
+    "slug": "c1s-reasoning",
+    "title": "How a claim earns trust",
+    "order": 18,
+    "level": "C1",
+    "capacity": 29,
+    "targets": [
+      {
+        "word": "assert",
+        "pos": "verb",
+        "rowIndex": 343,
+        "en": "to state clearly and definitely that something is true"
+      },
+      {
+        "word": "assertion",
+        "pos": "noun",
+        "rowIndex": 344,
+        "en": "a statement saying that you strongly believe something to be true"
+      },
+      {
+        "word": "credible",
+        "pos": "adjective",
+        "rowIndex": 1245,
+        "en": "that can be believed or trusted"
+      },
+      {
+        "word": "credibility",
+        "pos": "noun",
+        "rowIndex": 1244,
+        "en": "the quality that somebody/something has that makes people believe or trust them"
+      },
+      {
+        "word": "clarity",
+        "pos": "noun",
+        "rowIndex": 875,
+        "en": "the quality of being expressed clearly"
+      },
+      {
+        "word": "conceive",
+        "pos": "verb",
+        "rowIndex": 1033,
+        "en": "to form an idea, a plan, etc. in your mind"
+      },
+      {
+        "word": "analogy",
+        "pos": "noun",
+        "rowIndex": 221,
+        "en": "a comparison of one thing with another thing that has similar features; a feature that is similar"
+      },
+      {
+        "word": "differentiate",
+        "pos": "verb",
+        "rowIndex": 1488,
+        "en": "to recognize or show that two things are not the same"
+      },
+      {
+        "word": "distinction",
+        "pos": "noun",
+        "rowIndex": 1561,
+        "en": "a clear difference or contrast especially between people or things that are similar or related"
+      },
+      {
+        "word": "correlate",
+        "pos": "verb",
+        "rowIndex": 1187,
+        "en": "if two or more facts, figures, etc. correlate or if a fact, figure, etc. correlates with another, the facts are closely connected and affect or depend on each other"
+      },
+      {
+        "word": "correlation",
+        "pos": "noun",
+        "rowIndex": 1188,
+        "en": "a connection between two things in which one thing changes as the other does"
+      },
+      {
+        "word": "correspond",
+        "pos": "verb",
+        "rowIndex": 1189,
+        "en": "to be the same as or match something"
+      },
+      {
+        "word": "corresponding",
+        "pos": "adjective",
+        "rowIndex": 1192,
+        "en": "matching or connected with something that you have just mentioned"
+      },
+      {
+        "word": "confirmation",
+        "pos": "noun",
+        "rowIndex": 1060,
+        "en": "a statement, letter, etc. that shows that something is true, correct or definite"
+      },
+      {
+        "word": "contradiction",
+        "pos": "noun",
+        "rowIndex": 1136,
+        "en": "a lack of agreement between facts, opinions, actions, etc."
+      },
+      {
+        "word": "contrary",
+        "pos": "adjective",
+        "rowIndex": 1137,
+        "en": ""
+      },
+      {
+        "word": "contrary",
+        "pos": "noun",
+        "rowIndex": 1138,
+        "en": "the opposite fact, event or situation"
+      },
+      {
+        "word": "arbitrary",
+        "pos": "adjective",
+        "rowIndex": 294,
+        "en": "not seeming to be based on a reason, system or plan and sometimes seeming unfair"
+      },
+      {
+        "word": "caution",
+        "pos": "noun",
+        "rowIndex": 771,
+        "en": "care that you take in order to avoid danger or mistakes; the fact of not taking any risks"
+      },
+      {
+        "word": "cautious",
+        "pos": "adjective",
+        "rowIndex": 772,
+        "en": "being careful about what you say or do, especially to avoid danger or mistakes; not taking any risks"
+      },
+      {
+        "word": "cynical",
+        "pos": "adjective",
+        "rowIndex": 1307,
+        "en": "believing that people only do things to help themselves rather than for good or honest reasons"
+      },
+      {
+        "word": "absurd",
+        "pos": "adjective",
+        "rowIndex": 17,
+        "en": "extremely silly; not logical and sensible"
+      },
+      {
+        "word": "contention",
+        "pos": "noun",
+        "rowIndex": 1125,
+        "en": "anger between people who disagree"
+      },
+      {
+        "word": "contend",
+        "pos": "verb",
+        "rowIndex": 1121,
+        "en": "to say that something is true, especially in an argument"
+      },
+      {
+        "word": "concede",
+        "pos": "verb",
+        "rowIndex": 1032,
+        "en": "to admit that something is true, logical, etc. after first denying it or resisting it"
+      },
+      {
+        "word": "contemplate",
+        "pos": "verb",
+        "rowIndex": 1118,
+        "en": "to think about whether you should do something, or how you should do something"
+      },
+      {
+        "word": "decision-making",
+        "pos": "noun",
+        "rowIndex": 1353,
+        "en": "the process of deciding about something important, especially in a group of people or in an organization"
+      },
+      {
+        "word": "decisive",
+        "pos": "adjective",
+        "rowIndex": 1354,
+        "en": "very important for the final result of a particular situation"
+      },
+      {
+        "word": "distort",
+        "pos": "verb",
+        "rowIndex": 1564,
+        "en": "to change the shape, appearance or sound of something so that it is strange or not clear"
+      }
+    ]
+  },
+  {
+    "slug": "c1s-voices",
+    "title": "Messages across distance",
+    "order": 19,
+    "level": "C1",
+    "capacity": 29,
+    "targets": [
+      {
+        "word": "articulate",
+        "pos": "verb",
+        "rowIndex": 322,
+        "en": "to express or explain your thoughts or feelings clearly in words"
+      },
+      {
+        "word": "discourse",
+        "pos": "noun",
+        "rowIndex": 1532,
+        "en": "a long and serious treatment or discussion of a subject in speech or writing"
+      },
+      {
+        "word": "commentary",
+        "pos": "noun",
+        "rowIndex": 969,
+        "en": "a spoken description of an event that is given while it is happening, especially on the radio or television"
+      },
+      {
+        "word": "commentator",
+        "pos": "noun",
+        "rowIndex": 970,
+        "en": "a person who describes an event while it is happening, especially on television or radio"
+      },
+      {
+        "word": "columnist",
+        "pos": "noun",
+        "rowIndex": 951,
+        "en": "a journalist who writes regular articles for a newspaper or magazine"
+      },
+      {
+        "word": "correspondence",
+        "pos": "noun",
+        "rowIndex": 1190,
+        "en": "the letters, emails, etc. a person sends and receives"
+      },
+      {
+        "word": "correspondent",
+        "pos": "noun",
+        "rowIndex": 1191,
+        "en": "a person who reports news from a particular country or on a particular subject for a newspaper or a television or radio station"
+      },
+      {
+        "word": "biography",
+        "pos": "noun",
+        "rowIndex": 547,
+        "en": "the story of a person’s life written by somebody else; this type of writing"
+      },
+      {
+        "word": "memoir",
+        "pos": "noun",
+        "rowIndex": 3274,
+        "en": "an account written by somebody, especially somebody famous, about their life and experiences"
+      },
+      {
+        "word": "recount",
+        "pos": "verb",
+        "rowIndex": 4296,
+        "en": "sound or pictures that have been recorded on computer files or on CD, DVD, video, etc."
+      },
+      {
+        "word": "echo",
+        "pos": "noun",
+        "rowIndex": 1690,
+        "en": "the reflecting of sound off a wall or inside a particular space so that a noise appears to be repeated; a sound that is reflected back in this way"
+      },
+      {
+        "word": "hint",
+        "pos": "noun",
+        "rowIndex": 2522,
+        "en": "something that you say or do in an indirect way in order to show somebody what you are thinking"
+      },
+      {
+        "word": "enquire",
+        "pos": "verb",
+        "rowIndex": 1807,
+        "en": "to ask somebody for some information"
+      },
+      {
+        "word": "reminder",
+        "pos": "noun",
+        "rowIndex": 4376,
+        "en": "something that makes you think about or remember somebody/something, that you have forgotten or would like to forget"
+      },
+      {
+        "word": "anonymous",
+        "pos": "adjective",
+        "rowIndex": 244,
+        "en": "with a name that is not known or that is not made public"
+      },
+      {
+        "word": "courtesy",
+        "pos": "noun",
+        "rowIndex": 1221,
+        "en": "polite behaviour that shows respect for other people"
+      },
+      {
+        "word": "behalf",
+        "pos": "noun",
+        "rowIndex": 496,
+        "en": "in order to help somebody"
+      },
+      {
+        "word": "appreciation",
+        "pos": "noun",
+        "rowIndex": 285,
+        "en": "pleasure that you have when you recognize and enjoy the good qualities of somebody/something"
+      },
+      {
+        "word": "attribute",
+        "pos": "noun",
+        "rowIndex": 383,
+        "en": "a quality or feature of somebody/something"
+      },
+      {
+        "word": "attribute",
+        "pos": "verb",
+        "rowIndex": 384,
+        "en": "to say or believe that something is the result of a particular thing"
+      },
+      {
+        "word": "contributor",
+        "pos": "noun",
+        "rowIndex": 1143,
+        "en": "a person who writes articles for a magazine, book or website, or who talks on a radio or television programme or at a meeting"
+      },
+      {
+        "word": "confer",
+        "pos": "verb",
+        "rowIndex": 1051,
+        "en": "to discuss something with somebody, in order to exchange opinions or get advice"
+      },
+      {
+        "word": "debut",
+        "pos": "noun",
+        "rowIndex": 1347,
+        "en": "the first public appearance of a performer or sports player"
+      },
+      {
+        "word": "dictate",
+        "pos": "verb",
+        "rowIndex": 1480,
+        "en": "to tell somebody what to do, especially in an annoying way"
+      },
+      {
+        "word": "dub",
+        "pos": "verb",
+        "rowIndex": 1657,
+        "en": "to give somebody/something a particular name, often in a humorous or critical way"
+      },
+      {
+        "word": "characterize",
+        "pos": "verb",
+        "rowIndex": 812,
+        "en": "to be typical of a person, place or thing"
+      },
+      {
+        "word": "dispute",
+        "pos": "noun",
+        "rowIndex": 1553,
+        "en": "an argument between two people, groups or countries; discussion about a subject on which people disagree"
+      },
+      {
+        "word": "dispute",
+        "pos": "verb",
+        "rowIndex": 1554,
+        "en": "to question whether something is true or legally or officially acceptable"
+      },
+      {
+        "word": "confront",
+        "pos": "verb",
+        "rowIndex": 1063,
+        "en": "to appear and need to be dealt with by somebody"
+      }
+    ]
+  },
+  {
+    "slug": "c1s-belief",
+    "title": "Belief and belonging",
+    "order": 20,
+    "level": "C1",
+    "capacity": 29,
+    "targets": [
+      {
+        "word": "angel",
+        "pos": "noun",
+        "rowIndex": 229,
+        "en": "a spirit who is believed to be a servant of God, and is sent by God to deliver a message or perform a task. Angels are often shown dressed in white, with wings."
+      },
+      {
+        "word": "demon",
+        "pos": "noun",
+        "rowIndex": 1405,
+        "en": "an evil spirit"
+      },
+      {
+        "word": "devil",
+        "pos": "noun",
+        "rowIndex": 1471,
+        "en": "the most powerful evil being"
+      },
+      {
+        "word": "divine",
+        "pos": "adjective",
+        "rowIndex": 1580,
+        "en": "coming from or connected with God or a god"
+      },
+      {
+        "word": "doctrine",
+        "pos": "noun",
+        "rowIndex": 1588,
+        "en": "a belief or set of beliefs held and taught by a Church, a political party, etc."
+      },
+      {
+        "word": "congregation",
+        "pos": "noun",
+        "rowIndex": 1070,
+        "en": "a group of people who are gathered together in a church for a religious service, not including the priest and choir"
+      },
+      {
+        "word": "cult",
+        "pos": "adjective",
+        "rowIndex": 1277,
+        "en": "very popular with a particular group of people"
+      },
+      {
+        "word": "cult",
+        "pos": "noun",
+        "rowIndex": 1278,
+        "en": "a way of life, an attitude, an idea, etc. that has become very popular"
+      },
+      {
+        "word": "worship",
+        "pos": "verb",
+        "rowIndex": 5899,
+        "en": "to show respect for God or a god, especially by saying prayers, singing, etc. with other people in a religious building"
+      },
+      {
+        "word": "bless",
+        "pos": "verb",
+        "rowIndex": 573,
+        "en": "to ask God to protect somebody/something"
+      },
+      {
+        "word": "blessing",
+        "pos": "noun",
+        "rowIndex": 574,
+        "en": "God’s help and protection, or a prayer asking for this"
+      },
+      {
+        "word": "miracle",
+        "pos": "noun",
+        "rowIndex": 3330,
+        "en": "an act or event that does not follow the laws of nature and is believed to be caused by God"
+      },
+      {
+        "word": "conscience",
+        "pos": "noun",
+        "rowIndex": 1076,
+        "en": "the part of your mind that tells you whether your actions are right or wrong"
+      },
+      {
+        "word": "contempt",
+        "pos": "noun",
+        "rowIndex": 1120,
+        "en": "the feeling that somebody/something is without value and deserves no respect at all"
+      },
+      {
+        "word": "grief",
+        "pos": "noun",
+        "rowIndex": 2388,
+        "en": "a very sad feeling, especially when somebody dies"
+      },
+      {
+        "word": "beloved",
+        "pos": "adjective",
+        "rowIndex": 506,
+        "en": "loved very much"
+      },
+      {
+        "word": "loyalty",
+        "pos": "noun",
+        "rowIndex": 3143,
+        "en": "the quality of being constant in your support of somebody/something"
+      },
+      {
+        "word": "affection",
+        "pos": "noun",
+        "rowIndex": 123,
+        "en": "the feeling of liking or loving somebody/something very much and caring about them"
+      },
+      {
+        "word": "buddy",
+        "pos": "noun",
+        "rowIndex": 670,
+        "en": "a friend"
+      },
+      {
+        "word": "charm",
+        "pos": "noun",
+        "rowIndex": 816,
+        "en": "the power of pleasing or attracting people"
+      },
+      {
+        "word": "glory",
+        "pos": "noun",
+        "rowIndex": 2335,
+        "en": "great success that brings somebody praise and honour and makes them famous"
+      },
+      {
+        "word": "glorious",
+        "pos": "adjective",
+        "rowIndex": 2334,
+        "en": "deserving or bringing great success and making somebody/something famous"
+      },
+      {
+        "word": "boast",
+        "pos": "verb",
+        "rowIndex": 587,
+        "en": "to talk in a way that shows you are too proud of something that you have or can do"
+      },
+      {
+        "word": "worthy",
+        "pos": "adjective",
+        "rowIndex": 5906,
+        "en": "having the qualities that deserve somebody/something"
+      },
+      {
+        "word": "content",
+        "pos": "adjective",
+        "rowIndex": 1123,
+        "en": "happy and satisfied with what you have"
+      },
+      {
+        "word": "insult",
+        "pos": "noun",
+        "rowIndex": 2772,
+        "en": "a remark or an action that is said or done in order to offend somebody"
+      },
+      {
+        "word": "insult",
+        "pos": "verb",
+        "rowIndex": 2773,
+        "en": "to say or do something that offends somebody"
+      },
+      {
+        "word": "revive",
+        "pos": "verb",
+        "rowIndex": 4476,
+        "en": "to become, or to make somebody/something become, conscious or healthy and strong again"
+      },
+      {
+        "word": "rally",
+        "pos": "verb",
+        "rowIndex": 4229,
+        "en": "to come together or bring people together in order to help or support somebody/something"
+      }
+    ]
+  },
+  {
+    "slug": "c1s-performance",
+    "title": "An audience and a stage",
+    "order": 21,
+    "level": "C1",
+    "capacity": 29,
+    "targets": [
+      {
+        "word": "arena",
+        "pos": "noun",
+        "rowIndex": 300,
+        "en": "a place with a flat open area in the middle and seats around it where people can watch sports and entertainment"
+      },
+      {
+        "word": "bass",
+        "pos": "noun",
+        "rowIndex": 461,
+        "en": "the lowest tone or part in music, for instruments or voices"
+      },
+      {
+        "word": "banner",
+        "pos": "noun",
+        "rowIndex": 443,
+        "en": "a long piece of cloth with a message on it that is carried between two poles or hung in a public place to show support for something"
+      },
+      {
+        "word": "trailer",
+        "pos": "noun",
+        "rowIndex": 5474,
+        "en": "a truck, or a container with wheels, that is pulled by another vehicle"
+      },
+      {
+        "word": "gaze",
+        "pos": "noun",
+        "rowIndex": 2296,
+        "en": "a long, steady look at somebody/something"
+      },
+      {
+        "word": "gaze",
+        "pos": "verb",
+        "rowIndex": 2297,
+        "en": "to look steadily at somebody/something for a long time, either because you are very interested or surprised, or because you are thinking of something else"
+      },
+      {
+        "word": "glance",
+        "pos": "verb",
+        "rowIndex": 2328,
+        "en": "to look quickly at something/somebody"
+      },
+      {
+        "word": "glimpse",
+        "pos": "noun",
+        "rowIndex": 2330,
+        "en": "a sight of somebody/something for a very short time, when you do not see the person or thing completely"
+      },
+      {
+        "word": "applaud",
+        "pos": "verb",
+        "rowIndex": 276,
+        "en": "to show your approval of somebody/something by clapping your hands (= hitting your open hands together several times)"
+      },
+      {
+        "word": "congratulate",
+        "pos": "verb",
+        "rowIndex": 1069,
+        "en": "to tell somebody that you are pleased about their success or achievements"
+      },
+      {
+        "word": "hail",
+        "pos": "verb",
+        "rowIndex": 2421,
+        "en": "to describe somebody/something as being very good or special, especially in newspapers, etc."
+      },
+      {
+        "word": "stun",
+        "pos": "verb",
+        "rowIndex": 5104,
+        "en": "to make a person or an animal unconscious for a short time, especially by hitting them on the head"
+      },
+      {
+        "word": "chamber",
+        "pos": "noun",
+        "rowIndex": 800,
+        "en": "a hall in a public building that is used for formal meetings"
+      },
+      {
+        "word": "burst",
+        "pos": "verb",
+        "rowIndex": 684,
+        "en": "to break open or apart, especially because of pressure from inside; to make something break in this way"
+      },
+      {
+        "word": "bounce",
+        "pos": "verb",
+        "rowIndex": 618,
+        "en": "if something bounces or you bounce it, it moves quickly away from a surface it has just hit or you make it do this"
+      },
+      {
+        "word": "bat",
+        "pos": "verb",
+        "rowIndex": 463,
+        "en": "to hit a ball with a bat, especially in a game of baseball or cricket"
+      },
+      {
+        "word": "punch",
+        "pos": "verb",
+        "rowIndex": 4167,
+        "en": "to hit somebody/something hard with your fist (= closed hand)"
+      },
+      {
+        "word": "slap",
+        "pos": "verb",
+        "rowIndex": 4832,
+        "en": "to hit somebody/something with the flat part of your hand"
+      },
+      {
+        "word": "stab",
+        "pos": "verb",
+        "rowIndex": 4996,
+        "en": "to push a sharp, pointed object, especially a knife, into somebody, killing or injuring them"
+      },
+      {
+        "word": "whip",
+        "pos": "verb",
+        "rowIndex": 5822,
+        "en": "to hit a person or an animal hard with a whip, as a punishment or to make them go faster or work harder"
+      },
+      {
+        "word": "rock",
+        "pos": "verb",
+        "rowIndex": 4512,
+        "en": "to move gently backwards and forwards or from side to side; to make somebody/something move in this way"
+      },
+      {
+        "word": "tackle",
+        "pos": "noun",
+        "rowIndex": 5235,
+        "en": "an act of trying to take the ball from an opponent in football (soccer), hockey, etc.; an act of knocking somebody to the ground, for example in rugby or American football "
+      },
+      {
+        "word": "twist",
+        "pos": "noun",
+        "rowIndex": 5556,
+        "en": "the action of turning something with your hand, or of turning a part of your body"
+      },
+      {
+        "word": "peak",
+        "pos": "noun",
+        "rowIndex": 3803,
+        "en": "the point when somebody/something is best, most successful, strongest, etc."
+      },
+      {
+        "word": "ranking",
+        "pos": "noun",
+        "rowIndex": 4235,
+        "en": "the position of somebody/something on a scale that shows how good or important they are in relation to other similar people or things, especially in sport"
+      },
+      {
+        "word": "contender",
+        "pos": "noun",
+        "rowIndex": 1122,
+        "en": "a person or team with a chance of winning a competition"
+      },
+      {
+        "word": "amateur",
+        "pos": "adjective",
+        "rowIndex": 206,
+        "en": "doing something for pleasure or interest, not as a job"
+      },
+      {
+        "word": "amateur",
+        "pos": "noun",
+        "rowIndex": 207,
+        "en": "a person who takes part in a sport or other activity for pleasure, not as a job"
+      },
+      {
+        "word": "engagement",
+        "pos": "noun",
+        "rowIndex": 1795,
+        "en": "an agreement to marry somebody; the period during which two people are engaged"
+      }
+    ]
+  },
+  {
+    "slug": "c1s-risk",
+    "title": "When systems fail",
+    "order": 22,
+    "level": "C1",
+    "capacity": 29,
+    "targets": [
+      {
+        "word": "breakdown",
+        "pos": "noun",
+        "rowIndex": 637,
+        "en": "an occasion when a vehicle or machine stops working"
+      },
+      {
+        "word": "breach",
+        "pos": "noun",
+        "rowIndex": 632,
+        "en": "a failure to do something that must be done by law"
+      },
+      {
+        "word": "breach",
+        "pos": "verb",
+        "rowIndex": 633,
+        "en": "to not keep to an agreement or not keep a promise"
+      },
+      {
+        "word": "blast",
+        "pos": "noun",
+        "rowIndex": 568,
+        "en": "an explosion or a powerful movement of air caused by an explosion"
+      },
+      {
+        "word": "blast",
+        "pos": "verb",
+        "rowIndex": 569,
+        "en": "to violently destroy or break something into pieces, using explosives"
+      },
+      {
+        "word": "chaos",
+        "pos": "noun",
+        "rowIndex": 807,
+        "en": "a complete lack of order"
+      },
+      {
+        "word": "closure",
+        "pos": "noun",
+        "rowIndex": 910,
+        "en": "the situation when a factory, school, hospital, etc. shuts permanently"
+      },
+      {
+        "word": "disruption",
+        "pos": "noun",
+        "rowIndex": 1556,
+        "en": "a situation in which it is difficult for something to continue in the normal way; the act of stopping something from continuing in the normal way"
+      },
+      {
+        "word": "disrupt",
+        "pos": "verb",
+        "rowIndex": 1555,
+        "en": "to make it difficult for something to continue in the normal way"
+      },
+      {
+        "word": "disposal",
+        "pos": "noun",
+        "rowIndex": 1551,
+        "en": "the act of getting rid of something"
+      },
+      {
+        "word": "dispose",
+        "pos": "verb",
+        "rowIndex": 1552,
+        "en": "to arrange things or people in a particular way or position"
+      },
+      {
+        "word": "discard",
+        "pos": "verb",
+        "rowIndex": 1524,
+        "en": "to get rid of something that you no longer want or need"
+      },
+      {
+        "word": "dissolve",
+        "pos": "verb",
+        "rowIndex": 1557,
+        "en": "to mix with a liquid and become part of it"
+      },
+      {
+        "word": "crush",
+        "pos": "verb",
+        "rowIndex": 1272,
+        "en": "to press something so hard that it is damaged or injured, or loses its shape"
+      },
+      {
+        "word": "suspension",
+        "pos": "noun",
+        "rowIndex": 5204,
+        "en": "the act of officially removing somebody from their job, school, team, etc. for a period of time, usually as a punishment"
+      },
+      {
+        "word": "driving",
+        "pos": "adjective",
+        "rowIndex": 1645,
+        "en": "strong and powerful; having a strong influence in making something happen"
+      },
+      {
+        "word": "auto",
+        "pos": "noun",
+        "rowIndex": 395,
+        "en": "a car"
+      },
+      {
+        "word": "constraint",
+        "pos": "noun",
+        "rowIndex": 1105,
+        "en": "a thing that limits something, or limits your freedom to do something"
+      },
+      {
+        "word": "accelerate",
+        "pos": "verb",
+        "rowIndex": 24,
+        "en": "to happen faster or earlier; to make something happen faster or earlier"
+      },
+      {
+        "word": "deployment",
+        "pos": "noun",
+        "rowIndex": 1422,
+        "en": "the act of moving soldiers or weapons into a position where they are ready for military action"
+      },
+      {
+        "word": "deploy",
+        "pos": "verb",
+        "rowIndex": 1421,
+        "en": "to move soldiers or weapons into a position where they are ready for military action"
+      },
+      {
+        "word": "assurance",
+        "pos": "noun",
+        "rowIndex": 359,
+        "en": "a statement that something will certainly be true or will certainly happen, particularly when there has been doubt about it"
+      },
+      {
+        "word": "reassure",
+        "pos": "verb",
+        "rowIndex": 4273,
+        "en": "to say or do something that makes somebody less frightened or worried"
+      },
+      {
+        "word": "outrage",
+        "pos": "verb",
+        "rowIndex": 3691,
+        "en": "to make somebody very shocked and angry"
+      },
+      {
+        "word": "distress",
+        "pos": "verb",
+        "rowIndex": 1567,
+        "en": "to make somebody feel very worried or unhappy"
+      },
+      {
+        "word": "distress",
+        "pos": "noun",
+        "rowIndex": 1566,
+        "en": "a feeling of great worry or unhappiness; great mental pain"
+      },
+      {
+        "word": "disturbing",
+        "pos": "adjective",
+        "rowIndex": 1572,
+        "en": "making you feel anxious and upset or shocked"
+      },
+      {
+        "word": "fine",
+        "pos": "verb",
+        "rowIndex": 2099,
+        "en": "to make somebody pay money as an official punishment"
+      },
+      {
+        "word": "overturn",
+        "pos": "verb",
+        "rowIndex": 3710,
+        "en": "if something overturns, or if somebody overturns it, it turns into a position in which the top of it is where the bottom of it normally is or on its side"
+      }
+    ]
+  },
+  {
+    "slug": "c1s-design",
+    "title": "Decisions hidden in designs",
+    "order": 23,
+    "level": "C1",
+    "capacity": 29,
+    "targets": [
+      {
+        "word": "layout",
+        "pos": "noun",
+        "rowIndex": 2974,
+        "en": "the way in which the parts of something such as the page of a book, a website, a garden or a building are arranged"
+      },
+      {
+        "word": "pad",
+        "pos": "noun",
+        "rowIndex": 3727,
+        "en": "a thick piece of soft material that is used, for example, for cleaning or protecting something or for holding liquid"
+      },
+      {
+        "word": "bench",
+        "pos": "noun",
+        "rowIndex": 510,
+        "en": "a long seat for two or more people, usually made of wood"
+      },
+      {
+        "word": "chunk",
+        "pos": "noun",
+        "rowIndex": 853,
+        "en": "a thick, solid piece that has been cut or broken off something"
+      },
+      {
+        "word": "strip",
+        "pos": "noun",
+        "rowIndex": 5086,
+        "en": "a long narrow piece of paper, metal, cloth, etc."
+      },
+      {
+        "word": "bare",
+        "pos": "adjective",
+        "rowIndex": 446,
+        "en": "not covered by any clothes"
+      },
+      {
+        "word": "trail",
+        "pos": "noun",
+        "rowIndex": 5472,
+        "en": "a long line or series of marks that is left by somebody/something"
+      },
+      {
+        "word": "trail",
+        "pos": "verb",
+        "rowIndex": 5473,
+        "en": "to pull something behind somebody/something, usually along the ground; to be pulled along in this way"
+      },
+      {
+        "word": "shrink",
+        "pos": "verb",
+        "rowIndex": 4765,
+        "en": "to become smaller, especially when washed in water that is too hot; to make clothes, cloth, etc. smaller in this way"
+      },
+      {
+        "word": "render",
+        "pos": "verb",
+        "rowIndex": 4380,
+        "en": "to cause somebody/something to be in a particular state or condition"
+      },
+      {
+        "word": "manipulate",
+        "pos": "verb",
+        "rowIndex": 3187,
+        "en": "to control or influence somebody/something, often in a dishonest way so that they do not realize it"
+      },
+      {
+        "word": "manipulation",
+        "pos": "noun",
+        "rowIndex": 3188,
+        "en": "behaviour that controls or influences somebody/something, often in a dishonest way so that they do not realize it"
+      },
+      {
+        "word": "overwhelm",
+        "pos": "verb",
+        "rowIndex": 3711,
+        "en": "to have such a strong emotional effect on somebody that it is difficult for them to resist or know how to react"
+      },
+      {
+        "word": "tempt",
+        "pos": "verb",
+        "rowIndex": 5284,
+        "en": "to attract somebody or make somebody want to do or have something, even if they know it is wrong"
+      },
+      {
+        "word": "cater",
+        "pos": "verb",
+        "rowIndex": 767,
+        "en": "to provide food and drinks for a social event"
+      },
+      {
+        "word": "blend",
+        "pos": "noun",
+        "rowIndex": 571,
+        "en": "a mixture of different types of the same thing"
+      },
+      {
+        "word": "blend",
+        "pos": "verb",
+        "rowIndex": 572,
+        "en": "to mix two or more substances together"
+      },
+      {
+        "word": "complement",
+        "pos": "verb",
+        "rowIndex": 1007,
+        "en": "to add to something in a way that improves it or makes it more attractive"
+      },
+      {
+        "word": "complexity",
+        "pos": "noun",
+        "rowIndex": 1014,
+        "en": "the state of being formed of many parts; the state of being difficult to understand"
+      },
+      {
+        "word": "adjustment",
+        "pos": "noun",
+        "rowIndex": 93,
+        "en": "a small change made to something in order to correct or improve it"
+      },
+      {
+        "word": "dual",
+        "pos": "adjective",
+        "rowIndex": 1656,
+        "en": "having two parts or aspects"
+      },
+      {
+        "word": "appealing",
+        "pos": "adjective",
+        "rowIndex": 272,
+        "en": "attractive or interesting"
+      },
+      {
+        "word": "desirable",
+        "pos": "adjective",
+        "rowIndex": 1443,
+        "en": "that you would like to have or do; worth having or doing"
+      },
+      {
+        "word": "favourable",
+        "pos": "adjective",
+        "rowIndex": 2040,
+        "en": "making people have a good opinion of somebody/something"
+      },
+      {
+        "word": "consolidate",
+        "pos": "verb",
+        "rowIndex": 1097,
+        "en": "to make a position of power or success stronger so that it is more likely to continue"
+      },
+      {
+        "word": "lobby",
+        "pos": "noun",
+        "rowIndex": 3097,
+        "en": "a large area inside the entrance of a public building where people can meet and wait"
+      },
+      {
+        "word": "vibrant",
+        "pos": "adjective",
+        "rowIndex": 5687,
+        "en": "full of life and energy"
+      },
+      {
+        "word": "spare",
+        "pos": "verb",
+        "rowIndex": 4929,
+        "en": "to make something such as time or money available to somebody or for something, especially when it requires an effort for you to do this"
+      },
+      {
+        "word": "dilemma",
+        "pos": "noun",
+        "rowIndex": 1495,
+        "en": "a situation that makes problems, often one in which you have to make a very difficult choice between things of equal importance"
+      }
+    ]
+  },
+  {
+    "slug": "c1s-discovery",
+    "title": "The long road to discovery",
+    "order": 24,
+    "level": "C1",
+    "capacity": 29,
+    "targets": [
+      {
+        "word": "curiosity",
+        "pos": "noun",
+        "rowIndex": 1286,
+        "en": "a strong desire to know about something"
+      },
+      {
+        "word": "breakthrough",
+        "pos": "noun",
+        "rowIndex": 639,
+        "en": "an important development that may lead to an agreement or achievement"
+      },
+      {
+        "word": "countless",
+        "pos": "adjective",
+        "rowIndex": 1212,
+        "en": "very many; too many to be counted or mentioned"
+      },
+      {
+        "word": "influential",
+        "pos": "adjective",
+        "rowIndex": 2712,
+        "en": "having a lot of influence on somebody/something"
+      },
+      {
+        "word": "involvement",
+        "pos": "noun",
+        "rowIndex": 2840,
+        "en": "the act of taking part in something or dealing with somebody"
+      },
+      {
+        "word": "collaborate",
+        "pos": "verb",
+        "rowIndex": 934,
+        "en": "to work together with somebody in order to produce or achieve something"
+      },
+      {
+        "word": "collaboration",
+        "pos": "noun",
+        "rowIndex": 935,
+        "en": "the act of working with another person or group of people to create or produce something"
+      },
+      {
+        "word": "cooperate",
+        "pos": "verb",
+        "rowIndex": 1167,
+        "en": "to work together with somebody else in order to achieve something"
+      },
+      {
+        "word": "cooperative",
+        "pos": "adjective",
+        "rowIndex": 1168,
+        "en": "involving doing something together or working together with others towards a shared aim"
+      },
+      {
+        "word": "collective",
+        "pos": "adjective",
+        "rowIndex": 941,
+        "en": "done or shared by all members of a group of people; involving a whole group or society"
+      },
+      {
+        "word": "consecutive",
+        "pos": "adjective",
+        "rowIndex": 1079,
+        "en": "following one after another in a continuous series "
+      },
+      {
+        "word": "continually",
+        "pos": "adverb",
+        "rowIndex": 1130,
+        "en": "in a way that is repeated many times so that it is annoying"
+      },
+      {
+        "word": "commence",
+        "pos": "verb",
+        "rowIndex": 966,
+        "en": "to begin to happen; to begin something"
+      },
+      {
+        "word": "coincide",
+        "pos": "verb",
+        "rowIndex": 930,
+        "en": "to take place at the same time"
+      },
+      {
+        "word": "emergence",
+        "pos": "noun",
+        "rowIndex": 1756,
+        "en": "the fact of somebody/something moving out of or away from something and becoming possible to see"
+      },
+      {
+        "word": "encompass",
+        "pos": "verb",
+        "rowIndex": 1775,
+        "en": "to include a large number or range of things"
+      },
+      {
+        "word": "compile",
+        "pos": "verb",
+        "rowIndex": 1004,
+        "en": "to produce a book, list, report, etc. by bringing together different items, articles, songs, etc.; to collect information in order to produce a book, list, etc."
+      },
+      {
+        "word": "exert",
+        "pos": "verb",
+        "rowIndex": 1922,
+        "en": "to use power or influence to affect somebody/something"
+      },
+      {
+        "word": "defy",
+        "pos": "verb",
+        "rowIndex": 1385,
+        "en": "to refuse to obey or show respect for somebody in authority, a law, a rule, etc."
+      },
+      {
+        "word": "defensive",
+        "pos": "adjective",
+        "rowIndex": 1378,
+        "en": "protecting somebody/something against attack"
+      },
+      {
+        "word": "denial",
+        "pos": "noun",
+        "rowIndex": 1408,
+        "en": "a statement that something is not true or does not exist; the action of denying something"
+      },
+      {
+        "word": "idiot",
+        "pos": "noun",
+        "rowIndex": 2616,
+        "en": "a rude way to refer to somebody who you think is very stupid"
+      },
+      {
+        "word": "alien",
+        "pos": "adjective",
+        "rowIndex": 169,
+        "en": "strange and frightening; different from what you are used to"
+      },
+      {
+        "word": "bizarre",
+        "pos": "adjective",
+        "rowIndex": 559,
+        "en": "very strange or unusual"
+      },
+      {
+        "word": "mere",
+        "pos": "adjective",
+        "rowIndex": 3285,
+        "en": "used when you want to emphasize how small, unimportant, etc. somebody/something is"
+      },
+      {
+        "word": "solely",
+        "pos": "adverb",
+        "rowIndex": 4885,
+        "en": "only; not involving somebody/something else"
+      },
+      {
+        "word": "arguably",
+        "pos": "adverb",
+        "rowIndex": 301,
+        "en": "used (often before a comparative or superlative adjective) when you are stating an opinion that you believe you could give reasons to support"
+      },
+      {
+        "word": "albeit",
+        "pos": "conjunction",
+        "rowIndex": 162,
+        "en": "although"
+      },
+      {
+        "word": "amid",
+        "pos": "preposition",
+        "rowIndex": 216,
+        "en": "in the middle of or during something, especially something that causes excitement or fear"
+      }
+    ]
+  }
+]

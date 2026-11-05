@@ -1,0 +1,590 @@
+[
+  {
+    "slug": "b2s-medicine",
+    "level": "B2",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "b2s-food",
+    "level": "B2",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "b2s-evolution",
+    "level": "B2",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "b2s-sea",
+    "level": "B2",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "b2s-fields",
+    "level": "B2",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "b2s-electricity",
+    "level": "B2",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "b2s-computing",
+    "level": "B2",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "b2s-flight",
+    "level": "B2",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "b2s-routes",
+    "level": "B2",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "b2s-space",
+    "level": "B2",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "b2s-disaster",
+    "level": "B2",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "b2s-rescue",
+    "level": "B2",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "b2s-buildings",
+    "level": "B2",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "b2s-perception",
+    "level": "B2",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "b2s-evidence",
+    "level": "B2",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "b2s-chance",
+    "level": "B2",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "b2s-media",
+    "level": "B2",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "b2s-performance",
+    "level": "B2",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "b2s-markets",
+    "level": "B2",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "b2s-civic",
+    "level": "B2",
+    "status": "ready",
+    "words": 29
+  },
+  {
+    "slug": "b2s-sport",
+    "level": "B2",
+    "status": "ready",
+    "words": 29
+  },
+  {
+    "slug": "b2s-migration",
+    "level": "B2",
+    "status": "ready",
+    "words": 29
+  },
+  {
+    "slug": "b2s-feelings",
+    "level": "B2",
+    "status": "ready",
+    "words": 29
+  },
+  {
+    "slug": "b2s-nature",
+    "level": "B2",
+    "status": "ready",
+    "words": 29
+  },
+  {
+    "slug": "b2s-cooperation",
+    "level": "B2",
+    "status": "ready",
+    "words": 29
+  },
+  {
+    "slug": "b2c-money",
+    "level": "B2",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "b2c-work",
+    "level": "B2",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "b2c-rights",
+    "level": "B2",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "b2c-migration",
+    "level": "B2",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "b2c-government",
+    "level": "B2",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "b2c-justice",
+    "level": "B2",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "b2c-conflict",
+    "level": "B2",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "b2c-emergency",
+    "level": "B2",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "b2c-learning",
+    "level": "B2",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "b2c-media",
+    "level": "B2",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "b2c-fiction",
+    "level": "B2",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "b2c-music",
+    "level": "B2",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "b2c-screen",
+    "level": "B2",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "b2c-collections",
+    "level": "B2",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "b2c-sport",
+    "level": "B2",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "b2c-travel",
+    "level": "B2",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "b2c-evidence",
+    "level": "B2",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "b2c-feelings",
+    "level": "B2",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "b2c-health",
+    "level": "B2",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "b2c-nature",
+    "level": "B2",
+    "status": "ready",
+    "words": 29
+  },
+  {
+    "slug": "b2c-design",
+    "level": "B2",
+    "status": "ready",
+    "words": 29
+  },
+  {
+    "slug": "b2c-innovation",
+    "level": "B2",
+    "status": "ready",
+    "words": 29
+  },
+  {
+    "slug": "b2c-choices",
+    "level": "B2",
+    "status": "ready",
+    "words": 29
+  },
+  {
+    "slug": "b2c-connection",
+    "level": "B2",
+    "status": "ready",
+    "words": 29
+  },
+  {
+    "slug": "b2c-change",
+    "level": "B2",
+    "status": "ready",
+    "words": 29
+  },
+  {
+    "slug": "c1s-water",
+    "level": "C1",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "c1s-voyages",
+    "level": "C1",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "c1s-computing",
+    "level": "C1",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "c1s-farming",
+    "level": "C1",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "c1s-wildlife",
+    "level": "C1",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "c1s-outbreaks",
+    "level": "C1",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "c1s-body",
+    "level": "C1",
+    "status": "ready",
+    "words": 29
+  },
+  {
+    "slug": "c1s-light",
+    "level": "C1",
+    "status": "ready",
+    "words": 29
+  },
+  {
+    "slug": "c1s-making",
+    "level": "C1",
+    "status": "ready",
+    "words": 29
+  },
+  {
+    "slug": "c1s-heritage",
+    "level": "C1",
+    "status": "ready",
+    "words": 29
+  },
+  {
+    "slug": "c1s-learning",
+    "level": "C1",
+    "status": "ready",
+    "words": 29
+  },
+  {
+    "slug": "c1s-justice",
+    "level": "C1",
+    "status": "ready",
+    "words": 29
+  },
+  {
+    "slug": "c1s-rights",
+    "level": "C1",
+    "status": "ready",
+    "words": 29
+  },
+  {
+    "slug": "c1s-war",
+    "level": "C1",
+    "status": "ready",
+    "words": 29
+  },
+  {
+    "slug": "c1s-government",
+    "level": "C1",
+    "status": "ready",
+    "words": 29
+  },
+  {
+    "slug": "c1s-organization",
+    "level": "C1",
+    "status": "ready",
+    "words": 29
+  },
+  {
+    "slug": "c1s-commerce",
+    "level": "C1",
+    "status": "ready",
+    "words": 29
+  },
+  {
+    "slug": "c1s-reasoning",
+    "level": "C1",
+    "status": "ready",
+    "words": 29
+  },
+  {
+    "slug": "c1s-voices",
+    "level": "C1",
+    "status": "ready",
+    "words": 29
+  },
+  {
+    "slug": "c1s-belief",
+    "level": "C1",
+    "status": "ready",
+    "words": 29
+  },
+  {
+    "slug": "c1s-performance",
+    "level": "C1",
+    "status": "ready",
+    "words": 29
+  },
+  {
+    "slug": "c1s-risk",
+    "level": "C1",
+    "status": "ready",
+    "words": 29
+  },
+  {
+    "slug": "c1s-design",
+    "level": "C1",
+    "status": "ready",
+    "words": 29
+  },
+  {
+    "slug": "c1s-discovery",
+    "level": "C1",
+    "status": "ready",
+    "words": 29
+  },
+  {
+    "slug": "c1c-ballot",
+    "level": "C1",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "c1c-court",
+    "level": "C1",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "c1c-rumour",
+    "level": "C1",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "c1c-migration",
+    "level": "C1",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "c1c-peace",
+    "level": "C1",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "c1c-protest",
+    "level": "C1",
+    "status": "ready",
+    "words": 30
+  },
+  {
+    "slug": "c1c-homes",
+    "level": "C1",
+    "status": "ready",
+    "words": 29
+  },
+  {
+    "slug": "c1c-education",
+    "level": "C1",
+    "status": "ready",
+    "words": 29
+  },
+  {
+    "slug": "c1c-pages",
+    "level": "C1",
+    "status": "ready",
+    "words": 29
+  },
+  {
+    "slug": "c1c-cinema",
+    "level": "C1",
+    "status": "ready",
+    "words": 29
+  },
+  {
+    "slug": "c1c-music",
+    "level": "C1",
+    "status": "ready",
+    "words": 29
+  },
+  {
+    "slug": "c1c-faith",
+    "level": "C1",
+    "status": "ready",
+    "words": 29
+  },
+  {
+    "slug": "c1c-enterprise",
+    "level": "C1",
+    "status": "ready",
+    "words": 29
+  },
+  {
+    "slug": "c1c-market",
+    "level": "C1",
+    "status": "ready",
+    "words": 29
+  },
+  {
+    "slug": "c1c-transport",
+    "level": "C1",
+    "status": "ready",
+    "words": 29
+  },
+  {
+    "slug": "c1c-reason",
+    "level": "C1",
+    "status": "ready",
+    "words": 29
+  },
+  {
+    "slug": "c1c-care",
+    "level": "C1",
+    "status": "ready",
+    "words": 29
+  },
+  {
+    "slug": "c1c-hazards",
+    "level": "C1",
+    "status": "ready",
+    "words": 29
+  },
+  {
+    "slug": "c1c-structures",
+    "level": "C1",
+    "status": "ready",
+    "words": 29
+  },
+  {
+    "slug": "c1c-sport",
+    "level": "C1",
+    "status": "ready",
+    "words": 29
+  },
+  {
+    "slug": "c1c-inventions",
+    "level": "C1",
+    "status": "ready",
+    "words": 29
+  },
+  {
+    "slug": "c1c-relief",
+    "level": "C1",
+    "status": "ready",
+    "words": 29
+  },
+  {
+    "slug": "c1c-choices",
+    "level": "C1",
+    "status": "ready",
+    "words": 29
+  },
+  {
+    "slug": "c1c-perspective",
+    "level": "C1",
+    "status": "ready",
+    "words": 29
+  }
+]

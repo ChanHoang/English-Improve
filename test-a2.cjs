@@ -3,7 +3,7 @@ const html=fs.readFileSync('index.html','utf8'),rows=JSON.parse(html.match(/<scr
 const lessons=require('./readings-v3.json'),old=require('./readings-before-a2.json'),a2=lessons.filter(l=>l.level==='A2'),added=lessons.filter(l=>l.id.startsWith('a2-'));
 const expected=rows.flatMap((r,i)=>r.level==='A2'?[i]:[]),actual=[...new Set(a2.flatMap(l=>l.targets.map(t=>t.rowIndex)))].sort((a,b)=>a-b);
 assert.deepEqual(actual,expected);assert.equal(a2.length,72);assert.equal(added.length,66);
-assert.deepEqual(lessons.filter(l=>! /^(a2|b1)-/.test(l.id)),old);
+assert.deepEqual(lessons.filter(l=>! /^(a2|b1|b2[sc]|c1[sc])-/.test(l.id)),old);
 const groupRows=new Set(),questionIds=new Set(),grammarIds=new Set();
 for(const l of a2){
  assert(l.targets.length>=25&&l.targets.length<=30);

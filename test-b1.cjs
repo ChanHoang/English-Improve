@@ -1,7 +1,7 @@
 const fs=require('fs'),assert=require('assert/strict');
 const html=fs.readFileSync('index.html','utf8'),rows=JSON.parse(html.match(/<script id="bundle" type="application\/json">([^<]*)<\/script>/)[1]);
 const lessons=require('./readings-v3.json'),old=require('./readings-before-b1.json'),b1=lessons.filter(l=>l.level==='B1'),added=b1.filter(l=>l.id.startsWith('b1-'));
-assert.deepEqual(lessons.filter(l=>!l.id.startsWith('b1-')),old,'preserve all 88 old lessons and saved answer positions');
+assert.deepEqual(lessons.filter(l=>!/^(b1|b2[sc]|c1[sc])-/.test(l.id)),old,'preserve all 88 old lessons and saved answer positions');
 assert.equal(b1.length,68);assert.equal(added.length,64);assert.equal(new Set(b1.map(l=>l.group)).size,34);
 const expected=rows.flatMap((r,i)=>r.level==='B1'?[i]:[]),actual=[...new Set(b1.flatMap(l=>l.targets.filter(t=>t.level==='B1').map(t=>t.rowIndex)))].sort((a,b)=>a-b);
 assert.deepEqual(actual,expected);assert.equal(actual.length,902);
