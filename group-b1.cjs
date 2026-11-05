@@ -1,0 +1,38 @@
+const fs=require('fs'),all=require('./b1-unassigned.json'),used=new Set();
+const seeds=[
+['ice','Against the ice','expedition|captain|brave|remote|frozen|freeze|rope|tent|sailor|sail|sink|escape|rescue|calm|survive|emergency|safety|risk|prepared|unable|fear|frightened|frightening|warn|warning'],
+['volcano','When the sky changed','explode|explosion|earthquake|atmosphere|dust|giant|ash|layer|soil|surface|deep|edge|sudden|impact|global|worldwide|environmental|suffer|loss|damage|heavily|eventually'],
+['weather','Reading a restless sky','hurricane|prediction|signal|pressure|flood|flow|measure|diagram|scientific|analysis|analyse|average|approximately|statistic|indicate|current|currently|expected|obvious|obviously|determine|definite'],
+['power','Power that changed work','coal|fuel|heating|engineering|pipe|tube|force|pull|push|operation|function|production|development|improvement|effective|effectively|continuous|expand|technical|technique|practical|basic|basis|essential'],
+['bridges','Connecting two sides','chain|iron|strength|length|bend|block|balance|level|fixed|tight|rough|smooth|heavy|construction|connection|challenge|achievement|effort|experienced|responsibility|responsible|require|within'],
+['travel','Journeys with new beginnings','arrival|departure|destination|board|accommodation|reservation|rent|hire|luggage|package|luxury|convenient|direct|directly|transport|immigrant|native|border|port|journey|aboard'],
+['navigation','Finding a way across','eastern|western|northern|southern|compass|channel|path|locate|located|head|ahead|backwards|far|further|distance|map|route|guide|planning|organized|organizer|duty|guard|authority|official|permission'],
+['flight','Learning to leave the ground','wing|helicopter|flight|experiment|laboratory|sample|weigh|breath|breathe|breathing|height|breathe|injure|injured|careless|sensible|limit|trial|prove|conclude|conclusion|doubt|theory'],
+['sport','More than winning','champion|competitor|competitive|coach|fitness|muscle|kick|rugby|stadium|racing|win|go|climb|swim|participate|award|supporter|fair|unfair|qualify|qualified|qualification|talent|talented'],
+['music','Sounds that travel','album|drum|folk|musical|live|performance|studio|record|tape|string|entertain|entertainment|producer|release|popular|band|song|rhythm|passion|pleasure|pleasant|loud|silent'],
+['cinema','Stories on a screen','documentary|episode|script|plot|narrative|setting|theme|viewer|view|feature|version|original|originally|imaginary|reality|pretend|magic|ghost|horror|frighten|horrible|exciting'],
+['images','Seeing through a new lens','photographer|photography|portrait|sculpture|frame|beauty|coloured|shiny|shine|reflect|light|dark|still|sight|impression|impressive|admire|appreciate|highlight|contrast|comparison|similarity|similarly'],
+['writing','Ideas between the lines','literature|poem|poet|poetry|chapter|printing|written|spoken|translate|translation|quotation|quote|reference|journal|editor|headline|press|content|summary|summarize|mention|note|publish'],
+['learning','Who gets to learn','academic|campus|graduate|grade|assignment|educate|educated|educational|primary|secondary|advanced|intelligence|concentrate|revise|define|definition|clause|knowledge|access|equal|equally|youth|young'],
+['digital','Machines that follow instructions','IT|software|program|keyboard|key|type|file|scan|click|update|robot|battery|switch|charge|communication|information|connect|security|private|identity|secret|code'],
+['money','What a price can hide','coin|currency|exchange|financial|economic|economy|profit|invest|payment|receipt|tax|spending|discount|afford|cheap|value|worth|cost|total|percentage|amount|double'],
+['business','From an idea to a livelihood','brand|market|marketing|consumer|consume|goods|commercial|ad|client|agent|management|employment|unemployed|unemployment|profession|application|appointment|staff|retire|retired|contract'],
+['trade','Objects crossing oceans','trade|import|export|silk|cotton|wool|leather|cloth|grain|container|pack|deliver|supply|resource|mine|diamond|rare|spice|trading|historic|world|range|various|mainly'],
+['kitchen','Food with a clever process','bake|flour|ingredient|mix|mixture|fry|pan|pot|pour|powder|slice|tin|cool|warm|liquid|solid|bubble|chemical|substance|alcohol|alcoholic|spicy'],
+['home','The changing home','ceiling|curtain|shelf|cottage|garage|yard|fence|pipe|nail|pin|needle|lay|hang|fold|fasten|decorate|repair|property|neighbourhood|local|countryside|indoor|indoors|outdoor|outdoors'],
+['style','Clothes and belonging','fashionable|old-fashioned|costume|dressed|cap|glove|underwear|cream|fancy|suit|suitable|uncomfortable|comfortable|unpleasant|pale|ugly|appearance|trend|custom|ceremony|celebration|occasion'],
+['body','What the body reveals','chest|lip|throat|tongue|toe|symptom|treatment|treat|painful|mild|poison|poisonous|bite|killing|age|aged|generation|living|mental|health|medicine'],
+['nature','Lives with surprising designs','fur|tail|shell|leaf|seed|net|hunt|animal|creature|living|environment|water|sand|dirt|mud|waste|pollution|forest|plant|growth|natural|naturally'],
+['friendship','People finding common ground','friendship|lonely|stranger|shy|gentle|kind|generous|grateful|glad|cheerful|happiness|emotion|mood|relaxed|relaxing|attitude|respect|favour|host|gentleman|marriage|bride|engaged|romantic|kiss'],
+['rights','Voices asking for change','campaign|protest|vote|election|candidate|political|politician|politics|policy|nation|state|union|ban|legal|illegal|freedom|speech|unfair|equal|right'],
+['justice','Evidence before a verdict','arrest|court|judge|guilty|innocent|criminal|prisoner|punish|punishment|commit|murder|victim|violent|investigate|claim|lie|truth|honest|cheat|evidence'],
+['conflict','Remembering conflict','battle|bomb|weapon|fire|shoot|enemy|fighting|cruel|prince|princess|royal|rule|servant|peaceful|religion|religious|priest|pray|prayer|belief|spirit|loss'],
+['help','Turning care into action','volunteer|donate|assist|encourage|advise|recommendation|request|contact|announcement|announce|confirm|agreement|intention|intend|aim|ambition|ambitious|poverty|community'],
+['choices','Learning from a mistake','admit|apologize|complaint|complain|annoy|annoyed|annoying|bother|dislike|hate|embarrassed|embarrassing|disappointed|disappointing|upset|worry|confuse|confused|confident|aware|ignore|reject'],
+['ideas','Testing a good-sounding idea','convince|persuade|argument|point|comment|suggest|debate|challenge|consequence|disadvantage|importance|influence|relate|related|relation|relative|result|addition|combine|divide|separate|category'],
+['everyday','Small actions with larger meanings','attach|clear|empty|hand|place|press|roll|sort|spread|stick|slow|centre|label|touch|cut|drop|knock|shake|wave|tip|account|act|move|set'],
+['curiosity','Learning to ask better questions','wonder|amazed|amazing|proud|keen|determined|silly|mad|trick|smart|powerful|central|familiar|leading|latest|normal|standard|prepared|proper|properly|reliable|unnecessary|unlikely']
+];
+const plan=seeds.map(([slug,title,words],i)=>{const targets=[];for(const word of words.split('|'))for(const t of all)if(t.word.toLowerCase()===word.toLowerCase()&&!used.has(t.rowIndex)&&targets.length<(i<9?28:27)){targets.push(t);used.add(t.rowIndex)}return {slug,title,order:i+3,capacity:i<9?28:27,targets}});
+fs.writeFileSync('b1-plan.json',JSON.stringify(plan,null,2));fs.writeFileSync('b1-left.json',JSON.stringify(all.filter(t=>!used.has(t.rowIndex)),null,2));
+console.log(plan.map(p=>p.slug+' '+p.targets.length+'/'+p.capacity).join('\n'));console.log('Left',all.length-used.size,all.filter(t=>!used.has(t.rowIndex)).map(t=>t.word+':'+t.pos).join('|'));

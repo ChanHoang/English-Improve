@@ -1,0 +1,926 @@
+[
+  {
+    "id": "wright",
+    "level": "A2",
+    "title": "Mười hai giây mở ra một hành trình mới",
+    "englishTitle": "Twelve Seconds in the Air",
+    "hook": "Một chuyến bay chỉ dài 12 giây có thể quan trọng như thế nào?",
+    "note": "Từ hỗ trợ: aircraft = máy bay; powered flight = chuyến bay có động cơ; wing = cánh máy bay. Một số câu hỏi trong bài là lời dẫn của người biên soạn.",
+    "paragraphs": [
+      [
+        "How do you invent something that can fly? You need more than a dream. You need an engine, equipment, and a way to control your machine. An engineer must think about its shape, its weight, and the direction in which it will move. These are useful questions for understanding the work of Wilbur and Orville Wright.",
+        "Làm sao phát minh ra một thứ có thể bay? Bạn cần nhiều hơn một giấc mơ. Bạn cần động cơ, thiết bị và cách điều khiển cỗ máy. Một kỹ sư phải nghĩ về hình dạng, trọng lượng và hướng chuyển động của nó. Những câu hỏi này giúp ta hiểu công việc của Wilbur và Orville Wright."
+      ],
+      [
+        "The brothers worked for several years to develop their invention. Each experiment helped them learn. The purpose was not simply to leave the ground. A pilot also needed control in the air. If the speed or direction was wrong, the flight could end badly. Careful work mattered more than a quick record.",
+        "Hai anh em làm việc trong nhiều năm để phát triển phát minh. Mỗi thí nghiệm giúp họ học thêm. Mục đích không đơn giản chỉ là rời mặt đất. Phi công còn cần điều khiển máy bay trên không. Nếu tốc độ hoặc hướng bay sai, chuyến bay có thể kết thúc tồi tệ. Làm việc cẩn thận quan trọng hơn một kỷ lục chóng vánh."
+      ],
+      [
+        "They had to repair the aircraft after an unsuccessful attempt. Finally, on December 17, 1903, Orville made a successful powered flight near Kitty Hawk, North Carolina. The wind was strong. The flight lasted twelve seconds and covered a distance of 120 feet, about 37 metres. Later that day, Wilbur stayed in the air for 59 seconds.",
+        "Họ phải sửa máy bay sau một lần thử không thành công. Cuối cùng, ngày 17 tháng 12 năm 1903, Orville thực hiện chuyến bay có động cơ thành công gần Kitty Hawk, Bắc Carolina. Gió mạnh. Chuyến bay kéo dài 12 giây, đi được 120 foot, khoảng 37 mét. Sau đó trong cùng ngày, Wilbur ở trên không 59 giây."
+      ],
+      [
+        "Think about the materials and technology behind such a machine: wood, metal, an engine, and a careful design. Its shape helped it lift into the air. The first flight was short, but the problem was large. Study the story carefully and you see a process of learning, testing, and trying again.",
+        "Hãy nghĩ về vật liệu và công nghệ đằng sau một cỗ máy như vậy: gỗ, kim loại, động cơ và thiết kế cẩn thận. Hình dạng giúp nó nâng lên không trung. Chuyến bay đầu ngắn, nhưng vấn đề cần giải quyết lớn. Tìm hiểu kỹ câu chuyện, bạn sẽ thấy một quá trình học hỏi, thử nghiệm và thử lại."
+      ]
+    ],
+    "targets": [
+      {
+        "word": "invent",
+        "pos": "verb",
+        "vi": "phát minh",
+        "en": "to create something new",
+        "rowIndex": 2826,
+        "level": "A2",
+        "occurrence": {
+          "p": 0,
+          "start": 11,
+          "end": 17,
+          "text": "invent"
+        }
+      },
+      {
+        "word": "dream",
+        "pos": "noun",
+        "vi": "ước mơ",
+        "en": "something you strongly hope to achieve",
+        "rowIndex": 1634,
+        "level": "A2",
+        "occurrence": {
+          "p": 0,
+          "start": 63,
+          "end": 68,
+          "text": "dream"
+        }
+      },
+      {
+        "word": "engine",
+        "pos": "noun",
+        "vi": "động cơ",
+        "en": "a machine that provides power",
+        "rowIndex": 1797,
+        "level": "A2",
+        "occurrence": {
+          "p": 0,
+          "start": 82,
+          "end": 88,
+          "text": "engine"
+        }
+      },
+      {
+        "word": "equipment",
+        "pos": "noun",
+        "vi": "thiết bị",
+        "en": "the things needed for an activity",
+        "rowIndex": 1840,
+        "level": "A2",
+        "occurrence": {
+          "p": 0,
+          "start": 90,
+          "end": 99,
+          "text": "equipment"
+        }
+      },
+      {
+        "word": "control",
+        "pos": "noun",
+        "vi": "sự điều khiển",
+        "en": "the ability to direct how something moves",
+        "rowIndex": 1144,
+        "level": "A2",
+        "occurrence": {
+          "p": 1,
+          "start": 169,
+          "end": 176,
+          "text": "control"
+        }
+      },
+      {
+        "word": "engineer",
+        "pos": "noun",
+        "vi": "kỹ sư",
+        "en": "a person who designs or builds technical systems",
+        "rowIndex": 1798,
+        "level": "A2",
+        "occurrence": {
+          "p": 0,
+          "start": 139,
+          "end": 147,
+          "text": "engineer"
+        }
+      },
+      {
+        "word": "shape",
+        "pos": "noun",
+        "vi": "hình dạng",
+        "en": "the form of an object",
+        "rowIndex": 4716,
+        "level": "A2",
+        "occurrence": {
+          "p": 0,
+          "start": 169,
+          "end": 174,
+          "text": "shape"
+        }
+      },
+      {
+        "word": "weight",
+        "pos": "noun",
+        "vi": "trọng lượng",
+        "en": "how heavy something is",
+        "rowIndex": 5782,
+        "level": "A2",
+        "occurrence": {
+          "p": 0,
+          "start": 180,
+          "end": 186,
+          "text": "weight"
+        }
+      },
+      {
+        "word": "direction",
+        "pos": "noun",
+        "vi": "hướng",
+        "en": "the way something moves towards",
+        "rowIndex": 1505,
+        "level": "A2",
+        "occurrence": {
+          "p": 0,
+          "start": 196,
+          "end": 205,
+          "text": "direction"
+        }
+      },
+      {
+        "word": "several",
+        "pos": "determiner",
+        "vi": "một vài, nhiều hơn hai",
+        "en": "more than two but not a large number",
+        "rowIndex": 4701,
+        "level": "A2",
+        "occurrence": {
+          "p": 1,
+          "start": 24,
+          "end": 31,
+          "text": "several"
+        }
+      },
+      {
+        "word": "develop",
+        "pos": "verb",
+        "vi": "phát triển",
+        "en": "to make something more advanced or useful",
+        "rowIndex": 1468,
+        "level": "A2",
+        "occurrence": {
+          "p": 1,
+          "start": 41,
+          "end": 48,
+          "text": "develop"
+        }
+      },
+      {
+        "word": "invention",
+        "pos": "noun",
+        "vi": "phát minh",
+        "en": "a new thing someone has created",
+        "rowIndex": 2827,
+        "level": "A2",
+        "occurrence": {
+          "p": 1,
+          "start": 55,
+          "end": 64,
+          "text": "invention"
+        }
+      },
+      {
+        "word": "experiment",
+        "pos": "noun",
+        "vi": "thí nghiệm",
+        "en": "a test used to learn how something works",
+        "rowIndex": 1944,
+        "level": "A2",
+        "occurrence": {
+          "p": 1,
+          "start": 71,
+          "end": 81,
+          "text": "experiment"
+        }
+      },
+      {
+        "word": "purpose",
+        "pos": "noun",
+        "vi": "mục đích",
+        "en": "the reason for doing something",
+        "rowIndex": 4178,
+        "level": "A2",
+        "occurrence": {
+          "p": 1,
+          "start": 105,
+          "end": 112,
+          "text": "purpose"
+        }
+      },
+      {
+        "word": "ground",
+        "pos": "noun",
+        "vi": "mặt đất",
+        "en": "the surface you stand on",
+        "rowIndex": 2396,
+        "level": "A2",
+        "occurrence": {
+          "p": 1,
+          "start": 141,
+          "end": 147,
+          "text": "ground"
+        }
+      },
+      {
+        "word": "pilot",
+        "pos": "noun",
+        "vi": "phi công",
+        "en": "a person who flies an aircraft",
+        "rowIndex": 3870,
+        "level": "A2",
+        "occurrence": {
+          "p": 1,
+          "start": 151,
+          "end": 156,
+          "text": "pilot"
+        }
+      },
+      {
+        "word": "speed",
+        "pos": "noun",
+        "vi": "tốc độ",
+        "en": "how fast something moves",
+        "rowIndex": 4951,
+        "level": "A2",
+        "occurrence": {
+          "p": 1,
+          "start": 196,
+          "end": 201,
+          "text": "speed"
+        }
+      },
+      {
+        "word": "record",
+        "pos": "noun",
+        "vi": "kỷ lục",
+        "en": "the best measured achievement",
+        "rowIndex": 4293,
+        "level": "A2",
+        "occurrence": {
+          "p": 1,
+          "start": 294,
+          "end": 300,
+          "text": "record"
+        }
+      },
+      {
+        "word": "repair",
+        "pos": "verb",
+        "vi": "sửa chữa",
+        "en": "to make a damaged thing work again",
+        "rowIndex": 4387,
+        "level": "A2",
+        "occurrence": {
+          "p": 2,
+          "start": 12,
+          "end": 18,
+          "text": "repair"
+        }
+      },
+      {
+        "word": "finally",
+        "pos": "adverb",
+        "vi": "cuối cùng",
+        "en": "after a period of time or difficulty",
+        "rowIndex": 2091,
+        "level": "A2",
+        "occurrence": {
+          "p": 2,
+          "start": 63,
+          "end": 70,
+          "text": "Finally"
+        }
+      },
+      {
+        "word": "successful",
+        "pos": "adjective",
+        "vi": "thành công",
+        "en": "achieving the intended result",
+        "rowIndex": 5128,
+        "level": "A2",
+        "occurrence": {
+          "p": 2,
+          "start": 109,
+          "end": 119,
+          "text": "successful"
+        }
+      },
+      {
+        "word": "wind",
+        "pos": "noun",
+        "vi": "gió",
+        "en": "air moving outside",
+        "rowIndex": 5851,
+        "level": "A2",
+        "occurrence": {
+          "p": 2,
+          "start": 172,
+          "end": 176,
+          "text": "wind"
+        }
+      },
+      {
+        "word": "distance",
+        "pos": "noun",
+        "vi": "khoảng cách",
+        "en": "the space between two points",
+        "rowIndex": 1558,
+        "level": "A2",
+        "occurrence": {
+          "p": 2,
+          "start": 236,
+          "end": 244,
+          "text": "distance"
+        }
+      },
+      {
+        "word": "technology",
+        "pos": "noun",
+        "vi": "công nghệ",
+        "en": "practical knowledge and tools used to do things",
+        "rowIndex": 5272,
+        "level": "A2",
+        "occurrence": {
+          "p": 3,
+          "start": 30,
+          "end": 40,
+          "text": "technology"
+        }
+      },
+      {
+        "word": "carefully",
+        "pos": "adverb",
+        "vi": "một cách cẩn thận",
+        "en": "with attention to avoiding mistakes",
+        "rowIndex": 745,
+        "level": "A2",
+        "occurrence": {
+          "p": 3,
+          "start": 220,
+          "end": 229,
+          "text": "carefully"
+        }
+      }
+    ],
+    "forms": {},
+    "grammar": [
+      {
+        "id": 3,
+        "example": "The flight lasted twelve seconds.",
+        "note": "Lasted là quá khứ đơn của last, chỉ một sự kiện đã kết thúc năm 1903. Sau did trong câu hỏi, dùng last, không dùng lasted."
+      },
+      {
+        "id": 63,
+        "example": "They had to repair the aircraft.",
+        "note": "Had to diễn tả sự cần thiết trong quá khứ. Đây không phải quá khứ hoàn thành, vì sau to là repair nguyên mẫu."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What is the main idea of the story?",
+        "options": [
+          "A short flight was the result of years of work.",
+          "The brothers built a plane in twelve seconds.",
+          "Long flights are always more important than short ones."
+        ],
+        "answer": 0,
+        "why": "Bài nối nhiều năm học hỏi và thử nghiệm với chuyến bay ngắn nhưng quan trọng."
+      },
+      {
+        "q": "Why was leaving the ground not enough?",
+        "options": [
+          "The plane needed a comfortable kitchen.",
+          "The pilot also had to control the machine.",
+          "The brothers wanted to travel by boat."
+        ],
+        "answer": 1,
+        "why": "Vế A pilot also needed control in the air nêu thách thức điều khiển."
+      },
+      {
+        "q": "Why did the brothers repair the aircraft?",
+        "options": [
+          "They wanted to change its colour.",
+          "They were preparing it for a museum.",
+          "An earlier attempt had been unsuccessful."
+        ],
+        "answer": 2,
+        "why": "Bài nói họ sửa máy bay sau một lần thử không thành công."
+      },
+      {
+        "q": "Which happened first?",
+        "options": [
+          "Orville flew for twelve seconds.",
+          "Wilbur flew for fifty-nine seconds.",
+          "The brothers began years of experiments."
+        ],
+        "answer": 2,
+        "why": "Các thí nghiệm diễn ra trong nhiều năm trước các chuyến bay ngày 17/12/1903."
+      },
+      {
+        "q": "What does the writer want us to notice?",
+        "options": [
+          "Success can grow from repeated learning and testing.",
+          "Luck makes preparation unnecessary.",
+          "A failed attempt means a project must end."
+        ],
+        "answer": 0,
+        "why": "Đoạn cuối nhấn quá trình học, thử nghiệm và làm lại."
+      }
+    ],
+    "sources": [
+      [
+        "NPS · The First Flight",
+        "https://www.nps.gov/articles/firstflight.htm"
+      ],
+      [
+        "NPS · Fourth Flight Landing",
+        "https://www.nps.gov/places/000/fourth-flight-landing.htm"
+      ],
+      [
+        "NASA · First Powered Flight",
+        "https://www.nasa.gov/history/120-years-ago-the-first-powered-flight-at-kitty-hawk/"
+      ]
+    ],
+    "prompt": "Kể lại một lần bạn phải thử nhiều lần mới thành công. Dùng quá khứ đơn và ba từ trong bài.",
+    "wordCount": 215,
+    "group": "flight-01",
+    "part": "A",
+    "order": 1
+  },
+  {
+    "id": "ingenuity",
+    "level": "A2",
+    "group": "flight-01",
+    "part": "B",
+    "order": 1,
+    "title": "39 giây bay trên một thế giới khác",
+    "englishTitle": "A Small Helicopter, a Different World",
+    "hook": "Làm sao lái một chiếc trực thăng khi nó ở trên sao Hỏa?",
+    "note": "Từ hỗ trợ: Mars = sao Hỏa; helicopter = trực thăng; blade = cánh quạt; motor = mô-tơ.",
+    "paragraphs": [
+      [
+        "On April 19, 2021, a small helicopter finally rose above the ground on Mars. Its name was Ingenuity. It stayed in the air for about 39 seconds and reached a height of three metres. It was the first successful powered, controlled flight on another planet. This was a new record, but nobody sat inside the machine.",
+        "Ngày 19 tháng 4 năm 2021, một chiếc trực thăng nhỏ cuối cùng cất lên khỏi mặt đất sao Hỏa. Nó tên là Ingenuity. Nó ở trên không khoảng 39 giây và lên cao ba mét. Đây là chuyến bay có động lực, được điều khiển thành công đầu tiên trên hành tinh khác. Đó là một kỷ lục mới, nhưng không có ai ngồi trong cỗ máy."
+      ],
+      [
+        "A pilot on Earth could not fly it like a toy helicopter. The distance was too great: messages needed time to travel between the planets. So the computer on the helicopter had control during the flight. The team sent instructions before it took off. Ingenuity had to follow them by itself.",
+        "Phi công trên Trái Đất không thể lái nó như trực thăng đồ chơi. Khoảng cách quá lớn: tín hiệu cần thời gian di chuyển giữa các hành tinh. Vì vậy, máy tính trên trực thăng giữ quyền điều khiển trong chuyến bay. Nhóm gửi chỉ dẫn trước khi nó cất cánh. Ingenuity phải tự làm theo."
+      ],
+      [
+        "Why was this experiment so difficult? The air on Mars is much thinner than the air on Earth. An engineer designing a flying machine for Mars must think carefully about weight, shape, and speed. Wind can also affect the direction of a flight. An ordinary car engine cannot simply turn a car into a Mars helicopter. Ingenuity used electric motors to turn its blades.",
+        "Vì sao thử nghiệm này khó đến vậy? Không khí sao Hỏa loãng hơn nhiều so với Trái Đất. Kỹ sư thiết kế máy bay cho sao Hỏa phải cân nhắc kỹ trọng lượng, hình dạng và tốc độ. Gió cũng có thể ảnh hưởng hướng bay. Động cơ ô tô thông thường không thể đơn giản biến ô tô thành trực thăng sao Hỏa. Ingenuity dùng mô-tơ điện để quay cánh quạt."
+      ],
+      [
+        "The team worked for several years to develop the technology and test the equipment. They could not walk over and repair the helicopter after it reached Mars. Its purpose was to show that this kind of flight was possible. To invent something for another world, a dream is only the beginning. The invention must also work in a place where its makers cannot stand beside it. On that April day, a very short flight gave a very big answer.",
+        "Nhóm làm việc trong nhiều năm để phát triển công nghệ và kiểm tra thiết bị. Họ không thể bước tới sửa trực thăng sau khi nó đến sao Hỏa. Mục đích của nó là chứng minh kiểu bay này có thể thực hiện. Để phát minh ra thứ dành cho một thế giới khác, ước mơ chỉ là bước khởi đầu. Phát minh còn phải hoạt động ở nơi người tạo ra nó không thể đứng cạnh. Ngày tháng Tư đó, một chuyến bay rất ngắn đem lại câu trả lời rất lớn."
+      ]
+    ],
+    "targets": [
+      {
+        "word": "invent",
+        "pos": "verb",
+        "vi": "phát minh",
+        "en": "to create something new",
+        "rowIndex": 2826,
+        "level": "A2",
+        "occurrence": {
+          "p": 3,
+          "start": 224,
+          "end": 230,
+          "text": "invent"
+        }
+      },
+      {
+        "word": "dream",
+        "pos": "noun",
+        "vi": "ước mơ",
+        "en": "something you strongly hope to achieve",
+        "rowIndex": 1634,
+        "level": "A2",
+        "occurrence": {
+          "p": 3,
+          "start": 262,
+          "end": 267,
+          "text": "dream"
+        }
+      },
+      {
+        "word": "engine",
+        "pos": "noun",
+        "vi": "động cơ",
+        "en": "a machine that provides power",
+        "rowIndex": 1797,
+        "level": "A2",
+        "occurrence": {
+          "p": 2,
+          "start": 258,
+          "end": 264,
+          "text": "engine"
+        }
+      },
+      {
+        "word": "equipment",
+        "pos": "noun",
+        "vi": "thiết bị",
+        "en": "the things needed for an activity",
+        "rowIndex": 1840,
+        "level": "A2",
+        "occurrence": {
+          "p": 3,
+          "start": 73,
+          "end": 82,
+          "text": "equipment"
+        }
+      },
+      {
+        "word": "control",
+        "pos": "noun",
+        "vi": "sự điều khiển",
+        "en": "the ability to direct how something moves",
+        "rowIndex": 1144,
+        "level": "A2",
+        "occurrence": {
+          "p": 1,
+          "start": 175,
+          "end": 182,
+          "text": "control"
+        }
+      },
+      {
+        "word": "engineer",
+        "pos": "noun",
+        "vi": "kỹ sư",
+        "en": "a person who designs or builds technical systems",
+        "rowIndex": 1798,
+        "level": "A2",
+        "occurrence": {
+          "p": 2,
+          "start": 96,
+          "end": 104,
+          "text": "engineer"
+        }
+      },
+      {
+        "word": "shape",
+        "pos": "noun",
+        "vi": "hình dạng",
+        "en": "the form of an object",
+        "rowIndex": 4716,
+        "level": "A2",
+        "occurrence": {
+          "p": 2,
+          "start": 176,
+          "end": 181,
+          "text": "shape"
+        }
+      },
+      {
+        "word": "weight",
+        "pos": "noun",
+        "vi": "trọng lượng",
+        "en": "how heavy something is",
+        "rowIndex": 5782,
+        "level": "A2",
+        "occurrence": {
+          "p": 2,
+          "start": 168,
+          "end": 174,
+          "text": "weight"
+        }
+      },
+      {
+        "word": "direction",
+        "pos": "noun",
+        "vi": "hướng",
+        "en": "the way something moves towards",
+        "rowIndex": 1505,
+        "level": "A2",
+        "occurrence": {
+          "p": 2,
+          "start": 219,
+          "end": 228,
+          "text": "direction"
+        }
+      },
+      {
+        "word": "several",
+        "pos": "determiner",
+        "vi": "một vài, nhiều hơn hai",
+        "en": "more than two but not a large number",
+        "rowIndex": 4701,
+        "level": "A2",
+        "occurrence": {
+          "p": 3,
+          "start": 20,
+          "end": 27,
+          "text": "several"
+        }
+      },
+      {
+        "word": "develop",
+        "pos": "verb",
+        "vi": "phát triển",
+        "en": "to make something more advanced or useful",
+        "rowIndex": 1468,
+        "level": "A2",
+        "occurrence": {
+          "p": 3,
+          "start": 37,
+          "end": 44,
+          "text": "develop"
+        }
+      },
+      {
+        "word": "invention",
+        "pos": "noun",
+        "vi": "phát minh",
+        "en": "a new thing someone has created",
+        "rowIndex": 2827,
+        "level": "A2",
+        "occurrence": {
+          "p": 3,
+          "start": 295,
+          "end": 304,
+          "text": "invention"
+        }
+      },
+      {
+        "word": "experiment",
+        "pos": "noun",
+        "vi": "thí nghiệm",
+        "en": "a test used to learn how something works",
+        "rowIndex": 1944,
+        "level": "A2",
+        "occurrence": {
+          "p": 2,
+          "start": 13,
+          "end": 23,
+          "text": "experiment"
+        }
+      },
+      {
+        "word": "purpose",
+        "pos": "noun",
+        "vi": "mục đích",
+        "en": "the reason for doing something",
+        "rowIndex": 4178,
+        "level": "A2",
+        "occurrence": {
+          "p": 3,
+          "start": 162,
+          "end": 169,
+          "text": "purpose"
+        }
+      },
+      {
+        "word": "ground",
+        "pos": "noun",
+        "vi": "mặt đất",
+        "en": "the surface you stand on",
+        "rowIndex": 2396,
+        "level": "A2",
+        "occurrence": {
+          "p": 0,
+          "start": 61,
+          "end": 67,
+          "text": "ground"
+        }
+      },
+      {
+        "word": "pilot",
+        "pos": "noun",
+        "vi": "phi công",
+        "en": "a person who flies an aircraft",
+        "rowIndex": 3870,
+        "level": "A2",
+        "occurrence": {
+          "p": 1,
+          "start": 2,
+          "end": 7,
+          "text": "pilot"
+        }
+      },
+      {
+        "word": "speed",
+        "pos": "noun",
+        "vi": "tốc độ",
+        "en": "how fast something moves",
+        "rowIndex": 4951,
+        "level": "A2",
+        "occurrence": {
+          "p": 2,
+          "start": 187,
+          "end": 192,
+          "text": "speed"
+        }
+      },
+      {
+        "word": "record",
+        "pos": "noun",
+        "vi": "kỷ lục",
+        "en": "the best measured achievement",
+        "rowIndex": 4293,
+        "level": "A2",
+        "occurrence": {
+          "p": 0,
+          "start": 270,
+          "end": 276,
+          "text": "record"
+        }
+      },
+      {
+        "word": "repair",
+        "pos": "verb",
+        "vi": "sửa chữa",
+        "en": "to make a damaged thing work again",
+        "rowIndex": 4387,
+        "level": "A2",
+        "occurrence": {
+          "p": 3,
+          "start": 113,
+          "end": 119,
+          "text": "repair"
+        }
+      },
+      {
+        "word": "finally",
+        "pos": "adverb",
+        "vi": "cuối cùng",
+        "en": "after a period of time or difficulty",
+        "rowIndex": 2091,
+        "level": "A2",
+        "occurrence": {
+          "p": 0,
+          "start": 38,
+          "end": 45,
+          "text": "finally"
+        }
+      },
+      {
+        "word": "successful",
+        "pos": "adjective",
+        "vi": "thành công",
+        "en": "achieving the intended result",
+        "rowIndex": 5128,
+        "level": "A2",
+        "occurrence": {
+          "p": 0,
+          "start": 198,
+          "end": 208,
+          "text": "successful"
+        }
+      },
+      {
+        "word": "wind",
+        "pos": "noun",
+        "vi": "gió",
+        "en": "air moving outside",
+        "rowIndex": 5851,
+        "level": "A2",
+        "occurrence": {
+          "p": 2,
+          "start": 194,
+          "end": 198,
+          "text": "Wind"
+        }
+      },
+      {
+        "word": "distance",
+        "pos": "noun",
+        "vi": "khoảng cách",
+        "en": "the space between two points",
+        "rowIndex": 1558,
+        "level": "A2",
+        "occurrence": {
+          "p": 1,
+          "start": 61,
+          "end": 69,
+          "text": "distance"
+        }
+      },
+      {
+        "word": "technology",
+        "pos": "noun",
+        "vi": "công nghệ",
+        "en": "practical knowledge and tools used to do things",
+        "rowIndex": 5272,
+        "level": "A2",
+        "occurrence": {
+          "p": 3,
+          "start": 49,
+          "end": 59,
+          "text": "technology"
+        }
+      },
+      {
+        "word": "carefully",
+        "pos": "adverb",
+        "vi": "một cách cẩn thận",
+        "en": "with attention to avoiding mistakes",
+        "rowIndex": 745,
+        "level": "A2",
+        "occurrence": {
+          "p": 2,
+          "start": 152,
+          "end": 161,
+          "text": "carefully"
+        }
+      }
+    ],
+    "forms": {},
+    "grammar": [
+      {
+        "id": 49,
+        "example": "The air on Mars is much thinner than the air on Earth.",
+        "note": "Thinner than so sánh độ loãng; much nhấn mức chênh lệch. Đây là một lý do việc bay khó hơn."
+      },
+      {
+        "id": 61,
+        "example": "The team could not walk over and repair the helicopter.",
+        "note": "Could not nói giới hạn khả năng trong tình huống quá khứ. Sau could dùng walk và repair nguyên mẫu."
+      },
+      {
+        "id": 3,
+        "example": "It stayed in the air for about 39 seconds.",
+        "note": "Stayed là quá khứ đơn, kể một sự kiện đã kết thúc vào ngày 19/4/2021."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Why could a person on Earth not fly Ingenuity like a toy helicopter?",
+        "options": [
+          "The helicopter was too colourful.",
+          "Messages took time to travel between the planets.",
+          "Nobody knew what Mars was."
+        ],
+        "answer": 1,
+        "why": "Khoảng cách làm tín hiệu mất thời gian, nên không thể điều khiển trực tiếp từng chuyển động như đồ chơi."
+      },
+      {
+        "q": "What controlled the helicopter during its flight?",
+        "options": [
+          "A pilot sitting inside",
+          "A long cable from Earth",
+          "Its onboard computer"
+        ],
+        "answer": 2,
+        "why": "Máy tính trên trực thăng làm theo chỉ dẫn được gửi trước chuyến bay."
+      },
+      {
+        "q": "Why does the story mention thin air?",
+        "options": [
+          "To explain a challenge for flight on Mars",
+          "To say Mars has no air at all",
+          "To explain why people enjoy holidays there"
+        ],
+        "answer": 0,
+        "why": "Không khí loãng là một trong các khó khăn của việc thiết kế máy bay cho sao Hỏa."
+      },
+      {
+        "q": "What was the main purpose of the first flight?",
+        "options": [
+          "To carry tourists",
+          "To show that this type of flight was possible",
+          "To bring the team back to Earth"
+        ],
+        "answer": 1,
+        "why": "Ingenuity là thử nghiệm công nghệ, kiểm tra tính khả thi của chuyến bay."
+      },
+      {
+        "q": "What connects this story with the Wright brothers’ story?",
+        "options": [
+          "Both first flights lasted exactly twelve seconds.",
+          "Both machines had people sitting inside.",
+          "Both short flights tested a major new possibility."
+        ],
+        "answer": 2,
+        "why": "Hai chuyến đều ngắn nhưng giải quyết câu hỏi lớn về khả năng bay trong hoàn cảnh mới."
+      }
+    ],
+    "sources": [
+      [
+        "NASA · Ingenuity’s first flight, 19/04/2021",
+        "https://www.nasa.gov/news-release/nasas-ingenuity-mars-helicopter-succeeds-in-historic-first-flight/"
+      ],
+      [
+        "JPL · Ingenuity mission",
+        "https://www.jpl.nasa.gov/missions/ingenuity/"
+      ]
+    ],
+    "wordCount": 250
+  }
+]

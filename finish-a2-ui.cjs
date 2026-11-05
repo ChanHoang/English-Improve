@@ -1,0 +1,22 @@
+const fs=require('fs');
+let s=fs.readFileSync('ui-v4.js','utf8');
+const start=s.indexOf('function readingLevelButtons()'),end=s.indexOf('\nfunction readingLevelItems',start);
+s=s.slice(0,start)+`function readingLevelButtons(){return '<nav class="reading-level-switcher" aria-label="Reading levels">'+readingLevels.map(level=>{const items=readings.filter(l=>l.level===level),open=readingLevel===level;return btn('<strong>'+level+'</strong><small>'+items.length+' readings</small>','read-level-'+level,'class="reading-level-toggle" aria-expanded="'+open+'" aria-controls="reading-level-panel"')}).join('')+'</nav><div id="reading-level-panel">'+(readingLevel?readingLevelItems(readingLevel):'<p class="nav-help">Choose a level to see its lessons.</p>')+'</div>'}`+s.slice(end);
+s=s.replace("if(!selectedReading){const q=norm($('query').value.trim());return", "if(!selectedReading){const q=norm($('query').value.trim()),levelItems=readings.filter(l=>l.level===readingLevel);return");
+s=s.replace("new Set(readings.map(l=>l.group)).size+' groups · '+readings.length+' readings · '+new Set(readings.flatMap(l=>l.targets.map(t=>t.rowIndex))).size", "new Set(levelItems.map(l=>l.group)).size+' groups · '+levelItems.length+' readings · '+new Set(levelItems.flatMap(l=>l.targets.map(t=>t.rowIndex))).size");
+s=s.replace("'<article class=\"reading-group\">'", "'<article class=\"reading-group\">'");
+s=s.replace('<small>25 words · 2 readings</small>',"<small>'+pair[0].targets.length+' words · 2 readings</small>");
+s=s.replace("['Learn 25 words','Read','Practice']","['Learn '+l.targets.length+' words','Read','Practice']");
+s=s.replace('Hai bài cùng nhóm dùng chung 25 từ.',"Hai bài cùng nhóm dùng chung '+l.targets.length+' mục từ.");
+s=s.replace('<summary>Vietnamese translation</summary>',"<summary>'+(l.id.startsWith('a2-')?'Vietnamese guide':'Vietnamese translation')+'</summary>");
+s=s.replace("}).join('')+readingRoadmap()}","}).join('')+(!levelItems.length?'<article><h2>Coming later</h2><p>No readings published at this level yet.</p></article>':!levelItems.some(l=>norm(l.englishTitle+' '+l.title+' '+l.level+' '+l.targets.map(t=>t.word).join(' ')).includes(q))?'<article><p>No readings match this search.</p></article>':'')+readingRoadmap()}");
+s=s.replace('function render(){','function render(){\n if(mode===5&&selectedReading){const active=readings.find(l=>l.id===selectedReading);if(active)readingLevel=active.level;}');
+s=s.replace("selectedReading=null;mode=5;render();window.scrollTo(0,0)","selectedReading=null;mode=5;$('query').value='';render();$('secondary-items').scrollTop=0;window.scrollTo(0,0)");
+const road=`
+function readingRoadmap(){
+ const a2=readings.filter(l=>l.level==='A2'),a2Targets=new Set(a2.flatMap(l=>l.targets.map(t=>t.rowIndex))),required=defaults.filter(r=>r.level==='A2').length;
+ return '<details class="reading-roadmap"><summary>Course coverage · A2 '+a2Targets.size+'/'+required+' entries</summary><p>Nội dung A2 đã sẵn sàng; đây là độ bao phủ khóa học, không phải số bài bạn đã học xong. Mỗi nhóm có hai bài dùng chung bộ từ. Bản hướng dẫn tiếng Việt tóm lược ý chính của các bài mới.</p>'+readingLevels.map(level=>{const ls=readings.filter(l=>l.level===level),covered=new Set(ls.flatMap(l=>l.targets.filter(t=>t.level===level).map(t=>t.rowIndex))),total=defaults.filter(r=>r.level===level).length,gs=new Set(ls.flatMap(l=>l.grammar.map(g=>g.id)));return '<p><b>'+level+'</b> · '+new Set(ls.map(l=>l.group)).size+' groups · '+ls.length+' readings · '+covered.size+'/'+total+' '+level+' entries · '+gs.size+' grammar topics · '+(level==='A2'&&covered.size===total?'All A2 content ready':ls.length?'In progress':'Planned')+'</p>'}).join('')+'<p>Grammar across all readings: '+new Set(readings.flatMap(l=>l.grammar.map(g=>g.id))).size+'/120 topics. B1–C1 sẽ tiếp tục bổ sung theo lộ trình.</p></details>';
+}
+`;
+s+=road;fs.writeFileSync('ui-v4.js',s);
+fs.appendFileSync('two-panels.css','\n.reading-level-switcher{position:sticky;top:0;z-index:2;background:#fff;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;padding:8px 0 12px;border-bottom:1px solid #d5e8f1}.reading-level-switcher .reading-level-toggle{display:flex;flex-direction:column;gap:2px;align-items:flex-start;width:100%;margin:0}.reading-level-toggle[aria-expanded="true"]{background:#def6fc;border-color:#68c9e1;color:#007a9c}.reading-level-toggle:focus-visible{outline:3px solid #008eaf;outline-offset:2px}\n');

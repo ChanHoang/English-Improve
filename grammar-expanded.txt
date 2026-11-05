@@ -1,0 +1,1374 @@
+@1
+U|Chọn hiện tại đơn khi nói thói quen, lịch sinh hoạt, sự thật hoặc trạng thái tương đối ổn định. Một việc xảy ra “bây giờ” nhưng là trạng thái như biết, thích, cần vẫn thường dùng thì này. Khi mô tả hành động đang diễn ra và có tính tạm thời, hãy so sánh với hiện tại tiếp diễn.
+S|Khẳng định · động từ thường|I/You/We/They + V; He/She/It + V-s/es.
+S|Phủ định · động từ thường|S + do not / does not + V. Dạng rút gọn là don't / doesn't.
+S|Câu hỏi Yes/No|Do/Does + S + V? → Yes, S + do/does. / No, S + don't/doesn't.
+S|Câu hỏi có từ hỏi|Where/When/Why/How often + do/does + S + V?
+S|Với động từ be|I am; He/She/It is; You/We/They are. Thêm not để phủ định; đảo am/is/are để hỏi.
+S|Quy tắc thêm đuôi|Thường thêm s; sau s, sh, ch, x, z thường thêm es. Phụ âm + y đổi thành ies, như study → studies; nguyên âm + y thêm s, như play → plays. Have → has; do → does; go → goes.
+E|Thói quen hằng ngày|I take the bus to work every morning.|Tôi đi xe buýt đến chỗ làm mỗi sáng.|I đi với take nguyên mẫu; every morning cho biết thói quen.
+E|Ngôi thứ ba|My sister works at a bank.|Chị tôi làm việc ở ngân hàng.|My sister tương đương she nên works thêm s.
+E|Phủ định thói quen|She doesn't drink coffee.|Cô ấy không uống cà phê.|Sau doesn't dùng drink, không dùng drinks.
+E|Hỏi và trả lời ngắn|Does your brother drive? — Yes, he does.|Anh trai bạn biết lái xe không? — Có.|Does mang dấu hiệu ngôi thứ ba, drive giữ nguyên.
+E|Hỏi thông tin|Where do you live? — I live near the station.|Bạn sống ở đâu? — Tôi sống gần ga.|Where hỏi địa điểm; do hỗ trợ câu hỏi.
+E|Hỏi tần suất|How often does he exercise? — Three times a week.|Anh ấy tập thể dục bao lâu một lần? — Ba lần mỗi tuần.|How often hỏi mức thường xuyên, không hỏi độ dài một buổi.
+E|Trạng thái|I don't understand this word.|Tôi không hiểu từ này.|Understand chỉ trạng thái nhận thức nên thường không dùng tiếp diễn.
+E|Lịch trình|The train leaves at 6 tomorrow morning.|Tàu rời ga lúc 6 giờ sáng mai.|Lịch trình cố định có thể dùng hiện tại đơn dù thời gian là tương lai.
+E|Be · khẳng định và phủ định|She is a nurse, but she isn't at work today.|Cô ấy là y tá, nhưng hôm nay cô ấy không ở chỗ làm.|Be tự nhận not; không dùng doesn't trước is.
+E|Be · câu hỏi|Are you tired? — No, I'm not.|Bạn mệt không? — Không.|Đảo are; trả lời theo chủ ngữ I bằng am.
+Q|Sửa câu “Does she studies English every day?”|Does she study English every day?|Sau does, động từ chính về nguyên mẫu. Studies chỉ dùng trong câu khẳng định với she.
+Q|Điền be hoặc do thích hợp “___ he your teacher?”|Is|Teacher là danh từ nhận diện người, nên dùng be. Do chỉ hỗ trợ câu hỏi với động từ thường.
+X|Always, usually, often thường đứng trước động từ thường và sau be. Các từ chỉ thời gian giúp hiểu ngữ cảnh, nhưng không phải “mật khẩu” tự động quyết định thì.
+@2
+U|Dùng cho hoạt động đang xảy ra, tình huống tạm thời trong giai đoạn hiện nay, sự thay đổi đang phát triển hoặc kế hoạch đã thu xếp. “Đang” có thể bao phủ một tuần hay một tháng, không nhất thiết đúng lúc người nói phát âm câu đó.
+S|Khẳng định|S + am/is/are + V-ing.
+S|Phủ định|S + am/is/are + not + V-ing.
+S|Câu hỏi|Am/Is/Are + S + V-ing?; Từ hỏi + am/is/are + S + V-ing?
+S|Trả lời ngắn|Yes, S + am/is/are. / No, S + am not/isn't/aren't.
+S|Thêm ing|Work → working; make → making; run → running; lie → lying. Với nhiều từ dài, việc gấp phụ âm còn phụ thuộc trọng âm.
+E|Ngay lúc nói|Please be quiet. The baby is sleeping.|Làm ơn yên lặng. Em bé đang ngủ.|Is sleeping mô tả điều đang diễn ra.
+E|Phủ định|I'm not using the computer. You can have it.|Tôi không dùng máy tính. Bạn dùng đi.|Not đặt sau am; using vẫn giữ dạng ing.
+E|Hỏi hành động|What are you cooking? — I'm making soup.|Bạn đang nấu gì? — Tôi đang nấu súp.|Đảo are lên trước you sau what.
+E|Hỏi Yes/No|Is she working today? — No, she isn't.|Hôm nay cô ấy có đi làm không? — Không.|Câu hỏi có thể hỏi lịch làm tạm thời của hôm nay.
+E|Tạm thời|We are staying with friends this week.|Tuần này chúng tôi đang ở nhờ nhà bạn.|Không khẳng định đây là nơi ở lâu dài.
+E|Biến đổi|Food prices are rising.|Giá thực phẩm đang tăng.|Tiếp diễn mô tả một xu hướng.
+E|Khác nghĩa của động từ|I think it's useful. I'm thinking about buying it.|Tôi cho rằng nó hữu ích. Tôi đang cân nhắc mua nó.|Think chỉ ý kiến dùng đơn; think about chỉ hoạt động suy nghĩ dùng tiếp diễn được.
+Q|Sửa “She cooking now.”|She is cooking now.|Tiếp diễn cần cả be và V-ing; không bỏ is.
+X|Have chỉ sở hữu thường dùng đơn, nhưng have lunch là hoạt động nên có thể nói “I'm having lunch”. “You're always losing your keys” thường thể hiện thái độ về việc lặp lại.
+@3
+U|Dùng để kể sự kiện đã kết thúc, chuỗi việc trong quá khứ hoặc trạng thái/thói quen thuộc một giai đoạn đã qua. Mốc có thể được nói rõ hoặc đã hiểu từ cuộc trò chuyện. Nếu người nghe hỏi về kỳ nghỉ đã kết thúc, bạn không cần lặp yesterday trong từng câu.
+S|Khẳng định|S + V2/ed. Be dùng was với I/he/she/it; were với you/we/they.
+S|Phủ định|S + did not (didn't) + V. Với be dùng was not / were not.
+S|Câu hỏi|Did + S + V?; Từ hỏi + did + S + V? Với be đảo was/were.
+S|Động từ có quy tắc|Live → lived; study → studied; stop → stopped. Động từ bất quy tắc học theo cụm, như go → went, buy → bought, see → saw.
+E|Một việc hoàn tất|I bought a new phone last week.|Tuần trước tôi mua điện thoại mới.|Bought là quá khứ của buy.
+E|Phủ định|We didn't watch the film.|Chúng tôi đã không xem phim.|Did đã thể hiện quá khứ; watch không thêm ed.
+E|Hỏi Yes/No|Did you enjoy the trip? — Yes, I did.|Bạn có thích chuyến đi không? — Có.|Trả lời ngắn dùng did.
+E|Hỏi thời điểm|When did she arrive? — At about nine.|Cô ấy đến khi nào? — Khoảng chín giờ.|Sau did là arrive.
+E|Chuỗi hành động|He opened the door, walked in, and sat down.|Anh ấy mở cửa, bước vào rồi ngồi xuống.|Các động từ đơn kể những sự kiện nối tiếp.
+E|Be phủ định|I wasn't at home yesterday.|Hôm qua tôi không ở nhà.|Wasn't phù hợp chủ ngữ I trong quá khứ.
+E|Be câu hỏi|Were they late? — No, they weren't.|Họ đến muộn à? — Không.|Không dùng did với were.
+Q|Điền “Where ___ you go last night?”|did|Go là động từ thường; câu hỏi quá khứ cần did.
+X|Phát âm ed thường là /t/, /d/ hoặc /ɪd/. Wanted và needed có âm /ɪd/; đừng đọc mọi đuôi ed thành một âm tiết riêng.
+@4
+U|Dùng để nhìn hành động đang ở giữa quá trình tại một thời điểm quá khứ. Nó thường làm nền cho một sự kiện ngắn hoặc mô tả hai việc song song. Không hàm ý hành động chắc chắn bị gián đoạn hay chưa từng hoàn tất.
+S|Khẳng định|S + was/were + V-ing.
+S|Phủ định|S + was not / were not + V-ing.
+S|Câu hỏi|Was/Were + S + V-ing?; Từ hỏi + was/were + S + V-ing?
+E|Tại một thời điểm|At 8 last night, I was studying.|Lúc 8 giờ tối qua, tôi đang học.|Câu nhìn vào giữa quá trình học.
+E|Phủ định|She wasn't sleeping when I called.|Cô ấy không đang ngủ khi tôi gọi.|Wasn't phủ định hoạt động nền.
+E|Hỏi thông tin|What were you doing at noon?|Trưa hôm đó bạn đang làm gì?|Were đứng trước you.
+E|Hỏi và trả lời|Were they waiting for us? — Yes, they were.|Họ đang đợi chúng ta à? — Đúng.|Đáp ngắn không cần lặp waiting.
+E|Hai việc song song|I was washing the dishes while he was drying them.|Tôi đang rửa bát trong khi anh ấy lau khô chúng.|Cả hai hoạt động được nhìn như đang diễn ra.
+E|Nền và sự kiện|We were walking home when it started to rain.|Chúng tôi đang đi bộ về thì trời bắt đầu mưa.|Were walking làm nền; started đánh dấu sự kiện mới.
+Q|Chọn “I slept / was sleeping when the alarm rang” để nhấn đang ngủ lúc chuông reo.|I was sleeping when the alarm rang.|Tiếp diễn mô tả quá trình đang có tại mốc rang.
+X|When và while không bắt buộc một thì duy nhất. Chọn thì theo cách nhìn sự kiện, rồi dùng liên từ để biểu đạt quan hệ thời gian.
+@5
+U|Dùng cho trải nghiệm đến hiện tại, việc vừa xảy ra có kết quả hiện tại, hoặc tình trạng bắt đầu trước đây và còn tiếp tục. Khi bạn kể chi tiết một lần đã xảy ra vào ngày cụ thể, thường chuyển sang quá khứ đơn.
+S|Khẳng định|I/You/We/They + have + V3; He/She/It + has + V3.
+S|Phủ định|S + haven't/hasn't + V3.
+S|Câu hỏi|Have/Has + S + V3?; How long + have/has + S + V3?
+S|Trả lời ngắn|Yes, S + have/has. / No, S + haven't/hasn't.
+E|Trải nghiệm|I have visited Japan twice.|Tôi đã đến Nhật hai lần.|Đếm trải nghiệm đến nay, không nêu ngày đã kết thúc.
+E|Chưa từng|She has never driven a truck.|Cô ấy chưa từng lái xe tải.|Never đã mang nghĩa phủ định, không thêm hasn't.
+E|Kết quả hiện tại|I've lost my keys. I can't get in.|Tôi làm mất chìa khóa rồi. Tôi không vào được.|Kết quả hiện tại là không có chìa khóa.
+E|Hỏi kinh nghiệm|Have you ever tried skiing? — No, I haven't.|Bạn đã từng thử trượt tuyết chưa? — Chưa.|Ever hỏi trong khoảng thời gian đến hiện tại.
+E|Chưa hoàn thành|He hasn't finished the report yet.|Anh ấy chưa hoàn thành báo cáo.|Yet thường ở cuối câu phủ định hoặc câu hỏi.
+E|Kéo dài đến nay|How long have you known her? — For ten years.|Bạn quen cô ấy bao lâu rồi? — Mười năm.|Know là trạng thái nên thường dùng hoàn thành đơn.
+E|Chuyển sang quá khứ đơn|I've seen that film. I watched it last Friday.|Tôi xem phim ấy rồi. Tôi xem vào thứ Sáu tuần trước.|Câu thứ hai đặt lần xem vào mốc quá khứ kết thúc.
+Q|Sửa “She has went home.”|She has gone home.|Sau has dùng V3 gone, không dùng V2 went.
+X|Just, already và yet thường xuất hiện với hiện tại hoàn thành. Tiếng Anh Mỹ cũng dùng quá khứ đơn trong nhiều ngữ cảnh với just/already/yet. Không coi một từ trạng ngữ là quy tắc tuyệt đối.
+@6
+U|Will diễn đạt quyết định tại lúc nói, lời hứa, lời đề nghị giúp đỡ và dự đoán. Nó không phải lựa chọn tự động cho mọi câu có thời gian tương lai; kế hoạch sẵn có có thể phù hợp going to hoặc tiếp diễn hơn.
+S|Khẳng định|S + will + V; dạng rút gọn 'll.
+S|Phủ định|S + will not (won't) + V.
+S|Câu hỏi|Will + S + V?; Từ hỏi + will + S + V?
+E|Quyết định ngay|The doorbell is ringing. I'll get it.|Chuông cửa đang reo. Để tôi ra mở.|Quyết định hình thành trong tình huống nói.
+E|Lời hứa|I'll send you the photos tonight.|Tối nay tôi sẽ gửi ảnh cho bạn.|Will thể hiện cam kết của người nói.
+E|Phủ định|I won't forget your birthday.|Tôi sẽ không quên sinh nhật bạn.|Won't không đổi theo chủ ngữ.
+E|Hỏi dự đoán|Will it rain tomorrow? — I think so.|Ngày mai trời có mưa không? — Tôi nghĩ có.|Hỏi điều chưa chắc chắn.
+E|Hỏi thời gian|When will the results be available?|Khi nào có kết quả?|Sau will dùng be nguyên mẫu.
+E|Lời nhờ|Will you help me carry this box?|Bạn giúp tôi mang hộp này nhé?|Câu hỏi còn có chức năng đề nghị, không chỉ hỏi tương lai.
+Q|Sửa “She will comes tomorrow.”|She will come tomorrow.|Sau will luôn là động từ nguyên mẫu không to.
+X|Won't đôi khi diễn tả từ chối hoặc một vật không chịu hoạt động, như “The car won't start”. Cần đọc nghĩa trong tình huống, không chỉ dịch “sẽ không”.
+@7
+U|Dùng khi đã có ý định trước cuộc nói chuyện hoặc có bằng chứng hiện tại cho dự đoán. Ý định có thể chưa có lịch hẹn cụ thể. Be phải chia, còn going to giữ nguyên.
+S|Khẳng định|S + am/is/are going to + V.
+S|Phủ định|S + am/is/are not going to + V.
+S|Câu hỏi|Am/Is/Are + S + going to + V?
+E|Kế hoạch|I'm going to learn to drive this summer.|Hè này tôi định học lái xe.|Ý định có từ trước lúc nói.
+E|Phủ định kế hoạch|We aren't going to move this year.|Năm nay chúng tôi không định chuyển nhà.|Aren't phủ định dự định.
+E|Hỏi ý định|Are you going to apply for the job? — Yes, I am.|Bạn định ứng tuyển việc đó à? — Đúng.|Đáp ngắn dùng be, không dùng do.
+E|Bằng chứng hiện tại|Look at those clouds. It's going to rain.|Nhìn những đám mây kia. Trời sắp mưa.|Dự đoán dựa trên dấu hiệu nhìn thấy.
+E|Hỏi lựa chọn|What are you going to cook tonight?|Tối nay bạn định nấu gì?|What đứng trước are.
+Q|Điền “He ___ going to call later.”|is|He dùng is; không thể bỏ be.
+X|Gonna là dạng ghi lại cách nói thân mật, không phù hợp bài viết trang trọng. “I'm going to the bank” chỉ chuyển động đến ngân hàng, vì sau to là danh từ.
+@8
+U|Dùng hiện tại tiếp diễn cho việc tương lai đã thu xếp, thường có người, nơi hoặc giờ cụ thể. Thông tin về thời gian tương lai giúp tránh hiểu thành việc đang diễn ra lúc này.
+S|Xác nhận lịch|S + am/is/are + V-ing + mốc tương lai.
+S|Hủy hoặc không có lịch|S + am/is/are not + V-ing + mốc tương lai.
+S|Hỏi lịch|Am/Is/Are + S + V-ing + mốc tương lai?
+E|Lịch hẹn|I'm seeing the dentist at three tomorrow.|Mai lúc ba giờ tôi có hẹn nha sĩ.|Seeing ở đây là gặp theo hẹn.
+E|Chuyến đi|We're flying to Da Nang on Saturday.|Thứ Bảy chúng tôi bay đến Đà Nẵng.|Thường hiểu đã có sự thu xếp.
+E|Phủ định|She isn't coming to dinner tonight.|Tối nay cô ấy không đến ăn tối.|Thông báo về kế hoạch.
+E|Hỏi lịch|Are you meeting Nam after work? — Yes, I am.|Tan làm bạn có gặp Nam không? — Có.|Hỏi sự thu xếp cụ thể.
+Q|Chọn cách nói tự nhiên cho lịch đã đặt “I meet / am meeting the doctor at 2 tomorrow.”|I am meeting the doctor at 2 tomorrow.|Tiếp diễn phù hợp một lịch hẹn cá nhân đã thu xếp.
+X|Lịch trình của tàu hoặc chương trình công cộng thường dùng hiện tại đơn. Không dùng tiếp diễn chỉ để dự đoán không có sự sắp xếp, như “It is raining tomorrow” trong bài tập cơ bản.
+@9
+U|Quá khứ hoàn thành làm rõ việc xảy ra trước mốc quá khứ khác. Khi trình tự đã rõ nhờ before/after hoặc cách kể, quá khứ đơn đôi khi đủ. Dùng had khi sự “đã xảy ra trước” là thông tin cần nhấn.
+S|Khẳng định|S + had + V3.
+S|Phủ định|S + had not (hadn't) + V3.
+S|Câu hỏi|Had + S + V3?; Từ hỏi + had + S + V3?
+E|Trước khi đến|The meeting had started when I arrived.|Cuộc họp đã bắt đầu khi tôi đến.|Bắt đầu xảy ra trước đến.
+E|Chưa xong tại mốc quá khứ|I hadn't finished when she called.|Tôi chưa làm xong khi cô ấy gọi.|Hadn't nhìn ngược từ lúc gọi.
+E|Hỏi|Had you met him before the party? — No, I hadn't.|Trước bữa tiệc bạn đã gặp anh ấy chưa? — Chưa.|Bữa tiệc là mốc quá khứ.
+E|Nguyên nhân trước đó|He was hungry because he hadn't eaten lunch.|Anh ấy đói vì chưa ăn trưa.|Chưa ăn giải thích trạng thái đói lúc ấy.
+E|Phân biệt|When I arrived, she left. / When I arrived, she had left.|Khi tôi đến thì cô ấy đi. / Khi tôi đến thì cô ấy đã đi rồi.|Câu sau thường cho biết hai người không gặp nhau.
+Q|Điền “By the time we got there, the shop ___ closed.”|had|By the time đặt mốc quá khứ; đóng cửa đã xảy ra trước.
+X|'d có thể là had hoặc would. “She'd left” là had left; “She'd leave” là would leave.
+@10
+U|Nhấn quá trình hoặc thời lượng bắt đầu trước hiện tại. Hoạt động có thể còn tiếp tục hoặc vừa ngừng và để lại kết quả nhìn thấy. Khi đếm số sản phẩm hoàn thành, hoàn thành đơn thường phù hợp hơn.
+S|Khẳng định|S + have/has been + V-ing.
+S|Phủ định|S + haven't/hasn't been + V-ing.
+S|Câu hỏi|Have/Has + S + been + V-ing?; How long + have/has + S + been + V-ing?
+E|Còn tiếp tục|I've been waiting for an hour.|Tôi đã đợi được một giờ rồi.|Thường hiểu vẫn đang đợi.
+E|Vừa dừng|You're out of breath. Have you been running?|Bạn thở hổn hển. Bạn vừa chạy à?|Dấu hiệu hiện tại gợi hoạt động vừa xảy ra.
+E|Phủ định|She hasn't been sleeping well recently.|Gần đây cô ấy ngủ không ngon.|Nói một tình trạng lặp lại trong thời gian gần đây.
+E|Hỏi thời lượng|How long have they been working here?|Họ làm việc ở đây được bao lâu rồi?|How long hỏi độ dài quá trình.
+E|Sản phẩm và quá trình|I've written five emails. / I've been writing emails all morning.|Tôi viết xong năm email. / Tôi viết email cả buổi sáng.|Câu đầu nhấn số lượng, câu sau nhấn hoạt động.
+Q|Chọn “I've known / been knowing him for years.”|I've known him for years.|Know chỉ trạng thái, thường không dùng dạng tiếp diễn.
+X|Với live/work, đôi khi cả hoàn thành đơn và tiếp diễn đều đúng; tiếp diễn thường làm nổi bật tính kéo dài hoặc tạm thời.
+@11
+U|Be nối chủ ngữ với danh tính, tính chất hoặc nơi chốn. Nó cũng làm trợ động từ, nhưng trong bài này hãy tập câu không có động từ thường phía sau. Danh từ nghề nghiệp số ít thường cần a/an.
+S|Hiện tại|I am; he/she/it is; you/we/they are.
+S|Phủ định|S + am/is/are + not + bổ ngữ.
+S|Hỏi|Am/Is/Are + S + bổ ngữ?
+S|Quá khứ|I/he/she/it was; you/we/they were.
+E|Giới thiệu|I'm an accountant.|Tôi là kế toán.|An đứng trước nghề đếm được số ít.
+E|Tính chất|The room is quiet.|Phòng yên tĩnh.|Quiet là tính từ sau be.
+E|Phủ định vị trí|They aren't in the office.|Họ không ở văn phòng.|In the office nói nơi chốn.
+E|Hỏi|Is your mother at home? — Yes, she is.|Mẹ bạn có nhà không? — Có.|Is đảo lên đầu.
+E|Quá khứ|We were tired after the journey.|Sau chuyến đi, chúng tôi mệt.|Were diễn tả trạng thái quá khứ.
+Q|Sửa “Are she a doctor?”|Is she a doctor?|She đi với is.
+@12
+U|Have chỉ sở hữu, quan hệ hoặc trải nghiệm thường là động từ chính. Khi đứng trước V3 trong thì hoàn thành, nó là trợ động từ. Xác định vai trò trước khi tạo câu hỏi hoặc phủ định.
+S|Sở hữu khẳng định|S + have/has + danh từ.
+S|Sở hữu phủ định và hỏi|S + don't/doesn't have…; Do/Does + S + have…?
+S|Hoàn thành|S + have/has + V3; Have/Has + S + V3?
+E|Sở hữu|We have two bicycles.|Chúng tôi có hai xe đạp.|Have là động từ chính.
+E|Phủ định|He doesn't have a driver's license.|Anh ấy không có bằng lái.|Sau doesn't dùng have.
+E|Hỏi|Do you have any questions? — Yes, I do.|Bạn có câu hỏi nào không? — Có.|Trợ động từ trong đáp ngắn là do.
+E|Hoạt động|I'm having lunch.|Tôi đang ăn trưa.|Have lunch là hoạt động nên dùng tiếp diễn được.
+E|Trợ động từ|Have you booked the room?|Bạn đặt phòng chưa?|Have hỗ trợ booked trong hiện tại hoàn thành.
+Q|Sửa “Does she has a car?”|Does she have a car?|Has không đi sau does.
+X|Have got cũng nói sở hữu trong hiện tại, như “Have you got a pen?”. Đừng trộn thành “Do you have got…?”.
+@13
+U|Dùng để đưa một đối tượng mới vào cuộc nói chuyện. Sau khi giới thiệu, có thể dùng it/they để tiếp tục nói về đối tượng đó. There ở đây không nhất thiết có nghĩa “ở đó”.
+S|Khẳng định|There is + số ít/không đếm được; there are + số nhiều.
+S|Phủ định|There isn't + a/an/any…; There aren't + any + số nhiều.
+S|Câu hỏi|Is there…? / Are there…? → Yes, there is/are.
+E|Giới thiệu nơi chốn|There is a pharmacy near my house.|Có một hiệu thuốc gần nhà tôi.|Pharmacy là đối tượng mới được giới thiệu.
+E|Số nhiều|There are three people outside.|Có ba người ở ngoài.|Three people dùng are.
+E|Không đếm được|There isn't any milk in the fridge.|Không còn sữa trong tủ lạnh.|Milk dùng isn't.
+E|Hỏi|Are there any seats available? — Yes, there are.|Còn chỗ ngồi nào không? — Có.|Không đáp “Yes, they are” cho câu hỏi tồn tại này.
+E|Quá khứ|There was a power cut last night.|Tối qua có mất điện.|Was đặt sự tồn tại vào quá khứ.
+Q|Điền “There ___ some information on the website.”|is|Information không đếm được.
+@14
+U|Trước hết tìm ai/cái gì đang làm hoặc ở trong trạng thái nào. Sau đó xác định động từ có cần người/vật nhận tác động không. Tiếng Anh thường không bỏ chủ ngữ trong câu kể bình thường.
+S|Không có tân ngữ|S + V, như Birds fly.
+S|Có tân ngữ|S + V + O, như She opened the door.
+S|Có bổ ngữ|S + be/seem/become + tính từ hoặc danh từ.
+S|Hai tân ngữ|S + give/send/show + người + vật; hoặc vật + to + người.
+E|Không cần tân ngữ|The guests arrived early.|Khách đến sớm.|Arrive không cần tân ngữ trực tiếp.
+E|Có tân ngữ|I need your address.|Tôi cần địa chỉ của bạn.|Your address là thứ được cần.
+E|Bổ ngữ|He became a teacher.|Anh ấy trở thành giáo viên.|A teacher nhận diện chủ ngữ, không phải vật chịu tác động.
+E|Hai tân ngữ|She sent me a message.|Cô ấy gửi tôi một tin nhắn.|Me là người nhận; a message là vật được gửi.
+Q|Sắp xếp “every morning / reads / he / the news”.|He reads the news every morning.|Giữ cụm động từ và tân ngữ cạnh nhau, đặt thời gian ở cuối.
+@15
+U|Dùng mệnh lệnh để hướng dẫn, yêu cầu, cảnh báo hoặc mời. Mức lịch sự phụ thuộc giọng nói, please và quan hệ người nói/người nghe. Với yêu cầu nhạy cảm, câu hỏi Could you…? thường nhẹ hơn.
+S|Khẳng định|V nguyên mẫu + phần còn lại.
+S|Phủ định|Don't + V; Don't be + tính từ.
+S|Cùng làm|Let's + V; Let's not + V.
+E|Hướng dẫn|Turn left at the next street.|Rẽ trái ở phố tiếp theo.|Không cần chủ ngữ you.
+E|Yêu cầu lịch sự|Please send me the file today.|Làm ơn gửi tôi tệp hôm nay.|Please làm lời yêu cầu nhẹ hơn.
+E|Cảnh báo|Don't touch that wire.|Đừng chạm dây đó.|Don't phủ định hành động.
+E|Với be|Don't be afraid.|Đừng sợ.|Sau don't là be, không phải are.
+E|Đề nghị cùng làm|Let's take a break.|Chúng ta nghỉ một chút nhé.|Let's bao gồm người nói.
+Q|Sửa “Don't to open the window.”|Don't open the window.|Động từ mệnh lệnh không có to.
+@16
+U|Câu hỏi Yes/No xin xác nhận một mệnh đề. Tìm động từ hữu hạn đầu tiên: nếu là be/trợ động từ/modal thì đảo nó; nếu chỉ có động từ thường ở hiện tại hoặc quá khứ đơn, cần do/does/did.
+S|Với be|Be + S + bổ ngữ?
+S|Với động từ thường|Do/Does/Did + S + V?
+S|Với trợ động từ/modal|Have/Has/Can/Will… + S + phần còn lại?
+E|Be|Are you ready? — Yes, I am.|Bạn sẵn sàng chưa? — Rồi.|Đổi are thành am theo I trong đáp.
+E|Động từ thường|Does this bus stop here? — No, it doesn't.|Xe buýt này có dừng ở đây không? — Không.|Stop giữ nguyên sau does.
+E|Quá khứ|Did they call? — Yes, they did.|Họ gọi chưa? — Rồi.|Dùng did trong cả hỏi và đáp.
+E|Hoàn thành|Have you eaten? — No, I haven't.|Bạn ăn chưa? — Chưa.|Giữ have ở đáp ngắn.
+E|Modal|Can she drive? — Yes, she can.|Cô ấy biết lái xe không? — Có.|Can tự đảo, không thêm does.
+Q|Tạo câu hỏi từ “He works on Sundays.”|Does he work on Sundays?|Hiện tại đơn, ngôi thứ ba dùng does + V.
+@17
+U|Chọn từ hỏi theo thông tin thiếu. What hỏi sự vật; which hỏi lựa chọn có phạm vi; who hỏi người; whose hỏi sở hữu; when hỏi thời gian; where hỏi nơi; why hỏi nguyên nhân; how hỏi cách.
+S|Câu hỏi thông thường|Từ hỏi + trợ động từ + S + động từ chính?
+S|Với be|Từ hỏi + am/is/are/was/were + S?
+S|Hỏi lượng và thời lượng|How many + số nhiều…? / How much + không đếm được…? / How long…?
+E|Cách đi|How do you get to work? — By bus.|Bạn đi làm bằng gì? — Bằng xe buýt.|How hỏi cách thức.
+E|Lựa chọn|Which shirt do you prefer, the blue one or the white one?|Bạn thích áo nào hơn, xanh hay trắng?|Which phù hợp lựa chọn đã nêu.
+E|Giá|How much does this cost?|Cái này giá bao nhiêu?|How much hỏi lượng tiền.
+E|Thời lượng|How long does the journey take?|Chuyến đi mất bao lâu?|Khác how often hỏi tần suất.
+E|Nguyên nhân|Why are you upset? — Because I lost my phone.|Sao bạn buồn? — Vì tôi mất điện thoại.|Be tự đảo, không cần do.
+Q|Chọn từ hỏi để hỏi “ba lần mỗi tuần”.|How often…?|Câu trả lời là tần suất, không phải thời lượng.
+@18
+U|Phân biệt người thực hiện với người nhận hành động. Hãy thay phần cần hỏi bằng who/what rồi xem nó có đứng ở vị trí chủ ngữ không. Câu hỏi chủ ngữ khẳng định thường giữ trật tự câu kể.
+S|Hỏi chủ ngữ|Who/What + động từ đã chia + phần còn lại?
+S|Hỏi tân ngữ|Who/What + do/does/did + S + V?
+S|Chủ ngữ với phủ định|Who + doesn't/didn't + V…?
+E|Hỏi người gọi|Who called you? — My sister did.|Ai gọi bạn? — Chị tôi.|Who thay chủ ngữ.
+E|Hỏi người được gọi|Who did you call? — I called Nam.|Bạn đã gọi ai? — Tôi gọi Nam.|You vẫn là chủ ngữ, cần did.
+E|Hỏi nguyên nhân sự kiện|What happened last night?|Tối qua chuyện gì xảy ra?|What làm chủ ngữ của happened.
+E|Chủ ngữ phủ định|Who doesn't understand the instructions?|Ai chưa hiểu hướng dẫn?|Phủ định vẫn cần doesn't với động từ thường.
+Q|Đặt câu hỏi cho “Lan” trong “Lan broke the glass.”|Who broke the glass?|Lan là chủ ngữ nên không cần did.
+@19
+U|Câu hỏi đuôi kiểm tra hoặc tìm sự đồng thuận. Thường phần chính khẳng định có đuôi phủ định và ngược lại. Giọng lên thường hỏi thật; giọng xuống thường mong người nghe xác nhận.
+S|Có trợ động từ|Mệnh đề, trợ động từ đối dấu + đại từ?
+S|Động từ thường|Hiện tại dùng do/does; quá khứ dùng did ở đuôi.
+S|Mẫu riêng|I'm…, aren't I?; Let's…, shall we?; mệnh lệnh thường dùng will you?
+E|Hiện tại đơn|She works here, doesn't she?|Cô ấy làm ở đây, đúng không?|Works cần doesn't ở đuôi.
+E|Phủ định|You haven't met him, have you?|Bạn chưa gặp anh ấy, phải không?|Phủ định ở chính nên đuôi khẳng định.
+E|Từ phủ định|Nobody called, did they?|Không ai gọi, đúng không?|Nobody mang nghĩa phủ định; they chỉ người không xác định.
+E|Let's|Let's leave now, shall we?|Chúng ta đi bây giờ nhé?|Mẫu đặc biệt shall we.
+E|Trả lời theo sự thật|You aren't tired, are you? — Yes, I am.|Bạn không mệt chứ? — Có, tôi mệt.|Yes xác nhận tôi mệt, không đơn thuần đồng ý với câu phủ định.
+Q|Điền đuôi “He can swim, ___?”|can't he|Can ở mệnh đề chính nên dùng can't ở đuôi.
+@20
+U|Câu hỏi gián tiếp thường nằm sau Could you tell me…, Do you know… hoặc I wonder…. Câu bên ngoài có thể là câu hỏi, nhưng mệnh đề bên trong luôn giữ trật tự chủ ngữ trước động từ.
+S|Có từ hỏi|Phần mở đầu + từ hỏi + S + V.
+S|Không có từ hỏi|Phần mở đầu + if/whether + S + V.
+S|Dấu kết câu|Dùng ? nếu cả câu là câu hỏi; dùng . nếu cả câu là câu kể.
+E|Hỏi đường|Could you tell me where the station is?|Bạn chỉ tôi ga ở đâu được không?|Is đứng sau the station trong mệnh đề bên trong.
+E|Hỏi giờ mở cửa|Do you know what time the shop opens?|Bạn biết cửa hàng mở lúc mấy giờ không?|Opens chia bình thường; không dùng does bên trong.
+E|Câu Yes/No|Could you tell me if this seat is free?|Bạn cho tôi biết ghế này có trống không?|If dẫn nội dung có/không.
+E|Câu kể|I wonder why she left early.|Tôi tự hỏi sao cô ấy về sớm.|Không dùng dấu hỏi vì toàn câu là lời kể.
+Q|Sửa “Do you know where does he work?”|Do you know where he works?|Bỏ does và chia works cho he.
+@21
+U|Trước khi thêm s, hãy kiểm tra danh từ có đếm được trong nghĩa đang dùng không. Số nhiều ảnh hưởng đến động từ, đại từ và từ hạn định đi cùng. Có những danh từ số nhiều bất quy tắc hoặc luôn có dạng số nhiều cần học nguyên cụm.
+S|Dạng thường|book → books; box → boxes; baby → babies; toy → toys.
+S|Dạng bất quy tắc|child → children; person → people; foot → feet; mouse → mice.
+S|Không đổi dạng|one sheep → two sheep; one species → several species.
+E|Quy tắc es|There are three boxes in the hall.|Có ba cái hộp ở hành lang.|Box thêm es; there are theo số nhiều.
+E|Bất quy tắc|The children are playing outside.|Bọn trẻ đang chơi ngoài trời.|Không dùng childs; động từ là are.
+E|Dạng không đổi|We saw five sheep.|Chúng tôi thấy năm con cừu.|Sheep không thêm s.
+E|Đồ vật hai phần|These scissors are sharp.|Cái kéo này sắc.|Scissors có dạng số nhiều; có thể đếm bằng a pair of scissors.
+Q|Sửa “Two woman is waiting.”|Two women are waiting.|Woman đổi thành women và is đổi thành are.
+X|News kết thúc bằng s nhưng thường đi với động từ số ít. Fish thường không đổi khi đếm cá; fishes có thể dùng khi nói nhiều loài cá.
+@22
+U|Danh từ đếm được chỉ những đơn vị có thể phân biệt như một ghế, hai ghế. Số ít thường cần từ hạn định. Khi chọn a/the/my/this, hãy quyết định đang giới thiệu, xác định hay nói sở hữu.
+S|Số ít|a/an/the/my/this + danh từ số ít.
+S|Số nhiều|số đếm/many/a few/some + danh từ số nhiều.
+S|Hỏi số lượng|How many + danh từ số nhiều + trợ động từ + S + V?
+E|Giới thiệu|I need a chair.|Tôi cần một chiếc ghế.|Một đơn vị chưa xác định dùng a.
+E|Vật đã xác định|The chair by the window is broken.|Chiếc ghế cạnh cửa sổ bị hỏng.|Cụm by the window giúp xác định ghế nào.
+E|Đếm số lượng|We ordered four sandwiches.|Chúng tôi gọi bốn bánh sandwich.|Four yêu cầu dạng số nhiều.
+E|Hỏi|How many tickets do we need?|Chúng ta cần bao nhiêu vé?|Tickets số nhiều sau how many.
+Q|Sửa “She has cat.”|She has a cat.|Danh từ đếm được số ít cat cần từ hạn định trong câu này.
+X|Một từ có thể vừa đếm được vừa không đếm được theo nghĩa. Chicken chỉ con gà có thể đếm; chicken chỉ thịt gà thường không đếm.
+@23
+U|Danh từ không đếm được thường chỉ chất, khái niệm hoặc một tổng thể không chia thành đơn vị trong cách nói. Không dựa hoàn toàn vào tiếng Việt để đoán. Advice, equipment và furniture thường không đếm trong nghĩa thông dụng.
+S|Lượng chung|some/much/a little + danh từ không đếm được.
+S|Đếm qua đơn vị|a piece of advice; two bottles of water; three items of furniture.
+S|Hòa hợp|Danh từ không đếm được làm chủ ngữ thường dùng động từ số ít.
+E|Thông tin|This information is useful.|Thông tin này hữu ích.|Dùng this và is.
+E|Lời khuyên|Can you give me some advice?|Bạn cho tôi vài lời khuyên được không?|Không dùng an advice.
+E|Đếm đơn vị|We need two pieces of equipment.|Chúng ta cần hai thiết bị.|Số nhiều đặt ở pieces.
+E|Hỏi lượng|How much luggage do you have?|Bạn có bao nhiêu hành lý?|Luggage thường không đếm được.
+Q|Sửa “These furnitures are expensive.”|This furniture is expensive.|Furniture không đếm được nên không thêm s và dùng this/is.
+X|Paper là giấy, nhưng a paper có thể là một bài báo hoặc công trình. Coffee là đồ uống, nhưng two coffees thường hiểu là hai suất cà phê.
+@24
+U|A/an giới thiệu một cá thể chưa xác định, nói nghề nghiệp hoặc thành viên của một loại. Chọn theo âm đầu được phát ra, kể cả với từ viết tắt và số. Không dùng trực tiếp với danh từ số nhiều hoặc không đếm được.
+S|Trước âm phụ âm|a + danh từ số ít hoặc cụm tính từ + danh từ.
+S|Trước âm nguyên âm|an + danh từ số ít hoặc cụm tính từ + danh từ.
+S|Nghề nghiệp|S + be + a/an + tên nghề số ít.
+E|Âm nguyên âm|She ate an orange.|Cô ấy ăn một quả cam.|Orange bắt đầu bằng âm nguyên âm.
+E|H câm|The trip takes an hour.|Chuyến đi mất một giờ.|Hour không phát âm h.
+E|Âm /j/|He studies at a university.|Anh ấy học ở một trường đại học.|University bắt đầu bằng âm /j/, dùng a.
+E|Tính từ chen giữa|It was an unusual day.|Đó là một ngày khác thường.|Chọn an theo unusual, không theo day.
+E|Nghề nghiệp|My father is a mechanic.|Bố tôi là thợ máy.|Một người thuộc nhóm nghề mechanic.
+Q|Điền “She sent me ___ email.”|an|Email bắt đầu bằng âm nguyên âm và là danh từ đếm được số ít ở đây.
+X|A/an có thể diễn tả “mỗi”, như twice a week. Khi nhấn con số đối lập với hai, dùng one thay a.
+@25
+U|The báo rằng người nghe có thể xác định đối tượng. Sự xác định có thể đến từ lần nhắc trước, thông tin bổ nghĩa, bối cảnh chung hoặc tính duy nhất. The dùng được với cả số ít, số nhiều và không đếm được.
+S|Đã được nhắc|a/an + N ở lần đầu → the + N ở lần sau.
+S|Có phần xác định|the + N + cụm giới từ/mệnh đề xác định.
+S|Đối tượng duy nhất trong ngữ cảnh|the sun; the manager of this store.
+E|Nhắc lại|I bought a lamp. The lamp is on my desk.|Tôi mua một chiếc đèn. Chiếc đèn ở trên bàn tôi.|Lần sau người nghe biết chiếc nào.
+E|Bổ nghĩa xác định|Please pass me the salt on the table.|Làm ơn đưa tôi lọ muối trên bàn.|Cụm on the table xác định vật cần lấy.
+E|Cùng biết tình huống|Could you close the door?|Bạn đóng cửa giúp tôi được không?|Trong phòng, hai người hiểu cửa nào.
+E|Cụ thể với không đếm được|The water in this glass is warm.|Nước trong cốc này ấm.|Không nói nước nói chung.
+Q|Chọn “I love music / the music” khi nói yêu âm nhạc nói chung.|I love music.|Không có một loại/đoạn nhạc cụ thể được xác định nên không cần the.
+X|Tên riêng có quy ước riêng. The Pacific Ocean, the Netherlands nhưng Vietnam, Lake Victoria. Với tên địa lý, nên tra và học theo cả cụm.
+@26
+U|Không dùng mạo từ trước danh từ số nhiều hoặc không đếm được khi nói chung. Nhiều tên riêng và cụm chỉ hoạt động quen thuộc cũng không có mạo từ. Đối chiếu nghĩa chung với một trường hợp cụ thể.
+S|Nói chung|Danh từ số nhiều/không đếm được + động từ.
+S|Ngôn ngữ và môn học|speak English; study history.
+S|Cụm thường gặp|go to work; at home; have breakfast.
+E|Loài nói chung|Dogs need exercise.|Chó cần vận động.|Dogs không chỉ một nhóm chó đã xác định.
+E|Khái niệm|Time is valuable.|Thời gian quý giá.|Time nói chung.
+E|Ngôn ngữ|She speaks Vietnamese.|Cô ấy nói tiếng Việt.|Tên ngôn ngữ không có the ở mẫu này.
+E|Bữa ăn|We usually have lunch at noon.|Chúng tôi thường ăn trưa lúc giữa trưa.|Lunch dùng theo nghĩa bữa ăn thường lệ.
+E|Phân biệt cụ thể|The lunch we had yesterday was excellent.|Bữa trưa chúng tôi ăn hôm qua rất ngon.|Mệnh đề we had yesterday xác định một bữa cụ thể.
+Q|Sửa “I go to the work at eight” khi nói đi làm bình thường.|I go to work at eight.|Go to work là cụm chỉ hoạt động đi làm.
+X|“Go to school” nhấn việc đi học; “go to the school” có thể là đến tòa nhà trường. Với hospital, tiếng Anh Mỹ thường dùng the ngay cả khi nói nhập viện.
+@27
+U|Some thường giới thiệu một lượng có tồn tại; any thường xuất hiện khi hỏi về sự tồn tại hoặc phủ định. Lựa chọn còn phụ thuộc mong đợi và ý nghĩa, không chỉ hình thức khẳng định/phủ định.
+S|Khẳng định thông thường|some + số nhiều/không đếm được.
+S|Hỏi và phủ định|any + số nhiều/không đếm được.
+S|Lời mời và “bất kỳ”|Would you like some…?; any + số ít khi nghĩa là bất kỳ.
+E|Có một ít|There is some bread left.|Còn một ít bánh mì.|Bread không đếm được.
+E|Không có|We don't have any eggs.|Chúng tôi không có quả trứng nào.|Any trong phủ định nhấn không có đơn vị nào.
+E|Hỏi trung tính|Do you have any questions?|Bạn có câu hỏi nào không?|Người nói chưa biết có hay không.
+E|Lời mời|Would you like some soup?|Bạn dùng chút súp nhé?|Some tự nhiên trong lời mời.
+E|Tự do lựa chọn|You can sit in any chair.|Bạn có thể ngồi ở bất kỳ ghế nào.|Any + số ít mang nghĩa không giới hạn lựa chọn.
+Q|Chọn some/any “I haven't got ___ cash.”|any|Câu phủ định nói không có tiền mặt.
+X|Trước the/my/these hoặc đại từ, dùng some/any of, như some of my friends. “Some friends” và “some of my friends” khác phạm vi nhóm.
+@28
+U|Many dùng để đếm đơn vị, much để nói lượng không đếm được. Cả hai thường tự nhiên trong câu hỏi và phủ định. A lot of thường phổ biến hơn trong khẳng định hội thoại thông thường.
+S|Đếm được|many + danh từ số nhiều.
+S|Không đếm được|much + danh từ không đếm được.
+S|Quá mức|too many + số nhiều; too much + không đếm được.
+E|Hỏi số|How many cousins do you have?|Bạn có bao nhiêu anh chị em họ?|Cousins đếm từng người.
+E|Hỏi lượng|How much time do we have?|Chúng ta có bao nhiêu thời gian?|Time là lượng.
+E|Phủ định|There aren't many shops here.|Ở đây không có nhiều cửa hàng.|Shops số nhiều.
+E|Quá mức|There's too much noise in this room.|Phòng này quá ồn.|Noise nói lượng tiếng ồn, dùng much.
+Q|Điền “There are too ___ cars on this road.”|many|Cars là danh từ đếm được số nhiều.
+X|“Much better” không nói lượng danh từ mà tăng mức so sánh. “Many a student” là cấu trúc trang trọng riêng, theo sau bằng danh từ số ít.
+@29
+U|A lot of và lots of dùng được cho cả danh từ đếm được số nhiều và không đếm được. Lots of thân mật hơn. Khi bỏ danh từ đã rõ, bỏ luôn of.
+S|Trước danh từ|a lot of / lots of + danh từ.
+S|Đứng độc lập|a lot / lots, khi ý danh từ hoặc mức độ đã rõ.
+S|Hòa hợp động từ|Theo danh từ sau of, không theo từ lot.
+E|Số nhiều|A lot of students take this course.|Nhiều sinh viên học khóa này.|Students quyết định take, không phải takes.
+E|Không đếm được|There is a lot of traffic today.|Hôm nay xe cộ rất đông.|Traffic dùng is.
+E|Đứng cuối|Do you travel much? — Yes, a lot.|Bạn đi du lịch nhiều không? — Có, nhiều.|Không có danh từ sau nên không dùng of.
+E|Mức độ hành động|I learned a lot from her.|Tôi học được nhiều từ cô ấy.|A lot chỉ mức độ/lượng học được.
+Q|Sửa “He has a lot friends.”|He has a lot of friends.|Trước danh từ friends cần of.
+X|“A lot of the students” chỉ nhiều người trong nhóm xác định. “A lot of students” không tự xác định nhóm bằng the.
+@30
+U|Few thường nhấn gần như không có hoặc ít hơn mức mong muốn. A few nhấn vẫn có một số. Đây là khác biệt thái độ, nên cùng một con số có thể được diễn đạt bằng hai cách tùy điều người nói muốn nhấn.
+S|Thiếu về số lượng|few + danh từ đếm được số nhiều.
+S|Có một vài|a few + danh từ đếm được số nhiều.
+S|Nhóm xác định|a few of + the/my/these + số nhiều; a few of them.
+E|Có người hỗ trợ|I have a few friends in this city.|Tôi có một vài người bạn ở thành phố này.|Nhấn vẫn có bạn.
+E|Ít, có thể cô đơn|I have few friends in this city.|Tôi có rất ít bạn ở thành phố này.|Nhấn thiếu người quen.
+E|Một số trong nhóm|A few of the guests stayed late.|Một vài vị khách ở lại muộn.|The guests xác định nhóm.
+E|Thêm một số|We need a few more chairs.|Chúng ta cần thêm vài chiếc ghế.|More đứng sau a few.
+Q|Chọn few/a few để nói “Tôi vẫn có vài phút để giúp bạn”.|I have a few minutes to help you.|A few mang ý còn một lượng nhỏ có thể dùng được.
+X|Trong hội thoại, not many thường tự nhiên hơn few đứng riêng. Only a few nhấn ít nhưng vẫn có một vài.
+@31
+U|Little và a little dùng với lượng không đếm được. Little nhấn thiếu, còn a little nhấn có chút ít. Đừng nhầm little lượng từ với little tính từ nghĩa nhỏ.
+S|Ít đến mức thiếu|little + danh từ không đếm được.
+S|Có một chút|a little + danh từ không đếm được.
+S|Mức độ|a little + tính từ so sánh/trạng từ thích hợp, như a little better.
+E|Còn chút để dùng|There is a little milk in the fridge.|Trong tủ lạnh còn một chút sữa.|Có lượng nhỏ.
+E|Thiếu thời gian|We have little time to prepare.|Chúng ta có rất ít thời gian chuẩn bị.|Ngụ ý cần vội hoặc khó chuẩn bị đủ.
+E|Xin thêm|Could I have a little more water?|Cho tôi thêm chút nước được không?|More theo sau a little.
+E|Mức độ so sánh|This route is a little shorter.|Tuyến đường này ngắn hơn một chút.|A little bổ nghĩa mức chênh lệch.
+Q|Sửa “I have a little questions.”|I have a few questions.|Questions đếm được số nhiều nên dùng a few.
+X|“A little girl” là một cô bé nhỏ, không phải lượng nhỏ của girl. Xem từ theo sau là danh từ đếm được hay không đếm được để phân tích.
+@32
+U|Each hướng sự chú ý đến từng thành viên. Every bao quát tất cả thông qua từng cá thể. Each dùng được cho hai trở lên, every thông thường cho nhóm ba trở lên. Both thường tự nhiên hơn khi nói cả hai như một nhóm.
+S|Trước danh từ|each/every + danh từ số ít + động từ số ít.
+S|Với of|each of + danh từ số nhiều xác định/đại từ + động từ thường số ít.
+S|Chu kỳ|every + số + đơn vị số nhiều, như every two days.
+E|Từng người|Each student receives a different task.|Mỗi học sinh nhận một nhiệm vụ khác.|Nhấn sự phân chia cá nhân.
+E|Cả nhóm|Every room has a window.|Phòng nào cũng có cửa sổ.|Phát biểu bao quát.
+E|Nhóm xác định|Each of these keys opens a different door.|Mỗi chìa trong số này mở một cửa khác.|Chủ ngữ each dùng opens.
+E|Chu kỳ|I call my parents every two days.|Cứ hai ngày tôi gọi bố mẹ một lần.|Không dùng every two day.
+Q|Sửa “Every students have a book.”|Every student has a book.|Every + danh từ số ít và has.
+X|Every không đứng một mình thay danh từ như each. Dùng every one of them, không dùng every of them.
+@33
+U|All chỉ toàn bộ, most chỉ phần lớn, some chỉ một phần. Có of khi theo sau là đại từ hoặc nhóm đã được xác định; không có of khi đi thẳng với danh từ chỉ chung.
+S|Nói chung|all/most/some + danh từ.
+S|Nhóm xác định|all/most/some of + the/my/these + danh từ.
+S|Đại từ|all/most/some of us/you/them.
+E|Nhận định chung|Most people need regular sleep.|Phần lớn mọi người cần ngủ đều đặn.|Không dùng most of people.
+E|Trong nhóm|Some of my colleagues work remotely.|Một số đồng nghiệp của tôi làm từ xa.|My xác định phạm vi nhóm.
+E|Toàn bộ|All the windows are open.|Tất cả cửa sổ đều mở.|All có thể bỏ of trước the.
+E|Đại từ|Most of them arrived early.|Phần lớn họ đến sớm.|Trước them phải có of.
+Q|Sửa “Some of students are absent” khi nói một số học sinh nói chung.|Some students are absent.|Bỏ of; hoặc nếu nhóm đã xác định, viết some of the students.
+X|Most không có nghĩa “nhiều nhất” trong mẫu này. The most dùng khi so sánh lượng cao nhất giữa các nhóm.
+@34
+U|Dùng cho hai đối tượng. Both xác nhận cả hai; either cho phép một trong hai; neither loại cả hai. Xác định rõ đang chọn một, nói cả hai hay phủ định cả hai.
+S|Both|both + danh từ số nhiều; both of + the/my…/them.
+S|Either/Neither|either/neither + danh từ số ít.
+S|Hai lựa chọn|either A or B; neither A nor B.
+E|Cả hai|Both restaurants are good.|Cả hai nhà hàng đều tốt.|Both đi với are.
+E|Một trong hai|You can use either entrance.|Bạn có thể dùng một trong hai lối vào.|Entrance số ít.
+E|Không cái nào|Neither answer is correct.|Cả hai đáp án đều không đúng.|Neither + answer số ít.
+E|Chọn lựa|We can either walk or take a taxi.|Ta có thể đi bộ hoặc bắt taxi.|Hai lựa chọn cùng là cụm động từ.
+Q|Điền “Both of my sisters ___ teachers.”|are|Both chỉ hai người nên động từ số nhiều.
+X|Neither of them thường đi với động từ số ít trong văn trang trọng; dạng số nhiều cũng phổ biến trong hội thoại. Tránh not…neither khi không định tạo nghĩa khác.
+@35
+U|Chọn theo số lượng và mức xác định của phần còn lại. Another là thêm một hoặc một cái khác chưa xác định. The other là cái còn lại đã xác định; others thay các danh từ số nhiều không nói ra.
+S|Một cái khác|another + danh từ số ít.
+S|Các cái khác|other + danh từ số nhiều; others đứng độc lập.
+S|Phần còn lại cụ thể|the other + số ít/số nhiều; the others đứng độc lập.
+E|Xin thêm một|Could I have another cup of tea?|Cho tôi thêm một tách trà được không?|Another = một tách nữa.
+E|Hai cái|One shoe is here. Where is the other?|Một chiếc giày ở đây. Chiếc còn lại đâu?|Chỉ có cặp hai chiếc.
+E|Nhiều lựa chọn|Do you have other sizes?|Bạn có cỡ khác không?|Other đứng trước sizes.
+E|Thay danh từ|Some people agreed; others did not.|Một số người đồng ý; những người khác thì không.|Others thay other people.
+Q|Sửa “I need others shoes.”|I need other shoes.|Có danh từ shoes nên dùng other, không dùng others.
+X|Another có thể đi trước số + danh từ số nhiều, như another two days, nghĩa là thêm hai ngày. Đây là trường hợp đặc biệt theo cả cụm lượng.
+@36
+U|Sở hữu cách diễn tả vật thuộc ai hoặc quan hệ như tên, công việc, nhà ở. Dấu nháy đặt theo dạng số của người/vật sở hữu, không theo số lượng đồ vật được sở hữu.
+S|Số ít|danh từ/tên + 's + vật được sở hữu.
+S|Số nhiều tận cùng s|danh từ số nhiều + ' + vật được sở hữu.
+S|Số nhiều bất quy tắc|children's, men's, women's.
+E|Một người|This is my brother's bike.|Đây là xe đạp của anh tôi.|Một brother dùng 's.
+E|Nhiều người|The teachers' room is upstairs.|Phòng giáo viên ở tầng trên.|Teachers số nhiều tận cùng s nên thêm dấu nháy.
+E|Bất quy tắc|The children's toys are on the floor.|Đồ chơi của bọn trẻ ở dưới sàn.|Children không tận cùng s nên thêm 's.
+E|Sở hữu chung|Mai and Nam's apartment is small.|Căn hộ chung của Mai và Nam nhỏ.|Sở hữu chung chỉ thêm 's ở tên cuối.
+Q|Viết “the room of my parents” bằng sở hữu cách.|my parents' room|Parents là số nhiều tận cùng s.
+X|Mai's and Nam's apartments thường chỉ các căn hộ riêng. Of cũng dùng cho nhiều quan hệ, như the end of the road; không ép mọi cụm of thành 's.
+@37
+U|Đại từ chủ ngữ thay người/vật làm chủ ngữ. I luôn viết hoa. It còn dùng cho thời tiết, thời gian và khoảng cách khi không có danh từ làm chủ ngữ tự nhiên trong câu.
+S|Số ít|I, you, he, she, it.
+S|Số nhiều|we, you, they.
+S|Chủ ngữ giả|It + be + thời gian/thời tiết/khoảng cách.
+E|Thay tên|Lan is my neighbor. She is very kind.|Lan là hàng xóm tôi. Cô ấy rất tốt.|She tránh lặp tên.
+E|Vật số ít|My phone is old, but it works.|Điện thoại tôi cũ nhưng vẫn hoạt động.|It thay my phone.
+E|Thời tiết|It is cold today.|Hôm nay trời lạnh.|Không bỏ it.
+E|Nhóm có người nói|Nam and I are ready. We can leave.|Nam và tôi sẵn sàng. Chúng tôi có thể đi.|We gồm người nói.
+Q|Điền “My parents live nearby. ___ visit us often.”|They|My parents là nhóm số nhiều.
+X|They cũng dùng cho một người khi chưa biết hoặc không cần nêu giới. Động từ vẫn dùng dạng they are/they have.
+@38
+U|Đại từ tân ngữ đứng sau động từ hoặc giới từ. Khi có hai người cùng làm tân ngữ, cả hai vẫn dùng đúng dạng tân ngữ. Không đổi thành I chỉ vì nghe có vẻ trang trọng.
+S|Các dạng|I → me; he → him; she → her; we → us; they → them; you/it không đổi.
+S|Sau động từ|V + me/him/her/us/them.
+S|Sau giới từ|to/for/with/between + đại từ tân ngữ.
+E|Nhận tác động|Please call me tonight.|Làm ơn gọi tôi tối nay.|Me là người nhận cuộc gọi.
+E|Sau giới từ|I sat next to her.|Tôi ngồi cạnh cô ấy.|Sau next to dùng her.
+E|Hai tân ngữ ghép|They invited Nam and me.|Họ mời Nam và tôi.|Me vẫn là tân ngữ của invited.
+E|Nhóm|This message is for us.|Tin nhắn này dành cho chúng ta.|Sau for dùng us.
+Q|Sửa “She gave the keys to he.”|She gave the keys to him.|Sau giới từ to dùng him.
+X|Trong trả lời hội thoại, “Who is it? — It's me” tự nhiên và phổ biến. Không cần đổi thành it is I trong giao tiếp thông thường.
+@39
+U|Tính từ sở hữu đứng ngay trước cụm danh từ. Nó chỉ người sở hữu, nên không thay đổi theo số lượng đồ vật. His và her phụ thuộc người sở hữu, không phụ thuộc danh từ được sở hữu.
+S|Các dạng|my, your, his, her, its, our, their + danh từ.
+S|Có tính từ xen giữa|my new phone; her two older brothers.
+S|Không ghép mạo từ|my book, không dùng the my book.
+E|Một vật|Where is your bag?|Túi của bạn đâu?|Your đứng trước bag.
+E|Nhiều vật|She forgot her keys.|Cô ấy quên chìa khóa.|Her không đổi dù keys số nhiều.
+E|Vật hoặc con vật|The dog hurt its leg.|Con chó bị đau chân.|Its không có dấu nháy.
+E|Cả nhóm|Our new office is near their building.|Văn phòng mới của chúng tôi gần tòa nhà của họ.|Our/their xác định hai nhóm sở hữu.
+Q|Chọn its/it's “The company changed ___ name.”|its|Name là thứ thuộc công ty; it's là viết tắt của it is hoặc it has.
+@40
+U|Đại từ sở hữu thay cho cả cụm sở hữu + danh từ. Dùng khi vật đã được nhắc hoặc nhìn thấy, giúp tránh lặp. His có cùng dạng ở cả hai vai trò; hers khác her.
+S|Thay cả cụm|my bag → mine; your bag → yours; her bag → hers.
+S|Các dạng khác|his, ours, theirs. Its hiếm khi dùng độc lập.
+S|Câu hỏi sở hữu|Whose + danh từ + be…? / Whose + be + danh từ?
+E|Tránh lặp|My room is small. Yours is bigger.|Phòng tôi nhỏ. Phòng bạn lớn hơn.|Yours thay your room.
+E|Sau be|These seats are ours.|Những chỗ này là của chúng tôi.|Ours không đi kèm danh từ nữa.
+E|Hỏi|Whose jacket is this? — It's hers.|Áo khoác này của ai? — Của cô ấy.|Hers thay her jacket.
+E|Một người trong nhóm bạn|He's a friend of mine.|Anh ấy là một người bạn của tôi.|Of mine là mẫu sở hữu quen dùng.
+Q|Sửa “This is mine phone.”|This is my phone.|Có danh từ phone nên dùng my; nếu bỏ phone thì dùng “This is mine”.
+X|Không viết your's, her's, our's hoặc their's.
+@41
+U|Dùng phản thân khi người thực hiện và người nhận tác động là cùng người. Ngoài ra, đặt phản thân để nhấn người đó tự làm, hoặc by + phản thân để nói làm một mình. Phân biệt các chức năng này bằng ngữ cảnh.
+S|Các dạng|myself, yourself, himself, herself, itself, ourselves, yourselves, themselves.
+S|Phản thân|S + V + đại từ phản thân tương ứng.
+S|Một mình/tự làm|by + đại từ phản thân.
+E|Cùng chủ thể|I cut myself while cooking.|Tôi cắt phải tay khi nấu ăn.|I và myself cùng chỉ người nói.
+E|Tự học|She taught herself to swim.|Cô ấy tự học bơi.|Người dạy và người học là một.
+E|Nhấn mạnh|The director herself answered the phone.|Chính giám đốc trả lời điện thoại.|Herself nhấn chủ ngữ, có thể bỏ mà câu vẫn đủ.
+E|Một mình|He lives by himself.|Anh ấy sống một mình.|By himself nói không sống cùng ai.
+Q|Sửa “Please contact myself if you need help.”|Please contact me if you need help.|Chủ thể contact là người nghe, tân ngữ là người nói; không cùng người nên dùng me.
+X|Wash, dress, shave thường không cần phản thân nếu nghĩa đã rõ. “He dressed quickly” tự nhiên; “He dressed himself” nhấn tự làm không cần giúp.
+@42
+U|Dùng các từ chỉ định để trỏ đồ vật, người hoặc ý tưởng đã nhắc. Sự gần/xa có thể là khoảng cách vật lý, thời gian hoặc cảm giác của người nói. Chọn số ít/số nhiều trước, rồi chọn gần/xa.
+S|Số ít/không đếm được|this (gần), that (xa).
+S|Số nhiều|these (gần), those (xa).
+S|Đi cùng danh từ hoặc đứng độc lập|this book / This is good; those shoes / Those are mine.
+E|Vật gần|This cup is clean.|Cốc này sạch.|This + danh từ số ít.
+E|Vật xa|Can you pass me those plates?|Bạn đưa tôi mấy chiếc đĩa kia được không?|Those + danh từ số nhiều.
+E|Giới thiệu người|This is my friend, Minh.|Đây là bạn tôi, Minh.|This dùng khi giới thiệu.
+E|Nhắc lại ý|We could take a taxi. — That's a good idea.|Ta có thể đi taxi. — Ý hay đấy.|That chỉ đề xuất vừa nói.
+Q|Sửa “This shoes are too small.”|These shoes are too small.|Shoes số nhiều nên cần these.
+X|Trong điện thoại, “This is Lan” dùng để tự giới thiệu. Không dịch máy móc mọi “đây” thành here.
+@43
+U|Somebody/someone chỉ một người không xác định; something chỉ một vật/sự việc; somewhere chỉ nơi. Các nhóm any-, every-, no- hoạt động tương tự theo ý bất kỳ, tất cả hoặc không có.
+S|Hòa hợp|everyone/someone/nobody/something + động từ số ít.
+S|Tính từ theo sau|something useful; nobody new.
+S|Phủ định chuẩn|Nobody came hoặc I didn't see anybody.
+E|Có ai đó|Someone is knocking at the door.|Có ai đang gõ cửa.|Someone dùng is.
+E|Tất cả|Everybody has a ticket.|Mọi người đều có vé.|Everybody lấy has.
+E|Không ai|I didn't tell anyone.|Tôi không nói với ai.|Anyone hợp với phủ định.
+E|Tính từ|Let's do something different.|Hãy làm điều gì khác đi.|Different đứng sau something.
+E|Đại từ nhắc lại|Someone left their umbrella here.|Ai đó để quên ô ở đây.|Their tránh đoán giới của someone.
+Q|Sửa “Nobody didn't answer.” khi muốn nói không ai trả lời.|Nobody answered.|Nobody đã phủ định trong tiếng Anh chuẩn.
+X|Anyone có thể nghĩa bất kỳ ai trong câu khẳng định. “Anyone can learn” không có nghĩa một người cụ thể.
+@44
+U|Tính từ thường bổ nghĩa danh từ hoặc mô tả chủ ngữ sau động từ nối. Trạng từ mô tả cách làm hành động. Để chọn đúng, hỏi từ đó đang nói đặc điểm của người/vật hay cách thực hiện.
+S|Trước danh từ|a/an + tính từ + danh từ.
+S|Sau động từ nối|be/seem/look/feel/sound/taste + tính từ.
+S|Sau từ bất định|something/anything + tính từ.
+E|Trước danh từ|We stayed in a quiet hotel.|Chúng tôi ở một khách sạn yên tĩnh.|Quiet bổ nghĩa hotel.
+E|Sau look|You look tired.|Bạn trông mệt.|Tired mô tả bạn.
+E|Sau taste|This soup tastes salty.|Súp này có vị mặn.|Salty mô tả vị súp, không phải cách nếm.
+E|So với trạng từ|He looked carefully at the label.|Anh ấy nhìn kỹ nhãn.|Carefully mô tả cách nhìn.
+Q|Chọn “She seems happy / happily.”|She seems happy.|Seem là động từ nối; bổ ngữ mô tả she.
+X|Một số tính từ như asleep và afraid thường đứng sau be, không dùng trực tiếp như “an asleep child”. Dùng a sleeping child.
+@45
+U|Khi có nhiều tính từ trước danh từ, tiếng Anh có xu hướng đặt nhận xét trước thông tin phân loại. Không cần dùng hết mọi nhóm; câu đời thường thường chỉ có một đến ba tính từ.
+S|Thứ tự thường gặp|nhận xét → kích thước → tuổi → hình dạng → màu → nguồn gốc → chất liệu → mục đích → danh từ.
+S|Tính từ đồng cấp|Có thể nối bằng and hoặc dấu phẩy nếu cùng mô tả ở mức ngang nhau.
+S|Cụm phân loại|Chất liệu và mục đích thường sát danh từ, như leather riding boots.
+E|Nhận xét và tuổi|It's a lovely old house.|Đó là một ngôi nhà cũ xinh đẹp.|Lovely trước old.
+E|Kích thước và màu|She bought a small black bag.|Cô ấy mua một chiếc túi đen nhỏ.|Small trước black.
+E|Nguồn gốc và chất liệu|He owns an Italian leather jacket.|Anh ấy có áo khoác da Ý.|Italian trước leather.
+E|Đồng cấp|It was a long, difficult journey.|Đó là chuyến đi dài và khó khăn.|Hai tính chất cùng đánh giá hành trình.
+Q|Sắp xếp “wooden / beautiful / a / table”.|a beautiful wooden table|Nhận xét beautiful đứng trước chất liệu wooden.
+X|Thứ tự có thể đổi để tương phản hoặc nhấn mạnh. Với chuỗi dài khó đọc, tách thành câu thay vì cố xếp quá nhiều tính từ.
+@46
+U|Với các cặp như interested/interesting hoặc confused/confusing, phân biệt bên trải nghiệm cảm xúc và nguồn gây cảm xúc. Người có thể là nguồn gây cảm xúc nên vẫn dùng ing, như an interesting teacher.
+S|Cảm xúc của chủ thể|S + be/feel + tính từ ed.
+S|Đặc tính gây cảm xúc|S + be + tính từ ing.
+S|Cụm giới từ|interested in; worried about; pleased with; frightened of/by.
+E|Người cảm thấy|I'm interested in astronomy.|Tôi hứng thú với thiên văn học.|Interested mô tả cảm xúc của tôi.
+E|Nguồn gây cảm xúc|Astronomy is interesting.|Thiên văn học thú vị.|Interesting mô tả môn học.
+E|Không hiểu|The instructions are confusing, so I'm confused.|Hướng dẫn khó hiểu nên tôi thấy bối rối.|Confusing gây ra confused.
+E|Một người gây cảm xúc|Our teacher is inspiring.|Thầy/cô chúng tôi truyền cảm hứng.|Người vẫn có thể dùng ing.
+Q|Chọn “I was boring / bored during the lecture.” nếu muốn nói bạn thấy chán.|I was bored during the lecture.|Bored là cảm xúc bạn trải nghiệm.
+X|Không phải mọi từ tận cùng ed/ing đều là cặp tính từ cảm xúc. Ví dụ a painted wall là bức tường đã được sơn.
+@47
+U|Trạng từ cách thức trả lời hành động được làm như thế nào. Thường đặt sau động từ hoặc tân ngữ, tránh chen giữa động từ và tân ngữ ngắn. Nhiều trạng từ thêm ly nhưng có ngoại lệ.
+S|Sau động từ|S + V + trạng từ.
+S|Có tân ngữ|S + V + O + trạng từ.
+S|Biến đổi|careful → carefully; happy → happily; good → well; fast → fast.
+E|Cách nói|Please speak slowly.|Làm ơn nói chậm.|Slowly mô tả speak.
+E|Có tân ngữ|She closed the door quietly.|Cô ấy đóng cửa nhẹ nhàng.|Quietly đứng sau the door.
+E|Bất quy tắc|He plays the piano well.|Anh ấy chơi piano giỏi.|Well là trạng từ của good.
+E|Khác nghĩa|She works hard, but she hardly rests.|Cô ấy làm việc chăm nhưng hầu như không nghỉ.|Hard = chăm chỉ; hardly = gần như không.
+Q|Sửa “He drives careful.”|He drives carefully.|Cần trạng từ để mô tả cách lái.
+X|Friendly là tính từ dù có ly. Nói “in a friendly way” để diễn đạt cách thân thiện.
+@48
+U|Dùng để nói việc xảy ra thường xuyên tới mức nào. Always, usually, often, sometimes, rarely, never không cần gắn với tỷ lệ phần trăm cố định. Vị trí thay đổi phần nào theo trọng tâm và độ tự nhiên.
+S|Động từ thường|S + trạng từ tần suất + V.
+S|Với be|S + be + trạng từ tần suất.
+S|Có trợ động từ|S + trợ động từ đầu tiên + trạng từ + phần còn lại.
+E|Thói quen|I usually walk to work.|Tôi thường đi bộ đi làm.|Usually trước walk.
+E|Be|She is often busy on Mondays.|Cô ấy thường bận thứ Hai.|Often sau is.
+E|Hoàn thành|I have never tried that dish.|Tôi chưa từng thử món đó.|Never sau have.
+E|Cụm tần suất|We meet twice a month.|Chúng tôi gặp nhau hai lần mỗi tháng.|Cụm twice a month thường ở cuối.
+Q|Sắp xếp “late / is / always / he”.|He is always late.|Always đứng sau be.
+X|Never đã phủ định, nên không dùng don't never trong tiếng Anh chuẩn. Sometimes có thể đứng đầu hoặc cuối câu để thay trọng tâm.
+@49
+U|So sánh hơn đối chiếu hai người, vật hoặc hai trạng thái. Chọn er hoặc more theo tính từ, rồi dùng than nếu nói rõ đối tượng đối chiếu. Không dùng đồng thời more và er cho cùng một tính từ.
+S|Tính từ ngắn|adj-er + than; big → bigger; happy → happier.
+S|Tính từ dài/trạng từ ly|more + adj/adv + than.
+S|Mức chênh lệch|much/far/a lot/a little/slightly + dạng so sánh hơn.
+E|Kích thước|This desk is wider than mine.|Bàn này rộng hơn bàn tôi.|Wide thêm r.
+E|Giá|The train is more expensive than the bus.|Tàu đắt hơn xe buýt.|Expensive dùng more.
+E|Cách làm|She explains things more clearly than I do.|Cô ấy giải thích rõ hơn tôi.|Clearly dùng more.
+E|Nhấn chênh lệch|Today is much colder than yesterday.|Hôm nay lạnh hơn hôm qua nhiều.|Much bổ nghĩa colder.
+Q|Sửa “This route is more shorter.”|This route is shorter.|Shorter đã thể hiện so sánh.
+X|Có thể bỏ than khi đối tượng đã rõ, như “I feel better”. Clever, simple và một số từ hai âm tiết có hơn một biến thể chấp nhận được.
+@50
+U|So sánh nhất chọn thành viên ở mức cao nhất/thấp nhất trong nhóm. Nêu hoặc hiểu được nhóm là cần thiết. Với tính từ, thường có the; sau từ sở hữu như my thì không thêm the.
+S|Tính từ ngắn|the + adj-est; big → biggest; happy → happiest.
+S|Tính từ dài|the most/least + tính từ.
+S|Một trong số|one of the + so sánh nhất + danh từ số nhiều.
+E|Trong nhóm|Mai is the youngest person in our team.|Mai là người trẻ nhất nhóm.|In our team xác định phạm vi.
+E|Tính từ dài|This is the most convenient option.|Đây là lựa chọn tiện nhất.|Most đi trước convenient.
+E|Sở hữu|He is my oldest friend.|Anh ấy là người bạn lâu năm nhất của tôi.|My thay vị trí the; oldest friend có thể nói thời gian quen nhau.
+E|Một trong số|It's one of the best restaurants in town.|Đó là một trong những nhà hàng tốt nhất thị trấn.|Restaurants phải số nhiều.
+Q|Sửa “She is one of the best player.”|She is one of the best players.|One được chọn trong nhóm nhiều players.
+X|“At least” và “at most” là cụm riêng nghĩa ít nhất/nhiều nhất về giới hạn, không luôn cùng cách dùng với tính từ so sánh nhất.
+@51
+U|As…as diễn tả mức ngang nhau. Not as…as thường diễn tả thấp hơn về tính chất đang xét. Giữ tính từ/trạng từ ở dạng gốc, không dùng er hoặc more bên trong.
+S|Bằng nhau|as + adj/adv + as.
+S|Không bằng|not as + adj/adv + as.
+S|Lượng bằng nhau|as many + số nhiều + as; as much + không đếm được + as.
+E|Chiều cao|She's as tall as her brother.|Cô ấy cao bằng anh trai.|Tall không đổi dạng.
+E|Giá thấp hơn|This hotel isn't as expensive as that one.|Khách sạn này không đắt bằng khách sạn kia.|Phủ định mức bằng nhau.
+E|Cách chạy|I can't run as fast as you.|Tôi không chạy nhanh bằng bạn.|Fast là trạng từ.
+E|Lượng công việc|I have as much work as she does.|Tôi có nhiều việc bằng cô ấy.|Work không đếm được nên much.
+Q|Sửa “He's as older as me.”|He's as old as me.|As…as dùng old ở dạng gốc.
+X|Sau as, đại từ tân ngữ phổ biến trong hội thoại; “as I am” đầy đủ và rõ hơn khi cần so sánh một mệnh đề.
+@52
+U|Một số tính từ/trạng từ có dạng so sánh riêng. Học cả chuỗi và xác định đang mô tả danh từ hay động từ. Không gắn thêm er/est vào better, worse, best hoặc worst.
+S|Tốt và tệ|good/well → better → best; bad/badly → worse → worst.
+S|Lượng|many/much → more → most; little về lượng → less → least.
+S|Xa|far → farther/further → farthest/furthest.
+E|Sức khỏe|I feel better today.|Hôm nay tôi thấy khỏe hơn.|Better là dạng so sánh, không cần more.
+E|Kết quả|This is the worst result so far.|Đây là kết quả tệ nhất đến nay.|Worst tương ứng bad.
+E|Lượng|We need more time.|Chúng ta cần thêm thời gian.|More là dạng lượng nhiều hơn.
+E|Bổ sung|Please contact us for further details.|Hãy liên hệ để biết thêm chi tiết.|Further mang nghĩa thêm, không phải xa vật lý.
+Q|Sửa “She sings more better now.”|She sings better now.|Bỏ more vì better đã là so sánh hơn.
+X|Elder/eldest thường dùng trong quan hệ gia đình trước danh từ. Trong so sánh với than, older là lựa chọn thông thường.
+@53
+U|Too nhấn vượt ngưỡng phù hợp; enough nhấn đạt ngưỡng cần thiết. Đặt enough theo từ nó bổ nghĩa. Nếu thêm to V, giải thích khả năng hoặc hệ quả liên quan tới ngưỡng đó.
+S|Quá mức|too + adj/adv + (for người) + to V.
+S|Đủ tính chất|adj/adv + enough + (for người) + to V.
+S|Đủ hoặc quá nhiều về lượng|enough + N; too much + không đếm được; too many + số nhiều.
+E|Quá nặng|This suitcase is too heavy for me to carry.|Vali này quá nặng để tôi mang.|For me xác định người gặp giới hạn.
+E|Đủ tuổi|She's old enough to drive.|Cô ấy đủ tuổi lái xe.|Enough đứng sau old.
+E|Đủ tiền|We don't have enough money to buy it.|Chúng tôi không đủ tiền mua nó.|Enough đứng trước money.
+E|Quá nhanh|You're speaking too quickly for me to follow.|Bạn nói nhanh quá tôi không theo kịp.|Too bổ nghĩa trạng từ quickly.
+Q|Sửa “The room is enough warm.”|The room is warm enough.|Tính từ đứng trước enough.
+X|Very chỉ mức cao, không nhất thiết có ý không phù hợp. “Very hot” khác “too hot to drink”.
+@54
+U|So và such nhấn mức độ mạnh; so bổ nghĩa tính từ/trạng từ, such đi với cụm danh từ. Khi có that, phần sau nêu hệ quả. Chọn theo cấu trúc đi sau chứ không dịch từ “rất” rồi đoán.
+S|So|so + adj/adv + (that + mệnh đề).
+S|Such|such + a/an + adj + N số ít; such + adj + N số nhiều/không đếm được.
+S|Lượng|so much/many/little/few + N.
+E|Tính từ|The lesson was so useful.|Bài học thật hữu ích.|So đứng trước useful.
+E|Danh từ số ít|It was such a useful lesson.|Đó là một bài học thật hữu ích.|Such đi với cả cụm a useful lesson.
+E|Hệ quả|He spoke so quietly that I couldn't hear him.|Anh ấy nói nhỏ đến mức tôi không nghe được.|That dẫn hệ quả.
+E|Lượng|There were so many people that we couldn't get in.|Có quá nhiều người đến mức chúng tôi không vào được.|Many dẫn đến so, không dùng such many.
+Q|Sửa “It was so a long journey.”|It was such a long journey.|Có cụm danh từ a long journey nên dùng such.
+X|That đôi khi được bỏ trong hội thoại. Such as có nghĩa “chẳng hạn như”, là một mẫu khác.
+@55
+U|At/on/in biểu đạt thời gian theo quy ước. At thường cho giờ hoặc thời điểm; on cho ngày cụ thể; in cho tháng, năm, mùa, buổi. Một số cụm cố định cần học riêng.
+S|At|at 7; at noon; at night.
+S|On|on Monday; on July 4; on Friday morning.
+S|In|in March; in 2026; in summer; in the morning.
+E|Giờ|The class starts at 8:30.|Lớp bắt đầu lúc 8 giờ 30.|At đi với giờ.
+E|Ngày|We're meeting on Tuesday evening.|Chúng tôi gặp nhau tối thứ Ba.|Có ngày cụ thể nên on.
+E|Khoảng lớn|She was born in October.|Cô ấy sinh tháng Mười.|In đi với tháng.
+E|Không cần giới từ|I'll call you next week.|Tuần sau tôi gọi bạn.|Next week không dùng in/on/at phía trước.
+Q|Điền “The shop is closed ___ Sundays.”|on|Ngày trong tuần dùng on; số nhiều nói các Chủ nhật nói chung.
+X|In two days thường nghĩa là sau hai ngày tính từ nay; for two days là trong khoảng hai ngày. On the weekend phổ biến ở Mỹ; at the weekend phổ biến ở Anh.
+@56
+U|Giới từ nơi chốn phản ánh cách hình dung vị trí. In coi là bên trong không gian/khu vực; on coi là trên bề mặt hoặc tuyến; at coi là điểm hoặc nơi diễn ra hoạt động. Một địa điểm có thể nhận nhiều giới từ với sắc thái khác.
+S|Trong|in a room/city/country.
+S|Trên|on the table/wall/second floor.
+S|Tại điểm|at the door/station/bus stop.
+E|Bên trong|The keys are in my bag.|Chìa khóa trong túi tôi.|Bag có không gian chứa.
+E|Bề mặt|The picture is on the wall.|Bức tranh trên tường.|On không chỉ bề mặt nằm ngang.
+E|Điểm hẹn|I'll meet you at the entrance.|Tôi gặp bạn ở lối vào.|Xem entrance như điểm.
+E|Tầng|Our office is on the third floor.|Văn phòng chúng tôi ở tầng ba.|Floor dùng on trong nghĩa tầng.
+Q|Điền “She lives ___ Hanoi.”|in|Thành phố được xem như một khu vực.
+X|On a bus/train/plane nhưng in a car/taxi là các cụm thông thường. Không suy từ kích thước vật lý để áp dụng máy móc.
+@57
+U|Phân biệt vị trí đang ở và đường đi đến/qua/ra khỏi nơi. To cho đích; into nhấn vào trong; out of nhấn ra khỏi; across đi từ bên này sang bên kia; through đi xuyên một không gian.
+S|Đích đến|go/walk/travel + to + nơi.
+S|Vượt ranh giới|into / out of + không gian.
+S|Lộ trình|across / through / along / past + địa điểm.
+E|Đi tới|We're going to the station.|Chúng tôi đang đi tới ga.|To chỉ đích đến.
+E|Đi vào|She walked into the kitchen.|Cô ấy bước vào bếp.|Into nhấn vượt ngưỡng cửa.
+E|Đi ngang|They walked across the bridge.|Họ đi bộ qua cầu.|Across nhấn từ đầu này sang đầu kia.
+E|Đi xuyên|The train went through a tunnel.|Tàu chạy qua đường hầm.|Through coi đường hầm như không gian bao quanh.
+Q|Sửa “Let's go to home.”|Let's go home.|Home dùng như trạng từ hướng nên không có to.
+X|Arrive at dùng với địa điểm như station; arrive in với thành phố/quốc gia. Không dùng arrive to trong mẫu địa điểm thông thường.
+@58
+U|Since đặt mốc bắt đầu; for đo thời lượng. Chúng không tự quyết định thì. Hiện tại hoàn thành thích hợp khi khoảng kéo tới hiện tại; quá khứ đơn dùng nếu khoảng đã kết thúc.
+S|Mốc|since Monday / 2020 / I moved here.
+S|Khoảng|for two hours / several years / a long time.
+S|Hỏi thời lượng|How long + have/has…? hoặc How long + did…?
+E|Còn tiếp tục|I've lived here since 2020.|Tôi sống ở đây từ năm 2020.|2020 là mốc bắt đầu.
+E|Khoảng tới nay|She's worked here for six months.|Cô ấy làm ở đây được sáu tháng.|Six months là khoảng.
+E|Đã kết thúc|I stayed there for a week last year.|Năm ngoái tôi ở đó một tuần.|For vẫn dùng với quá khứ đơn.
+E|Mốc bằng mệnh đề|We haven't met since we left school.|Chúng tôi chưa gặp nhau từ khi ra trường.|Sau since là một sự kiện làm mốc.
+Q|Sửa “I've known him since ten years.”|I've known him for ten years.|Ten years là thời lượng, không phải mốc.
+X|Since còn là liên từ chỉ nguyên nhân nghĩa “vì”, như “Since you're here, let's start”. Xác định nghĩa trước khi chọn thì.
+@59
+U|During theo sau bởi danh từ chỉ sự kiện/khoảng. While thường theo sau bởi mệnh đề có chủ ngữ và động từ. For khác cả hai vì đo độ dài thời gian, không đặt việc vào một sự kiện nền.
+S|During|during + cụm danh từ.
+S|While|while + S + V.
+S|Rút gọn khi cùng chủ thể|while + V-ing, nếu chủ thể được hiểu đúng.
+E|Trong sự kiện|Please turn off your phone during the meeting.|Hãy tắt điện thoại trong cuộc họp.|Meeting là danh từ.
+E|Hai hoạt động|I listened to music while I was cooking.|Tôi nghe nhạc trong lúc nấu ăn.|While dẫn mệnh đề.
+E|Rút gọn|Be careful while crossing the street.|Hãy cẩn thận khi qua đường.|Người cần cẩn thận cũng là người qua đường.
+E|Thời lượng|We talked for two hours during the trip.|Chúng tôi nói chuyện hai giờ trong chuyến đi.|For đo độ dài; during đặt vào chuyến đi.
+Q|Sửa “During I was away, she watered the plants.”|While I was away, she watered the plants.|Sau liên từ là mệnh đề I was away nên dùng while.
+X|While còn có thể chỉ tương phản, như “I like tea, while she prefers coffee”. Khi đó không nhất thiết có hai việc đồng thời.
+@60
+U|By đặt hạn chót để sự kiện hoàn tất/xảy ra; until nói trạng thái hoặc hoạt động kéo dài đến mốc. Phủ định not…until thường diễn tả việc chưa xảy ra trước mốc đó.
+S|Hạn chót|finish/send/arrive + by + mốc.
+S|Kéo dài|stay/wait/work + until/till + mốc.
+S|Chưa tới khi|not + V + until + mốc/mệnh đề.
+E|Giao việc|Please send the report by Friday.|Hãy gửi báo cáo chậm nhất thứ Sáu.|Gửi sớm hơn vẫn đúng hạn.
+E|Ở lại|I'll stay here until Friday.|Tôi sẽ ở đây đến thứ Sáu.|Ở kéo dài tới mốc.
+E|Chưa xảy ra|The shop won't open until ten.|Cửa hàng sẽ chưa mở trước mười giờ.|Not until giới hạn thời điểm bắt đầu.
+E|Đối chiếu|Be home by nine, and stay home until morning.|Về nhà chậm nhất chín giờ và ở nhà đến sáng.|By cho việc về; until cho việc ở.
+Q|Chọn by/until “I'll wait here ___ you return.”|until|Wait là hoạt động kéo dài tới lúc người kia về.
+X|By the time dẫn mốc mà một việc thường đã hoàn tất, như “By the time we arrived, they had left”.
+@61
+U|Can nói khả năng, sự cho phép hoặc lời yêu cầu. Could có thể nói khả năng chung trong quá khứ, khả năng chưa chắc hoặc một lời nhờ lịch sự ở hiện tại. Chọn nghĩa theo tình huống, không chỉ theo mốc thời gian.
+S|Khẳng định|S + can/could + V.
+S|Phủ định|S + cannot/can't/could not/couldn't + V.
+S|Hỏi|Can/Could + S + V? → Yes, S can/could.
+E|Khả năng|I can speak two languages.|Tôi nói được hai ngôn ngữ.|Can không có s với ngôi thứ ba.
+E|Không thể|She can't come tonight.|Tối nay cô ấy không đến được.|Có thể do hoàn cảnh, không phải thiếu kỹ năng.
+E|Quá khứ chung|He could swim when he was five.|Anh ấy biết bơi lúc năm tuổi.|Nói khả năng đã có thời nhỏ.
+E|Lời nhờ|Could you speak a little more slowly?|Bạn nói chậm hơn một chút được không?|Could làm yêu cầu nhẹ hơn.
+E|Thành công cụ thể|Despite the noise, I managed to hear her.|Dù ồn, tôi vẫn nghe được cô ấy.|Managed to nhấn đã thành công ở lần đó.
+Q|Sửa “She can to drive.”|She can drive.|Modal đi với nguyên mẫu không to.
+X|Be able to dùng được ở những dạng can không có, như will be able to hoặc have been able to. Không viết will can.
+@62
+U|May/might diễn đạt khả năng, không phải phần trăm chắc chắn cố định. May còn xin/cho phép trong văn phong lịch sự hoặc trang trọng. May not có thể là “có lẽ không” hoặc “không được phép”.
+S|Khả năng|S + may/might + V.
+S|Khả năng phủ định|S + may/might not + V.
+S|Xin phép|May I/we + V?
+E|Khả năng|She may be in a meeting.|Có lẽ cô ấy đang họp.|Chưa xác nhận điều đó là thật.
+E|Có lẽ không|We might not finish today.|Có thể hôm nay chúng ta chưa xong.|Not phủ định finish, còn might giữ mức chưa chắc.
+E|Xin phép|May I use your phone? — Yes, you may.|Tôi dùng điện thoại bạn được không? — Được.|May ở đây liên quan sự cho phép.
+E|Cấm theo quy định|Visitors may not enter this area.|Khách không được vào khu vực này.|Ngữ cảnh quy định cho nghĩa cấm.
+Q|Diễn đạt “Có thể anh ấy biết câu trả lời” bằng might.|He might know the answer.|Might + know nguyên mẫu.
+X|Trong câu hỏi về khả năng, “Do you think…?” thường tự nhiên hơn lạm dụng “May it…?”. Có thể dùng “Might he be mistaken?” trong văn phong dè dặt.
+@63
+U|Must và have to đều nói sự bắt buộc. Must thường thể hiện sự cần thiết do người nói nhấn mạnh; have to thường gắn yêu cầu hoàn cảnh, nhưng đây là xu hướng, không ranh giới tuyệt đối. Have to chia được qua nhiều thì.
+S|Bắt buộc hiện tại|S + must + V; S + have/has to + V.
+S|Quá khứ/tương lai|S + had to + V; S + will have to + V.
+S|Câu hỏi với have to|Do/Does/Did + S + have to + V?
+E|Quy định|You must wear a seat belt.|Bạn phải thắt dây an toàn.|Must nhấn nghĩa vụ.
+E|Hoàn cảnh|I have to leave early to catch the last bus.|Tôi phải về sớm để kịp chuyến xe cuối.|Hoàn cảnh tạo sự cần thiết.
+E|Quá khứ|She had to work late yesterday.|Hôm qua cô ấy phải làm muộn.|Không dùng musted.
+E|Hỏi|Do we have to bring our own laptops?|Chúng ta có phải mang laptop riêng không?|Have to dùng do để hỏi.
+E|Suy luận|You must be exhausted after that trip.|Sau chuyến đi đó chắc bạn mệt lắm.|Must còn có nghĩa suy luận mạnh.
+Q|Sửa “Yesterday I must finish it” khi muốn nói đã bị yêu cầu hoàn thành hôm qua.|Yesterday I had to finish it.|Had to diễn đạt nghĩa vụ trong quá khứ.
+X|Đừng suy nghĩa phủ định từ khẳng định. Mustn't là cấm; don't have to là không cần. Xem bài phân biệt hai mẫu này.
+@64
+U|Mustn't tước quyền làm một việc. Don't have to nói không có nghĩa vụ, nên làm hay không tùy lựa chọn. Nếu dùng nhầm, hướng dẫn có thể chuyển từ “không cần” thành “bị cấm”.
+S|Cấm|S + must not / mustn't + V.
+S|Không bắt buộc|S + don't/doesn't have to + V.
+S|Quá khứ không bắt buộc|S + didn't have to + V.
+E|Cấm chụp ảnh|You mustn't take photos here.|Bạn không được chụp ảnh ở đây.|Đây là lệnh cấm.
+E|Tùy chọn|You don't have to bring food. We'll provide lunch.|Bạn không cần mang đồ ăn. Chúng tôi lo bữa trưa.|Mang hay không không bị cấm.
+E|Không cần với ngôi thứ ba|She doesn't have to work on Sundays.|Cô ấy không phải làm Chủ nhật.|Doesn't + have, không dùng has.
+E|Hỏi lại quy định|Do I have to print it? — No, you don't have to.|Tôi có phải in ra không? — Không cần.|Câu trả lời miễn nghĩa vụ.
+Q|Chọn cách nói “Không cần trả tiền; vé miễn phí”.|You don't have to pay. The ticket is free.|Không bắt buộc, không phải cấm trả.
+X|Needn't cũng diễn đạt không cần. “Needn't have paid” thường ngụ ý đã trả nhưng không cần; “didn't have to pay” chỉ nói không có nghĩa vụ.
+@65
+U|Should và ought to dùng khuyên điều nên làm hoặc nói điều được kỳ vọng. Lời khuyên nhẹ hơn nghĩa vụ bắt buộc. Với chuyện đã qua, should have + V3 thường nói đáng lẽ nên làm.
+S|Lời khuyên|S + should + V; S + ought to + V.
+S|Phủ định|S + shouldn't + V; ought not to + V.
+S|Hỏi ý kiến|Should + S + V?
+E|Khuyên|You should save a copy before closing the file.|Bạn nên lưu bản sao trước khi đóng tệp.|Khuyến nghị hành động có ích.
+E|Khuyên tránh|You shouldn't drive when you're tired.|Bạn không nên lái xe lúc mệt.|Shouldn't + nguyên mẫu.
+E|Hỏi|Should I call her now or wait?|Tôi nên gọi cô ấy ngay hay đợi?|Xin lời khuyên.
+E|Kỳ vọng|The package should arrive tomorrow.|Gói hàng chắc sẽ đến ngày mai.|Không phải khuyên gói hàng; đây là kỳ vọng.
+E|Tiếc về quá khứ|I should have checked the address.|Đáng lẽ tôi nên kiểm tra địa chỉ.|Thông thường ngụ ý đã không kiểm tra.
+Q|Sửa “You ought wear a coat.”|You ought to wear a coat.|Ought cần to, khác should.
+X|Ought to ít phổ biến trong câu hỏi/phủ định hội thoại hơn should. Should trong điều kiện trang trọng có nghĩa khác, như “If you should need help…”.
+@66
+U|Would like nói mong muốn cụ thể hoặc đưa lời mời lịch sự. Like thường nói sở thích chung. Với người khác thực hiện hành động, dùng would like + người + to V.
+S|Muốn vật/hoạt động|S + would like + N / to V.
+S|Muốn ai làm|S + would like + O + to V.
+S|Mời/hỏi mong muốn|Would you like + N / to V?
+E|Gọi món|I'd like a bowl of soup, please.|Cho tôi một bát súp.|I'd = I would.
+E|Muốn làm|We'd like to book a table.|Chúng tôi muốn đặt bàn.|To book sau would like.
+E|Mời|Would you like to join us? — Yes, I'd love to.|Bạn tham gia cùng nhé? — Tôi rất muốn.|To ở đáp thay phần hành động đã rõ.
+E|Yêu cầu nhẹ|I'd like you to check these figures.|Tôi muốn bạn kiểm tra các số này.|You là người sẽ check.
+Q|Phân biệt “Do you like coffee?” với “Would you like some coffee?”|Câu đầu hỏi sở thích; câu sau thường mời uống cà phê lúc này.|Like và would like khác chức năng giao tiếp.
+X|Đáp lời mời có thể “No, thank you”, không cần dùng một câu phủ định dài. “I wouldn't like to…” thường nói điều không muốn hoặc tưởng tượng sẽ không thích.
+@67
+U|Used to diễn tả thói quen hoặc trạng thái quá khứ thường được hiểu nay không còn đúng. Chọn used to khi sự thay đổi so với hiện tại là điều đáng nói. Không dùng cho chỉ một lần xảy ra.
+S|Khẳng định|S + used to + V.
+S|Phủ định|S + didn't use to + V.
+S|Câu hỏi|Did + S + use to + V?
+E|Thói quen cũ|I used to walk to school.|Tôi từng đi bộ đi học.|Một thói quen trong giai đoạn trước.
+E|Trạng thái cũ|This building used to be a cinema.|Tòa nhà này từng là rạp phim.|Used to dùng được với trạng thái be.
+E|Phủ định|She didn't use to like vegetables.|Trước đây cô ấy không thích rau.|Sau didn't viết use.
+E|Hỏi|Did you use to live near here?|Trước đây bạn sống gần đây à?|Câu hỏi dùng did.
+Q|Chọn used to hoặc quá khứ đơn cho “Tôi gặp cô ấy một lần vào năm ngoái”.|I met her once last year.|Một sự kiện đơn lẻ không phải thói quen nên không dùng used to.
+X|Would có thể kể hành động lặp lại sau khi thiết lập bối cảnh quá khứ; thường không thay used to với trạng thái sở hữu/biết.
+@68
+U|Be used to nói đã quen với một hoàn cảnh hoặc hoạt động. To là giới từ nên theo sau bằng danh từ hoặc V-ing. Be mang thì; used giữ nguyên.
+S|Khẳng định|S + be + used to + N/V-ing.
+S|Phủ định|S + be + not + used to + N/V-ing.
+S|Câu hỏi|Be + S + used to + N/V-ing?
+E|Quen lịch sinh hoạt|I'm used to getting up early.|Tôi quen dậy sớm.|Getting là V-ing sau giới từ to.
+E|Quen môi trường|She's used to the noise.|Cô ấy quen tiếng ồn.|Sau to là danh từ.
+E|Chưa quen|We aren't used to driving on the left.|Chúng tôi không quen lái bên trái.|Không phủ định bằng don't trước are.
+E|Hỏi|Are you used to working at night?|Bạn quen làm ban đêm chưa?|Đảo are.
+Q|Sửa “I'm used to wake up early.”|I'm used to waking up early.|To ở đây là giới từ.
+X|“I used to work nights” là thói quen quá khứ; “I'm used to working nights” là hiện quen việc đó, có thể vẫn đang làm.
+@69
+U|Get used to nhấn quá trình từ chưa quen sang quen. Dùng tiếp diễn để nói đang thích nghi, quá khứ để nói đã thích nghi, hoặc will để dự đoán sẽ quen dần.
+S|Quá trình|S + get/gets/is getting + used to + N/V-ing.
+S|Quá khứ|S + got used to + N/V-ing.
+S|Tương lai|S + will get used to + N/V-ing.
+E|Đang thích nghi|I'm getting used to the new software.|Tôi đang dần quen phần mềm mới.|Getting nhấn quá trình.
+E|Đã quen dần|She got used to living alone.|Cô ấy đã quen dần việc sống một mình.|Got đặt quá trình vào quá khứ.
+E|Trấn an|You'll get used to it soon.|Bạn sẽ sớm quen thôi.|It thay hoàn cảnh đã nói.
+E|Hỏi quá trình|How long did it take you to get used to the weather?|Bạn mất bao lâu để quen thời tiết?|Did hỗ trợ câu hỏi quá khứ.
+Q|Sửa “He is getting used to drive here.”|He is getting used to driving here.|Giữ V-ing sau to.
+X|“Be used to” nhấn trạng thái đã quen; “get used to” nhấn thay đổi. Không cần cố dịch get thành “nhận” trong cụm này.
+@70
+U|To-infinitive theo sau nhiều động từ nói mong muốn, quyết định hoặc kế hoạch. Mẫu phụ thuộc từng động từ, nên học theo cả cụm. To V cũng theo sau nhiều tính từ và từ hỏi.
+S|Sau động từ|want/decide/hope/plan/agree + to V.
+S|Sau tính từ|be happy/ready/able + to V.
+S|Phủ định và từ hỏi|not to V; what/how/where to V.
+E|Quyết định|We decided to leave early.|Chúng tôi quyết định về sớm.|Decide + to V.
+E|Kế hoạch|She plans to study abroad.|Cô ấy dự định du học.|Plans chia theo she; study giữ nguyên.
+E|Phủ định|He promised not to be late.|Anh ấy hứa không đến muộn.|Not đặt trước to.
+E|Chưa biết cách|I don't know how to fix it.|Tôi không biết cách sửa nó.|How to fix là cụm nguyên mẫu có từ hỏi.
+Q|Sửa “I hope him to come.”|I hope he comes. / I hope he will come.|Hope thường không dùng mẫu hope + người + to V.
+X|“Want someone to do” đúng, nhưng không suy rằng mọi động từ nhận to V đều nhận tân ngữ người theo cùng cách.
+@71
+U|V-ing có thể đại diện cho một hoạt động như một đối tượng trong câu. Nó làm chủ ngữ, tân ngữ của một số động từ hoặc theo sau giới từ. Phân biệt V-ing này với thành phần của thì tiếp diễn có be.
+S|Chủ ngữ|V-ing + phần bổ nghĩa + động từ số ít.
+S|Sau động từ|enjoy/avoid/finish/mind/consider + V-ing.
+S|Phủ định|not + V-ing.
+E|Làm chủ ngữ|Walking is good exercise.|Đi bộ là bài tập tốt.|Walking đại diện một hoạt động.
+E|Sở thích|I enjoy cooking for friends.|Tôi thích nấu ăn cho bạn bè.|Enjoy nhận V-ing.
+E|Tránh việc|She avoids driving in heavy traffic.|Cô ấy tránh lái xe lúc giao thông đông.|Avoids + driving.
+E|Lời nhờ lịch sự|Would you mind opening the window?|Bạn mở cửa sổ giúp được không?|Mind nhận opening.
+Q|Sửa “He finished to write the report.”|He finished writing the report.|Finish theo sau bằng V-ing.
+X|Một số động từ nhận cả to V và V-ing với khác biệt nghĩa, như stop và remember. Một số ít khác biệt hơn, như begin/start trong nhiều ngữ cảnh.
+@72
+U|Sau một giới từ, nếu dùng hành động thì thường chọn V-ing. Giới từ có thể nằm trong cụm động từ hoặc tính từ, như look forward to, interested in, good at. Hãy nhận ra to là giới từ trong những cụm này.
+S|Giới từ + hoạt động|before/after/without/by + V-ing.
+S|Cụm tính từ|interested in / good at / worried about + V-ing.
+S|Cụm động từ|look forward to / insist on / succeed in + V-ing.
+E|Không làm việc gì|He left without saying goodbye.|Anh ấy đi mà không chào.|Without + saying.
+E|Cách thực hiện|You can save money by cooking at home.|Bạn có thể tiết kiệm bằng cách nấu ở nhà.|By nêu phương pháp.
+E|Mong chờ|I'm looking forward to meeting you.|Tôi mong được gặp bạn.|To trong look forward to là giới từ.
+E|Giỏi làm việc|She's good at explaining difficult ideas.|Cô ấy giỏi giải thích ý khó.|At + explaining.
+Q|Sửa “Thank you for help me.”|Thank you for helping me.|For là giới từ, theo sau bằng helping.
+X|“I want to meet you” có to nguyên mẫu, khác “I look forward to meeting you”. Không xử lý hai to như cùng một cấu trúc.
+@73
+U|Let cho phép hoặc đề nghị để ai làm; make buộc hoặc khiến ai làm. Cả hai cần một tân ngữ chỉ người/vật thực hiện động từ sau. Với make bị động, to xuất hiện trở lại.
+S|Cho phép|let + O + V nguyên mẫu không to.
+S|Buộc/khiến|make + O + V nguyên mẫu không to.
+S|Make bị động|S + be made + to V.
+E|Cho phép|My parents let me stay out late.|Bố mẹ cho phép tôi về muộn.|Me là người stay out.
+E|Đề nghị giúp|Let me carry that bag.|Để tôi mang túi đó.|Let mở đầu lời đề nghị.
+E|Khiến|The joke made everyone laugh.|Câu đùa khiến mọi người cười.|Laugh không có to.
+E|Bị động|We were made to wait outside.|Chúng tôi bị buộc đợi bên ngoài.|Ở bị động dùng to wait.
+Q|Sửa “She made me to apologize.”|She made me apologize.|Make chủ động dùng nguyên mẫu không to.
+X|Let thường được thay bằng be allowed to khi chuyển nghĩa cho phép sang bị động. Không dùng “I was let to go” trong mẫu thông thường.
+@74
+U|Ask + người + to V thường nhờ/yêu cầu; tell + người + to V bảo hoặc chỉ dẫn. Tell cần người nghe trong mẫu này. Với tường thuật yêu cầu phủ định, not đứng trước to.
+S|Yêu cầu|ask + O + to V.
+S|Chỉ dẫn|tell + O + to V.
+S|Yêu cầu không làm|ask/tell + O + not to V.
+E|Nhờ|I asked him to check the address.|Tôi nhờ anh ấy kiểm tra địa chỉ.|Him nhận yêu cầu.
+E|Chỉ dẫn|The teacher told us to open our books.|Giáo viên bảo chúng tôi mở sách.|Us là người làm open.
+E|Phủ định|She asked me not to mention it.|Cô ấy nhờ tôi đừng nhắc chuyện đó.|Not to mention là việc được yêu cầu tránh.
+E|Hỏi lại|Did you tell her to call me?|Bạn đã bảo cô ấy gọi tôi chưa?|Sau did dùng tell.
+Q|Sửa “He said me to wait.”|He told me to wait. / He asked me to wait.|Say không nhận mẫu người + to V này.
+X|Ask còn hỏi thông tin, như ask me a question hoặc ask where I live. Không phải mọi ask đều cần to V.
+@75
+U|Xác định hành động nào kết thúc. Stop V-ing kết thúc chính hành động V-ing. Stop to V dừng hoạt động đang làm để bắt đầu một mục đích khác. Cùng một động từ phía sau có thể tạo nghĩa trái nhau về việc có làm hay không.
+S|Ngừng hoạt động|stop + V-ing.
+S|Dừng để làm việc khác|stop + to V.
+S|Ngăn ai|stop + O + from V-ing.
+E|Ngừng hút|He stopped smoking last year.|Anh ấy bỏ hút thuốc năm ngoái.|Smoking là việc kết thúc.
+E|Dừng để hút|He stopped to smoke during the drive.|Anh ấy dừng xe trong chuyến đi để hút thuốc.|Smoking là mục đích sau khi dừng.
+E|Ngừng nói|Please stop talking.|Làm ơn ngừng nói.|Yêu cầu chấm dứt nói.
+E|Ngăn hành động|The rain stopped us from going out.|Mưa khiến chúng tôi không ra ngoài được.|Us bị ngăn doing.
+Q|Chọn “We stopped drinking / to drink some water” khi đang đi bộ và dừng để uống.|We stopped to drink some water.|Uống là mục đích của việc dừng.
+X|Stop không luôn nghĩa bỏ vĩnh viễn. “Stop talking for a moment” chỉ ngừng tạm thời, tùy cụm thời gian.
+@76
+U|Remember to V hướng đến nhiệm vụ cần làm và việc nhớ thực hiện. Remember V-ing nhìn lại ký ức về một việc đã xảy ra. Cùng cách phân biệt này giúp hiểu forget, nhưng ngữ cảnh vẫn quyết định.
+S|Nhớ làm nhiệm vụ|remember + to V.
+S|Nhớ việc đã làm|remember + V-ing.
+S|Quên làm|forget + to V.
+E|Nhắc việc|Remember to lock the door.|Nhớ khóa cửa.|Lúc nhắc, việc khóa còn cần làm.
+E|Đã nhớ thực hiện|I remembered to bring my passport.|Tôi đã nhớ mang hộ chiếu.|Đã không quên nhiệm vụ.
+E|Ký ức|I remember meeting her at school.|Tôi nhớ đã gặp cô ấy ở trường.|Meeting là sự kiện nằm trong ký ức.
+E|Quên nhiệm vụ|He forgot to send the email.|Anh ấy quên gửi email.|Thông thường email chưa được gửi lúc cần.
+Q|Chọn “I remember locking / to lock it” để khẳng định bạn có ký ức đã khóa.|I remember locking it.|V-ing chỉ việc quá khứ được nhớ lại.
+X|“I'll never forget meeting her” nói một kỷ niệm không quên. Không hiểu đó là quên phải thực hiện cuộc gặp.
+@77
+U|Bị động đưa người/vật chịu tác động lên làm chủ ngữ. Hữu ích khi tác nhân không biết, không quan trọng hoặc khi muốn duy trì chủ đề. Động từ phải cho phép tân ngữ ở chủ động; arrive/sleep thông thường không có bị động.
+S|Hiện tại đơn|S + am/is/are + V3.
+S|Quá khứ đơn|S + was/were + V3.
+S|Tiếp diễn|S + am/is/are/was/were + being + V3.
+S|Hoàn thành|S + have/has/had + been + V3.
+S|Phủ định và hỏi|Thêm not sau trợ động từ đầu; đảo trợ động từ đầu lên trước S.
+E|Thường lệ|The rooms are cleaned every morning.|Phòng được dọn mỗi sáng.|Are mang thì hiện tại; cleaned là V3.
+E|Sự kiện quá khứ|My bike was stolen yesterday.|Xe đạp tôi bị lấy trộm hôm qua.|Không biết tác nhân nên không cần by.
+E|Đang diễn ra|The road is being repaired.|Con đường đang được sửa.|Is being + V3 biểu đạt đang bị tác động.
+E|Đã hoàn thành|The invitations have been sent.|Thiệp mời đã được gửi.|Have been + V3.
+E|Phủ định|The package wasn't delivered today.|Gói hàng chưa được giao hôm nay.|Not sau was.
+E|Câu hỏi|When was this building built?|Tòa nhà này được xây khi nào?|Was đảo trước chủ ngữ.
+Q|Đổi “Someone broke the window” sang bị động.|The window was broken.|Window lên chủ ngữ; dùng was broken ở quá khứ.
+X|By + người/tổ chức nêu tác nhân; with thường nêu công cụ. “Opened by the guard with a key” phân biệt hai vai trò.
+@78
+U|Kết hợp nghĩa khả năng, nghĩa vụ, lời khuyên hoặc suy luận với bị động. Modal giữ dạng cố định, còn be và V3 tạo bị động. Khi nói về việc trước hiện tại, thêm have been.
+S|Hiện tại/tương lai|S + modal + be + V3.
+S|Phủ định|S + modal + not + be + V3.
+S|Câu hỏi|Modal + S + be + V3?
+S|Quá khứ|S + modal + have been + V3.
+E|Bắt buộc|The form must be signed.|Biểu mẫu phải được ký.|Must + be signed.
+E|Khả năng|This file can be opened on a phone.|Tệp này có thể mở bằng điện thoại.|Can nói khả năng.
+E|Phủ định|The door must not be left open.|Không được để cửa mở.|Phủ định nghĩa vụ/cấm.
+E|Hỏi|Can the appointment be changed?|Có thể đổi lịch hẹn không?|Can đảo lên đầu.
+E|Đáng lẽ|The error should have been noticed earlier.|Đáng lẽ lỗi phải được phát hiện sớm hơn.|Đánh giá về quá khứ.
+Q|Sửa “It must be check today.”|It must be checked today.|Sau be trong bị động dùng V3.
+@79
+U|Have something done thường nói nhờ/thuê người khác thực hiện một dịch vụ. Chủ ngữ không trực tiếp làm hành động. Get something done phổ biến trong hội thoại. Mẫu này đôi khi diễn tả biến cố không mong muốn.
+S|Nhờ làm|S + have + vật + V3.
+S|Các thì|have/has; had; am/is/are having; will have + vật + V3.
+S|Hỏi và phủ định ở đơn|Do/Did + S + have + vật + V3?; S + don't/didn't have…
+E|Dịch vụ|I had my phone repaired.|Tôi đã mang điện thoại đi sửa.|Có người khác sửa cho tôi.
+E|Kế hoạch|We're having the kitchen painted next week.|Tuần sau chúng tôi thuê sơn bếp.|Đã có sự thu xếp.
+E|Hỏi|Where do you have your hair cut?|Bạn thường cắt tóc ở đâu?|Bạn là người nhận dịch vụ.
+E|Biến cố|She had her bag stolen on the train.|Cô ấy bị trộm túi trên tàu.|Không hàm ý cô ấy thuê người trộm.
+Q|Phân biệt “I repaired my car” và “I had my car repaired”.|Câu đầu thường là tôi tự sửa; câu sau là tôi nhờ/thuê sửa.|Vị trí my car trước V3 tạo mẫu nhờ làm.
+X|Phân biệt have someone do something như “I had the mechanic check it”. Mẫu này nêu rõ người làm và dùng nguyên mẫu không to.
+@80
+U|Điều kiện loại 0 nói điều thường xảy ra khi một điều kiện được đáp ứng. Có thể là quy luật, thói quen hoặc quy trình cá nhân, không nhất thiết là chân lý tuyệt đối.
+S|Mẫu thông thường|If + hiện tại đơn, hiện tại đơn.
+S|Đổi thứ tự|Mệnh đề chính + if + điều kiện; thường không cần dấu phẩy.
+S|Phủ định/hỏi|Phủ định hoặc đặt câu hỏi theo cấu trúc hiện tại đơn của từng mệnh đề.
+E|Quy luật|If you heat ice, it melts.|Nếu làm nóng đá, nó tan.|Quan hệ lặp lại.
+E|Thói quen|If I skip lunch, I get hungry in the afternoon.|Nếu bỏ bữa trưa, chiều tôi đói.|Mô tả phản ứng thường lệ.
+E|Phủ định|If the battery is empty, the device doesn't work.|Nếu hết pin, thiết bị không hoạt động.|Doesn't work là kết quả thông thường.
+E|Hỏi quy trình|What do you do if a customer complains?|Bạn làm gì khi khách phàn nàn?|Hỏi cách xử lý thường lệ.
+Q|Điền “If she ___ tired, she goes to bed early.”|is|Mô tả thói quen, dùng hiện tại đơn ở điều kiện.
+X|When có thể thay if khi nhấn mỗi khi sự kiện xảy ra. Unless diễn đạt ngoại lệ hoặc điều kiện phủ định, không thay if một cách tùy ý.
+@81
+U|Dùng khi người nói xem điều kiện tương lai là khả năng thực tế. Mệnh đề chính có thể là dự đoán, khả năng, lời hứa hoặc yêu cầu, nên không bắt buộc luôn có will.
+S|Dự đoán|If + hiện tại đơn, S + will + V.
+S|Khả năng/yêu cầu|If + hiện tại đơn, S + can/may + V hoặc mệnh lệnh.
+S|Phủ định|If + S + don't/doesn't + V, S + won't + V.
+E|Kế hoạch phụ thuộc|If it rains, we'll eat inside.|Nếu mưa, chúng tôi sẽ ăn trong nhà.|Rain là khả năng thực tế.
+E|Điều kiện phủ định|If you don't hurry, you'll miss the bus.|Nếu không nhanh lên, bạn sẽ lỡ xe.|Không dùng will trong vế if thông thường.
+E|Cho phép|If you finish early, you can go home.|Nếu xong sớm, bạn có thể về.|Can nói được phép.
+E|Yêu cầu|If you see Mai, ask her to call me.|Nếu gặp Mai, bảo cô ấy gọi tôi.|Vế chính là mệnh lệnh.
+E|Hỏi|What will you do if the shop is closed?|Bạn sẽ làm gì nếu cửa hàng đóng?|Will đảo trong vế chính.
+Q|Sửa “If I will have time, I'll help you.”|If I have time, I'll help you.|Điều kiện tương lai thông thường dùng hiện tại đơn sau if.
+X|Will có thể xuất hiện trong if khi diễn đạt sự sẵn lòng, như “If you will wait here…”. Đây không phải cách thông thường để chỉ thời gian tương lai.
+@82
+U|Loại 2 tạo khoảng cách với thực tế hiện tại hoặc khả năng tương lai. Người nói tưởng tượng một tình huống khác, không nhất thiết khẳng định nó hoàn toàn bất khả thi.
+S|Mẫu chính|If + quá khứ đơn, S + would + V.
+S|Khả năng|If + quá khứ đơn, S + could/might + V.
+S|Be trong giả định|If I/he/she were… phổ biến trong văn chuẩn giả định.
+E|Khác thực tế|If I had a car, I would drive to work.|Nếu có ô tô, tôi sẽ lái đi làm.|Ngụ ý hiện chưa có xe trong ngữ cảnh này.
+E|Lời khuyên|If I were you, I'd ask for help.|Nếu là bạn, tôi sẽ nhờ giúp.|Were không chỉ quá khứ.
+E|Khả năng|If we lived closer, we could meet more often.|Nếu sống gần hơn, chúng ta có thể gặp thường hơn.|Could nói khả năng được mở ra.
+E|Câu hỏi|What would you do if you lost your phone?|Bạn sẽ làm gì nếu mất điện thoại?|Giả định một tình huống.
+Q|Sửa “If she would know, she would tell us.”|If she knew, she would tell us.|Vế điều kiện thông thường dùng knew.
+X|“If I get the job…” thể hiện khả năng thực tế hơn “If I got the job…”. Khác biệt nằm ở cách người nói nhìn khả năng, không chỉ thời gian.
+@83
+U|Loại 3 tưởng tượng quá khứ khác với việc đã xảy ra. Cả điều kiện lẫn kết quả đều đã qua, thường dùng để tiếc nuối, phê bình hoặc suy xét lựa chọn.
+S|Mẫu chính|If + S + had + V3, S + would have + V3.
+S|Khả năng khác|could/might have + V3 ở mệnh đề chính.
+S|Phủ định|hadn't + V3; wouldn't have + V3.
+E|Tiếc nuối|If I'd left earlier, I would have caught the train.|Nếu đi sớm hơn, tôi đã kịp tàu.|Thực tế đã không đi đủ sớm.
+E|Điều kiện phủ định|If she hadn't reminded me, I would have forgotten.|Nếu cô ấy không nhắc, tôi đã quên.|Thực tế cô ấy đã nhắc.
+E|Khả năng|If you had called, I could have helped.|Nếu bạn gọi, tôi đã có thể giúp.|Could không bảo đảm kết quả chắc chắn.
+E|Hỏi giả định|Would you have accepted if they had offered more money?|Bạn có nhận nếu họ trả nhiều tiền hơn không?|Cả hai phần đều nhìn về quá khứ.
+Q|Sửa “If I had knew, I would have come.”|If I had known, I would have come.|Sau had cần V3 known.
+X|Dạng 'd có thể là had hoặc would. “If I'd known, I'd have helped” gồm cả hai vai trò.
+@84
+U|Unless diễn tả một ngoại lệ ngăn kết quả. Thường tương ứng if…not nhưng không thay được mọi câu phủ định nếu quan hệ logic thay đổi. Hãy diễn giải lại bằng “trừ khi” để kiểm tra.
+S|Ngoại lệ|S + will/won't + V + unless + hiện tại đơn.
+S|Đặt đầu|Unless + mệnh đề, mệnh đề chính.
+S|Không lặp phủ định vô ý|Unless + khẳng định thường đã mang ý if not.
+E|Ngoại lệ cho việc đi|I'll go unless I'm ill.|Tôi sẽ đi trừ khi bị ốm.|Ốm là điều khiến không đi.
+E|Điều kiện cần|You won't improve unless you practice.|Bạn sẽ không tiến bộ nếu không luyện tập.|Luyện tập là điều kiện cần được nêu.
+E|Chỉ dẫn|Don't open the door unless you know the person.|Đừng mở cửa trừ khi bạn biết người đó.|Unless giới hạn trường hợp được mở.
+E|Đặt đầu|Unless the price drops, we won't buy it.|Trừ khi giá giảm, chúng tôi sẽ không mua.|Dùng dấu phẩy sau mệnh đề đầu.
+Q|Viết lại “If you don't hurry, you'll be late” bằng unless.|Unless you hurry, you'll be late.|Bỏ don't vì unless đã mang ý điều kiện phủ định.
+X|Không dùng unless như phép thay chữ máy móc trong “I don't know if…”. Đó là câu hỏi gián tiếp, không phải điều kiện.
+@85
+U|Wish + quá khứ đơn nói mong hiện tại khác đi. Wish + could nói ước có khả năng. Wish + would thường bày tỏ mong một người/việc thay đổi hành vi, đôi khi có sắc thái khó chịu.
+S|Ước tình trạng hiện tại|S + wish(es) + S + V quá khứ.
+S|Ước khả năng|S + wish(es) + S + could + V.
+S|Mong thay đổi|S + wish(es) + S + would + V.
+E|Thiếu thời gian|I wish I had more free time.|Ước gì tôi có thêm thời gian rảnh.|Had không chỉ quá khứ ở đây.
+E|Khả năng|She wishes she could speak Japanese.|Cô ấy ước nói được tiếng Nhật.|Could nói khả năng chưa có.
+E|Trạng thái|I wish the room were quieter.|Ước gì phòng yên tĩnh hơn.|Were phù hợp giả định.
+E|Mong hành vi đổi|I wish you would listen to me.|Tôi mong bạn chịu nghe tôi.|Would nhấn mong người kia thay đổi.
+Q|Sửa “I wish I can swim.”|I wish I could swim.|Ước khả năng khác hiện tại dùng could.
+X|Với điều tương lai có thể thành thật, dùng hope, như “I hope you pass”. Không dùng wish + hiện tại để mong kết quả thông thường.
+@86
+U|Wish + quá khứ hoàn thành nhìn lại một điều đã xảy ra và mong nó khác đi. Câu có thể tiếc vì đã làm hoặc vì đã không làm. If only nhấn cảm xúc mạnh hơn.
+S|Tiếc việc không làm|S + wish + S + had + V3.
+S|Tiếc việc đã làm|S + wish + S + hadn't + V3.
+S|Nhấn mạnh|If only + S + had/hadn't + V3.
+E|Bỏ lỡ|I wish I'd taken that course.|Ước gì tôi đã học khóa đó.|Thực tế đã không học.
+E|Hối tiếc lời nói|She wishes she hadn't said that.|Cô ấy ước mình đã không nói thế.|Thực tế đã nói.
+E|Tiếc quyết định|If only we'd booked earlier!|Giá mà chúng tôi đặt sớm hơn!|If only nhấn tiếc nuối.
+E|Khác hiện tại|I wish I knew. / I wish I had known.|Ước gì giờ tôi biết. / Ước gì lúc đó tôi đã biết.|Knew và had known phân biệt thời điểm mong khác đi.
+Q|Hoàn thành “Tôi tiếc đã quên sinh nhật cô ấy” bằng wish.|I wish I hadn't forgotten her birthday.|Quên là việc đã xảy ra, nên phủ định trong quá khứ hoàn thành.
+X|Wish không thay đổi sự kiện quá khứ. Đừng dùng would have như mẫu mặc định của mệnh đề sau wish trong bài viết chuẩn.
+@87
+U|Mệnh đề xác định giúp người nghe nhận ra người/vật nào đang được nói. Nó nằm ngay sau danh từ được bổ nghĩa. Đại từ quan hệ đã đảm nhiệm một vai trò trong mệnh đề nên không lặp he/she/it ở cùng vai trò.
+S|Người|N + who/that + mệnh đề.
+S|Vật|N + which/that + mệnh đề.
+S|Nơi/thời gian|N chỉ nơi + where…; N chỉ thời gian + when….
+E|Xác định người|The woman who lives upstairs is a doctor.|Người phụ nữ sống tầng trên là bác sĩ.|Who làm chủ ngữ của lives.
+E|Xác định vật|I need a phone that has a good camera.|Tôi cần điện thoại có camera tốt.|That làm chủ ngữ của has.
+E|Tân ngữ|The book that you lent me was excellent.|Cuốn sách bạn cho tôi mượn rất hay.|You là chủ ngữ; that là tân ngữ.
+E|Nơi chốn|This is the cafe where we met.|Đây là quán cà phê nơi ta gặp nhau.|Where thay vai trò nơi chốn.
+Q|Sửa “The man who he called is my uncle” nếu muốn nói người đã gọi là chú tôi.|The man who called is my uncle.|Who đã là chủ ngữ nên bỏ he.
+X|Where không thay được which trong mọi câu về nơi. “The town which I visited” cần tân ngữ cho visited; “the town where I lived” cần nơi chốn.
+@88
+U|Mệnh đề không xác định thêm thông tin cho người/vật vốn đã rõ. Có dấu phẩy ngăn cách, không dùng that và không bỏ đại từ quan hệ. Bỏ cả mệnh đề đi vẫn thường biết danh từ chỉ ai/cái gì.
+S|Người|N đã xác định, who/whom + mệnh đề, …
+S|Vật|N đã xác định, which + mệnh đề, …
+S|Bình luận cả câu trước|Mệnh đề chính, which + bình luận.
+E|Tên riêng|Lan, who works with me, speaks French.|Lan, người làm cùng tôi, nói tiếng Pháp.|Thông tin làm cùng chỉ bổ sung.
+E|Một vật đã rõ|My car, which I bought last year, is very reliable.|Xe tôi, tôi mua năm ngoái, rất đáng tin cậy.|Phần mua năm ngoái không dùng để chọn giữa nhiều xe trong ngữ cảnh này.
+E|Cả sự việc|He missed the train, which upset him.|Anh ấy lỡ tàu, điều đó khiến anh ấy buồn.|Which chỉ cả việc lỡ tàu.
+E|Tân ngữ vẫn giữ|Mai, whom I met yesterday, is a designer.|Mai, người tôi gặp hôm qua, là nhà thiết kế.|Không bỏ whom dù nó là tân ngữ; who cũng phổ biến hơn trong hội thoại.
+Q|Sửa “My father, that is retired, lives nearby.”|My father, who is retired, lives nearby.|Không dùng that trong mệnh đề không xác định.
+X|Dấu phẩy đổi nghĩa. “My brothers who live abroad” chỉ nhóm anh/em sống nước ngoài; thêm dấu phẩy có thể hiểu tất cả anh/em đang nói đều sống nước ngoài.
+@89
+U|Whose nối một người/vật với danh từ thuộc về hoặc liên quan đến họ/nó. Whose + danh từ cùng đảm nhiệm vai trò trong mệnh đề phụ. Dùng được cho người, tổ chức và cả vật trong văn phù hợp.
+S|Mẫu sở hữu|N + whose + danh từ + động từ/phần còn lại.
+S|Câu hỏi|Whose + N + be/động từ…?
+S|Phân biệt|whose = của ai/có…; who's = who is hoặc who has.
+E|Người|I know a woman whose son studies medicine.|Tôi biết một phụ nữ có con trai học y.|Whose son làm chủ ngữ của studies.
+E|Tổ chức|They joined a company whose values matched theirs.|Họ vào công ty có giá trị phù hợp với mình.|Whose liên kết company với values.
+E|Vật|We saw a house whose roof had collapsed.|Chúng tôi thấy ngôi nhà bị sập mái.|Whose có thể dùng với house.
+E|Hỏi sở hữu|Whose phone is ringing?|Điện thoại của ai đang reo?|Whose phone là cụm danh từ.
+Q|Chọn whose/who's “The student ___ bag was lost is here.”|whose|Bag thuộc student nên dùng sở hữu.
+X|Không thêm his/her sau whose. “Whose his father…” lặp hai dấu hiệu sở hữu.
+@90
+U|Chỉ bỏ đại từ quan hệ khi nó là tân ngữ trong mệnh đề xác định. Cách kiểm tra là nhìn phần sau: nếu đã có chủ ngữ như I/she/we và động từ còn thiếu tân ngữ, thường có thể bỏ.
+S|Có thể bỏ|N + (who/which/that) + S + V.
+S|Không bỏ chủ ngữ|N + who/which/that + V…
+S|Giới từ cuối|N + (that/who/which) + S + V + giới từ.
+E|Vật được mua|The shoes I bought are comfortable.|Đôi giày tôi mua đi êm.|I là chủ ngữ; shoes là vật bought.
+E|Người được gặp|The person you met is my manager.|Người bạn gặp là quản lý tôi.|You met còn thiếu tân ngữ.
+E|Giới từ cuối|This is the colleague I spoke to.|Đây là đồng nghiệp tôi nói chuyện cùng.|To ở cuối, đại từ tân ngữ có thể bỏ.
+E|Không bỏ|The train that leaves at six is full.|Chuyến tàu khởi hành lúc sáu giờ đã đầy.|That là chủ ngữ leaves nên phải giữ.
+Q|Có thể bỏ who trong “The woman who called me is here” không?|Không.|Who là chủ ngữ của called, không phải tân ngữ.
+X|Không bỏ đại từ trong mệnh đề không xác định có dấu phẩy. Với giới từ đặt trước, phải giữ đại từ phù hợp, như “the person to whom I spoke”.
+@91
+U|Tường thuật lời nói cần điều chỉnh người, thời gian và góc nhìn cho tình huống kể hiện tại. Khi động từ tường thuật ở quá khứ, thường lùi thì, nhưng có thể giữ thì nếu nội dung vẫn đúng và người kể muốn nhấn sự còn đúng.
+S|Say/Tell|say (that) + mệnh đề; tell + người + (that) + mệnh đề.
+S|Lùi thì thường gặp|present → past; past/present perfect → past perfect; will → would; can → could.
+S|Thời gian và nơi|today → that day; tomorrow → the next day; here → there nếu góc nhìn đã đổi.
+E|Hiện tại thành quá khứ|“I'm busy,” she said. → She said she was busy.|“Tôi bận”, cô ấy nói. → Cô ấy nói mình bận.|Am đổi thành was theo góc nhìn kể.
+E|Tương lai|“I'll call you,” he said. → He told me he would call me.|Anh ấy nói sẽ gọi tôi.|Will đổi would; you đổi me theo người nghe.
+E|Hoàn thành|“I've finished,” she said. → She said she had finished.|Cô ấy nói mình đã làm xong.|Have finished thành had finished.
+E|Vẫn đúng|She told me she lives in Hanoi.|Cô ấy nói với tôi cô ấy sống ở Hà Nội.|Giữ lives khi nhấn hiện vẫn sống ở đó.
+Q|Sửa “He said me that he was tired.”|He told me that he was tired. / He said that he was tired.|Tell nhận người nghe trực tiếp; say không dùng say me.
+X|Must nghĩa vụ có thể thành had to; must suy luận có thể giữ. Không đổi máy móc mọi đại từ/thời gian nếu người và mốc thực tế chưa thay đổi.
+@92
+U|Câu hỏi được tường thuật trở thành nội dung của động từ ask/wonder. Bên trong không còn đảo ngữ hỏi. Giữ từ hỏi nếu có; thêm if/whether cho câu hỏi có/không.
+S|Wh-question|asked + (người) + từ hỏi + S + V.
+S|Yes/No question|asked + (người) + if/whether + S + V.
+S|Lùi thì khi phù hợp|do/does biến mất; động từ chia theo ngữ cảnh tường thuật.
+E|Hỏi địa điểm|“Where do you live?” → She asked where I lived.|Cô ấy hỏi tôi sống ở đâu.|Không giữ do, chuyển lived.
+E|Hỏi với be|“Are you ready?” → He asked if I was ready.|Anh ấy hỏi tôi sẵn sàng chưa.|If dẫn nội dung có/không.
+E|Hỏi quá khứ|“When did they leave?” → She asked when they had left.|Cô ấy hỏi họ đi khi nào.|Không đảo had they.
+E|Hỏi khả năng|“Can you help?” → He asked whether I could help.|Anh ấy hỏi tôi giúp được không.|Can thường thành could.
+Q|Sửa “She asked where was I going.”|She asked where I was going.|Trong mệnh đề tường thuật, I đứng trước was.
+X|Tường thuật yêu cầu “Could you open the door?” thường tự nhiên là “She asked me to open the door”, vì chức năng là nhờ làm.
+@93
+U|And thêm thông tin, but nêu tương phản, or đưa lựa chọn. Các thành phần được nối cần cùng chức năng để câu rõ. Với hai câu độc lập, dấu phẩy thường đặt trước liên từ trong văn viết.
+S|Nối từ/cụm|A and/but/or B.
+S|Nối mệnh đề|S + V, and/but/or + S + V.
+S|Phủ định liệt kê|not…A or B thường mang nghĩa không cả A lẫn B.
+E|Thêm thông tin|She speaks English and French.|Cô ấy nói tiếng Anh và tiếng Pháp.|And nối hai ngôn ngữ.
+E|Tương phản|The room is small, but it's comfortable.|Phòng nhỏ nhưng thoải mái.|But thể hiện kết quả khác mong đợi.
+E|Lựa chọn|Would you like tea or coffee?|Bạn dùng trà hay cà phê?|Or hỏi chọn.
+E|Hệ quả cảnh báo|Hurry up, or we'll miss the bus.|Nhanh lên, nếu không ta sẽ lỡ xe.|Or có nghĩa nếu không trong mẫu mệnh lệnh.
+Q|Chọn and/but/or “I was tired, ___ I kept working” để nhấn tương phản.|but|Mệt thường gợi nghỉ, nên tiếp tục làm tạo tương phản.
+X|Không dùng cả although và but để mở hai vế cùng một quan hệ. Dùng “Although I was tired, I worked” hoặc “I was tired, but I worked”.
+@94
+U|Cả hai nêu nguyên nhân, nhưng phần sau có cấu trúc khác. Because cần mệnh đề có chủ ngữ và động từ; because of cần cụm danh từ, đại từ hoặc V-ing. Khi đổi mẫu có thể phải danh hóa ý.
+S|Mệnh đề nguyên nhân|because + S + V.
+S|Cụm nguyên nhân|because of + N/đại từ/V-ing.
+S|Đặt đầu|Because + mệnh đề, mệnh đề chính.
+E|Mệnh đề|We stayed inside because it was raining.|Chúng tôi ở trong vì trời mưa.|It was raining có chủ ngữ và động từ.
+E|Danh từ|We stayed inside because of the rain.|Chúng tôi ở trong vì mưa.|The rain là cụm danh từ.
+E|Đại từ|We succeeded because of you.|Chúng tôi thành công nhờ bạn.|You đứng sau of.
+E|Nguyên nhân trước|Because the road was closed, we took a different route.|Vì đường đóng, chúng tôi đi lối khác.|Dấu phẩy sau mệnh đề đầu.
+Q|Sửa “The flight was delayed because of it snowed.”|The flight was delayed because it snowed. / …because of the snow.|Chọn mệnh đề hoặc cụm danh từ nhất quán.
+X|Because trả lời trực tiếp “why”. Since/as cũng có thể nêu nguyên nhân đã biết, nhưng có thêm nghĩa thời gian nên đôi khi kém rõ.
+@95
+U|Nhượng bộ thừa nhận một điều rồi nêu kết quả trái với kỳ vọng từ điều đó. Although/even though nhận mệnh đề; despite/in spite of nhận cụm danh từ hoặc V-ing.
+S|Mệnh đề|although/though/even though + S + V.
+S|Cụm|despite / in spite of + N/V-ing.
+S|Chuyển tiếp bằng fact|despite the fact that + S + V.
+E|Mệnh đề|Although it was late, we continued.|Dù đã muộn, chúng tôi tiếp tục.|Không thêm but vào vế sau.
+E|Cụm danh từ|Despite the rain, the match continued.|Dù mưa, trận đấu tiếp tục.|Despite không có of.
+E|V-ing|In spite of feeling tired, she joined us.|Dù thấy mệt, cô ấy tham gia cùng.|Chủ thể feeling là she.
+E|Cuối câu hội thoại|The hotel was expensive. It was comfortable, though.|Khách sạn đắt. Nhưng cũng thoải mái.|Though ở cuối như lời thêm tương phản.
+Q|Sửa “Despite of the traffic, we arrived on time.”|Despite the traffic, we arrived on time.|Despite không đi với of; in spite of thì có.
+X|Even though thừa nhận một thực tế; even if nói điều kiện giả định. “Even if it rains” chưa khẳng định có mưa.
+@96
+U|Mệnh đề thời gian với when, after, before, until, as soon as thường dùng thì hiện tại để chỉ tương lai. Mệnh đề chính có thể có will. Hiện tại hoàn thành trong vế thời gian nhấn việc hoàn tất trước việc sau.
+S|Tương lai theo mốc|S + will + V + when/after/before + hiện tại.
+S|Hoàn tất trước|after/as soon as + S + have/has + V3.
+S|Yêu cầu theo mốc|Mệnh lệnh + when/once + hiện tại.
+E|Khi đến|I'll text you when I arrive.|Tôi nhắn bạn khi tới.|Arrive không có will.
+E|Sau khi xong|We'll leave after she has finished.|Chúng tôi đi sau khi cô ấy làm xong.|Has finished nhấn hoàn tất.
+E|Trước khi đi|Please lock the door before you leave.|Nhớ khóa cửa trước khi đi.|Mệnh lệnh ở vế chính.
+E|Ngay khi|As soon as I know, I'll tell you.|Ngay khi biết, tôi sẽ nói bạn.|Hiện tại know chỉ mốc tương lai.
+Q|Sửa “I'll call when I will get home.”|I'll call when I get home.|Mệnh đề thời gian tương lai dùng hiện tại.
+X|“I don't know when he will arrive” là câu hỏi gián tiếp về thời điểm, không phải mệnh đề trạng ngữ thời gian nên will dùng được.
+@97
+U|Mục đích trả lời “để làm gì”. To V thường có chủ thể hiểu giống chủ ngữ chính; so that cho phép nêu chủ thể khác. Phân biệt mục đích với công dụng thường xuyên của đồ vật.
+S|Mục đích ngắn|to / in order to / so as to + V.
+S|Mục đích phủ định|in order not to / so as not to + V.
+S|Có mệnh đề|so that + S + can/could/will/would + V.
+E|Mục đích cá nhân|I went to the library to borrow a book.|Tôi đến thư viện để mượn sách.|Cùng chủ thể I.
+E|Chủ thể khác|I spoke slowly so that everyone could understand.|Tôi nói chậm để mọi người hiểu.|Người nói và người hiểu khác nhau.
+E|Tránh điều gì|She wrote it down so as not to forget.|Cô ấy ghi lại để không quên.|Not đứng trước to.
+E|Công dụng|This tool is used for cutting glass.|Dụng cụ này dùng để cắt kính.|For V-ing nói công dụng.
+Q|Sửa “I study English for get a better job.”|I study English to get a better job.|Mục đích hành động dùng to V; không dùng for + V nguyên mẫu.
+X|For + danh từ có thể nói mục đích như “go out for lunch”. Không cần đổi mọi for thành to.
+@98
+U|Động từ hữu hạn phải hòa hợp với chủ ngữ chính. Các cụm chen giữa như of…, with…, together with… không tự đổi số chủ ngữ. Với every/each/everyone, hình thức thường số ít dù nghĩa liên quan nhiều người.
+S|Chủ ngữ số ít|He/The price/Each student + is/has/V-s.
+S|Chủ ngữ số nhiều|They/The prices + are/have/V.
+S|Cụm chủ ngữ|Tìm danh từ trung tâm trước cụm of/with.
+E|Cụm of|The price of these shoes is high.|Giá đôi giày này cao.|Price là trung tâm, không phải shoes.
+E|Cùng and|Mai and Nam work here.|Mai và Nam làm ở đây.|Hai người nối and thường số nhiều.
+E|Each|Each of the rooms has a window.|Mỗi phòng đều có cửa sổ.|Each lấy has.
+E|Không đếm được|The equipment is ready.|Thiết bị đã sẵn sàng.|Equipment thường không đếm được.
+Q|Sửa “The list of names are on the table.”|The list of names is on the table.|List là chủ ngữ trung tâm số ít.
+X|Danh từ tập thể như team có thể khác theo biến thể và cách nhìn nhóm. Tiếng Anh Mỹ thường dùng số ít cho một nhóm như một đơn vị. Police thường dùng số nhiều.
+@99
+U|Cụm động từ gồm động từ và tiểu từ/giới từ. Nghĩa có thể khó đoán từ từng phần. Học đồng thời nghĩa, có cần tân ngữ không, và tân ngữ đứng đâu.
+S|Có thể tách|turn off the light / turn the light off.
+S|Đại từ với cụm tách được|turn it off, không dùng turn off it.
+S|Không tách|look after + O; run into + O.
+S|Không có tân ngữ|wake up; break down, trong một số nghĩa.
+E|Tách được|Please put your phone away.|Hãy cất điện thoại đi.|Tân ngữ có thể đứng giữa put và away.
+E|Đại từ|Please put it away.|Hãy cất nó đi.|It phải đứng giữa với nghĩa này.
+E|Không tách|She looks after her grandmother.|Cô ấy chăm bà.|Không đặt grandmother giữa look và after.
+E|Không tân ngữ|Our car broke down on the way.|Xe chúng tôi hỏng giữa đường.|Broke down đủ nghĩa không cần vật bị tác động.
+Q|Sửa “Turn off it, please.”|Turn it off, please.|Đại từ tân ngữ ở giữa cụm tách được.
+X|Một cụm có nhiều nghĩa và mẫu khác nhau. Look up a word là tra từ; look up to someone là ngưỡng mộ và không tách theo cùng cách.
+@100
+U|Cấu trúc này liên kết hai mức độ cùng thay đổi. Nó không nhất thiết có động từ ở cả hai vế nếu phần còn lại đã rõ. Chọn so sánh hơn theo tính từ, trạng từ hoặc lượng danh từ.
+S|Hai mệnh đề|The + so sánh hơn + S + V, the + so sánh hơn + S + V.
+S|Lượng|The more/fewer/less + N + S + V, …
+S|Rút gọn quen dùng|The sooner, the better.
+E|Luyện tập|The more you practice, the easier it becomes.|Càng luyện, việc đó càng dễ.|More chỉ lượng luyện; easier chỉ độ dễ.
+E|Tốc độ và lỗi|The faster you work, the more mistakes you may make.|Càng làm nhanh, bạn càng có thể mắc nhiều lỗi.|May tránh khẳng định một quy luật tuyệt đối.
+E|Ít thời gian|The less time we have, the more carefully we must plan.|Càng ít thời gian, ta càng phải lên kế hoạch kỹ.|Less đi với time không đếm được.
+E|Rút gọn|When should we start? — The sooner, the better.|Khi nào nên bắt đầu? — Càng sớm càng tốt.|Hai vế được hiểu từ câu hỏi.
+Q|Sửa “The more you read, the more wiser you become.”|The more you read, the wiser you become.|Wiser đã là so sánh hơn, không thêm more.
+X|“More and more expensive” là một cấu trúc khác, chỉ ngày càng đắt; không cần vế kết quả thứ hai.
+@101
+U|Điều kiện hỗn hợp dùng khi nguyên nhân và kết quả thuộc hai thời điểm. Trước khi chọn dạng, tự ghi “điều kiện thuộc lúc nào?” và “kết quả thuộc lúc nào?”. Không cần ép hai vế cùng quá khứ hay cùng hiện tại.
+S|Quá khứ → hiện tại|If + had + V3, would + V + now.
+S|Hiện tại/đặc điểm chung → quá khứ|If + quá khứ đơn, would have + V3.
+S|Khả năng|Có thể dùng could/might thay would theo mức chắc chắn.
+E|Quyết định cũ, tình trạng nay|If I had taken that job, I would live in Paris now.|Nếu nhận việc đó, giờ tôi sẽ sống ở Paris.|Nhận việc thuộc quá khứ; sống thuộc hiện tại.
+E|Không chuẩn bị, hệ quả nay|If we'd saved more, we wouldn't be short of money now.|Nếu đã tiết kiệm nhiều hơn, giờ ta không thiếu tiền.|Had saved dẫn kết quả hiện tại.
+E|Đặc điểm chung, sự kiện cũ|If I were more careful, I wouldn't have lost my keys.|Nếu tôi cẩn thận hơn, tôi đã không làm mất chìa khóa.|Tính cẩn thận được xem như đặc điểm chung.
+E|Khả năng hiện tại từ quá khứ|If she had learned to drive, she could help us today.|Nếu đã học lái, hôm nay cô ấy có thể giúp.|Could nói khả năng.
+Q|Chọn dạng cho “If I had slept well, I ___ tired now.”|wouldn't be|Now đặt kết quả ở hiện tại; điều kiện đã qua dùng had slept.
+X|Không phải cứ có một vế quá khứ đơn và một vế hoàn thành là sai. Điều cần giữ nhất quán là dòng thời gian và quan hệ giả định.
+@102
+U|Đưa một trạng ngữ phủ định/hạn định lên đầu câu tạo sắc thái nhấn mạnh, thường gặp trong văn trang trọng. Trợ động từ đảo lên trước chủ ngữ của mệnh đề chịu phạm vi nhấn mạnh. Nếu câu chưa có trợ động từ, dùng do/does/did.
+S|Never/Rarely/Seldom|Trạng ngữ + trợ động từ + S + phần còn lại.
+S|Not until/Only after|Cụm hoặc mệnh đề mở đầu + trợ động từ + S + V ở mệnh đề chính.
+S|No sooner/Hardly|No sooner had S V3 than…; Hardly had S V3 when….
+E|Kinh nghiệm hiếm|Never have I received such helpful feedback.|Chưa bao giờ tôi nhận phản hồi hữu ích đến vậy.|Have đảo trước I.
+E|Hiện tại đơn|Rarely does he miss a deadline.|Hiếm khi anh ấy lỡ hạn.|Thêm does; miss trở về nguyên mẫu.
+E|Đợi đến khi|Not until the test ended did we discuss the answers.|Mãi khi bài thi kết thúc chúng tôi mới bàn đáp án.|Đảo did we ở vế chính, không đảo the test ended.
+E|Ngay sau|No sooner had we sat down than the phone rang.|Chúng tôi vừa ngồi xuống thì điện thoại reo.|Cặp no sooner…than.
+E|Không đảo khi chủ ngữ phủ định|Nobody knew the answer.|Không ai biết đáp án.|Nobody là chủ ngữ, không phải trạng ngữ được đưa lên đầu.
+Q|Sửa “Only after the call I understood the problem.”|Only after the call did I understand the problem.|Only after ở đầu đòi đảo ở vế chính.
+X|Only + chủ ngữ không tạo đảo, như “Only Mai knew”. Đừng áp đảo ngữ cho mọi câu bắt đầu bằng only.
+@103
+U|Đảo ngữ điều kiện thay if trong văn trang trọng, thư hướng dẫn hoặc giả định. Chỉ dùng những mẫu được hỗ trợ bởi had, were, should; không đảo tùy ý do/did để thay mọi câu điều kiện.
+S|Quá khứ giả định|Had + S + V3, S + would have + V3.
+S|Giả định tương lai|Were + S + to V, S + would + V.
+S|Trường hợp có thể xảy ra|Should + S + V, mệnh đề chính.
+E|Biết quá muộn|Had I known the address, I would have visited.|Nếu biết địa chỉ khi đó, tôi đã đến thăm.|Tương đương If I had known.
+E|Giả định|Were the plan to fail, we would need another option.|Nếu kế hoạch thất bại, ta cần phương án khác.|Were…to tạo khoảng cách giả định.
+E|Hướng dẫn|Should you need assistance, please contact reception.|Nếu cần hỗ trợ, hãy liên hệ lễ tân.|Trang trọng và lịch sự.
+E|Phủ định|Had she not checked, we might have missed the error.|Nếu cô ấy không kiểm tra, có thể ta đã bỏ sót lỗi.|Not đặt sau she.
+Q|Đổi “If I had seen it, I would have told you” bằng đảo ngữ.|Had I seen it, I would have told you.|Bỏ if và đảo had.
+X|Không viết “Hadn't she checked…” như mẫu mặc định đảo điều kiện phủ định; đó dễ được hiểu thành câu hỏi. Dùng Had she not checked.
+@104
+U|Câu chẻ it đưa một thành phần thành trọng tâm, thường để sửa hiểu nhầm hoặc đối chiếu. Phần còn lại cung cấp bối cảnh người nghe đã biết. Không cần dùng câu chẻ khi chỉ kể một thông tin trung tính.
+S|Mẫu|It + be + thành phần nhấn mạnh + that/who + phần còn lại.
+S|Phủ định|It wasn't + thành phần + that/who….
+S|Câu hỏi|Was/Is it + thành phần + that/who…?
+E|Nhấn người|It was Mai who found the missing file.|Chính Mai tìm thấy tệp thất lạc.|Trọng tâm là ai tìm được.
+E|Nhấn thời gian|It was yesterday that I sent the email.|Chính hôm qua tôi gửi email.|Nhấn thời điểm, không người gửi.
+E|Sửa thông tin|It wasn't the price that bothered me; it was the delay.|Điều làm tôi khó chịu không phải giá, mà là sự chậm trễ.|Hai phần tương phản.
+E|Hỏi xác nhận|Was it Nam who called earlier?|Có phải Nam gọi lúc nãy không?|Hỏi về danh tính được nhấn.
+Q|Viết câu nhấn “at home” từ “I left my keys at home”.|It was at home that I left my keys.|Cụm nơi chốn được đưa sau was.
+X|Không thêm đại từ lặp chủ ngữ sau who. “It was Mai who she found…” sai vì who đã thay Mai.
+@105
+U|What-clause có nghĩa “điều/cái mà…” và biến một nội dung thành chủ ngữ. Phần sau be thường là thông tin quan trọng. Dùng khi cần dẫn vào nhu cầu, điều đã xảy ra hoặc việc đã làm.
+S|Điều cần|What + S + need/want/like + be + trọng tâm.
+S|Điều đã xảy ra|What happened was (that) + mệnh đề.
+S|Hành động nhấn mạnh|What + S + did + was + (to) V.
+E|Nhu cầu|What we need is a clear plan.|Điều ta cần là kế hoạch rõ ràng.|A clear plan là trọng tâm.
+E|Cảm xúc|What surprised me was her calm response.|Điều khiến tôi ngạc nhiên là phản ứng bình tĩnh của cô ấy.|What surprised me làm chủ ngữ.
+E|Hành động|What I did was call the support team.|Việc tôi làm là gọi nhóm hỗ trợ.|Sau did…was có thể dùng call không to.
+E|Diễn biến|What happened was that the server stopped responding.|Chuyện xảy ra là máy chủ ngừng phản hồi.|That dẫn diễn biến được nhấn.
+Q|Sửa “What I need it is more time.”|What I need is more time.|What I need đã là chủ ngữ nên bỏ it.
+X|Không nhầm what-clause với câu hỏi trực tiếp. “What I need” không đảo thành “what do I need” khi làm chủ ngữ.
+@106
+U|Mệnh đề phân từ làm gọn thông tin nền, nguyên nhân hoặc trình tự. Chủ thể được hiểu thường phải trùng với chủ ngữ chính. Nếu không trùng, người đọc có thể hiểu sai ai đang làm hành động.
+S|Chủ động|V-ing + phần bổ nghĩa, S + V.
+S|Bị động|V3 + phần bổ nghĩa, S + V.
+S|Hoàn tất trước|Having + V3…; Having been + V3… cho bị động.
+E|Nguyên nhân|Knowing the area well, she suggested a shorter route.|Vì biết rõ khu vực, cô ấy gợi ý lối ngắn hơn.|She là người knowing.
+E|Bị động|Written in plain English, the guide is easy to follow.|Được viết bằng tiếng Anh đơn giản, hướng dẫn dễ làm theo.|Guide là thứ được written.
+E|Trước rồi sau|Having checked the figures, I approved the invoice.|Sau khi kiểm số, tôi duyệt hóa đơn.|I thực hiện cả hai việc.
+E|Sửa chủ thể treo|While I was walking home, it started to rain.|Khi tôi đi bộ về, trời bắt đầu mưa.|Giữ mệnh đề đầy đủ vì chủ ngữ hai vế khác nhau.
+Q|Vì sao “Driving to work, my phone rang” gây vấn đề? Hãy sửa.|While I was driving to work, my phone rang.|Câu rút gọn khiến my phone bị hiểu là chủ thể driving.
+X|Phân từ không tự mang thì. Thời gian thường được suy từ mệnh đề chính và quan hệ nội dung. Tránh dùng quá nhiều cụm rút gọn khiến câu khó đọc.
+@107
+U|Rút gọn mệnh đề quan hệ giúp cụm danh từ gọn hơn, nhưng chỉ làm khi giữ được quan hệ chủ động/bị động và ý nghĩa. Nó khác lược bỏ đại từ tân ngữ, vì ở đây còn thay đổi dạng động từ.
+S|Chủ động|N + V-ing…, thường thay who/which/that + động từ phù hợp.
+S|Bị động|N + V3…, thay who/which/that + be + V3.
+S|Nguyên mẫu trong một số mẫu|the first/last/only + N + to V.
+E|Đang đợi|The people waiting outside have appointments.|Những người đang đợi ngoài có lịch hẹn.|Tương ứng people who are waiting.
+E|Được đính kèm|Please read the files attached to the email.|Hãy đọc các tệp đính kèm email.|Files là thứ được attached.
+E|Người đầu tiên|She was the first person to arrive.|Cô ấy là người đầu tiên đến.|First person thường nhận to V.
+E|Hoạt động thường lệ|Students living on campus can use this entrance.|Sinh viên sống trong khuôn viên có thể dùng lối này.|Living mô tả nhóm sinh viên được xác định.
+Q|Rút gọn “The report that was published yesterday is useful.”|The report published yesterday is useful.|Bỏ that was, giữ V3 published và mốc yesterday.
+X|Rút gọn có thể làm mất sắc thái will/can/must hoặc mốc thời gian. Đừng chuyển mọi mệnh đề thành V-ing nếu việc đó đổi nghĩa.
+@108
+U|Modal + have + V3 nhìn về quá khứ. Must have suy luận mạnh; may/might have nói khả năng; can't/couldn't have nói suy luận không thể; should have thường đánh giá điều đáng lẽ nên làm.
+S|Suy luận|must/may/might/could + have + V3.
+S|Loại trừ|can't/couldn't + have + V3.
+S|Đánh giá|should/shouldn't + have + V3.
+E|Suy luận mạnh|Her coat is gone. She must have left.|Áo cô ấy không còn. Hẳn cô ấy đã đi.|Kết luận từ dấu hiệu, không phải nghĩa vụ.
+E|Khả năng|He might have missed the message.|Có thể anh ấy bỏ lỡ tin nhắn.|Chưa biết chắc.
+E|Loại trừ|She can't have driven here; her car is at home.|Cô ấy không thể đã lái đến; xe vẫn ở nhà.|Lập luận loại trừ khả năng.
+E|Đáng lẽ|You should have backed up the files.|Đáng lẽ bạn nên sao lưu tệp.|Thường ngụ ý đã không sao lưu.
+E|Cơ hội không thực hiện|I could have stayed longer, but I chose to leave.|Tôi có thể đã ở lâu hơn, nhưng chọn về.|Could have chỉ cơ hội đã có.
+Q|Phân biệt “He must have left” và “He had to leave”.|Câu đầu suy luận anh ấy đã đi; câu sau nói anh ấy buộc phải đi.|Have sau must tạo nghĩa hoàn thành, không phải have to.
+X|Không gán mọi could have nghĩa “đã không làm”; đôi khi nó chỉ khả năng chưa biết. Ngữ cảnh quyết định.
+@109
+U|Bị động tường thuật giúp nêu một nhận định gắn với nguồn không cụ thể hoặc quan điểm chung. Cần giữ khoảng cách giữa “được cho là” và một sự thật được người viết xác nhận.
+S|Chủ ngữ hình thức|It + be + said/believed/reported/thought + that + mệnh đề.
+S|Đưa đối tượng lên chủ ngữ|S + be + said/believed… + to V.
+S|Việc trước nhận định|S + be + said/believed… + to have + V3.
+E|Nhận định chung|It is believed that the painting is authentic.|Người ta cho rằng bức tranh là thật.|It không chỉ một vật cụ thể.
+E|Dạng gọn|The painting is believed to be authentic.|Bức tranh được cho là thật.|To be cùng thời với nhận định.
+E|Việc trước đó|The company is reported to have lost money.|Công ty được đưa tin là đã thua lỗ.|To have lost chỉ việc xảy ra trước.
+E|Đang diễn ra|The team is said to be developing a new product.|Nhóm được cho là đang phát triển sản phẩm mới.|To be developing nhấn quá trình.
+Q|Đổi “People believe that he left yesterday” theo mẫu “He is believed…”.|He is believed to have left yesterday.|Việc đi thuộc quá khứ, trước nhận định hiện tại.
+X|Không dùng mẫu này để che giấu việc chưa có nguồn. Trong viết thông tin thực tế, nên nêu nguồn cụ thể nếu có.
+@110
+U|Mệnh đề danh từ giữ vị trí như chủ ngữ, tân ngữ hoặc bổ ngữ. That biến một phát biểu thành nội dung; whether đưa một khả năng có/không; từ hỏi giữ ý thông tin chưa rõ. Trật tự bên trong là câu kể.
+S|Nội dung|V + (that) + S + V.
+S|Làm chủ ngữ|That/Whether/What + mệnh đề + động từ chính.
+S|Chủ ngữ hình thức|It + be + tính từ + that/whether + mệnh đề.
+E|Tân ngữ|I believe that she is right.|Tôi tin cô ấy đúng.|That-clause là nội dung được tin.
+E|Chủ ngữ|Whether we can finish today remains uncertain.|Việc ta có xong hôm nay không vẫn chưa chắc.|Cả whether-clause làm chủ ngữ.
+E|Dạng nhẹ hơn|It is clear that the plan needs revision.|Rõ ràng kế hoạch cần sửa.|It đưa mệnh đề dài ra sau.
+E|Từ hỏi|I don't know why the system failed.|Tôi không biết vì sao hệ thống lỗi.|Không đảo did the system fail.
+Q|Sửa “What does he wants is unclear.”|What he wants is unclear.|What he wants là mệnh đề danh từ, không dùng cấu trúc câu hỏi.
+X|That đứng đầu làm chủ ngữ thường không bỏ. Whether phù hợp trước to V và sau giới từ; if không thay được ở mọi vị trí.
+@111
+U|Thức giả định trong mệnh đề đề nghị/yêu cầu dùng dạng nguyên mẫu không to, kể cả với he/she/it. Đặc biệt phổ biến trong tiếng Anh Mỹ và văn trang trọng. Nó trình bày điều cần xảy ra, không xác nhận điều đã thật sự xảy ra.
+S|Sau động từ|suggest/recommend/demand/insist + that + S + V nguyên mẫu.
+S|Sau tính từ|It is essential/important/necessary that + S + V nguyên mẫu.
+S|Phủ định|that + S + not + V; be giữ nguyên be.
+E|Đề nghị|They recommended that she apply immediately.|Họ đề nghị cô ấy ứng tuyển ngay.|Apply không thêm s.
+E|Với be|It is essential that everyone be informed.|Điều thiết yếu là mọi người phải được thông báo.|Be không đổi theo everyone.
+E|Phủ định|The lawyer advised that he not sign the document.|Luật sư khuyên anh ấy không ký tài liệu.|Not trực tiếp trước sign.
+E|Mẫu should|I suggest that we should discuss it tomorrow.|Tôi đề nghị ta bàn chuyện đó ngày mai.|Should + V là lựa chọn cấu trúc khác.
+E|Nghĩa sự thật|She insisted that she was innocent.|Cô ấy khăng khăng mình vô tội.|Insist nghĩa khẳng định sự thật, không yêu cầu nên was phù hợp.
+Q|Sửa “They demanded that he leaves at once” theo thức giả định.|They demanded that he leave at once.|Leave giữ nguyên sau yêu cầu.
+X|Suggest còn dùng V-ing như suggest leaving. Không dùng “suggest someone to do” như mẫu chuẩn.
+@112
+U|Danh hóa biến một hành động/tính chất thành danh từ để đóng gói ý, nối lập luận hoặc làm chủ đề câu sau. Nó hữu ích trong báo cáo, nhưng có thể che ai làm gì nếu dùng quá nhiều.
+S|Động từ → danh từ|analyse → analysis; decide → decision; improve → improvement.
+S|Chuyển tân ngữ|analyse the data → an analysis of the data.
+S|Đóng gói ý|S + V. This decision/change/improvement + V…
+E|Hành động thành đối tượng|We analysed the results. → Our analysis of the results revealed a pattern.|Chúng tôi phân tích kết quả. → Phân tích kết quả cho thấy một mẫu.|Of nối analysis với đối tượng.
+E|Làm chủ đề|The delay increased costs.|Sự chậm trễ làm tăng chi phí.|Delay cho phép bàn về hậu quả như một chủ thể.
+E|Nối câu|The team changed the schedule. This change reduced waiting time.|Nhóm đổi lịch. Sự thay đổi này giảm thời gian chờ.|This change tóm gọn câu trước.
+E|Giữ rõ tác nhân|The manager rejected the proposal.|Quản lý bác đề xuất.|Câu động từ này rõ người chịu trách nhiệm hơn “The rejection occurred”.
+Q|Danh hóa “The service improved” để nói sự cải thiện là đáng kể.|The improvement in the service was significant.|Improvement làm chủ ngữ; in giới thiệu khía cạnh được cải thiện.
+X|To-infinitive và V-ing cũng có thể làm chủ ngữ, nhưng không đồng nghĩa mọi danh hóa học thuật. Đừng thay mọi động từ bằng danh từ nếu câu trở nên nặng và mơ hồ.
+@113
+U|Diễn đạt dè dặt điều chỉnh độ chắc chắn cho phù hợp bằng chứng. Phân biệt khả năng, xu hướng, vẻ ngoài và suy luận. Một câu thận trọng vẫn cần nêu rõ điều gì được quan sát và phạm vi nào được áp dụng.
+S|Khả năng|may/might/could + V.
+S|Xu hướng/quan sát|tend to + V; appear/seem to + V.
+S|Nhận định có phạm vi|The results suggest that…; In this sample,…; It is likely that….
+E|Khả năng|The change may reduce waiting time.|Thay đổi này có thể giảm thời gian chờ.|Không hứa chắc kết quả.
+E|Xu hướng|New users tend to need more guidance.|Người dùng mới có xu hướng cần thêm hướng dẫn.|Không nói tất cả đều như vậy.
+E|Vẻ ngoài|The system appears to be stable.|Hệ thống có vẻ ổn định.|Nhận định dựa trên điều quan sát được.
+E|Bằng chứng có giới hạn|In this sample, the two measures were associated.|Trong mẫu này, hai phép đo có liên hệ.|Giới hạn phạm vi, chưa kết luận nguyên nhân.
+Q|Viết lại “This proves the method always works” khi chỉ có một kết quả thử nghiệm tích cực.|This result suggests that the method may work under these conditions.|Suggests/may và phạm vi giúp tránh khẳng định quá mức.
+X|Không gắn mức phần trăm cố định cho may/might. Tránh chồng nhiều từ như might possibly perhaps nếu không thêm ý rõ ràng.
+@114
+U|Lược bỏ và thay thế tránh nhắc lại khi người đọc/nghe khôi phục được phần thiếu. Chỉ bỏ phần đã rõ. Giữ trợ động từ phù hợp thì và dùng one/ones chỉ cho danh từ đếm được phù hợp.
+S|Lược động từ|S + trợ động từ/modal + too; trợ động từ giữ phần đã hiểu.
+S|Thay danh từ|one/ones thay danh từ đếm được.
+S|Thay mệnh đề/hành động|I think/hope so; I hope not; do so.
+E|Lược hành động|I can drive, and my sister can too.|Tôi biết lái xe, chị tôi cũng vậy.|Can thứ hai thay can drive.
+E|Thay số ít|I'll take the larger one.|Tôi lấy cái lớn hơn.|One thay vật đã được nhắc.
+E|Thay số nhiều|These chairs are cheaper than those ones.|Những ghế này rẻ hơn mấy chiếc kia.|Ones thay chairs; cũng có thể chỉ nói than those.
+E|Thay phát biểu|Will she come? — I think so.|Cô ấy sẽ đến chứ? — Tôi nghĩ vậy.|So thay she will come.
+E|Thay hành động|Please save the file if you haven't already done so.|Hãy lưu tệp nếu bạn chưa làm vậy.|Done so thay saved the file.
+Q|Sửa “I need information. Do you have a useful one?”|I need information. Do you have any useful information?|Information không đếm được nên không dùng one trực tiếp.
+X|“I hope not” tự nhiên hơn “I don't hope so” khi mong điều đó không xảy ra. Không xóa phần khiến chủ thể hoặc thời gian không còn rõ.
+@115
+U|Đưa một thành phần lên đầu giúp nối với chủ đề trước hoặc tạo đối chiếu. Không phải mọi trường hợp đưa lên đầu đều đảo trợ động từ. Phân biệt tân ngữ được đưa lên với trạng ngữ phủ định và mẫu đảo vị trí trong văn kể.
+S|Tân ngữ lên đầu|O, S + V.
+S|Trạng ngữ nơi/thời gian|Cụm trạng ngữ, S + V.
+S|Đảo vị trí với danh từ|Cụm nơi chốn + động từ vị trí/chuyển động + chủ ngữ danh từ.
+E|Tương phản|That proposal, I can support. The other one, I cannot.|Đề xuất đó tôi ủng hộ được. Cái kia thì không.|Giữ I can, không đảo can I.
+E|Nối bối cảnh|After the meeting, we sent the summary.|Sau cuộc họp, chúng tôi gửi tóm tắt.|Trạng ngữ thời gian không tự gây đảo.
+E|Văn kể|At the end of the road stood a small house.|Cuối đường có một ngôi nhà nhỏ.|Danh từ mới a small house ra sau stood.
+E|Đại từ|Here he comes.|Anh ấy đến rồi.|Với đại từ he, không dùng here comes he trong mẫu thông thường.
+Q|Sửa “This problem, can we solve” nếu đây là câu kể nhấn tân ngữ.|This problem, we can solve.|Đưa tân ngữ lên đầu không biến câu kể thành câu hỏi.
+X|Cách nhấn này cần bối cảnh. Dùng quá nhiều sẽ làm văn gượng hoặc mang sắc thái đối đầu không mong muốn.
+@116
+U|Trạng từ nối giúp người đọc theo quan hệ ý nhưng không tự gộp hai mệnh đề như and/but. Chọn theo logic: thêm ý, tương phản, hệ quả hoặc ví dụ. Dùng dấu câu để tách hai câu độc lập.
+S|Tương phản|Câu. However/Nevertheless, câu.
+S|Hệ quả|Câu. Therefore/Consequently, câu.
+S|Thêm/ví dụ|Moreover/Furthermore,…; For example,…
+E|Tương phản|The hotel was expensive. However, its location was excellent.|Khách sạn đắt. Tuy nhiên, vị trí rất tốt.|However mở câu mới.
+E|Hệ quả|The road was flooded. Therefore, we took another route.|Đường ngập. Vì vậy, chúng tôi đi lối khác.|Vế sau là hệ quả.
+E|Bổ sung lý do|The tool is easy to use. Moreover, it is free.|Công cụ dễ dùng. Hơn nữa, nó miễn phí.|Moreover thêm lợi điểm.
+E|Ví dụ|Some tasks can be automated. For example, reminders can be sent automatically.|Một số việc có thể tự động hóa. Chẳng hạn, lời nhắc có thể gửi tự động.|Câu sau minh họa câu trước.
+Q|Sửa dấu câu “It was late, however we continued.”|It was late. However, we continued.|Dùng dấu chấm tách hai câu độc lập, thêm phẩy sau however.
+X|Therefore không biến tương quan thành nguyên nhân. Quan hệ lập luận phải đúng trước khi thêm từ nối.
+@117
+U|Tương lai tiếp diễn nhìn vào việc đang diễn ra tại một mốc tương lai. Tương lai hoàn thành nhìn ngược từ mốc ấy để nói việc đã hoàn tất. Hoàn thành tiếp diễn nhấn thời lượng kéo đến mốc tương lai.
+S|Tiếp diễn|S + will be + V-ing.
+S|Hoàn thành|S + will have + V3.
+S|Hoàn thành tiếp diễn|S + will have been + V-ing.
+S|Phủ định|S + won't be V-ing; won't have V3; won't have been V-ing.
+S|Câu hỏi|Will + S + be V-ing / have V3 / have been V-ing?
+E|Đang làm tại mốc|At ten tomorrow, I'll be taking an exam.|Mai lúc mười giờ, tôi đang làm bài thi.|Nhìn giữa quá trình tương lai.
+E|Xong trước mốc|By Friday, we'll have completed the first stage.|Đến thứ Sáu, ta sẽ xong giai đoạn đầu.|Hoàn thành trước hoặc tại mốc.
+E|Chưa xong|She won't have finished by noon.|Đến trưa cô ấy chưa làm xong.|Won't have + V3.
+E|Hỏi kế hoạch dự kiến|Will you be using the car this evening?|Tối nay bạn có dùng ô tô không?|Hỏi việc dự kiến đang diễn ra.
+E|Thời lượng tới mốc|By June, I'll have been working here for five years.|Đến tháng Sáu, tôi sẽ làm ở đây được năm năm.|Nhấn thời lượng đến mốc tương lai.
+E|Hỏi hoàn thành|Will they have arrived by then? — Yes, they will.|Đến lúc đó họ tới chưa? — Rồi.|Đáp ngắn dùng will.
+Q|Chọn dạng “At 9 tomorrow, I ___ to work” để nói đang lái xe.|will be driving|At 9 là mốc nhìn vào quá trình.
+X|By không bắt buộc hoàn thành. “I'll finish by Friday” cũng đúng; hoàn thành làm nổi góc nhìn từ mốc tương lai nhìn ngược lại.
+@118
+U|Quá khứ hoàn thành tiếp diễn nhấn quá trình kéo dài trước một mốc quá khứ, thường giải thích trạng thái tại mốc đó. Nó không chỉ đơn thuần là một hành động “rất lâu trước đây”.
+S|Khẳng định|S + had been + V-ing.
+S|Phủ định|S + hadn't been + V-ing.
+S|Câu hỏi|Had + S + been + V-ing?; How long had S been V-ing?
+E|Nguyên nhân|She was exhausted because she'd been working all night.|Cô ấy kiệt sức vì làm suốt đêm.|Làm kéo dài trước lúc thấy kiệt sức.
+E|Thời lượng|We'd been waiting for an hour when the bus arrived.|Ta đã đợi một giờ thì xe tới.|Mốc quá khứ là arrived.
+E|Phủ định|He hadn't been sleeping well before the trip.|Trước chuyến đi anh ấy ngủ không ngon.|Một tình trạng kéo dài trước mốc.
+E|Hỏi|How long had you been studying before you took a break?|Bạn đã học bao lâu trước khi nghỉ?|Hỏi độ dài trước một sự kiện quá khứ.
+E|So với sản phẩm|I'd written three pages. / I'd been writing for three hours.|Tôi đã viết ba trang. / Tôi đã viết suốt ba giờ.|Đơn nhấn số lượng; tiếp diễn nhấn quá trình.
+Q|Sửa “I had been know her for years.”|I had known her for years.|Know chỉ trạng thái nên dùng hoàn thành đơn.
+X|Had been waiting không tự cho biết sau mốc người đó còn đợi hay không. Phần còn lại của câu và ngữ cảnh làm rõ.
+@119
+U|Phạm vi phủ định là phần ý bị not phủ nhận. Vị trí từ và trọng âm có thể đổi nghĩa. Đặc biệt phân biệt không phải tất cả với không một ai, và không cần với không được phép.
+S|Phủ định toàn bộ|No + N; none of + nhóm xác định.
+S|Phủ định một phần|Not all/every + N.
+S|Giới hạn bằng only|Đặt only gần thành phần muốn giới hạn khi cần rõ nghĩa.
+E|Không phải tất cả|Not all the guests arrived on time.|Không phải mọi khách đều đến đúng giờ.|Có thể một số đến đúng giờ.
+E|Không ai|None of the guests arrived on time.|Không vị khách nào đến đúng giờ.|Phủ định toàn bộ nhóm.
+E|Giới hạn người|Only Lan borrowed the book.|Chỉ Lan mượn sách.|Chỉ một người là Lan.
+E|Giới hạn hành động|Lan only borrowed the book; she didn't buy it.|Lan chỉ mượn sách, không mua.|Only nhấn hành động mượn.
+E|Không luôn|He isn't always late.|Anh ấy không phải lúc nào cũng muộn.|Không đồng nghĩa never late.
+Q|“Not every answer is correct” có nghĩa tất cả đáp án sai không?|Không. Nó chỉ nói có ít nhất một đáp án không đúng.|Không được biến phủ định một phần thành phủ định toàn bộ.
+X|Một câu như “I didn't say he stole it” có thể nhấn ai nói, hành động nói hoặc nội dung. Khi viết, thêm phần giải thích để tránh dựa hoàn toàn vào trọng âm.
+@120
+U|Cấu trúc song song đặt các thành phần cùng chức năng cạnh nhau để người đọc so sánh dễ. Với both…and/either…or/not only…but also, đặt cặp từ ngay trước các đơn vị thực sự được nối.
+S|Hai thành phần|both A and B; either A or B; neither A nor B.
+S|Thêm ý nhấn mạnh|not only A but also B.
+S|Đảo khi ở đầu mệnh đề|Not only + trợ động từ + S + V, but S also + V.
+E|Danh từ song song|She studies both chemistry and biology.|Cô ấy học cả hóa lẫn sinh.|Hai danh từ môn học.
+E|Hoạt động song song|He enjoys reading, swimming, and cooking.|Anh ấy thích đọc, bơi và nấu ăn.|Ba V-ing cùng chức năng.
+E|Hai lựa chọn|We can either stay here or walk home.|Ta có thể ở lại hoặc đi bộ về.|Hai cụm động từ sau can.
+E|Nhấn hai lợi ích|The course is not only useful but also affordable.|Khóa học vừa hữu ích vừa có giá phải chăng.|Hai tính từ song song.
+E|Đảo ngữ|Not only did she explain the rule, but she also gave examples.|Cô ấy không chỉ giải thích quy tắc mà còn đưa ví dụ.|Did đảo ở vế đầu; explain nguyên mẫu.
+Q|Sửa “She enjoys reading and to swim.”|She enjoys reading and swimming.|Enjoy nhận V-ing; giữ hai thành phần song song.
+X|Với either…or/neither…nor làm chủ ngữ, động từ thường hòa hợp theo thành phần gần nhất trong văn chuẩn. Nếu ghép số ít và số nhiều gây gượng, viết lại để rõ hơn.
