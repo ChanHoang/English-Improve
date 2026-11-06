@@ -51,6 +51,8 @@ The default scope (without `--scope=all`) generates only A2 audio. Matching reco
 
 - `Alt+P`: play/pause; `Alt+R`: replay the current word or reading.
 - `Alt+-` / `Alt+=`: slower/faster (0.5×–2×), saved in this browser.
-- In a reading, `Alt+A` sets the loop start, `Alt+B` sets the end, and `Alt+L` turns A–B repetition on/off. Points can also be typed in seconds. The full-width timeline supports seeking.
+- Readings have a compact fixed-bottom player with one timeline, play/pause, replay and speed. A–B looping is no longer included.
 - Shortcuts do not activate in input fields or editable text. Touch controls offer the same actions.
 - The Light/Dark button in the header saves the chosen theme; the initial theme follows the device preference.
+
+Vietnamese help is hidden behind “Show Vietnamese meaning” in vocabulary, flashcards and reading word lists/dialogs. All 5,943 entries have help: A1 uses authored common meanings (`a1-vietnamese.txt`); A2–C1 reuse the existing contextual lesson meanings, explicitly labelled as contextual rather than translations of the source dictionary definition. Imported custom meanings take precedence.

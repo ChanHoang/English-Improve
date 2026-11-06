@@ -4,6 +4,7 @@ const store=new Map([['ox5-reading-answers-v2','{"wright":{"0":2}}'],['ox5-progr
 function boot(){
  const nodes=new Proxy({}, {get:(o,k)=>o[k]??={value:'',checked:false,innerHTML:'',scrollTop:0,parentElement:{},classList:{set:new Set(),remove(c){this.set.delete(c)},add(c){this.set.add(c)},contains(c){return this.set.has(c)}},setAttribute(k,v){this[k]=v},focus(){},reportValidity(){this.invalid=true},showModal(){this.open=true},close(){this.open=false},querySelector(){return {open:false,focus(){}}},querySelectorAll(){return []}}});
  nodes.bundle.textContent=html.match(/<script id="bundle" type="application\/json">([^<]*)<\/script>/)[1];
+ nodes['a1-vietnamese'].textContent=html.match(/<script id="a1-vietnamese" type="application\/json">([^<]*)<\/script>/)[1];
  nodes['michael-audio-manifest'].textContent=html.match(/<script id="michael-audio-manifest" type="application\/json">([^<]*)<\/script>/)[1];
  const c={document:{getElementById:id=>nodes[id],addEventListener(){},querySelectorAll(){return []},documentElement:{dataset:{theme:'light'}}},localStorage:{getItem:k=>store.get(k)??null,setItem:(k,v)=>store.set(k,v)},window:{scrollY:0,scrollTo(){}}};vm.createContext(c);vm.runInContext(script,c);return {nodes,run:s=>vm.runInContext(s,c)};
 }
@@ -69,3 +70,7 @@ run('mode=4;selectedGrammar=1;grammarPanel="practice";render()');dispatch('gq-re
 nodes['menu-toggle'].onclick();assert(nodes.sidebar.classList.contains('is-open'));nodes['lessons-toggle'].onclick();assert(!nodes.sidebar.classList.contains('is-open'));assert(nodes.secondary.classList.contains('is-open'));run('closeMenu()');assert(!nodes.secondary.classList.contains('is-open'));
 run("mode=2;document.getElementById('query').value='';render()");run('quiz.pick=0;round.total=10;render()');assert.match(nodes.view.innerHTML,/option-explanations/,'last vocabulary quiz answer also explains all options');run('quiz=null;render()');assert.match(nodes.view.innerHTML,/Results/);
 console.log('PASS '+grammarCount+' grammar questions; '+readingCount+' reading questions; 990 A2 entries; 348 lessons; all-option explanations, wrong/correct locks, category pagination, completion guards, reset, persistence, grammar links, level accordion, two-level navigation, mobile drawers, vocabulary page sizes/jump, final quiz feedback.');
+
+assert.equal(run('defaults.filter(r=>!vocabularyMeaning(r).text).length'),0,'all 5943 entries have Vietnamese help');
+assert(run('defaults.every(r=>!vocabularyDetails(r).includes("<details open"))'),'meanings start closed');
+assert(run('vocabularyDetails(defaults[0]).includes("Show Vietnamese meaning")'));assert(run('actions(defaults[0]).includes("headphone-icon")'));assert(!run('actions(defaults[0]).includes("Listen (US)")'));

@@ -16,10 +16,6 @@ function playMichaelWord(r){
  const failure=()=>status('Michael audio could not load. Check your connection and try again.');
  player.onerror=failure;player.play().catch(failure);return true;
 }
-function michaelReadingPlayer(l){
- const file=michaelManifest.readings[l.id];if(!file)return '';
- return '<section class="michael-player" aria-label="Reading audio"><p><b>Listen · Michael (US)</b><br><small>Kokoro AI-generated audio</small></p><audio controls preload="none" data-michael-reading="'+esc(l.id)+'" aria-label="Listen to '+esc(l.englishTitle)+'" src="'+esc(michaelManifest.base+file)+'"></audio><label>Speed <select data-michael-speed aria-label="Reading playback speed"><option value="0.75">0.75×</option><option value="1" selected>1×</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option></select></label><p class="michael-error" role="status"></p></section>';
-}
 document.addEventListener('play',e=>{
  if(!e.target.matches?.('audio[data-michael-reading]'))return;
  if(michaelWordPlayer){michaelWordPlayer.pause();michaelWordPlayer=null;}

@@ -1,7 +1,7 @@
 const fs=require('fs'),path=require('path');const root=path.resolve(__dirname,'..'),file=path.join(root,'index.html');let h=fs.readFileSync(file,'utf8');
-const code=fs.readFileSync(path.join(__dirname,'audio-ui.js'),'utf8')+'\n'+fs.readFileSync(path.join(__dirname,'audio-controls.js'),'utf8');
+const code=fs.readFileSync(path.join(root,'vocabulary-ui.js'),'utf8')+'\n'+fs.readFileSync(path.join(__dirname,'audio-ui.js'),'utf8')+'\n'+fs.readFileSync(path.join(__dirname,'audio-controls.js'),'utf8');
 h=h.replace('utterance.voice=voice;utterance.lang=lang;','utterance.voice=voice;utterance.lang=lang;utterance.rate=michaelSpeed;');
-const match=/const michaelManifest=[\s\S]*?\nrender\(\);\n<\/script>/;
+const match=/(?:function soundIcon\(\)[\s\S]*?)?const michaelManifest=[\s\S]*?\nrender\(\);\n<\/script>/;
 if(!match.test(h))throw Error('Audio script boundary missing');h=h.replace(match,()=>code+'\nrender();\n</script>');
 h=h.replace(/<button[^>]*id="theme-toggle"[^>]*>[\s\S]*?<\/button>/,'');h=h.replace('</header>','<button type="button" id="theme-toggle" class="theme-toggle" aria-label="Switch theme">☾ Dark</button></header>');
 if(!h.includes('id="theme-init"'))h=h.replace('<style>','<script id="theme-init">try{const t=JSON.parse(localStorage.getItem("ox5-theme"));document.documentElement.dataset.theme=t==="dark"||t==="light"?t:(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")}catch{document.documentElement.dataset.theme="light"}</script>\n<style>');
@@ -12,4 +12,15 @@ h=h.replaceAll("btn('♫ Listen (US)','us')+btn", "btn('♫ Listen (US)','us')+m
 h=h.replaceAll("btn('♫ Listen (US)','read-audio')+'<div", "btn('♫ Listen (US)','read-audio')+michaelWordTools()+'<div");
 if(!h.includes("<h2>Learn the words</h2>'+michaelWordTools()"))h=h.replace("<h2>Learn the words</h2>","<h2>Learn the words</h2>'+michaelWordTools()+'");
 h=h.replaceAll("michaelWordTools()+''+michaelWordTools()","michaelWordTools()");
-fs.writeFileSync(file,h);console.log('Installed shortcuts, A–B loop, timeline, speed memory, and light/dark theme.');
+const a1=Object.fromEntries(fs.readFileSync(path.join(root,'a1-vietnamese.txt'),'utf8').trim().split(/\r?\n/).map(line=>{const n=line.indexOf('=');if(n<1)throw Error('Invalid translation '+line);return [line.slice(0,n).trim(),line.slice(n+1).trim()]}));
+const bundle=JSON.parse(h.match(/<script id="bundle"[^>]*>([^<]*)<\/script>/)[1]);
+const missing=bundle.filter(r=>r.level==='A1'&&!a1[r.word]);if(missing.length)throw Error('Missing A1 meanings: '+missing.map(r=>r.word));
+const meaningTag='<script id="a1-vietnamese" type="application/json">'+JSON.stringify(a1)+'</script>';
+h=h.replace(/<script id="a1-vietnamese"[^>]*>[^<]*<\/script>/,'');h=h.replace('<script id="bundle"',meaningTag+'\n<script id="bundle"');
+h=h.replace(/function details\(r\)\{[^\n]*\}/,"function details(r){return vocabularyDetails(r)}");
+h=h.replaceAll("btn('♫ Listen (US)','us')", "btn(soundIcon(),'us','aria-label=\"Play pronunciation\" title=\"Play pronunciation\"')").replaceAll("btn('🔊 Listen (US)','us')", "btn(soundIcon(),'us','aria-label=\"Play pronunciation\" title=\"Play pronunciation\"')").replaceAll("btn('♫ Listen (US)','read-audio')", "btn(soundIcon(),'read-audio','aria-label=\"Play pronunciation\" title=\"Play pronunciation\"')").replaceAll("btn('♫','read-say-'", "btn(soundIcon(),'read-say-'");
+h=h.replaceAll("'<p>'+esc(t.vi)+'</p>'", "meaningReveal(t.vi,'Nghĩa theo ngữ cảnh bài đọc')");
+h=h.replaceAll("+'</div><p>'+esc(t.vi)+'</p><p lang=", "+'</div>'+meaningReveal(t.vi,'Nghĩa theo ngữ cảnh bài đọc')+'<p lang=");
+h=h.replaceAll("+'</p><p><b>'+esc(t.vi)+'</b></p><p lang=", "+'</p>'+meaningReveal(t.vi,'Nghĩa theo ngữ cảnh bài đọc')+'<p lang=");
+h=h.replace(/function readingSenseNote\(t\)\{[^\n]*\}/,`function readingSenseNote(t){return t.sourceSenseNote?'<details class="meaning-reveal source-sense-note"><summary>Source meaning note</summary><div lang="vi"><p>'+esc(t.sourceSenseNote)+'</p></div></details>':''}`);
+fs.writeFileSync(file,h);console.log('Installed compact fixed player, hidden meanings, headphones, shortcuts, and theme.');
