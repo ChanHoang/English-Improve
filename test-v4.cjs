@@ -12,6 +12,7 @@ const dispatch=a=>run('handleStudyAction('+JSON.stringify(a)+')'),readAction=a=>
 assert.equal(run('defaults.length'),5943);assert.equal(run('grammar.length'),120);assert.equal(run('readings.length'),348);
 assert.equal(run('Object.keys(readingAnswers).length'),0,'old assessment results must not be reused');
 assert.equal((nodes.view.innerHTML.match(/data-row=/g)||[]).length,1,'single word in main area');
+assert(nodes.view.innerHTML.includes('data-michael-speed'),'vocabulary speed control');assert(nodes.view.innerHTML.includes('data-audio-command="replay"'),'vocabulary replay control');
 for(const label of ['Vocabulary','Grammar','Reading'])assert(nodes.tabs.innerHTML.includes('>'+label+'</button>'));
 assert(!nodes.tabs.innerHTML.includes('C1'));
 for(const size of [10,20,50,100,200]){run('pageSize='+size+';page=0;render()');assert.equal((nodes['secondary-items'].innerHTML.match(/data-action="entry-/g)||[]).length,size)}

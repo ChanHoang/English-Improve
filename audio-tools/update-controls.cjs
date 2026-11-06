@@ -7,6 +7,7 @@ h=h.replace(/<button[^>]*id="theme-toggle"[^>]*>[\s\S]*?<\/button>/,'');h=h.repl
 if(!h.includes('id="theme-init"'))h=h.replace('<style>','<script id="theme-init">try{const t=JSON.parse(localStorage.getItem("ox5-theme"));document.documentElement.dataset.theme=t==="dark"||t==="light"?t:(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")}catch{document.documentElement.dataset.theme="light"}</script>\n<style>');
 const css=fs.readFileSync(path.join(__dirname,'controls.css'),'utf8');h=h.replace(/<style id="audio-controls-style">[\s\S]*?<\/style>/,'');h=h.replace('</style>','</style>\n<style id="audio-controls-style">'+css+'</style>');
 if(!h.includes("btn('🔊 Listen (US)','us')+michaelWordTools()"))h=h.replace("btn('🔊 Listen (US)','us')","btn('🔊 Listen (US)','us')+michaelWordTools()");
+h=h.replaceAll("btn('♫ Listen (US)','us')+btn", "btn('♫ Listen (US)','us')+michaelWordTools()+btn");
 // Word dialogs and reading word lists also expose speed/replay for touch users.
 h=h.replaceAll("btn('♫ Listen (US)','read-audio')+'<div", "btn('♫ Listen (US)','read-audio')+michaelWordTools()+'<div");
 if(!h.includes("<h2>Learn the words</h2>'+michaelWordTools()"))h=h.replace("<h2>Learn the words</h2>","<h2>Learn the words</h2>'+michaelWordTools()+'");
