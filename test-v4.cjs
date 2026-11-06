@@ -13,7 +13,7 @@ const dispatch=a=>run('handleStudyAction('+JSON.stringify(a)+')'),readAction=a=>
 assert.equal(run('defaults.length'),5943);assert.equal(run('grammar.length'),120);assert.equal(run('readings.length'),348);
 assert.equal(run('Object.keys(readingAnswers).length'),0,'old assessment results must not be reused');
 assert.equal((nodes.view.innerHTML.match(/data-row=/g)||[]).length,1,'single word in main area');
-assert(nodes.view.innerHTML.includes('data-michael-speed'),'vocabulary speed control');assert(nodes.view.innerHTML.includes('data-audio-command="replay"'),'vocabulary replay control');
+assert(nodes.view.innerHTML.includes('data-michael-speed'),'vocabulary speed control');assert(!nodes.view.innerHTML.includes('↻ Replay'),'no duplicate vocabulary replay button');
 for(const label of ['Vocabulary','Grammar','Reading'])assert(nodes.tabs.innerHTML.includes('>'+label+'</button>'));
 assert(!nodes.tabs.innerHTML.includes('C1'));
 for(const size of [10,20,50,100,200]){run('pageSize='+size+';page=0;render()');assert.equal((nodes['secondary-items'].innerHTML.match(/data-action="entry-/g)||[]).length,size)}
@@ -74,3 +74,9 @@ console.log('PASS '+grammarCount+' grammar questions; '+readingCount+' reading q
 assert.equal(run('defaults.filter(r=>!vocabularyMeaning(r).text).length'),0,'all 5943 entries have Vietnamese help');
 assert(run('defaults.every(r=>!vocabularyDetails(r).includes("<details open"))'),'meanings start closed');
 assert(run('vocabularyDetails(defaults[0]).includes("Show Vietnamese meaning")'));assert(run('actions(defaults[0]).includes("headphone-icon")'));assert(!run('actions(defaults[0]).includes("Listen (US)")'));
+
+assert.deepEqual(Array.from(nodes.tabs.innerHTML.matchAll(/data-action="tab-(\d)"/g),m=>Number(m[1])),[0,4,5,2,1,3]);
+assert.equal(nodes.review.parentElement.hidden,true);assert.equal(nodes.review.checked,false);
+run('openUtility("settings-dialog")');assert.equal(nodes['settings-dialog'].open,true);nodes['replay-shortcut'].onchange({target:{value:'r'}});assert.equal(store.get('ox5-replay-shortcut'),'"r"');nodes['settings-dialog'].close();
+run('openUtility("info-dialog")');assert.equal(nodes['info-dialog'].open,true);assert(nodes['info-reading-sources'].innerHTML.includes('All reading sources'));assert(nodes['info-reading-sources'].innerHTML.includes('https://'));nodes['info-dialog'].close();
+console.log('PASS ordered navigation, hidden review filter, settings persistence, and reading sources in Info.');

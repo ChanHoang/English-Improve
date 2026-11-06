@@ -14,7 +14,7 @@ Open `index.html` directly, or visit the GitHub Pages deployment linked in this 
 
 Progress is stored in the current browser's local storage. It does not automatically transfer between devices, browsers, or the local-file and hosted versions. Clearing browser data can remove it.
 
-All 5,943 vocabulary entries and 140 readings (72 A2 + 68 B1) use prerecorded Kokoro Michael (`am_michael`, US English) audio. Reading players support pause, seeking, and speed selection. B2/C1 readings do not yet have prerecorded audio. The MP3 files load on demand and need a connection on the hosted site; to use locally, download the repository and keep the `audio/` folder next to `index.html`. There is no promised permanent browser audio cache.
+All 5,943 vocabulary entries and 140 readings (72 A2 + 68 B1) use prerecorded Kokoro Michael (`am_michael`, US English) audio. Reading players support pause, seeking, and speed selection. Info & help beside Settings contains sources, audio provenance, usage instructions and data import. B2/C1 readings do not yet have prerecorded audio. The MP3 files load on demand and need a connection on the hosted site; to use locally, download the repository and keep the `audio/` folder next to `index.html`. There is no promised permanent browser audio cache.
 
 Missing dictionary definitions are explicitly marked. Contextual Vietnamese meanings are authored for the lessons; where an original English definition covers a different sense, a source-meaning note identifies the mismatch. Reading sources are listed inside each lesson. This is an independent learning project, not an official Oxford product; no blanket license is granted to third-party learning material.
 
@@ -49,7 +49,7 @@ The default scope (without `--scope=all`) generates only A2 audio. Matching reco
 
 ## Listening controls
 
-- `Alt+P`: play/pause; `Alt+R`: replay the current word or reading.
+- `Alt+P`: play/pause. Settings at the bottom of the main sidebar selects replay: Alt+R (default), R, Space or Off; saved per browser.
 - `Alt+-` / `Alt+=`: slower/faster (0.5×–2×), saved in this browser.
 - Readings have a compact fixed-bottom player with one timeline, play/pause, replay and speed. A–B looping is no longer included.
 - Shortcuts do not activate in input fields or editable text. Touch controls offer the same actions.

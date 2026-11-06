@@ -10,9 +10,9 @@ function playMichaelWord(r){
  stopMichaelAudio();window.speechSynthesis?.cancel();
  const player=new Audio(michaelManifest.base+file);michaelWordPlayer=player;lastSpokenWord=r;player.playbackRate=michaelSpeed;
  const status=text=>{if(michaelWordPlayer===player){$('audioStatus').textContent=text;const target=$('reading-word-status');if(target)target.textContent=text;}};
- status('Loading Michael (US)…');
- player.onplaying=()=>status('Michael (US) · Kokoro AI-generated audio');
- player.onended=()=>status('Michael (US) · Finished');
+ status('');
+ player.onplaying=()=>status('');
+ player.onended=()=>status('');
  const failure=()=>status('Michael audio could not load. Check your connection and try again.');
  player.onerror=failure;player.play().catch(failure);return true;
 }

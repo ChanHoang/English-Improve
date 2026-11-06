@@ -26,3 +26,6 @@ const html=fs.readFileSync(__dirname+'/index.html','utf8');assert(html.includes(
 console.log('PASS audio controls: replay, pause/resume, speed limits and persistence, single timeline without looping, safe shortcuts, stop on navigation, and saved light/dark theme.');
 
 const markup=run('michaelReadingPlayer({id:"wright",englishTitle:"Wright"})');assert.equal((markup.match(/data-audio-seek/g)||[]).length,1);assert(!markup.includes('audio controls'));assert(!markup.includes('data-loop'));assert(markup.includes('compact-player'));
+
+run('setReplayShortcut("r")');assert.equal(store.get('ox5-replay-shortcut'),'r');p.currentTime=20;fire('keydown',{altKey:true,code:'KeyR',target:{closest:()=>null},preventDefault(){}});assert.equal(p.currentTime,20,'old shortcut disabled');fire('keydown',{altKey:false,code:'KeyR',target:{closest:()=>null},preventDefault(){}});assert.equal(p.currentTime,0,'new shortcut replays');
+run('setReplayShortcut("none")');p.currentTime=21;fire('keydown',{altKey:false,code:'KeyR',target:{closest:()=>null},preventDefault(){}});assert.equal(p.currentTime,21);run('setReplayShortcut("space")');fire('keydown',{altKey:false,code:'Space',target:{closest:()=>null},preventDefault(){}});assert.equal(p.currentTime,0);assert(!run('michaelWordTools()').includes('Replay'));assert(!markup.includes('↻'));

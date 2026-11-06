@@ -3,17 +3,17 @@ const michaelSpeeds=[0.5,0.75,1,1.25,1.5,1.75,2];
 if(!michaelSpeeds.includes(michaelSpeed))michaelSpeed=1;
 function audioMessage(text){$('audioStatus').textContent=text;const target=$('reading-word-status');if(target)target.textContent=text;}
 function michaelSpeedControl(){return '<label class="audio-speed-label">Speed <select data-michael-speed aria-label="Playback speed">'+michaelSpeeds.map(s=>'<option value="'+s+'"'+(s===michaelSpeed?' selected':'')+'>'+s+'×</option>').join('')+'</select></label>';}
-function michaelWordTools(){return '<span class="word-audio-tools">'+michaelSpeedControl()+'<button type="button" data-audio-command="replay" title="Alt+R">↻ Replay</button><small>Alt+R: replay · Alt+−/=: speed</small></span>';}
+function michaelWordTools(){return '<span class="word-audio-tools">'+michaelSpeedControl()+'</span>';}
 function michaelReadingPlayer(l){
  const file=michaelManifest.readings[l.id];if(!file)return '';
- return '<section class="michael-player compact-player" aria-label="Reading audio"><audio preload="none" data-michael-reading="'+esc(l.id)+'" src="'+esc(michaelManifest.base+file)+'"></audio><div class="compact-audio-row"><span class="player-headphones" title="Michael · Kokoro AI voice">'+soundIcon()+'</span><button type="button" data-audio-command="play" aria-label="Play reading" title="Alt+P">▶</button><button type="button" data-audio-command="replay" aria-label="Replay reading" title="Alt+R">↻</button><input type="range" min="0" max="0" value="0" step="0.1" disabled data-audio-seek aria-label="Reading audio position"><span class="audio-clock"><span data-audio-current>0:00</span> / <span data-audio-duration>--:--</span></span>'+michaelSpeedControl()+'</div><p class="michael-error" role="status"></p></section>';
+ return '<section class="michael-player compact-player" aria-label="Reading audio"><audio preload="none" data-michael-reading="'+esc(l.id)+'" src="'+esc(michaelManifest.base+file)+'"></audio><div class="compact-audio-row"><button type="button" data-audio-command="replay" aria-label="Replay reading" title="Replay">'+soundIcon()+'</button><button type="button" data-audio-command="play" aria-label="Play reading" title="Alt+P">▶</button><input type="range" min="0" max="0" value="0" step="0.1" disabled data-audio-seek aria-label="Reading audio position"><span class="audio-clock"><span data-audio-current>0:00</span> / <span data-audio-duration>--:--</span></span>'+michaelSpeedControl()+'</div><p class="michael-error" role="status"></p></section>';
 }
 function syncPlayback(p){const b=p.closest('.michael-player').querySelector('[data-audio-command="play"]');b.textContent=p.paused?'▶':'Ⅱ';b.setAttribute('aria-label',p.paused?'Play reading':'Pause reading');}
 function timeLabel(seconds){seconds=Math.max(0,Math.floor(seconds||0));return Math.floor(seconds/60)+':'+String(seconds%60).padStart(2,'0');}
 function readingAudio(){return document.querySelector('audio[data-michael-reading]');}
 function setMichaelSpeed(speed){
  if(!michaelSpeeds.includes(speed))return;michaelSpeed=speed;save('ox5-audio-speed',speed);if(michaelWordPlayer)michaelWordPlayer.playbackRate=speed;
- document.querySelectorAll('audio[data-michael-reading]').forEach(p=>p.playbackRate=speed);document.querySelectorAll('[data-michael-speed]').forEach(s=>s.value=String(speed));audioMessage('Playback speed: '+speed+'×');
+ document.querySelectorAll('audio[data-michael-reading]').forEach(p=>p.playbackRate=speed);document.querySelectorAll('[data-michael-speed]').forEach(s=>s.value=String(speed));audioMessage('');
 }
 function contextWord(){
  if($('reading-word-dialog')?.open&&currentReading())return defaults[currentReading().targets[activeReadingWord].rowIndex];
@@ -43,9 +43,14 @@ document.addEventListener('change',e=>{
  if(e.target.matches?.('[data-michael-speed]'))setMichaelSpeed(Number(e.target.value));
 });
 document.addEventListener('click',e=>{const button=e.target.closest?.('[data-audio-command]');if(button)audioCommand(button.dataset.audioCommand);});
+const replayChoices={'alt-r':'Alt+R',r:'R',space:'Space',none:'Off'};
+let replayShortcut=read('ox5-replay-shortcut','alt-r');if(!Object.hasOwn(replayChoices,replayShortcut))replayShortcut='alt-r';
+function setReplayShortcut(value){if(!Object.hasOwn(replayChoices,value))return;replayShortcut=value;save('ox5-replay-shortcut',value);}
 document.addEventListener('keydown',e=>{
- if(!e.altKey||e.ctrlKey||e.metaKey||e.isComposing||e.repeat||e.target.isContentEditable||e.target.closest?.('input,textarea,select,[contenteditable],[role="textbox"]'))return;
- const command={KeyP:'play',KeyR:'replay',Minus:'slower',Equal:'faster'}[e.code];if(command&&audioCommand(command))e.preventDefault();
+ if(e.ctrlKey||e.metaKey||e.shiftKey||e.isComposing||e.repeat||e.target.isContentEditable||e.target.closest?.('input,textarea,select,[contenteditable],[role="textbox"]'))return;
+ if($('settings-dialog')?.open||$('info-dialog')?.open)return;
+ const replay=(replayShortcut==='alt-r'&&e.altKey&&e.code==='KeyR')||(replayShortcut==='r'&&!e.altKey&&e.code==='KeyR')||(replayShortcut==='space'&&!e.altKey&&e.code==='Space'&&!e.target.closest?.('button,a,summary'));
+ const command=replay?'replay':e.altKey?{KeyP:'play',Minus:'slower',Equal:'faster'}[e.code]:null;if(command&&audioCommand(command))e.preventDefault();
 });
 function updateThemeButton(){const dark=document.documentElement.dataset.theme==='dark';$('theme-toggle').textContent=dark?'☀ Light':'☾ Dark';$('theme-toggle').setAttribute('aria-label',dark?'Switch to light theme':'Switch to dark theme');$('theme-toggle').setAttribute('aria-pressed',String(dark));}
 $('theme-toggle').onclick=()=>{document.documentElement.dataset.theme=document.documentElement.dataset.theme==='dark'?'light':'dark';save('ox5-theme',document.documentElement.dataset.theme);updateThemeButton();};updateThemeButton();

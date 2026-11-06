@@ -1,5 +1,5 @@
 const fs=require('fs'),path=require('path');const root=path.resolve(__dirname,'..'),file=path.join(root,'index.html');let h=fs.readFileSync(file,'utf8');
-const code=fs.readFileSync(path.join(root,'vocabulary-ui.js'),'utf8')+'\n'+fs.readFileSync(path.join(__dirname,'audio-ui.js'),'utf8')+'\n'+fs.readFileSync(path.join(__dirname,'audio-controls.js'),'utf8');
+const code=fs.readFileSync(path.join(root,'vocabulary-ui.js'),'utf8')+'\n'+fs.readFileSync(path.join(__dirname,'audio-ui.js'),'utf8')+'\n'+fs.readFileSync(path.join(__dirname,'audio-controls.js'),'utf8')+'\n'+fs.readFileSync(path.join(root,'site-utilities.js'),'utf8');
 h=h.replace('utterance.voice=voice;utterance.lang=lang;','utterance.voice=voice;utterance.lang=lang;utterance.rate=michaelSpeed;');
 const match=/(?:function soundIcon\(\)[\s\S]*?)?const michaelManifest=[\s\S]*?\nrender\(\);\n<\/script>/;
 if(!match.test(h))throw Error('Audio script boundary missing');h=h.replace(match,()=>code+'\nrender();\n</script>');
@@ -23,4 +23,5 @@ h=h.replaceAll("'<p>'+esc(t.vi)+'</p>'", "meaningReveal(t.vi,'Nghĩa theo ngữ 
 h=h.replaceAll("+'</div><p>'+esc(t.vi)+'</p><p lang=", "+'</div>'+meaningReveal(t.vi,'Nghĩa theo ngữ cảnh bài đọc')+'<p lang=");
 h=h.replaceAll("+'</p><p><b>'+esc(t.vi)+'</b></p><p lang=", "+'</p>'+meaningReveal(t.vi,'Nghĩa theo ngữ cảnh bài đọc')+'<p lang=");
 h=h.replace(/function readingSenseNote\(t\)\{[^\n]*\}/,`function readingSenseNote(t){return t.sourceSenseNote?'<details class="meaning-reveal source-sense-note"><summary>Source meaning note</summary><div lang="vi"><p>'+esc(t.sourceSenseNote)+'</p></div></details>':''}`);
+h=require('../utilities-install.cjs')(h);
 fs.writeFileSync(file,h);console.log('Installed compact fixed player, hidden meanings, headphones, shortcuts, and theme.');
