@@ -1,6 +1,7 @@
 const fs=require('fs'),path=require('path');const repo=path.resolve(__dirname,'..');
 const manifest=JSON.parse(fs.readFileSync(path.join(repo,'audio/a2-michael/manifest.json'),'utf8'));
 let html=fs.readFileSync(path.join(repo,'index.html'),'utf8');
+if(manifest.version===2)html=html.replace('A2 audio: Michael (US), generated with Kokoro. Audio files need a connection unless saved locally. Other levels use an installed US voice.','All vocabulary and A2/B1 reading audio: Michael (US), generated with Kokoro. Audio files need a connection unless saved locally.');
 if(html.includes('id="michael-audio-manifest"')){html=html.replace(/(<script id="michael-audio-manifest"[^>]*>)[^<]*(<\/script>)/,'$1'+JSON.stringify(manifest)+'$2');fs.writeFileSync(path.join(repo,'index.html'),html);require('./update-controls.cjs');console.log('Audio manifest refreshed.');process.exit(0);}
 html=html.replace('function audio(r,lang){','function audio(r,lang){\n if(playMichaelWord(r))return;\n stopMichaelAudio();');
 html=html.replace('function render(){\n if(mode===5','function render(){\n stopMichaelAudio();\n if(mode===5');

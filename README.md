@@ -14,7 +14,7 @@ Open `index.html` directly, or visit the GitHub Pages deployment linked in this 
 
 Progress is stored in the current browser's local storage. It does not automatically transfer between devices, browsers, or the local-file and hosted versions. Clearing browser data can remove it.
 
-A2 vocabulary and all 72 A2 readings use prerecorded Kokoro Michael (`am_michael`, US English) audio. Reading players support pause, seeking, and speed selection. Other levels still use available US-English device/browser voices. The MP3 files load on demand and need a connection on the hosted site; to use locally, download the repository and keep the `audio/` folder next to `index.html`. There is no promised permanent browser audio cache.
+All 5,943 vocabulary entries and 140 readings (72 A2 + 68 B1) use prerecorded Kokoro Michael (`am_michael`, US English) audio. Reading players support pause, seeking, and speed selection. B2/C1 readings do not yet have prerecorded audio. The MP3 files load on demand and need a connection on the hosted site; to use locally, download the repository and keep the `audio/` folder next to `index.html`. There is no promised permanent browser audio cache.
 
 Missing dictionary definitions are explicitly marked. Contextual Vietnamese meanings are authored for the lessons; where an original English definition covers a different sense, a source-meaning note identifies the mismatch. Reading sources are listed inside each lesson. This is an independent learning project, not an official Oxford product; no blanket license is granted to third-party learning material.
 
@@ -39,13 +39,13 @@ node test-v4.cjs
 
 GitHub Actions validates the app and publishes `index.html` and `audio/` on pushes to `main`. In **Settings → Pages**, use **GitHub Actions** as the publishing source.
 
-## Recreate A2 audio
+## Recreate audio
 
-In `audio-tools/`, install the locked dependencies with pnpm, then run `node generate.cjs` and `node install.cjs`. Generation uses the official `onnx-community/Kokoro-82M-v1.0-ONNX` model (fp32 CPU), voice `am_michael`, speed 1, and mono 24 kHz / 64 kbps MP3. The initial model download needs a connection; the cached model is excluded from Git. Generation resumes from checked file sizes and input hashes. Vocabulary entries share files when the spoken text is identical; stress-changing homographs have separate noun/verb/adjective phoneme inputs. Readings contain the full English body, divided into bounded synthesis requests and joined into one file. Definitions, translations, and exercises are not narrated.
+In `audio-tools/`, install the locked dependencies with pnpm, then run `node generate.cjs --scope=all` and `node install.cjs`. Generation uses the official `onnx-community/Kokoro-82M-v1.0-ONNX` model (fp32 CPU), voice `am_michael`, speed 1, and mono 24 kHz / 64 kbps MP3. The initial model download needs a connection; the cached model is excluded from Git. Generation resumes from checked file sizes and input hashes. Vocabulary entries share files when the spoken text is identical; stress-changing homographs have separate noun/verb/adjective phoneme inputs. Readings contain the full English body, divided into bounded synthesis requests and joined into one file. Definitions, translations, and exercises are not narrated.
 
 Generation metadata checks completeness, duration, and non-silent samples; it is not a human pronunciation review of every recording. Kokoro: https://github.com/hexgrad/kokoro (Apache-2.0 model/library). MP3 encoding uses LAME through lamejs 1.2.1 or FFmpeg (`ffmpeg-static` 5.3.0). These build dependencies are not shipped to visitors; only their generated audio is served.
 
-The generator's `--scope=all` option extends the catalogue to all 5,943 vocabulary entries and the 140 A2/B1 readings, reusing existing matching audio. After generation, refresh the manifest with `install.cjs`, apply `update-controls.cjs`, and run the checks above before publishing.
+The default scope (without `--scope=all`) generates only A2 audio. Matching recordings are reused when resuming either scope. After generation, refresh the manifest with `install.cjs`, apply `update-controls.cjs`, and run the checks above before publishing.
 
 ## Listening controls
 
