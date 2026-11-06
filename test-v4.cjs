@@ -4,7 +4,8 @@ const store=new Map([['ox5-reading-answers-v2','{"wright":{"0":2}}'],['ox5-progr
 function boot(){
  const nodes=new Proxy({}, {get:(o,k)=>o[k]??={value:'',checked:false,innerHTML:'',scrollTop:0,parentElement:{},classList:{set:new Set(),remove(c){this.set.delete(c)},add(c){this.set.add(c)},contains(c){return this.set.has(c)}},setAttribute(k,v){this[k]=v},focus(){},reportValidity(){this.invalid=true},showModal(){this.open=true},close(){this.open=false},querySelector(){return {open:false,focus(){}}},querySelectorAll(){return []}}});
  nodes.bundle.textContent=html.match(/<script id="bundle" type="application\/json">([^<]*)<\/script>/)[1];
- const c={document:{getElementById:id=>nodes[id],addEventListener(){}},localStorage:{getItem:k=>store.get(k)??null,setItem:(k,v)=>store.set(k,v)},window:{scrollY:0,scrollTo(){}}};vm.createContext(c);vm.runInContext(script,c);return {nodes,run:s=>vm.runInContext(s,c)};
+ nodes['michael-audio-manifest'].textContent=html.match(/<script id="michael-audio-manifest" type="application\/json">([^<]*)<\/script>/)[1];
+ const c={document:{getElementById:id=>nodes[id],addEventListener(){},querySelectorAll(){return []},documentElement:{dataset:{theme:'light'}}},localStorage:{getItem:k=>store.get(k)??null,setItem:(k,v)=>store.set(k,v)},window:{scrollY:0,scrollTo(){}}};vm.createContext(c);vm.runInContext(script,c);return {nodes,run:s=>vm.runInContext(s,c)};
 }
 let {nodes,run}=boot();
 const dispatch=a=>run('handleStudyAction('+JSON.stringify(a)+')'),readAction=a=>run('handleReadingAction('+JSON.stringify(a)+')');

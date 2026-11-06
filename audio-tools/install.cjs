@@ -1,0 +1,23 @@
+const fs=require('fs'),path=require('path');const repo=path.resolve(__dirname,'..');
+const manifest=JSON.parse(fs.readFileSync(path.join(repo,'audio/a2-michael/manifest.json'),'utf8'));
+let html=fs.readFileSync(path.join(repo,'index.html'),'utf8');
+if(html.includes('id="michael-audio-manifest"')){html=html.replace(/(<script id="michael-audio-manifest"[^>]*>)[^<]*(<\/script>)/,'$1'+JSON.stringify(manifest)+'$2');fs.writeFileSync(path.join(repo,'index.html'),html);require('./update-controls.cjs');console.log('Audio manifest refreshed.');process.exit(0);}
+html=html.replace('function audio(r,lang){','function audio(r,lang){\n if(playMichaelWord(r))return;\n stopMichaelAudio();');
+html=html.replace('function render(){\n if(mode===5','function render(){\n stopMichaelAudio();\n if(mode===5');
+const marker="else if(stage===1){out+='<article class=\"reading-article\"><div class=\"continuous-reading\"";
+if(!html.includes(marker))throw Error('Reading UI marker missing');
+html=html.replace(marker,"else if(stage===1){out+=michaelReadingPlayer(l)+'<article class=\"reading-article\"><div class=\"continuous-reading\"");
+html=html.replace('Progress is saved in this browser. Offline audio uses an installed US voice.','Progress is saved in this browser. A2 audio: Michael (US), generated with Kokoro. Audio files need a connection unless saved locally. Other levels use an installed US voice.');
+html=html.replace("btn('🔊 Anh Mỹ','us')","btn('🔊 Listen (US)','us')");
+html=html.replace('</style>','\n.michael-player{border:1px solid #cce5ef;border-radius:16px;background:#edf9fd;padding:18px 22px;margin:18px 0}.michael-player p{margin:0 0 12px}.michael-player audio{display:block;width:100%;margin:12px 0}.michael-player label{display:flex;align-items:center;gap:10px;font-size:14px}.michael-player select{padding:6px 10px}.michael-error:empty{display:none}.michael-error{color:#a13232;margin-top:12px!important}\n</style>');
+const boundary='<script id="bundle"';
+html=html.replace(boundary,'<script id="michael-audio-manifest" type="application/json">'+JSON.stringify(manifest)+'</script>\n'+boundary);
+const end='\nrender();\n</script>';
+if(!html.includes(end))throw Error('Final script boundary missing');
+html=html.replace(end,'\n'+fs.readFileSync(path.join(__dirname,'audio-ui.js'),'utf8')+end);
+fs.writeFileSync(path.join(repo,'index.html'),html);
+const wf=path.join(repo,'.github/workflows/pages.yml');
+const files=fs.readdirSync(path.dirname(wf));const actual=files.find(f=>/\.ya?ml$/.test(f));const file=path.join(path.dirname(wf),actual);
+let yaml=fs.readFileSync(file,'utf8');if(!yaml.includes('node test-audio.cjs'))yaml=yaml.replace('node test-a2.cjs','node test-audio.cjs\n          node test-a2.cjs');if(!yaml.includes('cp -R audio'))yaml=yaml.replace('cp index.html _site/index.html','cp index.html _site/index.html\n          cp -R audio _site/audio');fs.writeFileSync(file,yaml);
+console.log('Integrated Michael word audio, reading players, and Pages assets.');
+require('./update-controls.cjs');
