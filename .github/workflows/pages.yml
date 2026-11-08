@@ -27,11 +27,17 @@ jobs:
           node-version: '24'
       - name: Sync latest package from Google Drive and rebuild bundle
         run: |
-          POINTER_TEXT=$(curl -fsSL "https://docs.google.com/document/d/13_jOtIm17JeKmAQuIwDHHZQq5L4SAytL-TFtgUc33nw/export?format=txt" || true)
-          ZIP_ID=$(echo "$POINTER_TEXT" | grep -oE 'SYNC_ZIP_ID=[A-Za-z0-9_-]+' | cut -d= -f2 | head -n 1)
-          if [ -z "$ZIP_ID" ]; then ZIP_ID="1qzwfubcZI4xeJI2G1ldYyV8gl0QAcZ9U"; fi
+          set +e
+          POINTER_TEXT=$(curl -fsSL "https://docs.google.com/document/d/13_jOtIm17JeKmAQuIwDHHZQq5L4SAytL-TFtgUc33nw/export?format=txt" 2>/dev/null)
+          ZIP_ID=$(printf "%s" "$POINTER_TEXT" | grep -oE 'SYNC_ZIP_ID=[A-Za-z0-9_-]+' | head -n 1 | cut -d= -f2)
+          if [ -z "$ZIP_ID" ]; then ZIP_ID="12tfaJLcd2y4QtRsbMAET97pM_WHMEJ4K"; fi
           echo "Syncing package from Google Drive ID: $ZIP_ID"
-          curl -fsSL "https://drive.google.com/uc?export=download&id=${ZIP_ID}" -o /tmp/col-update.zip
+          curl -fsSL "https://drive.usercontent.google.com/download?id=${ZIP_ID}&export=download&confirm=t" -o /tmp/col-update.zip || true
+          if ! unzip -tq /tmp/col-update.zip >/dev/null 2>&1; then
+            curl -fsSL -L "https://drive.google.com/uc?export=download&id=${ZIP_ID}" -o /tmp/col-update.zip || true
+          fi
+          set -e
+          unzip -tq /tmp/col-update.zip
           mkdir -p /tmp/col-extract
           unzip -oq /tmp/col-update.zip -d /tmp/col-extract
           cp -R /tmp/col-extract/. .
