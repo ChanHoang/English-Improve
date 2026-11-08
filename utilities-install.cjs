@@ -7,7 +7,7 @@ h=h.replace('<nav id="tabs" aria-label="Chế độ học"></nav>','<nav id="tab
 let dialogs=fs.readFileSync(path.join(root,'utility-dialogs.html'),'utf8').replace('<div id="info-data-import"></div>','<div id="info-data-import">'+source+'</div>');
 h=h.replace('<script id="bundle"','<!-- utility dialogs -->'+dialogs+'<!-- end utility dialogs -->\n<script id="bundle"');
 h=h.replace(/<footer class="muted">[\s\S]*?<\/footer>/,'<p id="audioStatus" class="audio-status" role="status"></p>');
-h=h.replaceAll("labels.map((l,i)=>btn(l,'tab-'","[0,4,5,2,1,3].map(i=>btn(labels[i],'tab-'");
+h=h.replaceAll("labels.map((l,i)=>btn(l,'tab-'","[0,4,5,6,2,1,3].map(i=>btn(labels[i],'tab-'");
 h=h.replace('<label><input id="review" type="checkbox"> Review only</label>','<label hidden><input id="review" type="checkbox" hidden></label>');
 h=h.replaceAll("$('review').parentElement.hidden=mode>=4;","$('review').checked=false;$('review').parentElement.hidden=true;");
 h=h.replaceAll("$('source-panel').hidden=mode>=4;","$('source-panel').hidden=false;");

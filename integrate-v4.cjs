@@ -1,5 +1,7 @@
 const fs=require('fs');
 const readings=JSON.parse(fs.readFileSync('readings-v3.json','utf8'));
+const collocations=JSON.parse(fs.readFileSync('collocations-v1.json','utf8'));
+const collocationPlan=JSON.parse(fs.readFileSync('collocations-plan.json','utf8'));
 const base='index-before-two-panels.html';if(!fs.existsSync(base))fs.copyFileSync('index.html',base);
 let h=fs.readFileSync(base,'utf8');
 const names=`Present simple|Present continuous|Past simple|Past continuous|Present perfect|Future with will|Be going to|Present continuous for plans|Past perfect|Present perfect continuous|The verb be|The verb have|There is / There are|Basic word order|Imperatives|Yes / No questions|Wh- questions|Subject questions|Question tags|Indirect questions|Plural nouns|Countable nouns|Uncountable nouns|A / An|The|Zero article|Some / Any|Much / Many|A lot of|Few / A few|Little / A little|Each / Every|All / Most / Some|Both / Either / Neither|Another / Other / Others|Possessive ’s|Subject pronouns|Object pronouns|Possessive adjectives|Possessive pronouns|Reflexive pronouns|This / That / These / Those|Indefinite pronouns|Adjective position|Adjective order|-ed / -ing adjectives|Adverbs of manner|Adverbs of frequency|Comparatives|Superlatives|As … as|Irregular comparisons|Too / Enough|So / Such|Prepositions of time|Prepositions of place|Prepositions of movement|Since / For|During / While|By / Until|Can / Could|May / Might|Must / Have to|Mustn’t / Don’t have to|Should / Ought to|Would like|Used to|Be used to|Get used to|To-infinitives|Gerunds|Gerunds after prepositions|Let / Make|Ask / Tell|Stop doing / Stop to do|Remember doing / To do|The passive|Passive with modals|Have something done|Zero conditional|First conditional|Second conditional|Third conditional|Unless|Wish: the present|Wish: the past|Defining relative clauses|Non-defining relative clauses|Whose|Omitting relative pronouns|Reported statements|Reported questions|And / But / Or|Because / Because of|Although / Despite|Future time clauses|Expressing purpose|Subject–verb agreement|Phrasal verbs|The more … the more|Mixed conditionals|Negative inversion|Conditional inversion|It-cleft sentences|What-cleft sentences|Participle clauses|Reduced relative clauses|Perfect modals|Reporting passives|Noun clauses|The mandative subjunctive|Nominalisation|Hedging and certainty|Ellipsis and substitution|Fronting|Linking arguments|Future continuous / Perfect|Past perfect continuous|Negation and scope|Parallel structures`.split('|');
@@ -7,17 +9,18 @@ const grammar=JSON.parse(fs.readFileSync('grammar-lessons.json','utf8'));if(name
 const embed=x=>JSON.stringify(x).replaceAll('<','\\u003c');
 h=h.replace(/const grammar=[^\r\n]+;/,()=> 'const grammar='+embed(grammar)+';');
 h=h.replace(/const readings=[^\r\n]+;/,()=> 'const readings='+embed(readings)+';');
-h=h.replace(/const labels=\[[^\r\n]+;/,"const labels=['Vocabulary','Flashcards','Quiz','Progress','Grammar','Reading'];");
+h=h.replace(/const labels=\[[^\r\n]+;/,"const labels=['Vocabulary','Flashcards','Quiz','Progress','Grammar','Reading','Collocations'];");
 h=h.replace('function render(){','function legacyRender(){');
 h=h.replace('else if(round.total>=10){','else if(round.total>=10&&quiz?.pick===undefined){');
 h=h.replaceAll('ox5-reading-answers-v2','ox5-reading-answers-v3').replaceAll('ox5-reading-done-v2','ox5-reading-done-v3');
 h=h.replace("if(handleReadingAction(a))return;","if(handleStudyAction(a))return;\n if(handleReadingAction(a))return;");
 h=h.replace("const a=e.target.dataset.action;if(!a)return;","const a=e.target.closest('[data-action]')?.dataset.action;if(!a)return;");
 h=h.replace("selectedReading=id;if(readingDone[id])readingStages[id]=0;", "selectedReading=id;readingCategory='content';if(readingDone[id])readingStages[id]=0;");
+h=h.replace("$('tabs').children[mode].focus()", "$('tabs').querySelector('[data-action=\"tab-'+mode+'\"]')?.focus()");
 // Remove the superseded single-column shell handlers.
 const oldShell=h.indexOf('\nfunction closeMenu(){document.getElementById');if(oldShell<0)throw Error('Old shell missing');h=h.slice(0,oldShell)+h.slice(h.lastIndexOf('</script>'));
 const topicEnglish={'Thì và thời gian':'Tenses & time','Cấu trúc câu':'Sentence structure','Danh từ và lượng từ':'Nouns & quantity','Đại từ và sở hữu':'Pronouns & possession','Tính từ và so sánh':'Adjectives & comparison','Giới từ':'Prepositions','Động từ khuyết thiếu':'Modal verbs','Mẫu động từ':'Verb patterns','Bị động':'The passive','Điều kiện và mong ước':'Conditionals & wishes','Mệnh đề và liên kết':'Clauses & connections','Nâng cao đến C1':'Advanced grammar'};
-const ui='const grammarQuiz='+embed(JSON.parse(fs.readFileSync('grammar-quiz.json','utf8')))+';\nconst topicEnglish='+embed(topicEnglish)+';\n'+fs.readFileSync('ui-v4.js','utf8');
+const ui='const grammarQuiz='+embed(JSON.parse(fs.readFileSync('grammar-quiz.json','utf8')))+';\nconst topicEnglish='+embed(topicEnglish)+';\nconst collocations='+embed(collocations)+';\nconst collocationPlan='+embed(collocationPlan)+';\n'+fs.readFileSync('ui-v4.js','utf8');
 h=h.replace(/\nrender\(\);\s*<\/script>/,()=> '\n'+ui+'\nrender();\n</script>');
 h=h.replaceAll('esc(t.en)',"esc(t.en||'English definition unavailable in the source.')");
 // English interface, Vietnamese teaching explanations retained.
@@ -34,4 +37,4 @@ h=h.replace('Đợt tiếp theo dự kiến</b> · Một nhóm A2 về đồ ăn
 h=h.replace('Lộ trình A2–C1 · ','Roadmap A2–C1 · ');
 const css=fs.readFileSync('two-panels.css','utf8');h=h.replace('</style>',css+'\n</style>');
 fs.writeFileSync('index.html',h);fs.writeFileSync('grammar-lessons.json',JSON.stringify(grammar,null,2));
-console.log('Two-column navigation, English UI, grammar assessments and '+readings.length+' reading lessons integrated.');
+console.log('Two-column navigation, English UI, grammar assessments, '+readings.length+' reading lessons, and '+collocationPlan.completedCollocations+'/'+collocationPlan.totalPlannedCollocations+' collocations integrated.');

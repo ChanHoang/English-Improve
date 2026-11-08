@@ -16,19 +16,22 @@ for(const l of added){
  assert(l.paragraphs.every(p=>p[0].trim()&&p[1].trim()));
  assert(l.sources.every(s=>s[0]&&new URL(s[1]).protocol==='https:'));
  assert.equal(l.questions.filter(q=>q.category==='content').length,5);
- assert.equal(l.questions.filter(q=>q.category==='vocabulary').length,l.targets.length);
- assert.equal(l.questions.filter(q=>q.category==='grammar').length,4);
+ const vqs=l.questions.filter(q=>q.category==='vocabulary');
+ assert.equal(vqs.length,l.targets.length);
+ assert.notDeepEqual(vqs.map(q=>q.targetIndex),l.targets.map((_,i)=>i),'vocabulary questions must be shuffled vs Learn-the-words order');
+ assert(l.questions.filter(q=>q.category==='grammar').length>=8);
  for(const [i,t] of l.targets.entries()){
   assert.equal(t.en,rows[t.rowIndex].def,'do not invent source definitions');
-  const q=l.questions.find(q=>q.category==='vocabulary'&&q.targetIndex===i);assert(q);assert.equal(q.options[q.answer],t.vi);
+  const q=l.questions.find(q=>q.category==='vocabulary'&&q.targetIndex===i);assert(q);
+  assert([t.vi,t.word,t.occurrence.text,`${t.pos} · ${t.vi}`].includes(q.options[q.answer]));
   const o=t.occurrence;assert.equal(l.paragraphs[o.p][0].slice(o.start,o.end),o.text);
  }
- for(const g of l.grammar){assert(l.paragraphs.some(p=>p[0].includes(g.example)));assert.equal(l.questions.filter(q=>q.grammarId===g.id).length,2)}
- for(const q of l.questions){assert(!questionIds.has(q.id));questionIds.add(q.id);assert.equal(new Set(q.options).size,3);assert.equal(q.explanations.length,3);assert(q.explanations.every(s=>s.length>10))}
+ for(const g of l.grammar){assert(l.paragraphs.some(p=>p[0].includes(g.example)));assert(l.questions.filter(q=>q.grammarId===g.id).length>=4)}
+ for(const q of l.questions){assert(!questionIds.has(q.id));questionIds.add(q.id);assert.equal(new Set(q.options).size,3);assert.equal(q.explanations.length,3);assert(q.explanations.every(s=>s.length>15))}
 }
 assert(!/<script[^>]+src=|<link[^>]+rel=["']stylesheet/i.test(html),'standalone offline app');
 assert(html.includes('English definition unavailable in the source.'));
 assert(html.includes('Vietnamese guide'));
 assert(html.includes('reading-level-switcher{position:sticky'));
 assert.equal(require('./a2-build-status.json').filter(x=>x.status==='complete').length,33);
-console.log('PASS A2: 990/990 exact source entries, 36 paired groups, 72 readings, '+a2.reduce((s,l)=>s+l.questions.length,0)+' questions, '+grammarIds.size+' grammar topics; original 22 lessons unchanged; standalone offline bundle.');
+console.log('PASS A2: 990/990 exact source entries, 36 paired groups, 72 readings, '+a2.reduce((s,l)=>s+l.questions.length,0)+' questions, '+grammarIds.size+' grammar topics; shuffled multi-format vocabulary & expanded grammar verified.');

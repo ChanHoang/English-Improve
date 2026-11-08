@@ -14,7 +14,7 @@ assert.equal(run('defaults.length'),5943);assert.equal(run('grammar.length'),120
 assert.equal(run('Object.keys(readingAnswers).length'),0,'old assessment results must not be reused');
 assert.equal((nodes.view.innerHTML.match(/data-row=/g)||[]).length,1,'single word in main area');
 assert(nodes.view.innerHTML.includes('data-michael-speed'),'vocabulary speed control');assert(!nodes.view.innerHTML.includes('↻ Replay'),'no duplicate vocabulary replay button');
-for(const label of ['Vocabulary','Grammar','Reading'])assert(nodes.tabs.innerHTML.includes('>'+label+'</button>'));
+for(const label of ['Vocabulary','Grammar','Reading','Collocations'])assert(nodes.tabs.innerHTML.includes('>'+label+'</button>'));
 assert(!nodes.tabs.innerHTML.includes('C1'));
 for(const size of [10,20,50,100,200]){run('pageSize='+size+';page=0;render()');assert.equal((nodes['secondary-items'].innerHTML.match(/data-action="entry-/g)||[]).length,size)}
 dispatch('entry-201');assert.equal(run('page'),1);assert.equal(run('selectedVocabKey'),run('key(filtered()[201])'));
@@ -64,7 +64,7 @@ for(const l of lessons){
 assert.equal(groups.size,174);const unique=new Set();for(const pair of groups.values()){assert.equal(pair.length,2);assert.deepEqual(pair[0].targets.map(t=>t.rowIndex),pair[1].targets.map(t=>t.rowIndex));if(pair[0].level==='A2')for(const t of pair[0].targets){assert(!unique.has(t.rowIndex));unique.add(t.rowIndex)}}assert.equal(unique.size,990);
 assert.deepEqual(lessons.filter(l=>!/^(b2[sc]|c1[sc])-/.test(l.id)),JSON.parse(fs.readFileSync(__dirname+'/readings-before-advanced.json','utf8')),'old lessons and answer indexes unchanged');
 ({nodes,run}=boot());assert.equal(run('Object.keys(grammarAnswers).length'),120);assert.equal(run('Object.values(readingDone).filter(Boolean).length'),348);
-run("mode=5;selectedReading='morse';render()");assert.equal(run('Object.keys(readingAnswers.morse).length'),34);
+run("mode=5;selectedReading='morse';render()");assert.equal(run('Object.keys(readingAnswers.morse).length'),38);
 dispatch('rq-reset');assert.equal(run('Object.keys(readingAnswers.morse).length'),0);assert(!run('readingDone.morse'));
 run('mode=4;selectedGrammar=1;grammarPanel="practice";render()');dispatch('gq-reset');assert.equal(run('Object.keys(grammarAnswers[1]).length'),0);
 nodes['menu-toggle'].onclick();assert(nodes.sidebar.classList.contains('is-open'));nodes['lessons-toggle'].onclick();assert(!nodes.sidebar.classList.contains('is-open'));assert(nodes.secondary.classList.contains('is-open'));run('closeMenu()');assert(!nodes.secondary.classList.contains('is-open'));
@@ -75,7 +75,7 @@ assert.equal(run('defaults.filter(r=>!vocabularyMeaning(r).text).length'),0,'all
 assert(run('defaults.every(r=>!vocabularyDetails(r).includes("<details open"))'),'meanings start closed');
 assert(run('vocabularyDetails(defaults[0]).includes("Show Vietnamese meaning")'));assert(run('actions(defaults[0]).includes("headphone-icon")'));assert(!run('actions(defaults[0]).includes("Listen (US)")'));
 
-assert.deepEqual(Array.from(nodes.tabs.innerHTML.matchAll(/data-action="tab-(\d)"/g),m=>Number(m[1])),[0,4,5,2,1,3]);
+assert.deepEqual(Array.from(nodes.tabs.innerHTML.matchAll(/data-action="tab-(\d)"/g),m=>Number(m[1])),[0,4,5,6,2,1,3]);
 assert.equal(nodes.review.parentElement.hidden,true);assert.equal(nodes.review.checked,false);
 run('openUtility("settings-dialog")');assert.equal(nodes['settings-dialog'].open,true);nodes['replay-shortcut'].onchange({target:{value:'r'}});assert.equal(store.get('ox5-replay-shortcut'),'"r"');nodes['settings-dialog'].close();
 run('openUtility("info-dialog")');assert.equal(nodes['info-dialog'].open,true);assert(nodes['info-reading-sources'].innerHTML.includes('All reading sources'));assert(nodes['info-reading-sources'].innerHTML.includes('https://'));nodes['info-dialog'].close();

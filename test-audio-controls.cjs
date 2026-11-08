@@ -3,7 +3,7 @@ const manifest=require('./audio/a2-michael/manifest.json'),store=new Map(),event
 const nodes=new Map();function element(){return {textContent:'',value:'',open:false,dataset:{},setAttribute(k,v){this[k]=v}}}function node(id){if(!nodes.has(id))nodes.set(id,element());return nodes.get(id)}
 node('michael-audio-manifest').textContent=JSON.stringify(manifest);
 let activeReading=null;const media=[];
-class Audio {constructor(src){this.src=src;this.paused=true;this.ended=false;media.push(this)}pause(){this.paused=true}play(){this.paused=false;return Promise.resolve()}}
+class Audio {constructor(src){this.src=src;this.paused=true;this.ended=false;media.push(this)}load(){}pause(){this.paused=true}play(){this.paused=false;return Promise.resolve()}}
 const doc={getElementById:node,querySelector:()=>activeReading,querySelectorAll:s=>s.startsWith('audio')?(activeReading?[activeReading]:[]):[],documentElement:{dataset:{theme:'light'}},addEventListener:(event,fn)=>{(events[event]??=[]).push(fn)}};
 const c={document:doc,Audio,window:{speechSynthesis:{cancel(){}}},$:node,esc:s=>String(s),read:(k,d)=>store.has(k)?store.get(k):d,save:(k,v)=>{store.set(k,v);return true},mode:0,data:[{word:'ability',pos:'noun',level:'A2'}],selectedVocabKey:'ability',key:r=>r.word,currentReading:()=>null,soundIcon:()=>'<svg></svg>'};
 vm.createContext(c);vm.runInContext(fs.readFileSync(__dirname+'/audio-tools/audio-ui.js','utf8')+'\n'+fs.readFileSync(__dirname+'/audio-tools/audio-controls.js','utf8'),c);
@@ -16,6 +16,16 @@ const p={dataset:{michaelReading:'wright'},duration:100,currentTime:20,paused:fa
 fire('loadedmetadata',{target:p});assert.equal(box.querySelector('[data-audio-seek]').max,100);assert.equal(p.playbackRate,1.25);
 p.currentTime=33;fire('timeupdate',{target:p});assert.equal(p.currentTime,33,'no automatic looping');assert.equal(box.querySelector('[data-audio-current]').textContent,'0:33');
 assert.equal(run('audioCommand("loop")'),false);assert.equal(run('audioCommand("set-a")'),false);p.paused=true;fire('ended',{target:p});assert(p.paused,'ending does not repeat');
+
+// Verify clicking just to the left of the moving thumb immediately rewinds without waiting for thumb to pass
+const seekEl=box.querySelector('[data-audio-seek]');
+seekEl.disabled=false;seekEl.max=100;seekEl.closest=()=>box;seekEl.getBoundingClientRect=()=>({left:0,width:216});
+box.querySelector=s=>s==='audio'?p:(boxNodes.get(s)??(boxNodes.set(s,element()),boxNodes.get(s)));
+p.currentTime=10; // Thumb center is at 8 + (10/100)*200 = 28px
+fire('pointerdown',{target:{closest:()=>seekEl},clientX:22,pointerId:1}); // 6px to the left of thumb center!
+assert(p.currentTime<8.6,'clicking right next to the left side of the thumb must immediately rewind');
+fire('pointerup',{});
+
 let prevented=0;p.currentTime=45;
 fire('keydown',{altKey:true,code:'KeyR',target:{closest:()=>true},preventDefault(){prevented++}});assert.equal(p.currentTime,45,'typing cannot trigger replay');assert.equal(prevented,0);
 fire('keydown',{altKey:true,code:'KeyR',target:{closest:()=>null},preventDefault(){prevented++}});assert.equal(p.currentTime,0);assert.equal(prevented,1);
@@ -23,7 +33,7 @@ fire('keydown',{altKey:true,code:'Minus',target:{closest:()=>null},preventDefaul
 node('theme-toggle').onclick();assert.equal(doc.documentElement.dataset.theme,'dark');assert.equal(store.get('ox5-theme'),'dark');assert.equal(node('theme-toggle')['aria-pressed'],'true');node('theme-toggle').onclick();assert.equal(doc.documentElement.dataset.theme,'light');
 run('stopMichaelAudio()');assert(p.paused);
 const html=fs.readFileSync(__dirname+'/index.html','utf8');assert(html.includes('id="theme-toggle"'));assert(html.includes('prefers-color-scheme'));assert(html.includes('data-theme=dark'));assert(html.includes('data-audio-seek'));
-console.log('PASS audio controls: replay, pause/resume, speed limits and persistence, single timeline without looping, safe shortcuts, stop on navigation, and saved light/dark theme.');
+console.log('PASS audio controls: instant preload, seek-back near thumb, replay, pause/resume, speed limits and persistence, single timeline without looping, safe shortcuts, stop on navigation, and saved light/dark theme.');
 
 const markup=run('michaelReadingPlayer({id:"wright",englishTitle:"Wright"})');assert.equal((markup.match(/data-audio-seek/g)||[]).length,1);assert(!markup.includes('audio controls'));assert(!markup.includes('data-loop'));assert(markup.includes('compact-player'));
 

@@ -17,18 +17,22 @@ for(const l of added){
  const text=l.paragraphs.map(p=>p[0]).join(' ');assert(!text.includes('[['));assert.equal(l.wordCount,text.split(/\s+/).length);
  assert(l.paragraphs.every(p=>p[0].trim()&&p[1].trim()));assert(l.sources.length&&l.sources.every(s=>s[0]&&new URL(s[1]).protocol==='https:'));
  const pair=added.filter(x=>x.group===l.group);assert.equal(pair.length,2);assert.deepEqual(pair[0].targets.map(t=>t.rowIndex),pair[1].targets.map(t=>t.rowIndex));assert.notEqual(pair[0].englishTitle,pair[1].englishTitle);assert.notEqual(pair[0].paragraphs[0][0],pair[1].paragraphs[0][0]);
- assert(l.questions.filter(q=>q.category==='content').length>=5);assert.equal(l.questions.filter(q=>q.category==='vocabulary').length,l.targets.length);
+ assert(l.questions.filter(q=>q.category==='content').length>=5);
+ const vqs=l.questions.filter(q=>q.category==='vocabulary');
+ assert.equal(vqs.length,l.targets.length);
+ assert.notDeepEqual(vqs.map(q=>q.targetIndex),l.targets.map((_,i)=>i),'vocabulary questions must be shuffled');
  for(const [i,t]of l.targets.entries()){
   const r=rows[t.rowIndex];assert.equal(t.word,r.word);assert.equal(t.pos,r.pos);assert.equal(t.level,r.level);assert.equal(t.level,l.level);assert.equal(t.en,r.def,'original definitions unchanged');assert(t.vi.trim());
   if(l.part==='A'){assert(!newRows.has(t.rowIndex),'new target repeated across groups');newRows.add(t.rowIndex)}
   const o=t.occurrence;assert.equal(l.paragraphs[o.p][0].slice(o.start,o.end),o.text);
-  const q=l.questions.find(q=>q.category==='vocabulary'&&q.targetIndex===i);assert(q);assert.equal(q.options[q.answer],t.vi);
+  const q=l.questions.find(q=>q.category==='vocabulary'&&q.targetIndex===i);assert(q);
+  assert([t.vi,t.word,t.occurrence.text,`${t.pos} · ${t.vi}`].includes(q.options[q.answer]));
   if(t.sourceSenseNote){senseNotes++;assert(t.sourceSenseNote.length>20);assert(q.explanations[q.answer].includes(t.sourceSenseNote),'quiz must not present other-sense definition as a matching explanation')}
  }
  assert(l.grammar.length>=2);assert.equal(new Set(l.grammar.map(g=>g.id)).size,l.grammar.length,'distinct grammar focuses');
- for(const g of l.grammar){assert(text.includes(g.example),l.id+' grammar quotation '+g.id);assert(g.note.length>10);assert(l.questions.filter(q=>q.grammarId===g.id).length>=2)}
- for(const q of l.questions){assert(!questionIds.has(q.id));questionIds.add(q.id);assert.equal(new Set(q.options).size,3);assert.equal(q.explanations.length,3);assert(q.answer>=0&&q.answer<3);assert(q.explanations.every(x=>x.length>10))}
+ for(const g of l.grammar){assert(text.includes(g.example),l.id+' grammar quotation '+g.id);assert(g.note.length>10);assert(l.questions.filter(q=>q.grammarId===g.id).length>=4)}
+ for(const q of l.questions){assert(!questionIds.has(q.id));questionIds.add(q.id);assert.equal(new Set(q.options).size,3);assert.equal(q.explanations.length,3);assert(q.answer>=0&&q.answer<3);assert(q.explanations.every(x=>x.length>15))}
 }
 assert.equal(newRows.size,2892);assert(senseNotes>0);assert(html.includes('source-sense-note'));assert(html.includes('Course coverage · A2–C1 complete'));assert(html.includes('Vietnamese guide'));
 assert(!/<script[^>]+src=|<link[^>]+rel=["']stylesheet/i.test(html),'standalone offline bundle');
-console.log('PASS advanced: 196 new readings; 98 pairs; B2 1571/1571 and C1 1404/1404 exact entries; 120 grammar focuses; '+questionIds.size+' new questions; '+senseNotes+' source-sense notes; all existing progress keys preserved.');
+console.log('PASS advanced: 196 new readings; 98 pairs; B2 1571/1571 and C1 1404/1404 exact entries; 120 grammar focuses; '+questionIds.size+' upgraded questions; '+senseNotes+' source-sense notes; all existing progress keys preserved.');

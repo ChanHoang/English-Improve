@@ -15,16 +15,20 @@ for(const l of added){
  assert(l.wordCount>=220);assert(!l.paragraphs.some(p=>p[0].includes('[[')));assert(l.paragraphs.every(p=>p[0].trim()&&p[1].trim()));
  assert(l.sources.length&&l.sources.every(s=>s[0]&&new URL(s[1]).protocol==='https:'));
  assert.equal(l.questions.filter(q=>q.category==='content').length,5);
- assert.equal(l.questions.filter(q=>q.category==='vocabulary').length,l.targets.length);
- assert.equal(l.questions.filter(q=>q.category==='grammar').length,4);
+ const vqs=l.questions.filter(q=>q.category==='vocabulary');
+ assert.equal(vqs.length,l.targets.length);
+ assert.notDeepEqual(vqs.map(q=>q.targetIndex),l.targets.map((_,i)=>i),'vocabulary questions must be shuffled');
+ assert(l.questions.filter(q=>q.category==='grammar').length>=8);
  for(const [i,t] of l.targets.entries()){
   const source=rows[t.rowIndex];assert.equal(t.level,'B1');assert.equal(source.level,'B1');assert.equal(t.word,source.word);assert.equal(t.pos,source.pos);assert.equal(t.en,source.def,'never invent dictionary definitions');
-  const q=l.questions.find(q=>q.targetIndex===i);assert(q);assert.equal(q.options[q.answer],t.vi);const o=t.occurrence;assert.equal(l.paragraphs[o.p][0].slice(o.start,o.end),o.text);
+  const q=l.questions.find(q=>q.category==='vocabulary'&&q.targetIndex===i);assert(q);
+  assert([t.vi,t.word,t.occurrence.text,`${t.pos} · ${t.vi}`].includes(q.options[q.answer]));
+  const o=t.occurrence;assert.equal(l.paragraphs[o.p][0].slice(o.start,o.end),o.text);
  }
- for(const g of l.grammar){assert(l.paragraphs.some(p=>p[0].includes(g.example)));assert.equal(l.questions.filter(q=>q.grammarId===g.id).length,2)}
- for(const q of l.questions){assert(!questionIds.has(q.id));questionIds.add(q.id);assert.equal(new Set(q.options).size,3,l.id+' '+q.q);assert.equal(q.explanations.length,3);assert(q.explanations.every(s=>s.length>10))}
+ for(const g of l.grammar){assert(l.paragraphs.some(p=>p[0].includes(g.example)));assert(l.questions.filter(q=>q.grammarId===g.id).length>=4)}
+ for(const q of l.questions){assert(!questionIds.has(q.id));questionIds.add(q.id);assert.equal(new Set(q.options).size,3,l.id+' '+q.q);assert.equal(q.explanations.length,3);assert(q.explanations.every(s=>s.length>15))}
  const pair=added.filter(x=>x.group===l.group);assert.equal(pair.length,2);assert.deepEqual(pair[0].targets.map(t=>t.rowIndex),pair[1].targets.map(t=>t.rowIndex));assert.notEqual(pair[0].englishTitle,pair[1].englishTitle);assert.notDeepEqual(pair[0].paragraphs,pair[1].paragraphs);
 }
 assert.equal(require('./b1-build-status.json').filter(x=>x.status==='complete').length,32);
 assert(!/<script[^>]+src=|<link[^>]+rel=["']stylesheet/i.test(html));assert(html.includes('All '));assert(html.includes('Vietnamese guide'));assert(html.includes('English definition unavailable in the source.'));
-console.log('PASS B1: 902/902 exact entries; 34 paired groups; 68 readings; '+b1.reduce((s,l)=>s+l.questions.length,0)+' questions; '+grammarIds.size+' grammar topics; old 88 lessons unchanged; offline bundle.');
+console.log('PASS B1: 902/902 exact entries; 34 paired groups; 68 readings; '+b1.reduce((s,l)=>s+l.questions.length,0)+' questions; '+grammarIds.size+' grammar topics; shuffled multi-format vocabulary & expanded grammar verified.');
