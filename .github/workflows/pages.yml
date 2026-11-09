@@ -4,7 +4,7 @@ on:
     branches: [main]
   workflow_dispatch:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '*/5 * * * *'
 
 permissions:
   contents: write
@@ -18,20 +18,37 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    outputs:
+      should_deploy: ${{ steps.sync_check.outputs.should_deploy }}
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+      - name: Check Google Drive Sync Pointer
+        id: sync_check
+        run: |
+          set +e
+          POINTER_TEXT=$(curl -fsSL "https://docs.google.com/document/d/13_jOtIm17JeKmAQuIwDHHZQq5L4SAytL-TFtgUc33nw/export?format=txt" 2>/dev/null | tr -d '\\\r')
+          ZIP_ID=$(printf "%s" "$POINTER_TEXT" | grep -oE 'SYNC_ZIP_ID=[A-Za-z0-9_-]+' | head -n 1 | cut -d= -f2)
+          if [ -z "$ZIP_ID" ]; then ZIP_ID="1ndJxKWDd59cOct2QVvXO2wieANmcEaPJ"; fi
+          LAST_ID=""
+          if [ -f .last-sync-id ]; then LAST_ID=$(tr -d '[:space:]' < .last-sync-id); fi
+          echo "Pointer ZIP_ID=$ZIP_ID | Repo LAST_ID=$LAST_ID | Event=${{ github.event_name }}"
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "$ZIP_ID" = "$LAST_ID" ]; then
+            echo "should_deploy=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "should_deploy=true" >> "$GITHUB_OUTPUT"
+            echo "zip_id=$ZIP_ID" >> "$GITHUB_OUTPUT"
+          fi
       - uses: actions/setup-node@v4
+        if: steps.sync_check.outputs.should_deploy == 'true'
         with:
           node-version: '24'
       - name: Sync latest package from Google Drive and rebuild bundle
+        if: steps.sync_check.outputs.should_deploy == 'true'
         run: |
+          ZIP_ID="${{ steps.sync_check.outputs.zip_id }}"
           set +e
-          POINTER_TEXT=$(curl -fsSL "https://docs.google.com/document/d/13_jOtIm17JeKmAQuIwDHHZQq5L4SAytL-TFtgUc33nw/export?format=txt" 2>/dev/null)
-          ZIP_ID=$(printf "%s" "$POINTER_TEXT" | grep -oE 'SYNC_ZIP_ID=[A-Za-z0-9_-]+' | head -n 1 | cut -d= -f2)
-          if [ -z "$ZIP_ID" ]; then ZIP_ID="12tfaJLcd2y4QtRsbMAET97pM_WHMEJ4K"; fi
-          echo "Syncing package from Google Drive ID: $ZIP_ID"
           curl -fsSL "https://drive.usercontent.google.com/download?id=${ZIP_ID}&export=download&confirm=t" -o /tmp/col-update.zip || true
           if ! unzip -tq /tmp/col-update.zip >/dev/null 2>&1; then
             curl -fsSL -L "https://drive.google.com/uc?export=download&id=${ZIP_ID}" -o /tmp/col-update.zip || true
@@ -41,10 +58,13 @@ jobs:
           mkdir -p /tmp/col-extract
           unzip -oq /tmp/col-update.zip -d /tmp/col-extract
           cp -R /tmp/col-extract/. .
+          echo "$ZIP_ID" > .last-sync-id
+          node build-photo-topics.cjs
           node build-collocations.cjs
           node integrate-v4.cjs
           node audio-tools/install.cjs
       - name: Check learning content and interactions
+        if: steps.sync_check.outputs.should_deploy == 'true'
         run: |
           node test-audio.cjs
           node test-audio-controls.cjs
@@ -54,25 +74,29 @@ jobs:
           node test-v4.cjs
           node test-collocations.cjs
       - name: Commit synced files to repository
+        if: steps.sync_check.outputs.should_deploy == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -A
           if ! git diff --cached --quiet; then
-            git commit -m "chore: auto-sync updates from Google Drive and rebuild index.html [skip ci]"
+            git commit -m "chore: auto-sync package ${{ steps.sync_check.outputs.zip_id }} and rebuild index.html"
             git push origin HEAD:main || true
           fi
       - name: Prepare static website
+        if: steps.sync_check.outputs.should_deploy == 'true'
         run: |
           mkdir -p _site
           cp index.html _site/index.html
           cp -R audio _site/audio
           touch _site/.nojekyll
       - uses: actions/upload-pages-artifact@v4
+        if: steps.sync_check.outputs.should_deploy == 'true'
         with:
           path: _site
   deploy:
     needs: build
+    if: needs.build.outputs.should_deploy == 'true'
     runs-on: ubuntu-latest
     permissions:
       pages: write
