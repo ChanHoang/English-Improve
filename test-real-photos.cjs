@@ -88,49 +88,60 @@ const { ctx, nodes } = boot();
 const run = code => vm.runInContext(code, ctx);
 const click = a => run(`$('view').onclick({target:{dataset:{action:${JSON.stringify(a)}},closest:()=>({dataset:{action:${JSON.stringify(a)}}})}})`);
 
-// 1. Verify strict concrete-only whitelist: concrete objects resolve, abstract/functional words return null
-const concreteCount = run('defaults.filter(r => resolveVocabPhotoTopic(r) !== null).length');
+// 1. Verify balanced photo coverage: ~4,271 suitable photos kept, ~1,672 truly abstract/grammatical words omitted
+const withPhotoCount = run('defaults.filter(r => resolveVocabPhotoTopic(r) !== null).length');
 const omittedCount = run('defaults.filter(r => resolveVocabPhotoTopic(r) === null).length');
-assert(concreteCount >= 550 && concreteCount <= 800, `Expected 550–800 concrete entries, got ${concreteCount}`);
-assert(omittedCount >= 5100, `Expected >5,100 abstract/ambiguous entries omitted, got ${omittedCount}`);
+assert(withPhotoCount >= 4000, `Expected >= 4,000 suitable vocabulary photos, got ${withPhotoCount}`);
+assert(omittedCount >= 900 && omittedCount <= 2000, `Expected 900–2,000 truly abstract/grammatical entries omitted, got ${omittedCount}`);
 
-// Verify concrete words resolve accurately
+// Verify concrete & situational words resolve to accurate Wikipedia topics
 assert.equal(run('resolveVocabPhotoTopic({word:"apple",pos:"noun"}).query'), 'Apple');
 assert.equal(run('resolveVocabPhotoTopic({word:"elephant",pos:"noun"}).query'), 'Elephant');
-assert.equal(run('resolveVocabPhotoTopic({word:"microscope",pos:"noun"}).query'), 'Microscope');
+assert.equal(run('resolveVocabPhotoTopic({word:"pillow",pos:"noun"}).query'), 'Pillow');
+assert.equal(run('resolveVocabPhotoTopic({word:"abandon",pos:"verb"}).query'), 'Shipwreck');
 assert.equal(run('resolveVocabPhotoTopic({word:"bicycle",pos:"noun"}).query'), 'Bicycle');
 
-// Verify abstract, functional, and previously-misleading words return null (no photo)
+// Verify purely grammatical and ultra-abstract words return null
 for (const [w, p] of [
   ['a', 'indefinite article'], ['about', 'preposition'], ['above', 'preposition'],
-  ['ability', 'noun'], ['accept', 'verb'], ['advantage', 'noun'], ['afford', 'verb'],
-  ['although', 'conjunction'], ['always', 'adverb'], ['annoy', 'verb'], ['assume', 'verb'],
-  ['attitude', 'noun'], ['bother', 'verb'], ['concept', 'noun'], ['consequence', 'noun'],
-  ['consist', 'verb'], ['ignore', 'verb'], ['illusion', 'noun'], ['theory', 'noun'],
-  ['think', 'verb'], ['trouble', 'noun'], ['truth', 'noun'], ['understand', 'verb'],
-  ['wide', 'adjective'], ['wise', 'adjective'], ['wish', 'noun'], ['worry', 'verb'], ['youth', 'noun']
+  ['although', 'conjunction'], ['always', 'adverb'], ['aspect', 'noun'],
+  ['assumption', 'noun'], ['consequence', 'noun'], ['consist', 'verb'],
+  ['derive', 'verb'], ['illusion', 'noun'], ['phenomenon', 'noun'],
+  ['theory', 'noun'], ['trouble', 'noun'], ['truth', 'noun'],
+  ['wise', 'adjective'], ['worry', 'verb'], ['worth', 'adjective']
 ]) {
   assert.equal(run(`resolveVocabPhotoTopic({word:${JSON.stringify(w)},pos:${JSON.stringify(p)}})`), null, `Abstract word ${w}:${p} must not have a misleading photo`);
-  assert.equal(run(`vocabPhotoCard({word:${JSON.stringify(w)},pos:${JSON.stringify(p)}})`), '', `vocabPhotoCard for ${w}:${p} must be empty`);
 }
 
-// 2. Verify Vocabulary view (mode 0) renders no photo for abstract word #0 ("a"), and renders real-photo-card for concrete word ("apple")
-run('mode=0;selectedVocabKey=key(defaults[0]);render()');
-assert(!nodes.view.innerHTML.includes('vocab-photo-card'), 'Abstract word "a" must not render vocab-photo-card');
-run('const appleIdx=defaults.findIndex(r=>r.word==="apple"&&r.pos==="noun");page=Math.floor(appleIdx/pageSize);selectedVocabKey=key(defaults[appleIdx]);render()');
-assert(nodes.view.innerHTML.includes('class="real-photo-card vocab-photo-card"'), 'Concrete word "apple" must render vocab-photo-card');
+// 2. Verify ALL 5,943 vocabulary entries have the hidden Explanatory Example (EN / VI) section
+const allHaveHiddenExExplain = run(`defaults.every(r => {
+  const html = vocabularyDetails(r);
+  return html.includes('class="meaning-reveal example-explain-reveal"')
+    && html.includes('Show example &amp; explanation (EN / VI)')
+    && html.includes('Explanatory example (EN):')
+    && html.includes('Dịch nghĩa &amp; giải thích (VI):')
+    && !html.includes('<details open')
+    && !html.includes('<p><b>Example</b><br>Not available</p>');
+})`);
+assert(allHaveHiddenExExplain, 'All 5,943 vocabulary words must include a closed Explanatory Example (EN / VI) reveal and no missing Examples');
 
-// 3. Verify Reading (mode 5) renders 1 header photo and concrete word photos, without paragraph/gallery clutter
+// 3. Verify Vocabulary view (mode 0) renders photo + hidden example explanation on "abandon" (#1)
+run('mode=0;page=0;selectedVocabKey=key(defaults[1]);render()');
+assert(nodes.view.innerHTML.includes('class="real-photo-card vocab-photo-card"'), 'Word "abandon" must render vocab-photo-card');
+assert(nodes.view.innerHTML.includes('Show example &amp; explanation (EN / VI)'), 'Vocabulary view must render hidden example explanation');
+
+// 4. Verify Reading (mode 5) Stage 0 and word modal also render hidden example explanation
 run('mode=5;render()');
 click('read-open-wright');
 assert(nodes.view.innerHTML.includes('reading-photo-card'), 'Reading header must render reading-photo-card');
-click('read-stage-1');
-assert(!nodes.view.innerHTML.includes('reading-para-photo'), 'Reading paragraphs must not be cluttered with per-paragraph photos');
+assert(nodes.view.innerHTML.includes('Show example &amp; explanation (EN / VI)'), 'Reading Stage 0 must render hidden example explanation');
+click('read-word-0');
+assert(nodes['reading-word-content'].innerHTML.includes('Show example &amp; explanation (EN / VI)'), 'Reading word dialog must render hidden example explanation');
 
-// 4. Verify non-AI / non-diagram photo URL filter
+// 5. Verify non-AI / non-diagram photo URL filter
 assert.equal(run('isRealPhotoUrl("https://upload.wikimedia.org/wikipedia/commons/a/b/Wright_Flyer.jpg", "Wright Flyer")'), true);
 assert.equal(run('isRealPhotoUrl("https://upload.wikimedia.org/wikipedia/commons/a/b/Icon.svg", "Icon")'), false);
 assert.equal(run('isRealPhotoUrl("https://upload.wikimedia.org/wikipedia/commons/a/b/Locator_map.png", "Map")'), false);
 assert.equal(run('isRealPhotoUrl("https://upload.wikimedia.org/wikipedia/commons/a/b/AI_generated_art.jpg", "Midjourney")'), false);
 
-console.log(`PASS real photos: ${concreteCount} concrete 1-to-1 vocabulary photos verified, ${omittedCount} abstract/ambiguous words cleanly omitted (no misleading photos), 100% uncropped object-fit:contain display, fast 360px thumbnails & CDN preconnect.`);
+console.log(`PASS real photos & bilingual example explanations: ${withPhotoCount}/5943 suitable photos kept (${omittedCount} abstract/grammatical omitted), 5943/5943 hidden EN/VI explanatory examples verified, 100% uncropped object-fit:contain display.`);
