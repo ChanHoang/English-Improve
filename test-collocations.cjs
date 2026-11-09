@@ -12,10 +12,11 @@ const rows = JSON.parse(html.match(/<script id="bundle" type="application\/json"
 assert(plan.totalPlannedCollocations >= 3000, 'Roadmap must have at least 3,000 collocations');
 assert.equal(plan.totalPlannedCollocations, 3480);
 assert.equal(plan.totalGroups, 174);
-assert.equal(plan.completedCollocations, 1140, 'Batches 1–3 have 1,140 completed collocations');
-assert.equal(plan.completedGroups, 57);
+assert.equal(plan.completedCollocations, 1820, 'Batches 1–5 have 1,820 completed collocations');
+assert.equal(plan.completedGroups, 91);
 assert.equal(plan.levels.A2.completedCollocations, 720, 'All 720 A2 collocations across 36 groups completed');
-assert.equal(plan.levels.B1.completedCollocations, 360, '18 B1 groups = 360 B1 collocations completed');
+assert.equal(plan.levels.B1.completedCollocations, 680, 'All 680 B1 collocations across 34 groups completed');
+assert.equal(plan.levels.B2.completedCollocations, 400, '20 B2 groups = 400 B2 collocations completed');
 
 for (const g of plan.groups) {
   assert(['A2', 'B1', 'B2', 'C1'].includes(g.level), `Group ${g.group} level must be A2+`);
@@ -31,7 +32,7 @@ for (const g of plan.groups) {
   }
 }
 
-// 2. Validate Batches 1–3 active groups (1,140 collocations, 570 questions)
+// 2. Validate Batches 1–5 active groups (1,820 collocations, 910 questions)
 const uniqueRows = new Set();
 const questionIds = new Set();
 let totalQuestions = 0;
@@ -65,8 +66,8 @@ for (const g of collocations) {
     totalQuestions++;
   }
 }
-assert.equal(uniqueRows.size, 1140);
-assert.equal(totalQuestions, 570);
+assert.equal(uniqueRows.size, 1820);
+assert.equal(totalQuestions, 910);
 
 // 3. Validate UI navigation, hidden Vietnamese meanings, word dialog, and practice persistence in VM
 const store = new Map();
@@ -121,8 +122,8 @@ const dispatch = a => run('handleStudyAction(' + JSON.stringify(a) + ')');
 run('mode=6;render()');
 assert.equal(nodes['secondary-title'].textContent, 'Collocations');
 assert.equal((nodes['secondary-items'].innerHTML.match(/data-action="col-level-/g) || []).length, 4);
-assert.equal((nodes['secondary-items'].innerHTML.match(/data-action="col-open-/g) || []).length, 57);
-assert.match(nodes.view.innerHTML, /1140 active collocations/);
+assert.equal((nodes['secondary-items'].innerHTML.match(/data-action="col-open-/g) || []).length, 91);
+assert.match(nodes.view.innerHTML, /1820 active collocations/);
 assert.match(nodes.view.innerHTML, /3,480 planned collocations across 174 groups/);
 
 dispatch('col-level-A2');
@@ -131,11 +132,12 @@ assert.equal((nodes['secondary-items'].innerHTML.match(/data-action="col-open-/g
 assert.equal((nodes['secondary-items'].innerHTML.match(/data-action="col-plan-/g) || []).length, 0);
 
 dispatch('col-level-B1');
-assert.equal((nodes['secondary-items'].innerHTML.match(/data-action="col-open-/g) || []).length, 18);
-assert.equal((nodes['secondary-items'].innerHTML.match(/data-action="col-plan-/g) || []).length, 16);
+assert.equal((nodes['secondary-items'].innerHTML.match(/data-action="col-open-/g) || []).length, 34);
+assert.equal((nodes['secondary-items'].innerHTML.match(/data-action="col-plan-/g) || []).length, 0);
 
 dispatch('col-level-B2');
-assert.equal((nodes['secondary-items'].innerHTML.match(/data-action="col-open-/g) || []).length, 2);
+assert.equal((nodes['secondary-items'].innerHTML.match(/data-action="col-open-/g) || []).length, 20);
+assert.equal((nodes['secondary-items'].innerHTML.match(/data-action="col-plan-/g) || []).length, 36);
 
 dispatch('col-level-C1');
 assert.equal((nodes['secondary-items'].innerHTML.match(/data-action="col-open-/g) || []).length, 1);
@@ -175,10 +177,10 @@ for (const g of collocations) {
 }
 
 ({ nodes, run } = boot());
-assert.equal(run('Object.values(collocationDone).filter(Boolean).length'), 57);
+assert.equal(run('Object.values(collocationDone).filter(Boolean).length'), 91);
 run('mode=3;render()');
-assert.match(nodes.view.innerHTML, /Collocations · 57 \/ 57 active groups completed/);
+assert.match(nodes.view.innerHTML, /Collocations · 91 \/ 91 active groups completed/);
 
-console.log('PASS Collocations: 3,480 A2–C1 planned collocations across 174 groups (10 batches); 1,140 active collocations in 57 groups across Batches 1–3 (720/720 A2 complete, 360/680 B1, 40 B2, 20 C1); 570 practice questions; hidden Vietnamese meanings; audio & progress persistence.');
+console.log('PASS Collocations: 3,480 A2–C1 planned collocations across 174 groups (10 batches); 1,820 active collocations in 91 groups across Batches 1–5 (720/720 A2 complete, 680/680 B1 complete, 400/1,120 B2, 20 C1); 910 practice questions; hidden Vietnamese meanings; audio & progress persistence.');
 
 if (fs.existsSync(__dirname + "/test-real-photos.cjs")) require("./test-real-photos.cjs");

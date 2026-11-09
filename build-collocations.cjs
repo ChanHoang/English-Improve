@@ -22,10 +22,17 @@ const rawActiveGroups = [
   ...require('./collocation-content/batch3-b1-part1.cjs'),
   ...require('./collocation-content/batch3-b1-part2.cjs'),
   ...require('./collocation-content/batch3-b1-part3.cjs'),
-  ...require('./collocation-content/batch1-b1-c1.cjs').filter(g => g.level !== 'B1')
+  ...require('./collocation-content/batch4-b1-part1.cjs'),
+  ...require('./collocation-content/batch4-b1-part2.cjs'),
+  ...require('./collocation-content/batch4-b1-part3.cjs'),
+  ...require('./collocation-content/batch1-b1-c1.cjs').filter(g => g.level === 'B2'),
+  ...require('./collocation-content/batch5-b2-part1.cjs'),
+  ...require('./collocation-content/batch5-b2-part2.cjs'),
+  ...require('./collocation-content/batch5-b2-part3.cjs'),
+  ...require('./collocation-content/batch1-b1-c1.cjs').filter(g => g.level === 'C1')
 ];
 
-// Verify and transform active groups (Batches 1, 2 & 3 = 57 groups, 1,140 collocations)
+// Verify and transform active groups (Batches 1–5 = 91 groups, 1,820 collocations)
 const seenRowIndexes = new Set();
 const activeByGroup = new Map();
 
@@ -213,7 +220,7 @@ const remainingC1 = allReadingGroups.filter(g => g.level === 'C1' && !activeByGr
 const batchAssignment = new Map();
 for (const g of activeGroups) batchAssignment.set(g.group, g.batch);
 remainingB1.forEach(g => batchAssignment.set(g.group, 4));
-remainingB2.forEach((g, i) => batchAssignment.set(g.group, i < 18 ? 5 : i < 36 ? 6 : 7));
+remainingB2.forEach((g, i) => batchAssignment.set(g.group, i < 18 ? 6 : 7));
 remainingC1.forEach((g, i) => batchAssignment.set(g.group, i < 16 ? 8 : i < 32 ? 9 : 10));
 
 const roadmapGroups = allReadingGroups.map(rg => {
@@ -242,12 +249,13 @@ const roadmapGroups = allReadingGroups.map(rg => {
   }
 
   const sameLevel = rg.targets
-    .filter(t => defaults[t.rowIndex].level === rg.level)
+    .filter(t => defaults[t.rowIndex].level === rg.level && !seenRowIndexes.has(t.rowIndex))
     .sort((a, b) => (posPriority[a.pos] || 99) - (posPriority[b.pos] || 99));
   const fallbackNonA1 = rg.targets
-    .filter(t => defaults[t.rowIndex].level !== 'A1' && defaults[t.rowIndex].level !== rg.level)
+    .filter(t => defaults[t.rowIndex].level !== 'A1' && defaults[t.rowIndex].level !== rg.level && !seenRowIndexes.has(t.rowIndex))
     .sort((a, b) => (posPriority[a.pos] || 99) - (posPriority[b.pos] || 99));
   const chosen20 = [...sameLevel, ...fallbackNonA1].slice(0, 20);
+  chosen20.forEach(t => seenRowIndexes.add(t.rowIndex));
 
   return {
     id: `col-${rg.group}`,
@@ -277,11 +285,11 @@ const roadmapGroups = allReadingGroups.map(rg => {
 const batchMeta = [
   { batch: 1, title: 'Đợt 1 · Nền tảng A2 trọng tâm & mẫu mở đầu B1–C1', focus: '15 nhóm A2 (300 collocations) + 2 nhóm B1 (40) + 2 nhóm B2 (40) + 1 nhóm C1 (20)', status: 'complete' },
   { batch: 2, title: 'Đợt 2 · Hoàn tất toàn bộ Collocations A2', focus: '21 nhóm A2 còn lại (420 collocations)', status: 'complete' },
-  { batch: 3, title: 'Đợt 3 · Collocations B1 — Thiên nhiên, Hành trình, Khoa học & Đời sống', focus: '16 nhóm B1 (320 collocations: khảo cổ, sinh thái, khí tượng, năng lượng, cầu đường, di cư, định vị, bay lượn, thể thao, âm nhạc, điện ảnh, nhiếp ảnh, in ấn, đại học, lập trình, kinh tế)', status: 'complete' },
-  { batch: 4, title: 'Đợt 4 · Hoàn tất toàn bộ Collocations B1 — Xã hội, Tư duy & Nghệ thuật', focus: '16 nhóm B1 còn lại (320 collocations)', status: 'planned' },
-  { batch: 5, title: 'Đợt 5 · Collocations B2 — Đô thị, Xã hội & Truyền thông', focus: '18 nhóm B2 văn hóa – xã hội đầu tiên', status: 'planned' },
+  { batch: 3, title: 'Đợt 3 · Collocations B1 — Thiên nhiên, Hành trình, Khoa học & Đời sống', focus: '16 nhóm B1 (320 collocations)', status: 'complete' },
+  { batch: 4, title: 'Đợt 4 · Hoàn tất toàn bộ Collocations B1 — Xã hội, Tư duy & Nghệ thuật', focus: '16 nhóm B1 còn lại (320 collocations, hoàn tất 100% B1 = 680/680)', status: 'complete' },
+  { batch: 5, title: 'Đợt 5 · Collocations B2 — Khoa học, Y sinh, Khám phá & Nhận thức', focus: '18 nhóm B2 đầu tiên (360 collocations)', status: 'complete' },
   { batch: 6, title: 'Đợt 6 · Collocations B2 — Kinh tế, Luật pháp & Đổi mới', focus: '18 nhóm B2 văn hóa – xã hội & khoa học tiếp theo', status: 'planned' },
-  { batch: 7, title: 'Đợt 7 · Collocations B2 — Khoa học, Sinh thái & Công nghệ', focus: '18 nhóm B2 khoa học & tự nhiên còn lại', status: 'planned' },
+  { batch: 7, title: 'Đợt 7 · Collocations B2 — Đô thị, Xã hội & Môi trường', focus: '18 nhóm B2 còn lại, hoàn tất 100% B2', status: 'planned' },
   { batch: 8, title: 'Đợt 8 · Collocations C1 — Học thuật, Chính sách & Xã hội', focus: '16 nhóm C1 xã hội & nhân văn', status: 'planned' },
   { batch: 9, title: 'Đợt 9 · Collocations C1 — Khoa học, Lập luận & Hệ thống', focus: '16 nhóm C1 khoa học & tư duy phản biện', status: 'planned' },
   { batch: 10, title: 'Đợt 10 · Collocations C1 — Di sản, Thương mại & Toàn cầu', focus: '15 nhóm C1 cuối cùng, hoàn tất 3.480 collocations A2–C1', status: 'planned' }
@@ -296,7 +304,7 @@ const batchMeta = [
 });
 
 const planData = {
-  version: 3,
+  version: 4,
   totalPlannedCollocations: roadmapGroups.reduce((s, g) => s + g.collocationCount, 0),
   completedCollocations: activeGroups.reduce((s, g) => s + g.items.length, 0),
   totalGroups: roadmapGroups.length,
@@ -341,17 +349,17 @@ const mdLines = [
   '',
   '- **Phạm vi từ vựng:** Chỉ sử dụng từ vựng từ cấp độ **A2 trở lên (A2, B1, B2, C1)** trong bộ dữ liệu gốc của dự án (`4.867` mục từ A2–C1; loại trừ hoàn toàn `1.076` mục từ A1).',
   `- **Tổng số Collocations trong lộ trình:** **${planData.totalPlannedCollocations.toLocaleString('vi-VN')} collocations** chia đều cho **${planData.totalGroups} nhóm chủ đề** (mỗi nhóm 20 collocations trọng tâm gắn với \`rowIndex\` chuẩn).`,
-  `- **Đã hoàn thành (Đợt 1, Đợt 2 & Đợt 3):** **${planData.completedCollocations.toLocaleString('vi-VN')} collocations** thuộc **${planData.completedGroups} nhóm chủ đề** (hoàn tất **100% A2 = 720/720 collocations** + **360/680 collocations B1** + **40 collocations B2** + **20 collocations C1**) kèm **${activeGroups.reduce((s, g) => s + g.questions.length, 0)} câu hỏi trắc nghiệm** có giải thích chi tiết cho cả 3 lựa chọn A/B/C.`,
+  `- **Đã hoàn thành (Đợt 1 đến Đợt 5):** **${planData.completedCollocations.toLocaleString('vi-VN')} collocations** thuộc **${planData.completedGroups} nhóm chủ đề** (hoàn tất **100% A2 = 720/720 collocations** + **hoàn tất 100% B1 = 680/680 collocations** + **400/1.120 collocations B2** + **20 collocations C1**) kèm **${activeGroups.reduce((s, g) => s + g.questions.length, 0)} câu hỏi trắc nghiệm** có giải thích chi tiết cho cả 3 lựa chọn A/B/C.`,
   '',
   '## 2. Phân bổ theo cấp độ CEFR (A2–C1)',
   '',
-  '| Cấp độ | Mục từ trong dự án | Số nhóm chủ đề | Tổng Collocations lộ trình | Đã hoàn thành (Đợt 1–3) | Trạng thái |',
+  '| Cấp độ | Mục từ trong dự án | Số nhóm chủ đề | Tổng Collocations lộ trình | Đã hoàn thành (Đợt 1–5) | Trạng thái |',
   '|---|---:|---:|---:|---:|---|',
   `| **A2** | 990 | ${planData.levels.A2.groups} | ${planData.levels.A2.plannedCollocations} | **${planData.levels.A2.completedCollocations}** (36/36 nhóm) | **Hoàn tất 100% A2 ✓** |`,
-  `| **B1** | 902 | ${planData.levels.B1.groups} | ${planData.levels.B1.plannedCollocations} | **${planData.levels.B1.completedCollocations}** (18/34 nhóm) | **Đã hoàn thành Đợt 1 & 3 (53% B1)** |`,
-  `| **B2** | 1.571 | ${planData.levels.B2.groups} | ${planData.levels.B2.plannedCollocations} | **${planData.levels.B2.completedCollocations}** (2 nhóm) | Đã mở mẫu, tiếp tục Đợt 5–7 |`,
-  `| **C1** | 1.404 | ${planData.levels.C1.groups} | ${planData.levels.C1.plannedCollocations} | **${planData.levels.C1.completedCollocations}** (1 nhóm) | Đã mở mẫu, tiếp tục Đợt 8–10 |`,
-  `| **Tổng (A2–C1)** | **4.867** | **${planData.totalGroups}** | **${planData.totalPlannedCollocations}** | **${planData.completedCollocations}** (**${planData.completedGroups} nhóm**) | **Đợt 1, 2 & 3 hoàn tất ✓** |`,
+  `| **B1** | 902 | ${planData.levels.B1.groups} | ${planData.levels.B1.plannedCollocations} | **${planData.levels.B1.completedCollocations}** (34/34 nhóm) | **Hoàn tất 100% B1 ✓** |`,
+  `| **B2** | 1.571 | ${planData.levels.B2.groups} | ${planData.levels.B2.plannedCollocations} | **${planData.levels.B2.completedCollocations}** (20/56 nhóm) | **Đã hoàn thành Đợt 1 & 5 (36% B2)** |`,
+  `| **C1** | 1.404 | ${planData.levels.C1.groups} | ${planData.levels.C1.plannedCollocations} | **${planData.levels.C1.completedCollocations}** (1/48 nhóm) | Đã mở mẫu, tiếp tục Đợt 8–10 |`,
+  `| **Tổng (A2–C1)** | **4.867** | **${planData.totalGroups}** | **${planData.totalPlannedCollocations}** | **${planData.completedCollocations}** (**${planData.completedGroups} nhóm**) | **Đợt 1–5 hoàn tất ✓ (52,3%)** |`,
   '',
   '## 3. Kế hoạch 10 đợt triển khai (Batches 1–10)',
   '',
@@ -359,7 +367,7 @@ const mdLines = [
   '|---:|---|---|---:|---:|---|',
   ...batchMeta.map(b => `| **Đợt ${b.batch}** | ${b.title} | ${b.levels.join(', ')} | ${b.groupCount} | ${b.collocationCount} | ${b.status === 'complete' ? 'Đã hoàn thành ✓' : 'Lộ trình tiếp theo'} |`),
   '',
-  '## 4. Danh sách 57 nhóm Đợt 1, 2 & 3 đã hoàn thành (1.140 Collocations)',
+  `## 4. Danh sách ${activeGroups.length} nhóm Đợt 1–5 đã hoàn thành (${planData.completedCollocations.toLocaleString('vi-VN')} Collocations)`,
   '',
   '| # | Đợt | Mã nhóm | Cấp độ | Chủ đề tiếng Anh | Chủ đề tiếng Việt | Số Collocations | Số câu hỏi |',
   '|---:|:---:|---|---|---|---|:---:|:---:|',

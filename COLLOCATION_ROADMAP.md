@@ -4,17 +4,17 @@
 
 - **Phạm vi từ vựng:** Chỉ sử dụng từ vựng từ cấp độ **A2 trở lên (A2, B1, B2, C1)** trong bộ dữ liệu gốc của dự án (`4.867` mục từ A2–C1; loại trừ hoàn toàn `1.076` mục từ A1).
 - **Tổng số Collocations trong lộ trình:** **3.480 collocations** chia đều cho **174 nhóm chủ đề** (mỗi nhóm 20 collocations trọng tâm gắn với `rowIndex` chuẩn).
-- **Đã hoàn thành (Đợt 1, Đợt 2 & Đợt 3):** **1.140 collocations** thuộc **57 nhóm chủ đề** (hoàn tất **100% A2 = 720/720 collocations** + **360/680 collocations B1** + **40 collocations B2** + **20 collocations C1**) kèm **570 câu hỏi trắc nghiệm** có giải thích chi tiết cho cả 3 lựa chọn A/B/C.
+- **Đã hoàn thành (Đợt 1 đến Đợt 5):** **1.820 collocations** thuộc **91 nhóm chủ đề** (hoàn tất **100% A2 = 720/720 collocations** + **hoàn tất 100% B1 = 680/680 collocations** + **400/1.120 collocations B2** + **20 collocations C1**) kèm **910 câu hỏi trắc nghiệm** có giải thích chi tiết cho cả 3 lựa chọn A/B/C.
 
 ## 2. Phân bổ theo cấp độ CEFR (A2–C1)
 
-| Cấp độ | Mục từ trong dự án | Số nhóm chủ đề | Tổng Collocations lộ trình | Đã hoàn thành (Đợt 1–3) | Trạng thái |
+| Cấp độ | Mục từ trong dự án | Số nhóm chủ đề | Tổng Collocations lộ trình | Đã hoàn thành (Đợt 1–5) | Trạng thái |
 |---|---:|---:|---:|---:|---|
 | **A2** | 990 | 36 | 720 | **720** (36/36 nhóm) | **Hoàn tất 100% A2 ✓** |
-| **B1** | 902 | 34 | 680 | **360** (18/34 nhóm) | **Đã hoàn thành Đợt 1 & 3 (53% B1)** |
-| **B2** | 1.571 | 56 | 1120 | **40** (2 nhóm) | Đã mở mẫu, tiếp tục Đợt 5–7 |
-| **C1** | 1.404 | 48 | 960 | **20** (1 nhóm) | Đã mở mẫu, tiếp tục Đợt 8–10 |
-| **Tổng (A2–C1)** | **4.867** | **174** | **3480** | **1140** (**57 nhóm**) | **Đợt 1, 2 & 3 hoàn tất ✓** |
+| **B1** | 902 | 34 | 680 | **680** (34/34 nhóm) | **Hoàn tất 100% B1 ✓** |
+| **B2** | 1.571 | 56 | 1120 | **400** (20/56 nhóm) | **Đã hoàn thành Đợt 1 & 5 (36% B2)** |
+| **C1** | 1.404 | 48 | 960 | **20** (1/48 nhóm) | Đã mở mẫu, tiếp tục Đợt 8–10 |
+| **Tổng (A2–C1)** | **4.867** | **174** | **3480** | **1820** (**91 nhóm**) | **Đợt 1–5 hoàn tất ✓ (52,3%)** |
 
 ## 3. Kế hoạch 10 đợt triển khai (Batches 1–10)
 
@@ -23,15 +23,15 @@
 | **Đợt 1** | Đợt 1 · Nền tảng A2 trọng tâm & mẫu mở đầu B1–C1 | A2, B2, B1, C1 | 20 | 400 | Đã hoàn thành ✓ |
 | **Đợt 2** | Đợt 2 · Hoàn tất toàn bộ Collocations A2 | A2 | 21 | 420 | Đã hoàn thành ✓ |
 | **Đợt 3** | Đợt 3 · Collocations B1 — Thiên nhiên, Hành trình, Khoa học & Đời sống | B1 | 16 | 320 | Đã hoàn thành ✓ |
-| **Đợt 4** | Đợt 4 · Hoàn tất toàn bộ Collocations B1 — Xã hội, Tư duy & Nghệ thuật | B1 | 16 | 320 | Lộ trình tiếp theo |
-| **Đợt 5** | Đợt 5 · Collocations B2 — Đô thị, Xã hội & Truyền thông | B2 | 18 | 360 | Lộ trình tiếp theo |
+| **Đợt 4** | Đợt 4 · Hoàn tất toàn bộ Collocations B1 — Xã hội, Tư duy & Nghệ thuật | B1 | 16 | 320 | Đã hoàn thành ✓ |
+| **Đợt 5** | Đợt 5 · Collocations B2 — Khoa học, Y sinh, Khám phá & Nhận thức | B2 | 18 | 360 | Đã hoàn thành ✓ |
 | **Đợt 6** | Đợt 6 · Collocations B2 — Kinh tế, Luật pháp & Đổi mới | B2 | 18 | 360 | Lộ trình tiếp theo |
-| **Đợt 7** | Đợt 7 · Collocations B2 — Khoa học, Sinh thái & Công nghệ | B2 | 18 | 360 | Lộ trình tiếp theo |
+| **Đợt 7** | Đợt 7 · Collocations B2 — Đô thị, Xã hội & Môi trường | B2 | 18 | 360 | Lộ trình tiếp theo |
 | **Đợt 8** | Đợt 8 · Collocations C1 — Học thuật, Chính sách & Xã hội | C1 | 16 | 320 | Lộ trình tiếp theo |
 | **Đợt 9** | Đợt 9 · Collocations C1 — Khoa học, Lập luận & Hệ thống | C1 | 16 | 320 | Lộ trình tiếp theo |
 | **Đợt 10** | Đợt 10 · Collocations C1 — Di sản, Thương mại & Toàn cầu | C1 | 15 | 300 | Lộ trình tiếp theo |
 
-## 4. Danh sách 57 nhóm Đợt 1, 2 & 3 đã hoàn thành (1.140 Collocations)
+## 4. Danh sách 91 nhóm Đợt 1–5 đã hoàn thành (1.820 Collocations)
 
 | # | Đợt | Mã nhóm | Cấp độ | Chủ đề tiếng Anh | Chủ đề tiếng Việt | Số Collocations | Số câu hỏi |
 |---:|:---:|---|---|---|---|:---:|:---:|
@@ -89,6 +89,40 @@
 | 52 | Đợt 3 | `col-b1-learning` | **B1** | Who gets to learn | Giáo dục đại học, ôn luyện học thuật và bình đẳng tri thức | 20 | 10 |
 | 53 | Đợt 3 | `col-b1-digital` | **B1** | Machines that follow instructions | Lập trình, phần mềm, bảo mật và tự động hóa | 20 | 10 |
 | 54 | Đợt 3 | `col-b1-money` | **B1** | What a price can hide | Kinh tế học, tiền tệ, thuế và quản lý tài chính | 20 | 10 |
-| 55 | Đợt 1 | `col-cities-06` | **B2** | Old places, new lives | Tái thiết đô thị, bảo tồn di sản và phát triển bền vững | 20 | 10 |
-| 56 | Đợt 1 | `col-b2s-buildings` | **B2** | Buildings with a second life | Công trình biểu tượng, nghệ thuật thủ công và văn minh nhân loại | 20 | 10 |
-| 57 | Đợt 1 | `col-c1s-water` | **C1** | Engineering with water | Kỹ thuật trị thủy, dòng chảy và quản trị nguồn lực (C1) | 20 | 10 |
+| 55 | Đợt 4 | `col-b1-business` | **B1** | From an idea to a livelihood | Khởi nghiệp, thương hiệu, tiếp thị và nghề nghiệp | 20 | 10 |
+| 56 | Đợt 4 | `col-b1-trade` | **B1** | Objects crossing oceans | Thương mại hàng hải, xuất nhập khẩu và nguyên vật liệu | 20 | 10 |
+| 57 | Đợt 4 | `col-b1-kitchen` | **B1** | Food with a clever process | Chế biến ẩm thực, lên men và phản ứng trong gian bếp | 20 | 10 |
+| 58 | Đợt 4 | `col-b1-home` | **B1** | The changing home | Không gian sống, sửa chữa nhà cửa và đời sống khu dân cư | 20 | 10 |
+| 59 | Đợt 4 | `col-b1-style` | **B1** | Clothes and belonging | Trang phục, phong tục văn hóa và nghi lễ cộng đồng | 20 | 10 |
+| 60 | Đợt 4 | `col-b1-body` | **B1** | What the body reveals | Cơ thể sinh học, triệu chứng, điều trị và chu kỳ sự sống | 20 | 10 |
+| 61 | Đợt 4 | `col-b1-nature` | **B1** | Lives with surprising designs | Thiên nhiên, rừng ngập mặn, sinh vật biển và bảo vệ môi trường | 20 | 10 |
+| 62 | Đợt 4 | `col-b1-friendship` | **B1** | People finding common ground | Tình bạn, sự tôn trọng, lòng hiếu khách và gắn kết xã hội | 20 | 10 |
+| 63 | Đợt 4 | `col-b1-rights` | **B1** | Voices asking for change | Quyền công dân, bầu cử, chính sách công và vận động xã hội | 20 | 10 |
+| 64 | Đợt 4 | `col-b1-justice` | **B1** | Evidence before a verdict | Pháp luật, bằng chứng, điều tra và sự thật trước tòa án | 20 | 10 |
+| 65 | Đợt 4 | `col-b1-conflict` | **B1** | Remembering conflict | Chiến tranh, hòa giải, đức tin và ký ức lịch sử | 20 | 10 |
+| 66 | Đợt 4 | `col-b1-help` | **B1** | Turning care into action | Hoạt động thiện nguyện, cứu trợ nhân đạo và cam kết cộng đồng | 20 | 10 |
+| 67 | Đợt 4 | `col-b1-choices` | **B1** | Learning from a mistake | Nhận lỗi, khắc phục sai sót kỹ thuật và rút kinh nghiệm | 20 | 10 |
+| 68 | Đợt 4 | `col-b1-ideas` | **B1** | Testing a good-sounding idea | Lập luận khoa học, thuyết phục, nguyên nhân – hệ quả và phân loại | 20 | 10 |
+| 69 | Đợt 4 | `col-b1-everyday` | **B1** | Small actions with larger meanings | Vật dụng thường nhật, thao tác thủ công và ý nghĩa biểu tượng | 20 | 10 |
+| 70 | Đợt 4 | `col-b1-curiosity` | **B1** | Learning to ask better questions | Tò mò quan sát tự nhiên, phỏng sinh học và sáng chế đời thường | 20 | 10 |
+| 71 | Đợt 1 | `col-cities-06` | **B2** | Old places, new lives | Tái thiết đô thị, bảo tồn di sản và phát triển bền vững | 20 | 10 |
+| 72 | Đợt 1 | `col-b2s-buildings` | **B2** | Buildings with a second life | Công trình biểu tượng, nghệ thuật thủ công và văn minh nhân loại | 20 | 10 |
+| 73 | Đợt 5 | `col-survival-07` | **B2** | When getting home becomes the mission | Khủng hoảng không gian, sinh tồn và quyết tâm giải cứu (B2) | 20 | 10 |
+| 74 | Đợt 5 | `col-earth-08` | **B2** | Stories written in stone | Địa chất học, hang động ngầm, khoáng vật và kiến tạo tự nhiên (B2) | 20 | 10 |
+| 75 | Đợt 5 | `col-ideas-09` | **B2** | Small ideas that stay with us | Đổi mới sáng tạo, thử nghiệm vật liệu và ứng dụng thực tiễn (B2) | 20 | 10 |
+| 76 | Đợt 5 | `col-time-10` | **B2** | Who decides what time it is? | Múi giờ chuẩn, lịch pháp, đường sắt và độ chính xác (B2) | 20 | 10 |
+| 77 | Đợt 5 | `col-art-11` | **B2** | When a picture disappears | An ninh bảo tàng, điều tra vụ trộm nghệ thuật và bảo tồn di sản (B2) | 20 | 10 |
+| 78 | Đợt 5 | `col-b2s-medicine` | **B2** | How medicine changed | Vi sinh vật học, kháng khuẩn, phẫu thuật và y tế hiện đại (B2) | 20 | 10 |
+| 79 | Đợt 5 | `col-b2s-food` | **B2** | Hidden needs in familiar food | Vi chất dinh dưỡng, vitamin, bảo quản và an ninh lương thực (B2) | 20 | 10 |
+| 80 | Đợt 5 | `col-b2s-evolution` | **B2** | Clues in living things | Tiến hóa sinh học, hóa thạch chuyển tiếp và đa dạng sinh học (B2) | 20 | 10 |
+| 81 | Đợt 5 | `col-b2s-sea` | **B2** | A world below the surface | Thám hiểm biển sâu, hải lưu và nghiên cứu sinh vật đại dương (B2) | 20 | 10 |
+| 82 | Đợt 5 | `col-b2s-fields` | **B2** | Seeds for another tomorrow | Nông nghiệp bền vững, ngân hàng hạt giống và bảo tồn sinh thái (B2) | 20 | 10 |
+| 83 | Đợt 5 | `col-b2s-electricity` | **B2** | Making invisible forces useful | Điện từ học, mạch điện, động cơ và truyền tải năng lượng (B2) | 20 | 10 |
+| 84 | Đợt 5 | `col-b2s-computing` | **B2** | Machines and the people behind them | Khoa học máy tính, lập trình, cơ sở dữ liệu và xử lý lỗi (B2) | 20 | 10 |
+| 85 | Đợt 5 | `col-b2s-flight` | **B2** | Learning to share the sky | Hàng không hiện đại, khí động học, điều phối bay và an toàn (B2) | 20 | 10 |
+| 86 | Đợt 5 | `col-b2s-routes` | **B2** | Routes through difficult ground | Đường hầm ngầm, kênh đào, hạ tầng đường sắt và quy hoạch đô thị (B2) | 20 | 10 |
+| 87 | Đợt 5 | `col-b2s-space` | **B2** | Messages beyond Earth | Thăm dò liên sao, vệ tinh viễn thông và thông điệp Voyager (B2) | 20 | 10 |
+| 88 | Đợt 5 | `col-b2s-disaster` | **B2** | When the landscape changes | Địa chấn học, sóng thần, ứng phó thiên tai và tái thiết đô thị (B2) | 20 | 10 |
+| 89 | Đợt 5 | `col-b2s-rescue` | **B2** | The work behind a rescue | Lòng quả cảm, cứu thương chiến trường và bảo vệ sự sống (B2) | 20 | 10 |
+| 90 | Đợt 5 | `col-b2s-perception` | **B2** | What our eyes leave out | Thị giác, sự chú ý có chọn lọc, ảo giác quang học và nhận thức (B2) | 20 | 10 |
+| 91 | Đợt 1 | `col-c1s-water` | **C1** | Engineering with water | Kỹ thuật trị thủy, dòng chảy và quản trị nguồn lực (C1) | 20 | 10 |

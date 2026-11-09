@@ -41,7 +41,7 @@ Ngày đóng gói: **06/11/2026** (Asia/Bangkok). Ngôn ngữ trao đổi với 
 | **Tổng** | **5.943** | **174** | **348** | **140 bài A2/B1** |
 
 - 120 chủ điểm ngữ pháp; 1.263 câu hỏi ngữ pháp.
-- Lộ trình **3.480 Collocations** (chỉ lấy từ vựng A2–C1, 174 nhóm chia làm 10 đợt); đã hoàn thành **Đợt 1 & Đợt 2 gồm 820 Collocations** trong 41 nhóm (hoàn tất **100% cấp độ A2 với 720/720 Collocations trong 36 nhóm**, cộng 40 B1, 40 B2, 20 C1) kèm **410 câu hỏi trắc nghiệm** có giải thích cho cả 3 đáp án.
+- Lộ trình **3.480 Collocations** (chỉ lấy từ vựng A2–C1, 174 nhóm chia làm 10 đợt); đã hoàn thành **Đợt 1 đến Đợt 5 gồm 1.820 Collocations** trong 91 nhóm (hoàn tất **100% cấp độ A2 với 720/720 Collocations trong 36 nhóm**, cộng hoàn tất 100% B1 = 680/680 Collocations trong 34 nhóm, cộng 400 B2, 20 C1) kèm **910 câu hỏi trắc nghiệm** có giải thích cho cả 3 đáp án.
 - 13.066 câu hỏi bài đọc: nội dung câu chuyện, từ vựng và ngữ pháp; có giải thích cho từng lựa chọn đúng/sai.
 - Mỗi nhóm bài đọc gồm hai bài A/B, cùng bộ từ mục tiêu, thường 25–30 mục từ. Không gom từ theo thứ tự chữ cái để viết truyện.
 - Bài đọc từ A2 trở lên; ưu tiên sự kiện có thật và thú vị, lịch sử, đời sống, khoa học dễ hiểu. Giữ nguồn và phân biệt giả định/ví dụ với sự kiện.
@@ -331,5 +331,15 @@ Khi bàn giao cho AI khác, gửi **ZIP + tài liệu này**, rồi mô tả tha
   - Header displays a hero real photograph (`readingPhotoCard`) summarizing the reading subject and key target words.
   - Stage 0 (`Learn the words`) displays a real photograph on every word card and inside the popup word dialog (`#reading-word-dialog`).
   - Stage 1 (`Read`) displays a dedicated real photograph (`readingParagraphPhoto`) for every paragraph `<p>` with a vocabulary hint listing the target words in that paragraph (`Gợi ý từ vựng trong đoạn: ...`), plus a 3-photo scene gallery (`readingSceneGallery`) for single-paragraph readings.
-- **Collocations (`820 active collocations`) & Grammar (`120 topics`)**: Every collocation card, collocation word modal, and grammar lesson displays a contextual real photograph.
+- **Collocations (`1.820 active collocations`) & Grammar (`120 topics`)**: Every collocation card, collocation word modal, and grammar lesson displays a contextual real photograph.
 - **Automated Test**: Run `node test-real-photos.cjs` alongside the other 7 test suites.
+
+## 13. Cầu nối đồng bộ tự động Google Drive ↔ GitHub Actions
+
+- **File điều khiển con trỏ (Google Doc):** `English-Improve-Sync-Pointer` (ID: `13_jOtIm17JeKmAQuIwDHHZQq5L4SAytL-TFtgUc33nw`), chứa một dòng duy nhất `SYNC_ZIP_ID=<Google_Drive_File_ID>`.
+- **Thư mục lưu gói đồng bộ trên Google Drive:** `English-Improve-Collocations-2026-11-07` (ID: `1dt-Yjj_PZRXDNoHlF2oKJgRJi0iLjxGT`).
+- **Quy trình đẩy bản mới tự động cho AI:**
+  1. Sau khi chỉnh sửa mã nguồn và chạy toàn bộ 8 bộ kiểm tra PASS, đóng gói các file mã nguồn đã sửa vào một file `.zip` và tải lên Google Drive (`drive:create_file`).
+  2. Chia sẻ file `.zip` đó ở chế độ `anyoneWithLink` (`drive:share_file`).
+  3. Cập nhật nội dung Google Doc `13_jOtIm17JeKmAQuIwDHHZQq5L4SAytL-TFtgUc33nw` thành `SYNC_ZIP_ID=<ID_file_zip_mới>` (`docs_agent:call`).
+  4. Workflow `.github/workflows/pages.yml` trên kho `ChanHoang/English-Improve` sẽ tự động phát hiện mã `SYNC_ZIP_ID` mới, tải gói ZIP về, chạy `build-collocations.cjs`, `integrate-v4.cjs`, `audio-tools/install.cjs`, kiểm tra 8 bộ test, tự `git commit & push` vào nhánh `main` và triển khai lên GitHub Pages.

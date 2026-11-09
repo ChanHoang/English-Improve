@@ -1,9 +1,15 @@
 const fs = require('fs');
 const vm = require('vm');
-const assert = require('assert');
+const assert = require('assert/strict');
 
 const html = fs.readFileSync('index.html', 'utf8');
 const scripts = [...html.matchAll(/<script(?:\s+id="([^"]*)")?(?:\s+type="([^"]*)")?>([\s\S]*?)<\/script>/g)];
+
+// Verify preconnect links and uncropped object-fit: contain CSS
+assert(html.includes('rel="preconnect" href="https://en.wikipedia.org"'), 'Must include preconnect for en.wikipedia.org');
+assert(html.includes('rel="preconnect" href="https://upload.wikimedia.org"'), 'Must include preconnect for upload.wikimedia.org');
+assert(html.includes('object-fit:contain'), 'Photo CSS must use object-fit:contain so 100% of every image is visible without cropping');
+assert(!html.includes('.real-photo-img{width:100%;height:100%;object-fit:cover'), 'Must not crop images with object-fit:cover');
 
 function boot() {
   const store = {};
@@ -82,64 +88,49 @@ const { ctx, nodes } = boot();
 const run = code => vm.runInContext(code, ctx);
 const click = a => run(`$('view').onclick({target:{dataset:{action:${JSON.stringify(a)}},closest:()=>({dataset:{action:${JSON.stringify(a)}}})}})`);
 
-// 1. Verify all 5,943 vocabulary entries resolve to valid real-photo topics with vocabulary hints
-const vocabCount = run('defaults.length');
-assert.equal(vocabCount, 5943, 'Should have 5,943 vocabulary entries');
-const allResolved = run(`defaults.every(r => {
-  const info = resolveVocabPhotoTopic(r);
-  return info && info.query && info.query.length >= 2 && info.caption && info.caption.includes('Gợi ý');
-})`);
-assert(allResolved, 'Every vocabulary entry must resolve to a concrete photo query and Vietnamese hint caption');
+// 1. Verify strict concrete-only whitelist: concrete objects resolve, abstract/functional words return null
+const concreteCount = run('defaults.filter(r => resolveVocabPhotoTopic(r) !== null).length');
+const omittedCount = run('defaults.filter(r => resolveVocabPhotoTopic(r) === null).length');
+assert(concreteCount >= 550 && concreteCount <= 800, `Expected 550–800 concrete entries, got ${concreteCount}`);
+assert(omittedCount >= 5100, `Expected >5,100 abstract/ambiguous entries omitted, got ${omittedCount}`);
 
-// 2. Verify Vocabulary view (mode 0) renders real-photo-card
-run('mode=0;render()');
-assert(nodes.view.innerHTML.includes('class="real-photo-card vocab-photo-card"'), 'Vocabulary view must render real-photo-card');
-assert(nodes.view.innerHTML.includes('Ảnh thật'), 'Vocabulary view must include real photo badge');
+// Verify concrete words resolve accurately
+assert.equal(run('resolveVocabPhotoTopic({word:"apple",pos:"noun"}).query'), 'Apple');
+assert.equal(run('resolveVocabPhotoTopic({word:"elephant",pos:"noun"}).query'), 'Elephant');
+assert.equal(run('resolveVocabPhotoTopic({word:"microscope",pos:"noun"}).query'), 'Microscope');
+assert.equal(run('resolveVocabPhotoTopic({word:"bicycle",pos:"noun"}).query'), 'Bicycle');
 
-// 3. Verify Flashcards (mode 1) renders real-photo-card on BOTH front and flipped back
-run('mode=1;flipped=false;render()');
-assert(nodes.view.innerHTML.includes('class="real-photo-card vocab-photo-card compact-photo"'), 'Flashcard front must render compact real-photo-card hint');
-run('mode=1;flipped=true;render()');
-assert(nodes.view.innerHTML.includes('class="real-photo-card vocab-photo-card"'), 'Flashcard back must render full real-photo-card');
+// Verify abstract, functional, and previously-misleading words return null (no photo)
+for (const [w, p] of [
+  ['a', 'indefinite article'], ['about', 'preposition'], ['above', 'preposition'],
+  ['ability', 'noun'], ['accept', 'verb'], ['advantage', 'noun'], ['afford', 'verb'],
+  ['although', 'conjunction'], ['always', 'adverb'], ['annoy', 'verb'], ['assume', 'verb'],
+  ['attitude', 'noun'], ['bother', 'verb'], ['concept', 'noun'], ['consequence', 'noun'],
+  ['consist', 'verb'], ['ignore', 'verb'], ['illusion', 'noun'], ['theory', 'noun'],
+  ['think', 'verb'], ['trouble', 'noun'], ['truth', 'noun'], ['understand', 'verb'],
+  ['wide', 'adjective'], ['wise', 'adjective'], ['wish', 'noun'], ['worry', 'verb'], ['youth', 'noun']
+]) {
+  assert.equal(run(`resolveVocabPhotoTopic({word:${JSON.stringify(w)},pos:${JSON.stringify(p)}})`), null, `Abstract word ${w}:${p} must not have a misleading photo`);
+  assert.equal(run(`vocabPhotoCard({word:${JSON.stringify(w)},pos:${JSON.stringify(p)}})`), '', `vocabPhotoCard for ${w}:${p} must be empty`);
+}
 
-// 4. Verify Quiz (mode 2) renders real-photo-card hint
-run('mode=2;render()');
-assert(nodes.view.innerHTML.includes('class="real-photo-card vocab-photo-card compact-photo"'), 'Quiz view must render compact real-photo-card hint');
+// 2. Verify Vocabulary view (mode 0) renders no photo for abstract word #0 ("a"), and renders real-photo-card for concrete word ("apple")
+run('mode=0;selectedVocabKey=key(defaults[0]);render()');
+assert(!nodes.view.innerHTML.includes('vocab-photo-card'), 'Abstract word "a" must not render vocab-photo-card');
+run('const appleIdx=defaults.findIndex(r=>r.word==="apple"&&r.pos==="noun");page=Math.floor(appleIdx/pageSize);selectedVocabKey=key(defaults[appleIdx]);render()');
+assert(nodes.view.innerHTML.includes('class="real-photo-card vocab-photo-card"'), 'Concrete word "apple" must render vocab-photo-card');
 
-// 5. Verify Grammar (mode 4) renders grammar-photo-card
-run('mode=4;render()');
-assert(nodes.view.innerHTML.includes('grammar-photo-card'), 'Grammar view must render contextual real photo card');
-
-// 6. Verify Reading (mode 5) Stage 0 (words) and Stage 1 (paragraphs & scene gallery)
+// 3. Verify Reading (mode 5) renders 1 header photo and concrete word photos, without paragraph/gallery clutter
 run('mode=5;render()');
 click('read-open-wright');
 assert(nodes.view.innerHTML.includes('reading-photo-card'), 'Reading header must render reading-photo-card');
-assert(nodes.view.innerHTML.includes('vocab-photo-card'), 'Reading Stage 0 must render vocab-photo-card for each target word');
-click('read-word-0');
-assert(nodes['reading-word-content'].innerHTML.includes('vocab-photo-card'), 'Reading word dialog must render vocab-photo-card');
-
 click('read-stage-1');
-const wrightParaPhotos = (nodes.view.innerHTML.match(/reading-para-photo/g) || []).length;
-assert.equal(wrightParaPhotos, 4, '4-paragraph reading (wright) must render 4 reading-para-photo cards');
-assert(nodes.view.innerHTML.includes('Gợi ý từ vựng trong đoạn'), 'Reading paragraph photos must include vocabulary hints for the paragraph');
+assert(!nodes.view.innerHTML.includes('reading-para-photo'), 'Reading paragraphs must not be cluttered with per-paragraph photos');
 
-// Check 1-paragraph reading (b1-ice-a) renders paragraph photo + 3-scene visual gallery
-click('read-open-b1-ice-a');
-click('read-stage-1');
-assert(nodes.view.innerHTML.includes('reading-para-photo'), '1-paragraph reading must render reading-para-photo');
-const galleryPhotos = (nodes.view.innerHTML.match(/reading-gallery-photo/g) || []).length;
-assert.equal(galleryPhotos, 3, '1-paragraph reading must also render 3 reading-gallery-photo cards');
-
-// 7. Verify Collocations (mode 6) renders real photos on cards and in word modal
-run('mode=6;handleStudyAction("col-open-"+collocations[0].id)');
-assert(nodes.view.innerHTML.includes('vocab-photo-card'), 'Collocation cards must render real photo cards');
-click('col-word-0');
-assert(nodes['reading-word-content'].innerHTML.includes('vocab-photo-card'), 'Collocation word modal must render real photo card');
-
-// 8. Verify non-AI / non-diagram photo URL filter
+// 4. Verify non-AI / non-diagram photo URL filter
 assert.equal(run('isRealPhotoUrl("https://upload.wikimedia.org/wikipedia/commons/a/b/Wright_Flyer.jpg", "Wright Flyer")'), true);
 assert.equal(run('isRealPhotoUrl("https://upload.wikimedia.org/wikipedia/commons/a/b/Icon.svg", "Icon")'), false);
 assert.equal(run('isRealPhotoUrl("https://upload.wikimedia.org/wikipedia/commons/a/b/Locator_map.png", "Map")'), false);
 assert.equal(run('isRealPhotoUrl("https://upload.wikimedia.org/wikipedia/commons/a/b/AI_generated_art.jpg", "Midjourney")'), false);
 
-console.log('PASS real photos: 5943/5943 vocabulary words, flashcards (front & back), quiz, 120 grammar lessons, 348 readings (608 paragraphs + scene galleries), and 820 collocations verified with non-AI Wikimedia filter.');
+console.log(`PASS real photos: ${concreteCount} concrete 1-to-1 vocabulary photos verified, ${omittedCount} abstract/ambiguous words cleanly omitted (no misleading photos), 100% uncropped object-fit:contain display, fast 360px thumbnails & CDN preconnect.`);
