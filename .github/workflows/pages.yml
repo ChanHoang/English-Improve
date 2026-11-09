@@ -28,9 +28,14 @@ jobs:
         id: sync_check
         run: |
           set +e
-          POINTER_TEXT=$(curl -fsSL "https://docs.google.com/document/d/13_jOtIm17JeKmAQuIwDHHZQq5L4SAytL-TFtgUc33nw/export?format=txt" 2>/dev/null | tr -d '\\\r')
-          ZIP_ID=$(printf "%s" "$POINTER_TEXT" | grep -oE 'SYNC_ZIP_ID=[A-Za-z0-9_-]+' | head -n 1 | cut -d= -f2)
-          if [ -z "$ZIP_ID" ]; then ZIP_ID="1ndJxKWDd59cOct2QVvXO2wieANmcEaPJ"; fi
+          rm -f /tmp/pointer_hdr.txt
+          curl -fsSL -D /tmp/pointer_hdr.txt "https://drive.usercontent.google.com/download?id=1PQ5dlKERVS7WBqiOTzthfxGxjFQ353YK&export=download&confirm=t" -o /tmp/pointer.bin 2>/dev/null || true
+          ZIP_ID=$(cat /tmp/pointer_hdr.txt 2>/dev/null | tr -d '\\\r"' | grep -oE 'SYNC_ZIP_ID(=|%3D)[A-Za-z0-9_-]+' | head -n 1 | sed -E 's/^SYNC_ZIP_ID(=|%3D)//')
+          if [ -z "$ZIP_ID" ]; then
+            POINTER_TEXT=$(curl -fsSL "https://docs.google.com/document/d/13_jOtIm17JeKmAQuIwDHHZQq5L4SAytL-TFtgUc33nw/export?format=txt" 2>/dev/null | tr -d '\\\r')
+            ZIP_ID=$(printf "%s" "$POINTER_TEXT" | grep -oE 'SYNC_ZIP_ID=[A-Za-z0-9_-]+' | head -n 1 | cut -d= -f2)
+          fi
+          if [ -z "$ZIP_ID" ]; then ZIP_ID="1FgTueG8PNsm_EXD_HXF3cWSlQ6IG4ihP"; fi
           LAST_ID=""
           if [ -f .last-sync-id ]; then LAST_ID=$(tr -d '[:space:]' < .last-sync-id); fi
           echo "Pointer ZIP_ID=$ZIP_ID | Repo LAST_ID=$LAST_ID | Event=${{ github.event_name }}"
