@@ -1,20 +1,20 @@
 # Lộ trình 3.480 Collocations (A2–C1) — English Improve
 
-## 1. Tổng quan lộ trình
+## 1. Tổng quan lộ trình (Hoàn tất 100% Đợt 1–10)
 
 - **Phạm vi từ vựng:** Chỉ sử dụng từ vựng từ cấp độ **A2 trở lên (A2, B1, B2, C1)** trong bộ dữ liệu gốc của dự án (`4.867` mục từ A2–C1; loại trừ hoàn toàn `1.076` mục từ A1).
 - **Tổng số Collocations trong lộ trình:** **3.480 collocations** chia đều cho **174 nhóm chủ đề** (mỗi nhóm 20 collocations trọng tâm gắn với `rowIndex` chuẩn).
-- **Đã hoàn thành (Đợt 1 đến Đợt 5):** **1.820 collocations** thuộc **91 nhóm chủ đề** (hoàn tất **100% A2 = 720/720 collocations** + **hoàn tất 100% B1 = 680/680 collocations** + **400/1.120 collocations B2** + **20 collocations C1**) kèm **910 câu hỏi trắc nghiệm** có giải thích chi tiết cho cả 3 lựa chọn A/B/C.
+- **Đã hoàn thành 100% (Đợt 1 đến Đợt 10):** **3.480 collocations** thuộc **174/174 nhóm chủ đề** (hoàn tất **100% A2 = 720/720**, **100% B1 = 680/680**, **100% B2 = 1.120/1.120**, **100% C1 = 960/960**) kèm **1740 câu hỏi trắc nghiệm** có giải thích chi tiết cho cả 3 lựa chọn A/B/C.
 
 ## 2. Phân bổ theo cấp độ CEFR (A2–C1)
 
-| Cấp độ | Mục từ trong dự án | Số nhóm chủ đề | Tổng Collocations lộ trình | Đã hoàn thành (Đợt 1–5) | Trạng thái |
+| Cấp độ | Mục từ trong dự án | Số nhóm chủ đề | Tổng Collocations lộ trình | Đã hoàn thành (Đợt 1–10) | Trạng thái |
 |---|---:|---:|---:|---:|---|
 | **A2** | 990 | 36 | 720 | **720** (36/36 nhóm) | **Hoàn tất 100% A2 ✓** |
 | **B1** | 902 | 34 | 680 | **680** (34/34 nhóm) | **Hoàn tất 100% B1 ✓** |
-| **B2** | 1.571 | 56 | 1120 | **400** (20/56 nhóm) | **Đã hoàn thành Đợt 1 & 5 (36% B2)** |
-| **C1** | 1.404 | 48 | 960 | **20** (1/48 nhóm) | Đã mở mẫu, tiếp tục Đợt 8–10 |
-| **Tổng (A2–C1)** | **4.867** | **174** | **3480** | **1820** (**91 nhóm**) | **Đợt 1–5 hoàn tất ✓ (52,3%)** |
+| **B2** | 1.571 | 56 | 1120 | **1120** (56/56 nhóm) | **Hoàn tất 100% B2 ✓** |
+| **C1** | 1.404 | 48 | 960 | **960** (48/48 nhóm) | **Hoàn tất 100% C1 ✓** |
+| **Tổng (A2–C1)** | **4.867** | **174** | **3480** | **3480** (**174 nhóm**) | **Hoàn tất 100% Đợt 1–10 ✓** |
 
 ## 3. Kế hoạch 10 đợt triển khai (Batches 1–10)
 
@@ -25,13 +25,13 @@
 | **Đợt 3** | Đợt 3 · Collocations B1 — Thiên nhiên, Hành trình, Khoa học & Đời sống | B1 | 16 | 320 | Đã hoàn thành ✓ |
 | **Đợt 4** | Đợt 4 · Hoàn tất toàn bộ Collocations B1 — Xã hội, Tư duy & Nghệ thuật | B1 | 16 | 320 | Đã hoàn thành ✓ |
 | **Đợt 5** | Đợt 5 · Collocations B2 — Khoa học, Y sinh, Khám phá & Nhận thức | B2 | 18 | 360 | Đã hoàn thành ✓ |
-| **Đợt 6** | Đợt 6 · Collocations B2 — Kinh tế, Luật pháp & Đổi mới | B2 | 18 | 360 | Lộ trình tiếp theo |
-| **Đợt 7** | Đợt 7 · Collocations B2 — Đô thị, Xã hội & Môi trường | B2 | 18 | 360 | Lộ trình tiếp theo |
-| **Đợt 8** | Đợt 8 · Collocations C1 — Học thuật, Chính sách & Xã hội | C1 | 16 | 320 | Lộ trình tiếp theo |
-| **Đợt 9** | Đợt 9 · Collocations C1 — Khoa học, Lập luận & Hệ thống | C1 | 16 | 320 | Lộ trình tiếp theo |
-| **Đợt 10** | Đợt 10 · Collocations C1 — Di sản, Thương mại & Toàn cầu | C1 | 15 | 300 | Lộ trình tiếp theo |
+| **Đợt 6** | Đợt 6 · Collocations B2 — Kinh tế, Luật pháp & Đổi mới | B2 | 18 | 360 | Đã hoàn thành ✓ |
+| **Đợt 7** | Đợt 7 · Hoàn tất toàn bộ Collocations B2 — Đô thị, Xã hội & Môi trường | B2 | 18 | 360 | Đã hoàn thành ✓ |
+| **Đợt 8** | Đợt 8 · Collocations C1 — Học thuật, Chính sách & Xã hội | C1 | 16 | 320 | Đã hoàn thành ✓ |
+| **Đợt 9** | Đợt 9 · Collocations C1 — Khoa học, Lập luận & Hệ thống | C1 | 16 | 320 | Đã hoàn thành ✓ |
+| **Đợt 10** | Đợt 10 · Hoàn tất toàn bộ Collocations C1 — Di sản, Thương mại & Toàn cầu | C1 | 15 | 300 | Đã hoàn thành ✓ |
 
-## 4. Danh sách 91 nhóm Đợt 1–5 đã hoàn thành (1.820 Collocations)
+## 4. Danh sách 174 nhóm Đợt 1–10 đã hoàn thành (3.480 Collocations)
 
 | # | Đợt | Mã nhóm | Cấp độ | Chủ đề tiếng Anh | Chủ đề tiếng Việt | Số Collocations | Số câu hỏi |
 |---:|:---:|---|---|---|---|:---:|:---:|
@@ -125,4 +125,87 @@
 | 88 | Đợt 5 | `col-b2s-disaster` | **B2** | When the landscape changes | Địa chấn học, sóng thần, ứng phó thiên tai và tái thiết đô thị (B2) | 20 | 10 |
 | 89 | Đợt 5 | `col-b2s-rescue` | **B2** | The work behind a rescue | Lòng quả cảm, cứu thương chiến trường và bảo vệ sự sống (B2) | 20 | 10 |
 | 90 | Đợt 5 | `col-b2s-perception` | **B2** | What our eyes leave out | Thị giác, sự chú ý có chọn lọc, ảo giác quang học và nhận thức (B2) | 20 | 10 |
-| 91 | Đợt 1 | `col-c1s-water` | **C1** | Engineering with water | Kỹ thuật trị thủy, dòng chảy và quản trị nguồn lực (C1) | 20 | 10 |
+| 91 | Đợt 6 | `col-b2s-evidence` | **B2** | How a claim earns trust | Không chỉ là bản đồ người chết (B2) | 20 | 10 |
+| 92 | Đợt 6 | `col-b2s-chance` | **B2** | Numbers behind a surprising result | Cuộc thăm dò khổng lồ đoán sai (B2) | 20 | 10 |
+| 93 | Đợt 6 | `col-b2s-media` | **B2** | When stories began to move | Câu chuyện hoảng loạn sau vở kịch phát thanh (B2) | 20 | 10 |
+| 94 | Đợt 6 | `col-b2s-performance` | **B2** | A stage can change expectations | Đêm một vở ba lê khiến khán giả bất bình (B2) | 20 | 10 |
+| 95 | Đợt 6 | `col-b2s-markets` | **B2** | The value of an object | Bức tranh tự cắt vụn (B2) | 20 | 10 |
+| 96 | Đợt 6 | `col-b2s-civic` | **B2** | Whose decision counts | Quyền bầu cử đến năm 1971 (B2) | 20 | 10 |
+| 97 | Đợt 6 | `col-b2s-sport` | **B2** | A different way to win | Vận động viên vượt xà bằng lưng (B2) | 20 | 10 |
+| 98 | Đợt 6 | `col-b2s-migration` | **B2** | Journeys and belonging | Hộ chiếu cho người không còn quốc gia bảo hộ (B2) | 20 | 10 |
+| 99 | Đợt 6 | `col-b2s-feelings` | **B2** | Feelings under pressure | Ký ức bắt đầu từ một gợi ý (B2) | 20 | 10 |
+| 100 | Đợt 6 | `col-b2s-nature` | **B2** | Neighbours we rarely notice | Con quạ mượn lực chiếc xe (B2) | 20 | 10 |
+| 101 | Đợt 6 | `col-b2s-cooperation` | **B2** | Making a shared plan work | Hai căn phòng đầu tiên của trạm không gian (B2) | 20 | 10 |
+| 102 | Đợt 6 | `col-b2c-money` | **B2** | Money and trust | Khi số tiền lớn hơn mua được ít hơn (B2) | 20 | 10 |
+| 103 | Đợt 6 | `col-b2c-work` | **B2** | How work changes | Năm đô la và thỏa thuận khác (B2) | 20 | 10 |
+| 104 | Đợt 6 | `col-b2c-rights` | **B2** | Who belongs | Bốn chỗ ngồi làm thay đổi quầy ăn (B2) | 20 | 10 |
+| 105 | Đợt 6 | `col-b2c-migration` | **B2** | New homes and old connections | Chuyến tàu không có cha mẹ (B2) | 20 | 10 |
+| 106 | Đợt 6 | `col-b2c-government` | **B2** | Decisions in public | Khi nghị viện ngửi thấy vấn đề (B2) | 20 | 10 |
+| 107 | Đợt 6 | `col-b2c-justice` | **B2** | Evidence and responsibility | Bức tranh biến mất (B2) | 20 | 10 |
+| 108 | Đợt 6 | `col-b2c-conflict` | **B2** | Beyond the front line | Thành phố được tiếp tế từ trời (B2) | 20 | 10 |
+| 109 | Đợt 7 | `col-b2c-emergency` | **B2** | When a city responds | Bốn ngày làm London thay đổi (B2) | 20 | 10 |
+| 110 | Đợt 7 | `col-b2c-learning` | **B2** | Who gets to learn | Sáu chấm mở cánh cửa đọc sách (B2) | 20 | 10 |
+| 111 | Đợt 7 | `col-b2c-media` | **B2** | How news travels | Cuộc xâm lăng chỉ có trên radio (B2) | 20 | 10 |
+| 112 | Đợt 7 | `col-b2c-fiction` | **B2** | Stories we choose to believe | Mùa hè mưa và sự ra đời của Frankenstein (B2) | 20 | 10 |
+| 113 | Đợt 7 | `col-b2c-music` | **B2** | Music outside the concert hall | Tràng vỗ tay Beethoven khó nghe thấy (B2) | 20 | 10 |
+| 114 | Đợt 7 | `col-b2c-screen` | **B2** | Images that seem to move | Con ngựa đi nhanh hơn mắt người (B2) | 20 | 10 |
+| 115 | Đợt 7 | `col-b2c-collections` | **B2** | What objects can tell us | Ba hệ chữ trên một phiến đá vỡ (B2) | 20 | 10 |
+| 116 | Đợt 7 | `col-b2c-sport` | **B2** | Rules and remarkable performances | Một dặm dưới bốn phút (B2) | 20 | 10 |
+| 117 | Đợt 7 | `col-b2c-travel` | **B2** | The city as a journey | Hơi nước dưới lòng London (B2) | 20 | 10 |
+| 118 | Đợt 7 | `col-b2c-evidence` | **B2** | Finding out rather than guessing | Máy bơm và dấu vết trên bản đồ (B2) | 20 | 10 |
+| 119 | Đợt 7 | `col-b2c-feelings` | **B2** | How experiences change us | Chờ đợi trên đảo Elephant (B2) | 20 | 10 |
+| 120 | Đợt 7 | `col-b2c-health` | **B2** | Care and discovery | Hít thở trong chiếc trụ kim loại (B2) | 20 | 10 |
+| 121 | Đợt 7 | `col-b2c-nature` | **B2** | Living with a changing landscape | Làn sương trở thành thảm họa (B2) | 20 | 10 |
+| 122 | Đợt 7 | `col-b2c-design` | **B2** | Small details, large effects | Đo Trái Đất để tạo ra mét (B2) | 20 | 10 |
+| 123 | Đợt 7 | `col-b2c-innovation` | **B2** | An idea becomes useful | Chiếc khóa cần thêm lần cải tiến (B2) | 20 | 10 |
+| 124 | Đợt 7 | `col-b2c-choices` | **B2** | Making choices under pressure | Chuyến lên Mặt Trăng biến thành hành trình trở về (B2) | 20 | 10 |
+| 125 | Đợt 7 | `col-b2c-connection` | **B2** | Signals and shared meanings | Con tem nhỏ thay đổi cách gửi thư (B2) | 20 | 10 |
+| 126 | Đợt 7 | `col-b2c-change` | **B2** | The unexpected in everyday life | Những con chim Darwin chưa hiểu ngay (B2) | 20 | 10 |
+| 127 | Đợt 1 | `col-c1s-water` | **C1** | Engineering with water | Kỹ thuật trị thủy, dòng chảy và quản trị nguồn lực (C1) | 20 | 10 |
+| 128 | Đợt 8 | `col-c1s-voyages` | **C1** | Voyages and their cargo | Chuyến đầu quá ngắn của chiến hạm (C1) | 20 | 10 |
+| 129 | Đợt 8 | `col-c1s-computing` | **C1** | Machines that follow instructions | Máy tính biết bỏ việc nào (C1) | 20 | 10 |
+| 130 | Đợt 8 | `col-c1s-farming` | **C1** | The cultivated landscape | Hạt giống dành cho cánh đồng tương lai (C1) | 20 | 10 |
+| 131 | Đợt 8 | `col-c1s-wildlife` | **C1** | Living together in the wild | Sự trở lại của người hàng xóm không được chào đón (C1) | 20 | 10 |
+| 132 | Đợt 8 | `col-c1s-outbreaks` | **C1** | Tracing an outbreak | Bác sĩ hỏi người dân uống nước ở đâu (C1) | 20 | 10 |
+| 133 | Đợt 8 | `col-c1s-body` | **C1** | The body and its signals | Chiếc máy giúp thở từ bên ngoài cơ thể (C1) | 20 | 10 |
+| 134 | Đợt 8 | `col-c1s-light` | **C1** | Light that reveals | Bóng ảnh hé lộ một loại ánh sáng mới (C1) | 20 | 10 |
+| 135 | Đợt 8 | `col-c1s-making` | **C1** | Making things that last | Khuyết điểm có thể tự sửa vết nứt (C1) | 20 | 10 |
+| 136 | Đợt 8 | `col-c1s-heritage` | **C1** | Objects and their afterlives | Dựng lại mái nhà bằng nhiều thứ hơn ký ức (C1) | 20 | 10 |
+| 137 | Đợt 8 | `col-c1s-learning` | **C1** | Who gets to learn | Sáu chấm thay đổi quyền đọc chữ (C1) | 20 | 10 |
+| 138 | Đợt 8 | `col-c1s-justice` | **C1** | Evidence before judgment | Bằng chứng đến sau bản án (C1) | 20 | 10 |
+| 139 | Đợt 8 | `col-c1s-rights` | **C1** | Rights that required action | Những chữ ký chống lại một ngành buôn sinh lợi (C1) | 20 | 10 |
+| 140 | Đợt 8 | `col-c1s-war` | **C1** | People caught in conflict | Những con thuyền nhỏ trong cuộc rút quân lớn (C1) | 20 | 10 |
+| 141 | Đợt 8 | `col-c1s-government` | **C1** | Rules and representation | Một chính quyền được thiết kế trên giấy (C1) | 20 | 10 |
+| 142 | Đợt 8 | `col-c1s-organization` | **C1** | Making an institution work | Di chuyển di tích mà không đánh mất di tích (C1) | 20 | 10 |
+| 143 | Đợt 8 | `col-c1s-commerce` | **C1** | Markets and promises | Trò chơi hỏi ai được thu tiền thuê (C1) | 20 | 10 |
+| 144 | Đợt 9 | `col-c1s-reasoning` | **C1** | How a claim earns trust | Con ngựa đọc người đặt câu hỏi (C1) | 20 | 10 |
+| 145 | Đợt 9 | `col-c1s-voices` | **C1** | Messages across distance | Nữ phóng viên đua với nhân vật hư cấu (C1) | 20 | 10 |
+| 146 | Đợt 9 | `col-c1s-belief` | **C1** | Belief and belonging | Chiếc huy hiệu nhỏ mang một hành trình dài (C1) | 20 | 10 |
+| 147 | Đợt 9 | `col-c1s-performance` | **C1** | An audience and a stage | Khi hiệu ứng sân khấu thành tình huống khẩn cấp (C1) | 20 | 10 |
+| 148 | Đợt 9 | `col-c1s-risk` | **C1** | When systems fail | Cây cầu gặp bài học khắc nghiệt từ gió (C1) | 20 | 10 |
+| 149 | Đợt 9 | `col-c1s-design` | **C1** | Decisions hidden in designs | Bản đồ hữu ích hơn nhờ bớt giống thực địa (C1) | 20 | 10 |
+| 150 | Đợt 9 | `col-c1s-discovery` | **C1** | The long road to discovery | Phiến đá khiến hình vẽ cất tiếng (C1) | 20 | 10 |
+| 151 | Đợt 9 | `col-c1c-ballot` | **C1** | The long road to a vote | Tu chính án chưa phải vạch đích (C1) | 20 | 10 |
+| 152 | Đợt 9 | `col-c1c-court` | **C1** | Evidence before a verdict | Lá thư rách và bản án sai (C1) | 20 | 10 |
+| 153 | Đợt 9 | `col-c1c-rumour` | **C1** | When a story outruns the facts | Tờ báo đưa sinh vật lên Mặt Trăng (C1) | 20 | 10 |
+| 154 | Đợt 9 | `col-c1c-migration` | **C1** | Leaving and belonging | Danh sách hành khách lớn hơn một biểu tượng (C1) | 20 | 10 |
+| 155 | Đợt 9 | `col-c1c-peace` | **C1** | Rules in the midst of war | Người bị thương ở phía bên kia (C1) | 20 | 10 |
+| 156 | Đợt 9 | `col-c1c-protest` | **C1** | People who changed the street | Một nắm muối (C1) | 20 | 10 |
+| 157 | Đợt 9 | `col-c1c-homes` | **C1** | A city decides how to live | Cung điện dành cho người thuê nhà (C1) | 20 | 10 |
+| 158 | Đợt 9 | `col-c1c-education` | **C1** | Who gets to learn | Đổi bánh mì lấy bài học đọc (C1) | 20 | 10 |
+| 159 | Đợt 9 | `col-c1c-pages` | **C1** | Paper that survives | Thư viện bằng những mảnh vụn (C1) | 20 | 10 |
+| 160 | Đợt 10 | `col-c1c-cinema` | **C1** | What the camera leaves out | Khi máy móc có tiếng nói (C1) | 20 | 10 |
+| 161 | Đợt 10 | `col-c1c-music` | **C1** | Sounds across a divide | Bản giao hưởng hướng về tiếng người (C1) | 20 | 10 |
+| 162 | Đợt 10 | `col-c1c-faith` | **C1** | Belief and public memory | Nhà thờ vươn lên sau hỏa hoạn (C1) | 20 | 10 |
+| 163 | Đợt 10 | `col-c1c-enterprise` | **C1** | A different way to do business | Những khách hàng sở hữu cửa hàng (C1) | 20 | 10 |
+| 164 | Đợt 10 | `col-c1c-market` | **C1** | Bubbles and believable promises | Lời hứa sau cái tên South Sea (C1) | 20 | 10 |
+| 165 | Đợt 10 | `col-c1c-transport` | **C1** | A new route through the city | Hơi nước dưới mặt đường (C1) | 20 | 10 |
+| 166 | Đợt 10 | `col-c1c-reason` | **C1** | How an explanation earns trust | Lá thư làm Darwin đổi kế hoạch (C1) | 20 | 10 |
+| 167 | Đợt 10 | `col-c1c-care` | **C1** | Care beyond the famous name | Ngọn đèn và sổ số liệu (C1) | 20 | 10 |
+| 168 | Đợt 10 | `col-c1c-hazards` | **C1** | What a disaster changes | Lối thoát không thể thoát (C1) | 20 | 10 |
+| 169 | Đợt 10 | `col-c1c-structures` | **C1** | A building becomes a symbol | Cung điện được thiết kế để lắp ghép (C1) | 20 | 10 |
+| 170 | Đợt 10 | `col-c1c-sport` | **C1** | The podium and the world | Bốn huy chương và cuộc tranh luận chưa xong (C1) | 20 | 10 |
+| 171 | Đợt 10 | `col-c1c-inventions` | **C1** | Small mechanisms, large changes | Khóa kéo cần thêm một lần cải tiến (C1) | 20 | 10 |
+| 172 | Đợt 10 | `col-c1c-relief` | **C1** | An act of help becomes a movement | Dù nhỏ vừa một thanh sô-cô-la (C1) | 20 | 10 |
+| 173 | Đợt 10 | `col-c1c-choices` | **C1** | Decisions under pressure | Đoàn thám hiểm chọn quay lại (C1) | 20 | 10 |
+| 174 | Đợt 10 | `col-c1c-perspective` | **C1** | The stories we tell ourselves | Câu trả lời đến biên giới trước mệnh lệnh (C1) | 20 | 10 |

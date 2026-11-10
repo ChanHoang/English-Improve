@@ -29,10 +29,15 @@ const rawActiveGroups = [
   ...require('./collocation-content/batch5-b2-part1.cjs'),
   ...require('./collocation-content/batch5-b2-part2.cjs'),
   ...require('./collocation-content/batch5-b2-part3.cjs'),
-  ...require('./collocation-content/batch1-b1-c1.cjs').filter(g => g.level === 'C1')
+  ...require('./collocation-content/batch6-b2.cjs'),
+  ...require('./collocation-content/batch7-b2.cjs'),
+  ...require('./collocation-content/batch1-b1-c1.cjs').filter(g => g.level === 'C1'),
+  ...require('./collocation-content/batch8-c1.cjs'),
+  ...require('./collocation-content/batch9-c1.cjs'),
+  ...require('./collocation-content/batch10-c1.cjs')
 ];
 
-// Verify and transform active groups (Batches 1–5 = 91 groups, 1,820 collocations)
+// Verify and transform all 174 active groups (Batches 1–10 = 174 groups, 3,480 collocations)
 const seenRowIndexes = new Set();
 const activeByGroup = new Map();
 
@@ -167,37 +172,6 @@ const activeGroups = rawActiveGroups.map((g, gi) => {
   return groupObj;
 });
 
-const posPriority = {
-  verb: 1,
-  noun: 2,
-  adjective: 3,
-  adverb: 4,
-  preposition: 5,
-  determiner: 6,
-  pronoun: 7,
-  conjunction: 8,
-  number: 9,
-  'modal verb': 10
-};
-
-function derivePlannedCollocation(r) {
-  const w = r.word;
-  const ex = (r.example || '').trim();
-  if (ex) {
-    const firstPart = ex.split(',')[0].trim();
-    if (firstPart.length >= 5 && firstPart.length <= 42 && !firstPart.endsWith('.')) {
-      return {
-        collocation: firstPart.replace(/^to\s+/i, ''),
-        pattern: r.pos === 'verb' ? 'verb + noun/prep.' : r.pos === 'adjective' ? 'adjective + noun' : r.pos === 'adverb' ? 'verb/adj. + adverb' : 'noun phrase'
-      };
-    }
-  }
-  if (r.pos === 'verb') return { collocation: `${w} effectively`, pattern: 'verb + adverb' };
-  if (r.pos === 'adjective') return { collocation: `${w} condition`, pattern: 'adjective + noun' };
-  if (r.pos === 'adverb') return { collocation: `act ${w}`, pattern: 'verb + adverb' };
-  return { collocation: `key ${w}`, pattern: 'adjective + noun' };
-}
-
 const allReadingGroups = [];
 const seenGroups = new Set();
 for (const l of readings) {
@@ -213,72 +187,33 @@ for (const l of readings) {
   }
 }
 
-const remainingB1 = allReadingGroups.filter(g => g.level === 'B1' && !activeByGroup.has(g.group));
-const remainingB2 = allReadingGroups.filter(g => g.level === 'B2' && !activeByGroup.has(g.group));
-const remainingC1 = allReadingGroups.filter(g => g.level === 'C1' && !activeByGroup.has(g.group));
-
 const batchAssignment = new Map();
 for (const g of activeGroups) batchAssignment.set(g.group, g.batch);
-remainingB1.forEach(g => batchAssignment.set(g.group, 4));
-remainingB2.forEach((g, i) => batchAssignment.set(g.group, i < 18 ? 6 : 7));
-remainingC1.forEach((g, i) => batchAssignment.set(g.group, i < 16 ? 8 : i < 32 ? 9 : 10));
 
 const roadmapGroups = allReadingGroups.map(rg => {
   const completed = activeByGroup.get(rg.group);
   const batch = batchAssignment.get(rg.group);
-  if (completed) {
-    return {
-      id: completed.id,
-      group: rg.group,
-      level: rg.level,
-      batch,
-      status: 'complete',
-      groupTitle: completed.englishTitle,
-      titleVi: completed.title,
-      collocationCount: completed.items.length,
-      targets: completed.items.map(it => ({
-        rowIndex: it.rowIndex,
-        word: it.word,
-        pos: it.pos,
-        level: it.level,
-        collocation: it.collocation,
-        pattern: it.pattern,
-        vi: it.vi
-      }))
-    };
+  if (!completed) {
+    throw new Error(`Expected all reading groups to be completed in Batches 1–10, missing ${rg.group}`);
   }
-
-  const sameLevel = rg.targets
-    .filter(t => defaults[t.rowIndex].level === rg.level && !seenRowIndexes.has(t.rowIndex))
-    .sort((a, b) => (posPriority[a.pos] || 99) - (posPriority[b.pos] || 99));
-  const fallbackNonA1 = rg.targets
-    .filter(t => defaults[t.rowIndex].level !== 'A1' && defaults[t.rowIndex].level !== rg.level && !seenRowIndexes.has(t.rowIndex))
-    .sort((a, b) => (posPriority[a.pos] || 99) - (posPriority[b.pos] || 99));
-  const chosen20 = [...sameLevel, ...fallbackNonA1].slice(0, 20);
-  chosen20.forEach(t => seenRowIndexes.add(t.rowIndex));
-
   return {
-    id: `col-${rg.group}`,
+    id: completed.id,
     group: rg.group,
     level: rg.level,
     batch,
-    status: 'planned',
-    groupTitle: rg.groupTitle,
-    titleVi: rg.titleVi,
-    collocationCount: chosen20.length,
-    targets: chosen20.map(t => {
-      const src = defaults[t.rowIndex];
-      const derived = derivePlannedCollocation(src);
-      return {
-        rowIndex: t.rowIndex,
-        word: src.word,
-        pos: src.pos,
-        level: src.level,
-        collocation: derived.collocation,
-        pattern: derived.pattern,
-        vi: t.vi
-      };
-    })
+    status: 'complete',
+    groupTitle: completed.englishTitle,
+    titleVi: completed.title,
+    collocationCount: completed.items.length,
+    targets: completed.items.map(it => ({
+      rowIndex: it.rowIndex,
+      word: it.word,
+      pos: it.pos,
+      level: it.level,
+      collocation: it.collocation,
+      pattern: it.pattern,
+      vi: it.vi
+    }))
   };
 });
 
@@ -288,11 +223,11 @@ const batchMeta = [
   { batch: 3, title: 'Đợt 3 · Collocations B1 — Thiên nhiên, Hành trình, Khoa học & Đời sống', focus: '16 nhóm B1 (320 collocations)', status: 'complete' },
   { batch: 4, title: 'Đợt 4 · Hoàn tất toàn bộ Collocations B1 — Xã hội, Tư duy & Nghệ thuật', focus: '16 nhóm B1 còn lại (320 collocations, hoàn tất 100% B1 = 680/680)', status: 'complete' },
   { batch: 5, title: 'Đợt 5 · Collocations B2 — Khoa học, Y sinh, Khám phá & Nhận thức', focus: '18 nhóm B2 đầu tiên (360 collocations)', status: 'complete' },
-  { batch: 6, title: 'Đợt 6 · Collocations B2 — Kinh tế, Luật pháp & Đổi mới', focus: '18 nhóm B2 văn hóa – xã hội & khoa học tiếp theo', status: 'planned' },
-  { batch: 7, title: 'Đợt 7 · Collocations B2 — Đô thị, Xã hội & Môi trường', focus: '18 nhóm B2 còn lại, hoàn tất 100% B2', status: 'planned' },
-  { batch: 8, title: 'Đợt 8 · Collocations C1 — Học thuật, Chính sách & Xã hội', focus: '16 nhóm C1 xã hội & nhân văn', status: 'planned' },
-  { batch: 9, title: 'Đợt 9 · Collocations C1 — Khoa học, Lập luận & Hệ thống', focus: '16 nhóm C1 khoa học & tư duy phản biện', status: 'planned' },
-  { batch: 10, title: 'Đợt 10 · Collocations C1 — Di sản, Thương mại & Toàn cầu', focus: '15 nhóm C1 cuối cùng, hoàn tất 3.480 collocations A2–C1', status: 'planned' }
+  { batch: 6, title: 'Đợt 6 · Collocations B2 — Kinh tế, Luật pháp & Đổi mới', focus: '18 nhóm B2 văn hóa – xã hội & khoa học (360 collocations)', status: 'complete' },
+  { batch: 7, title: 'Đợt 7 · Hoàn tất toàn bộ Collocations B2 — Đô thị, Xã hội & Môi trường', focus: '18 nhóm B2 còn lại (360 collocations, hoàn tất 100% B2 = 1.120/1.120)', status: 'complete' },
+  { batch: 8, title: 'Đợt 8 · Collocations C1 — Học thuật, Chính sách & Xã hội', focus: '16 nhóm C1 xã hội & nhân văn (320 collocations)', status: 'complete' },
+  { batch: 9, title: 'Đợt 9 · Collocations C1 — Khoa học, Lập luận & Hệ thống', focus: '16 nhóm C1 khoa học & tư duy phản biện (320 collocations)', status: 'complete' },
+  { batch: 10, title: 'Đợt 10 · Hoàn tất toàn bộ Collocations C1 — Di sản, Thương mại & Toàn cầu', focus: '15 nhóm C1 cuối cùng (300 collocations, hoàn tất 100% lộ trình 3.480/3.480 collocations A2–C1)', status: 'complete' }
 ].map(b => {
   const gs = roadmapGroups.filter(g => g.batch === b.batch);
   return {
@@ -304,7 +239,7 @@ const batchMeta = [
 });
 
 const planData = {
-  version: 4,
+  version: 5,
   totalPlannedCollocations: roadmapGroups.reduce((s, g) => s + g.collocationCount, 0),
   completedCollocations: activeGroups.reduce((s, g) => s + g.items.length, 0),
   totalGroups: roadmapGroups.length,
@@ -345,29 +280,29 @@ fs.writeFileSync(path.join(__dirname, 'collocations-plan.json'), JSON.stringify(
 const mdLines = [
   '# Lộ trình 3.480 Collocations (A2–C1) — English Improve',
   '',
-  '## 1. Tổng quan lộ trình',
+  '## 1. Tổng quan lộ trình (Hoàn tất 100% Đợt 1–10)',
   '',
   '- **Phạm vi từ vựng:** Chỉ sử dụng từ vựng từ cấp độ **A2 trở lên (A2, B1, B2, C1)** trong bộ dữ liệu gốc của dự án (`4.867` mục từ A2–C1; loại trừ hoàn toàn `1.076` mục từ A1).',
   `- **Tổng số Collocations trong lộ trình:** **${planData.totalPlannedCollocations.toLocaleString('vi-VN')} collocations** chia đều cho **${planData.totalGroups} nhóm chủ đề** (mỗi nhóm 20 collocations trọng tâm gắn với \`rowIndex\` chuẩn).`,
-  `- **Đã hoàn thành (Đợt 1 đến Đợt 5):** **${planData.completedCollocations.toLocaleString('vi-VN')} collocations** thuộc **${planData.completedGroups} nhóm chủ đề** (hoàn tất **100% A2 = 720/720 collocations** + **hoàn tất 100% B1 = 680/680 collocations** + **400/1.120 collocations B2** + **20 collocations C1**) kèm **${activeGroups.reduce((s, g) => s + g.questions.length, 0)} câu hỏi trắc nghiệm** có giải thích chi tiết cho cả 3 lựa chọn A/B/C.`,
+  `- **Đã hoàn thành 100% (Đợt 1 đến Đợt 10):** **${planData.completedCollocations.toLocaleString('vi-VN')} collocations** thuộc **${planData.completedGroups}/${planData.totalGroups} nhóm chủ đề** (hoàn tất **100% A2 = 720/720**, **100% B1 = 680/680**, **100% B2 = 1.120/1.120**, **100% C1 = 960/960**) kèm **${activeGroups.reduce((s, g) => s + g.questions.length, 0)} câu hỏi trắc nghiệm** có giải thích chi tiết cho cả 3 lựa chọn A/B/C.`,
   '',
   '## 2. Phân bổ theo cấp độ CEFR (A2–C1)',
   '',
-  '| Cấp độ | Mục từ trong dự án | Số nhóm chủ đề | Tổng Collocations lộ trình | Đã hoàn thành (Đợt 1–5) | Trạng thái |',
+  '| Cấp độ | Mục từ trong dự án | Số nhóm chủ đề | Tổng Collocations lộ trình | Đã hoàn thành (Đợt 1–10) | Trạng thái |',
   '|---|---:|---:|---:|---:|---|',
   `| **A2** | 990 | ${planData.levels.A2.groups} | ${planData.levels.A2.plannedCollocations} | **${planData.levels.A2.completedCollocations}** (36/36 nhóm) | **Hoàn tất 100% A2 ✓** |`,
   `| **B1** | 902 | ${planData.levels.B1.groups} | ${planData.levels.B1.plannedCollocations} | **${planData.levels.B1.completedCollocations}** (34/34 nhóm) | **Hoàn tất 100% B1 ✓** |`,
-  `| **B2** | 1.571 | ${planData.levels.B2.groups} | ${planData.levels.B2.plannedCollocations} | **${planData.levels.B2.completedCollocations}** (20/56 nhóm) | **Đã hoàn thành Đợt 1 & 5 (36% B2)** |`,
-  `| **C1** | 1.404 | ${planData.levels.C1.groups} | ${planData.levels.C1.plannedCollocations} | **${planData.levels.C1.completedCollocations}** (1/48 nhóm) | Đã mở mẫu, tiếp tục Đợt 8–10 |`,
-  `| **Tổng (A2–C1)** | **4.867** | **${planData.totalGroups}** | **${planData.totalPlannedCollocations}** | **${planData.completedCollocations}** (**${planData.completedGroups} nhóm**) | **Đợt 1–5 hoàn tất ✓ (52,3%)** |`,
+  `| **B2** | 1.571 | ${planData.levels.B2.groups} | ${planData.levels.B2.plannedCollocations} | **${planData.levels.B2.completedCollocations}** (56/56 nhóm) | **Hoàn tất 100% B2 ✓** |`,
+  `| **C1** | 1.404 | ${planData.levels.C1.groups} | ${planData.levels.C1.plannedCollocations} | **${planData.levels.C1.completedCollocations}** (48/48 nhóm) | **Hoàn tất 100% C1 ✓** |`,
+  `| **Tổng (A2–C1)** | **4.867** | **${planData.totalGroups}** | **${planData.totalPlannedCollocations}** | **${planData.completedCollocations}** (**${planData.completedGroups} nhóm**) | **Hoàn tất 100% Đợt 1–10 ✓** |`,
   '',
   '## 3. Kế hoạch 10 đợt triển khai (Batches 1–10)',
   '',
   '| Đợt | Tên đợt | Cấp độ | Số nhóm | Số Collocations | Trạng thái |',
   '|---:|---|---|---:|---:|---|',
-  ...batchMeta.map(b => `| **Đợt ${b.batch}** | ${b.title} | ${b.levels.join(', ')} | ${b.groupCount} | ${b.collocationCount} | ${b.status === 'complete' ? 'Đã hoàn thành ✓' : 'Lộ trình tiếp theo'} |`),
+  ...batchMeta.map(b => `| **Đợt ${b.batch}** | ${b.title} | ${b.levels.join(', ')} | ${b.groupCount} | ${b.collocationCount} | Đã hoàn thành ✓ |`),
   '',
-  `## 4. Danh sách ${activeGroups.length} nhóm Đợt 1–5 đã hoàn thành (${planData.completedCollocations.toLocaleString('vi-VN')} Collocations)`,
+  `## 4. Danh sách ${activeGroups.length} nhóm Đợt 1–10 đã hoàn thành (${planData.completedCollocations.toLocaleString('vi-VN')} Collocations)`,
   '',
   '| # | Đợt | Mã nhóm | Cấp độ | Chủ đề tiếng Anh | Chủ đề tiếng Việt | Số Collocations | Số câu hỏi |',
   '|---:|:---:|---|---|---|---|:---:|:---:|',

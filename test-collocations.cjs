@@ -12,11 +12,12 @@ const rows = JSON.parse(html.match(/<script id="bundle" type="application\/json"
 assert(plan.totalPlannedCollocations >= 3000, 'Roadmap must have at least 3,000 collocations');
 assert.equal(plan.totalPlannedCollocations, 3480);
 assert.equal(plan.totalGroups, 174);
-assert.equal(plan.completedCollocations, 1820, 'Batches 1–5 have 1,820 completed collocations');
-assert.equal(plan.completedGroups, 91);
+assert.equal(plan.completedCollocations, 3480, 'Batches 1–10 have all 3,480 completed collocations');
+assert.equal(plan.completedGroups, 174);
 assert.equal(plan.levels.A2.completedCollocations, 720, 'All 720 A2 collocations across 36 groups completed');
 assert.equal(plan.levels.B1.completedCollocations, 680, 'All 680 B1 collocations across 34 groups completed');
-assert.equal(plan.levels.B2.completedCollocations, 400, '20 B2 groups = 400 B2 collocations completed');
+assert.equal(plan.levels.B2.completedCollocations, 1120, 'All 56 B2 groups = 1,120 B2 collocations completed');
+assert.equal(plan.levels.C1.completedCollocations, 960, 'All 48 C1 groups = 960 C1 collocations completed');
 
 for (const g of plan.groups) {
   assert(['A2', 'B1', 'B2', 'C1'].includes(g.level), `Group ${g.group} level must be A2+`);
@@ -66,8 +67,8 @@ for (const g of collocations) {
     totalQuestions++;
   }
 }
-assert.equal(uniqueRows.size, 1820);
-assert.equal(totalQuestions, 910);
+assert.equal(uniqueRows.size, 3480);
+assert.equal(totalQuestions, 1740);
 
 // 3. Validate UI navigation, hidden Vietnamese meanings, word dialog, and practice persistence in VM
 const store = new Map();
@@ -122,8 +123,8 @@ const dispatch = a => run('handleStudyAction(' + JSON.stringify(a) + ')');
 run('mode=6;render()');
 assert.equal(nodes['secondary-title'].textContent, 'Collocations');
 assert.equal((nodes['secondary-items'].innerHTML.match(/data-action="col-level-/g) || []).length, 4);
-assert.equal((nodes['secondary-items'].innerHTML.match(/data-action="col-open-/g) || []).length, 91);
-assert.match(nodes.view.innerHTML, /1820 active collocations/);
+assert.equal((nodes['secondary-items'].innerHTML.match(/data-action="col-open-/g) || []).length, 174);
+assert.match(nodes.view.innerHTML, /3480 active collocations/);
 assert.match(nodes.view.innerHTML, /3,480 planned collocations across 174 groups/);
 
 dispatch('col-level-A2');
@@ -136,11 +137,12 @@ assert.equal((nodes['secondary-items'].innerHTML.match(/data-action="col-open-/g
 assert.equal((nodes['secondary-items'].innerHTML.match(/data-action="col-plan-/g) || []).length, 0);
 
 dispatch('col-level-B2');
-assert.equal((nodes['secondary-items'].innerHTML.match(/data-action="col-open-/g) || []).length, 20);
-assert.equal((nodes['secondary-items'].innerHTML.match(/data-action="col-plan-/g) || []).length, 36);
+assert.equal((nodes['secondary-items'].innerHTML.match(/data-action="col-open-/g) || []).length, 56);
+assert.equal((nodes['secondary-items'].innerHTML.match(/data-action="col-plan-/g) || []).length, 0);
 
 dispatch('col-level-C1');
-assert.equal((nodes['secondary-items'].innerHTML.match(/data-action="col-open-/g) || []).length, 1);
+assert.equal((nodes['secondary-items'].innerHTML.match(/data-action="col-open-/g) || []).length, 48);
+assert.equal((nodes['secondary-items'].innerHTML.match(/data-action="col-plan-/g) || []).length, 0);
 
 for (const g of collocations) {
   dispatch('col-open-' + g.id);
@@ -177,10 +179,10 @@ for (const g of collocations) {
 }
 
 ({ nodes, run } = boot());
-assert.equal(run('Object.values(collocationDone).filter(Boolean).length'), 91);
+assert.equal(run('Object.values(collocationDone).filter(Boolean).length'), 174);
 run('mode=3;render()');
-assert.match(nodes.view.innerHTML, /Collocations · 91 \/ 91 active groups completed/);
+assert.match(nodes.view.innerHTML, /Collocations · 174 \/ 174 active groups completed/);
 
-console.log('PASS Collocations: 3,480 A2–C1 planned collocations across 174 groups (10 batches); 1,820 active collocations in 91 groups across Batches 1–5 (720/720 A2 complete, 680/680 B1 complete, 400/1,120 B2, 20 C1); 910 practice questions; hidden Vietnamese meanings; audio & progress persistence.');
+console.log('PASS Collocations: 3,480/3,480 A2–C1 collocations completed across all 174 groups (Batches 1–10: 720 A2, 680 B1, 1,120 B2, 960 C1); 1,740 practice questions; hidden Vietnamese meanings; audio & progress persistence.');
 
 if (fs.existsSync(__dirname + "/test-real-photos.cjs")) require("./test-real-photos.cjs");
